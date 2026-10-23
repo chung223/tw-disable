@@ -220,16 +220,14 @@
       "how_to_apply": "洽社會處身心障礙福利科。",
       "contact": "社會處身心障礙福利科 02-2420-1122",
       "target_groups": [
-        "家庭照顧者",
-        "自閉症",
-        "智能障礙"
+        "家庭照顧者"
       ],
       "source_urls": [
         "https://www.klcg.gov.tw/tw/social/2799-264601.html"
       ],
       "source_date": "unknown",
       "confidence": "medium",
-      "notes": "僅見計畫名稱與服務概要，申請資格細節與是否仍在試辦期間未確認；target_groups 為依服務性質推估。"
+      "notes": "僅見計畫名稱與服務概要，申請資格細節與是否仍在試辦期間未確認。"
     },
     {
       "id": "keelung-service-center",
@@ -359,9 +357,6 @@
       "benefit": "核發專用停車位識別證，限身心障礙者本人持用或配偶、親屬乘載本人時使用。依「基隆市公共停車場管理自治條例」第18條，持識別證車輛由身心障礙者親自駕駛或眷屬駕駛搭載身心障礙者時，可免費停車4小時。",
       "how_to_apply": "向戶籍所在地區公所社政課申請。",
       "contact": "戶籍所在地區公所社政課；基隆停車管理中心 https://park.klcg.gov.tw/",
-      "target_groups": [
-        "肢體障礙"
-      ],
       "source_urls": [
         "https://www.klcg.gov.tw/tw/social/2804-113140.html",
         "https://www.klra.klcg.gov.tw/tw/klra/904-97423.html",
