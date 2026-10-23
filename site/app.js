@@ -53,7 +53,10 @@ function writeHash(state) {
   if (state.categories.length) p.set("cat", state.categories.join(","));
   if (state.scopes.length !== 3) p.set("scope", state.scopes.join(","));
   const hash = p.toString();
-  history.replaceState(null, "", hash ? `#${hash}` : location.pathname + location.search);
+  // 嵌入沙盒框架時可能不允許改網址，查詢功能不受影響
+  try {
+    history.replaceState(null, "", hash ? `#${hash}` : location.pathname + location.search);
+  } catch {}
 }
 
 function applyHash() {
