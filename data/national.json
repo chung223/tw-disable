@@ -607,6 +607,658 @@
       "source_date": "unknown",
       "confidence": "medium",
       "notes": "法源：身心障礙者福利與服務需求評估及證明核發辦法；身心障礙者鑑定與需求評估作業併同辦理實施辦法。只在搜尋摘要中看到流程要點，未取得完整條文。跨縣市鑑定或轉介的規定未查到；應備文件、費用及ICF新制細節未查證。"
+    },
+    {
+      "id": "national-interop-north-rehab-bus",
+      "name": "北部小型復康巴士跨市服務（臺北市、新北市、基隆市）",
+      "category": "transport",
+      "level": "local",
+      "provider": "臺北市公共運輸處、新北市政府交通局、基隆市政府社會處",
+      "scope": "interop",
+      "counties": [
+        "taipei",
+        "new-taipei",
+        "keelung",
+        "taoyuan"
+      ],
+      "summary": "臺北市、新北市、基隆市的小型復康巴士都可以跨市接送，但起點或迄點至少一端須在提供服務的城市內。三市也都開放非設籍者搭乘，但條件各不相同。例如住在新北市、要到臺北市就醫的身障者，可以預約新北市的車，符合臺北市的條件時也可以預約臺北市的車。",
+      "eligibility": [
+        "臺北市：服務對象沒有設籍限制；外縣市民眾自101年1月1日起可搭乘，須持外縣市政府核發的身心障礙手冊或證明，並符合植物人或重度以上下肢障礙等條件",
+        "新北市：設籍新北市者，起點或迄點須有一端在新北市境內；非設籍新北市者，起點須在新北市境內",
+        "基隆市：非設籍基隆市者，乘車起點須在基隆市境內"
+      ],
+      "benefit": "臺北市：一般服務的起點或迄點須在臺北市內；自113年5月1日起，特A等級民眾的臨時車服務範圍開放至新北市、基隆市及桃園市（新北市的開放範圍，官網兩個頁面寫法不同，一說新北市全區，一說三芝、石門、金山、萬里、瑞芳、平溪、雙溪、貢寮、坪林、烏來、林口等11區）；非臺北市民的訂車時間為搭乘前3日上午8時至下午5時。新北市：服務範圍為新北、臺北、基隆、桃園境內。基隆市：小型復康巴士服務區域為基隆市、臺北市及新北市，起點或迄點之一須在基隆市；服務項目以就醫、復健優先，其次為就學、就業。",
+      "how_to_apply": "向提供服務城市的復康巴士預約：臺北市可用「小型復康巴士民眾網路訂車系統」或統一客服中心0809-080650；新北市、基隆市依各市訂車規定預約（基隆市有「基隆無障礙交通預約平台」）。車資依各市規定，例如臺北市與新北市都約為計程車費率的三分之一（見各縣市資料）。",
+      "documents": [
+        "身心障礙證明（外縣市民眾搭乘臺北市車輛須持外縣市政府核發的手冊或證明）"
+      ],
+      "contact": "臺北市小型復康巴士統一客服中心 0809-080650",
+      "source_urls": [
+        "https://pto.gov.taipei/News_Content.aspx?n=6B4D38874E971F4B&sms=87415A8B9CE81B16&s=E39C658A5D7963AE",
+        "https://pto.gov.taipei/cp.aspx?n=DB9231FBEB003A41",
+        "https://pto.gov.taipei/cp.aspx?n=3B812B093D7FF7E8",
+        "https://0809080650.gov.taipei/",
+        "https://www.traffic.ntpc.gov.tw/userfiles/1130901/files/%E6%96%B0%E5%8C%97%E5%B8%82%E6%94%BF%E5%BA%9C%E8%BA%AB%E5%BF%83%E9%9A%9C%E7%A4%99%E8%80%85%E5%B0%8F%E5%9E%8B%E5%BE%A9%E5%BA%B7%E5%B7%B4%E5%A3%AB%E6%9C%8D%E5%8B%99%E9%A0%88%E7%9F%A5.pdf",
+        "https://www.klcg.gov.tw/tw/social/2805.html",
+        "https://exlaw.klcg.gov.tw/LawContent.aspx?id=GL000694",
+        "https://www.klcg.gov.tw/tw/development/2631-300803.html"
+      ],
+      "source_date": "2025",
+      "confidence": "high",
+      "notes": "臺北市「外縣市民眾須符合植物人或重度以上下肢障礙等條件」只取得摘要，完整條件以公運處常見問答為準。新北市服務須知PDF的年份不明。基隆市2025年新聞稿表示新制服務區域延伸至整個基隆市及雙北、用途不設限；基隆市非設籍者可提前幾天預約，搜尋摘要說法不一致，未寫入。桃園市復康巴士能否預約到臺北、新北的跨市行程，搜尋結果沒有說明（桃園列入 counties 是因為臺北市特A臨時車與新北市服務範圍涵蓋桃園）。桃園市社會局另有「桃園至台北榮民總醫院就診專車」（6條路線，限設籍桃園市民，是否限身障者未確認，https://sab.tycg.gov.tw/News_Content.aspx?n=7374&s=684804）。法源：基隆市復康巴士服務辦法第4、5條。"
+    },
+    {
+      "id": "national-interop-north-welfare-card",
+      "name": "北北基桃愛心卡（身心障礙者社福卡）跨縣市乘車",
+      "category": "transport",
+      "level": "local",
+      "provider": "臺北市政府社會局、新北市政府社會局、桃園市政府社會局",
+      "scope": "interop",
+      "counties": [
+        "taipei",
+        "new-taipei",
+        "keelung",
+        "taoyuan",
+        "yilan"
+      ],
+      "summary": "臺北市、新北市、桃園市核發的愛心卡（身心障礙者社福卡），社福點數除了在本市使用，也能用在部分跨縣市的公車、捷運、臺鐵與國道客運。點數只發給設籍該市的身障者，各市可以跨區使用的範圍不同。",
+      "eligibility": [
+        "設籍臺北市、新北市或桃園市並領有身心障礙證明，已申辦該市愛心卡者（點數補助只發給設籍發卡縣市者）"
+      ],
+      "benefit": "臺北市愛心卡（115年7月起每月600點）：可用於雙北及基隆的公車、捷運與輕軌，以及臺鐵、敬老愛心計程車、復康巴士等；113年1月1日起可搭桃園機場捷運，每趟最高扣30點；國道客運依里程遠近扣點，開放路線依臺北市府社老字第115393911號公告。新北市愛心卡（115年7月起每月600點）：臺鐵起站或迄站在新北、臺北、桃園、基隆或宜蘭境內者，每趟最高扣抵150點；115年起國道客運（起訖均在北北基桃宜）納入使用範圍；113年1月1日起，雙北的敬老卡與愛心卡都可搭桃園機場捷運；新北敬老愛心車隊計程車的上車地點須在北北基桃宜境內。桃園市愛心卡（每月800點，復興區1,000點）：搭乘與市府簽約的客運路線，車輛開到其他縣市時仍可扣點；非簽約路線須先儲值現金，扣款享半價；可用點數搭桃園機場捷運；搭臺北捷運及新北捷運（輕軌及環狀線）享單程票價4折的現金優惠（不扣點數）。",
+      "how_to_apply": "向戶籍地區公所申辦本市愛心卡（各市申辦規定見縣市資料）。跨縣市搭乘時直接刷卡；可以扣點的國道客運與跨市公車路線，以各市社會局公告的路線表為準。",
+      "documents": [
+        "身心障礙證明",
+        "身分證"
+      ],
+      "source_urls": [
+        "https://dosw.gov.taipei/cp.aspx?n=98EA840859DF5D7F",
+        "https://dosw.gov.taipei/News_Content.aspx?n=6CA16D3397A7A302&sms=72544237BBE4C5F6&s=46D4D10F0CDEAB53",
+        "https://dosw.gov.taipei/News_Content.aspx?n=6CA16D3397A7A302&sms=72544237BBE4C5F6&s=B37DBC542F3AFE7B",
+        "https://pto.gov.taipei/News_Content.aspx?n=6B4D38874E971F4B&sms=87415A8B9CE81B16&s=EF90141C6AF495F7",
+        "https://www.ntpc.gov.tw/ch/home.jsp?id=28&dataserno=202509240035",
+        "https://sab.tycg.gov.tw/News_Content.aspx?n=7467&s=1469877",
+        "https://sab.tycg.gov.tw/News_Content.aspx?n=7467&s=1469762",
+        "https://sab.tycg.gov.tw/News_Content.aspx?n=7372&s=684795",
+        "https://www.klcg.gov.tw/wSite/public/Attachment/01605/f1726017333019.pdf"
+      ],
+      "source_date": "2026",
+      "confidence": "high",
+      "notes": "臺北市新聞稿提到116年上半年擬將桃園機場捷運補助提高至80點，尚屬規劃。新北市115年的擴大項目部分出自市長宣布與新聞報導，以新北市社會局公告為準。基隆市：社會處2021年公告指出，持基隆敬老卡搭外縣市捷運或公車依法定半價計算；基隆市愛心卡的點數能否在雙北使用未查到，未寫入。敬老卡、愛心卡無法設定「基北北桃都會通」定期票。應備文件依各市規定，臺北市為身分證、身心障礙證明及照片。"
+    },
+    {
+      "id": "national-interop-central-welfare-card",
+      "name": "中部縣市社福卡跨縣市乘車（臺中市敬老愛心卡、彰化縣長青幸福卡）",
+      "category": "transport",
+      "level": "local",
+      "provider": "臺中市政府社會局、彰化縣政府社會處",
+      "scope": "interop",
+      "counties": [
+        "taichung",
+        "changhua",
+        "nantou",
+        "miaoli",
+        "yunlin"
+      ],
+      "summary": "臺中市敬老愛心卡與彰化縣長青幸福卡（含愛心卡）的社福點數，可以搭乘中部數個縣市的簽約公車、客運與國道客運；搭臺鐵則須起訖站其中一站在發卡縣市內。點數只發給設籍該縣市的身障者。",
+      "eligibility": [
+        "臺中市：設籍臺中市並領有身心障礙證明（另含年滿65歲、年滿55歲原住民），每人限申請一張",
+        "彰化縣：設籍彰化縣並符合「彰化縣老人及身心障礙者免費乘車補助辦法」資格者，限本人使用"
+      ],
+      "benefit": "臺中市（每月1,000點，原住民1,500點，限當月使用）：公車適用臺中市、彰化縣、南投縣、苗栗縣及雲林縣的市區公車、公路客運及國道客運簽約路線；國道客運限統聯、台中、豐原、台西、國光及新竹客運6家的簽約路線；臺鐵限由臺中市境內23個車站進出，每趟最高折抵45元；計程車每趟補助85點，範圍限臺中、彰化、南投。彰化縣：補助起點或迄點位於臺中市、南投縣、彰化縣、雲林縣轄內的行程，其他縣市不補助；市區公車限彰化客運、員林客運、南投客運的所有路線，以及中鹿客運16路（彰化－朝馬）、9018路（台中－鹿港）；持卡到統聯或國光客運售票窗口，可用點數全額扣抵優待票價；臺鐵起訖站其中一站在彰化縣內者，每趟最高補助45點（1點1元）。",
+      "how_to_apply": "向戶籍地區（鄉、鎮、市）公所申辦；搭乘跨縣市簽約路線時直接刷卡。",
+      "source_urls": [
+        "https://www.society.taichung.gov.tw/13710/13735/13792/13798/461740",
+        "https://www.taichung.gov.tw/8868/8872/1269419/3182214",
+        "https://www.dali.taichung.gov.tw/982726/982793/1337893/1337917/1337935/1337950",
+        "https://social.chcg.gov.tw/07other/other01_con.aspx?topsn=715&cate_id=7174&data_id=25908",
+        "https://www.chcg.gov.tw/DTO/social/07other/other01_con.aspx?topsn=715&data_id=22441"
+      ],
+      "source_date": "2025",
+      "confidence": "medium",
+      "notes": "臺中市搭臺鐵的每趟上限有30元（2023年資料）與45元（較新的市府謠言澄清稿）兩種說法，這裡寫45元；臺中市資料並指出雲林、宜蘭、花蓮、臺東車站尚未設置社福卡專用通道，無法扣點。臺中市議員曾說可免費搭乘中部5縣市的市區公車，官方說法則是限簽約路線，以官方為準。南投縣敬老愛心卡每月1,000點，能否在臺中市公車扣點未查到；苗栗縣、雲林縣社福卡的跨縣市規定沒有查。法源：彰化縣老人及身心障礙者免費乘車補助辦法。"
+    },
+    {
+      "id": "national-interop-south-welfare-card",
+      "name": "高雄市博愛卡、臺南市愛心卡跨縣市乘車",
+      "category": "transport",
+      "level": "local",
+      "provider": "高雄市政府社會局、臺南市政府社會局",
+      "scope": "interop",
+      "counties": [
+        "kaohsiung",
+        "tainan"
+      ],
+      "summary": "高雄市博愛卡的社福點數自113年5月21日起可以搭臺鐵，只要起訖站其中一站在高雄市就能扣點，所以往返外縣市的臺鐵行程也適用。臺南市愛心卡在本市公車免費，搭臺鐵、外縣市公車及捷運（包括高雄捷運）則享半價。",
+      "eligibility": [
+        "高雄市：設籍高雄市並領有身心障礙證明，已申辦博愛卡者",
+        "臺南市：設籍臺南市並領有身心障礙證明，已申辦愛心卡者"
+      ],
+      "benefit": "高雄市博愛卡：113年1月1日起每月900點（115年10月起改為每季2,700點），可用於本市公共車船、高雄捷運、特約計程車及特約無障礙計程車；自113年5月21日起搭乘臺鐵，起訖站其中一站為高雄市轄內車站，就可用社福點數扣抵車資。臺南市愛心卡：免費搭乘本市公車；臺鐵、外縣市公車及捷運（含輕軌）享半價優惠，包括高雄捷運。",
+      "how_to_apply": "向戶籍地區公所申辦本市社福卡；跨縣市搭乘時直接刷卡。",
+      "source_urls": [
+        "https://hdao.kcg.gov.tw/News_Content.aspx?n=AAB1485BCDFBB925&sms=5A252011F8996DF2&s=230F39165A4C8562",
+        "https://socbu.kcg.gov.tw/index.php?prog=2&b_id=5&m_id=207&s_id=375",
+        "https://older.kcg.gov.tw/cp.aspx?n=DD8A8F620A1794BE",
+        "https://sab.tainan.gov.tw/cp.aspx?n=21427",
+        "https://civilcard.tainan.gov.tw/page.asp?orcaid=CB30029B-C441-4EFE-8095-B7C63F64C816",
+        "https://sab.tainan.gov.tw/News_Content.aspx?n=21215&s=4376322"
+      ],
+      "source_date": "2024",
+      "confidence": "medium",
+      "notes": "高雄博愛卡點數能否搭臺南、屏東的公車或客運，搜尋結果沒有說明。臺南愛心卡在外縣市的半價屬於身心障礙者權益保障法第58條的法定優待，不是點數互通；臺南愛心卡搭臺鐵的適用區段，以及與嘉義地區的互通，都沒有查到。屏東、嘉義、雲林等縣市社福卡的跨縣市規定沒有查。"
+    },
+    {
+      "id": "national-interop-parking-out-of-county",
+      "name": "外縣市身心障礙者在臺北市、高雄市的停車優惠",
+      "category": "transport",
+      "level": "local",
+      "provider": "臺北市停車管理工程處、高雄市政府交通局",
+      "scope": "interop",
+      "counties": [
+        "taipei",
+        "kaohsiung"
+      ],
+      "summary": "各縣市的身障停車費優惠多半限設籍本地，但臺北市與高雄市明定外縣市身障者也適用。臺北市承認任何縣市核發的身障專用停車位識別證，路邊停車前4小時免費；高雄市對外縣市身障者的計時、計次格位收半價。",
+      "eligibility": [
+        "臺北市：持任何縣市核發之身心障礙者專用停車位識別證的車輛",
+        "高雄市：外縣市身心障礙者（依高雄市公有收費停車場身障優惠規定）"
+      ],
+      "benefit": "臺北市：路邊收費停車前4小時免費，第5小時起全額收費；路外公有停車場前4小時免費，第5小時起半價。識別證加註車號者，管理員核對車號相符後開立前4小時零費率；未加註車號者一律先開單，事後檢附三證（識別證、身心障礙手冊或證明、行車執照）銷單。高雄市：外縣市身障者停放公有收費停車格，計時、計次格位半價，高費率格位不優惠（高雄市民另有前4小時免費等優惠，見縣市資料）。",
+      "how_to_apply": "臺北市：停車時將識別證放在擋風玻璃明顯處；在智慧停車區或無法即時減免的停車單，可在繳費期限內攜帶三證正本，到臺北市轄管的立體或地下停車場辦理優惠。高雄市：依現場或交通局規定辦理。",
+      "documents": [
+        "身心障礙者專用停車位識別證",
+        "身心障礙證明（手冊）",
+        "行車執照"
+      ],
+      "source_urls": [
+        "https://pma.gov.taipei/News_Content.aspx?n=E860B620A78D1DAA&sms=87415A8B9CE81B16&s=B253B4A563A86511",
+        "https://pma.gov.taipei/News_Content.aspx?n=E860B620A78D1DAA&sms=87415A8B9CE81B16&s=912DFD62E1C614A0",
+        "https://www.gov.taipei/News_Content.aspx?n=EEC70A4186D4C828&sms=87415A8B9CE81B16&s=3D8A58A09264D4A6",
+        "https://socbu.kcg.gov.tw/index.php?prog=2&b_id=5&m_id=207&s_id=381",
+        "https://khhr.kcg.gov.tw/News_Content.aspx?n=FCDBEAEA5E149FDA&sms=00015989C49C2658&s=3C346669EADEB902"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "臺北市智慧停車區須介接各縣市識別證資料庫：桃園市、新竹市、新竹縣、南投縣、臺南市、高雄市、屏東縣尚未提供，宜蘭縣資料不完整，這些縣市核發的識別證停單可能無法即時減免，須自行備齊文件申請。高雄市頁面更新時間較久，費率可能已調整。新北市路邊與公有停車場優惠寫明限設籍新北市者；臺中市識別證每日優惠累計4小時，並註明外縣市依各縣市規定，外縣市識別證在臺中的優惠未查到；其他縣市沒有查。法源參考：身心障礙者專用停車位設置管理辦法（見 national-parking-permit）。"
+    },
+    {
+      "id": "national-taipei-metro-concession",
+      "name": "臺北捷運敬老愛心優惠票（身心障礙者及陪伴者4折）",
+      "category": "transport",
+      "level": "local",
+      "provider": "臺北大眾捷運股份有限公司",
+      "scope": "nationwide",
+      "summary": "臺北捷運對身心障礙者及必要陪伴者一人提供全票4折的優惠，比法定的半價更便宜，而且不限戶籍，外縣市身障者也能使用。可以買單程優惠票，或用各縣市核發的社福卡（敬老卡、愛心卡、愛心陪伴卡）感應進出。",
+      "eligibility": [
+        "本國籍、持有身心障礙手冊（證明）者",
+        "必要陪伴者，限1人"
+      ],
+      "benefit": "單程票「敬老愛心優惠票」為全票的4折票價；社福卡（敬老卡、愛心卡、愛心陪伴卡）搭乘捷運，每趟車資享單程票價4折。愛心陪伴卡本身沒有點數，須緊接在愛心卡之後感應才享相同優惠，單獨使用以普通卡票價計。",
+      "how_to_apply": "在捷運站購買單程優惠票時出示身心障礙證明；社福卡須向戶籍地縣市政府申辦（已發行社福卡的縣市，請參閱悠遊卡公司網頁）。",
+      "documents": [
+        "身心障礙證明"
+      ],
+      "source_urls": [
+        "https://www.metro.taipei/cp.aspx?n=CEF54168B23F73B4&s=9C19A1790ED1E5B4",
+        "https://m.metro.taipei/ticketinfo.html",
+        "https://www.metro.taipei/News_Content.aspx?n=566DA580861CEE77&s=41B78C4788395C41"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "服務地點在臺北市、新北市（臺北捷運路網）。社福卡上的點數補助由發卡縣市負擔，只發給設籍該縣市者；外縣市社福卡在臺北捷運能否扣點，依各縣市規定（例如桃園愛心卡搭臺北捷運是4折現金扣款，不扣點）。新北捷運（環狀線、輕軌及三鶯線）的扣款方式見臺北捷運常見問答。法定優待為身心障礙者權益保障法第58條的半價，4折優於法定標準。"
+    },
+    {
+      "id": "national-disability-assessment-out-of-county",
+      "name": "住在外縣市者申請身心障礙鑑定",
+      "category": "support",
+      "level": "central",
+      "provider": "衛生福利部（戶籍地直轄市、縣（市）政府及鄉（鎮、市、區）公所）",
+      "scope": "nationwide",
+      "summary": "身心障礙鑑定以戶籍地為申請窗口，即使人住在外縣市，也要向戶籍地的公所提出申請，不能在居住地的公所或醫院直接申請。實際鑑定須在衛生主管機關公告的鑑定機構進行，可以選常就診的醫院，但該醫院必須在公告名單內。",
+      "eligibility": [
+        "有身心障礙鑑定需求，且戶籍地與居住地不在同一縣市者"
+      ],
+      "benefit": "可親自或委託他人到戶籍地任一區公所申請，填寫身心障礙證明申請表並領取鑑定表；部分縣市（例如花蓮縣）可先致電戶籍地公所，詢問跨縣市郵寄申請的方式。衛福部網站提供各縣市身心障礙鑑定醫院名冊及各院可鑑定的類別。",
+      "how_to_apply": "向戶籍所在地的鄉（鎮、市、區）公所申請（可委託他人），再到公告的鑑定機構接受鑑定。到宅鑑定也須向戶籍地區公所申請；依新北市規定，鑑定場所在外縣市時，須另洽戶籍地衛生局確認應備文件。",
+      "source_urls": [
+        "https://dosw.gov.taipei/News_Content.aspx?n=91F35523B74F69AC&sms=87415A8B9CE81B16&s=57B480D744F5B95C",
+        "https://www.health.taichung.gov.tw/media/721301/%E6%96%B0%E5%88%B6%E8%BA%AB%E5%BF%83%E9%9A%9C%E7%A4%99%E9%91%91%E5%AE%9A-%E6%B0%91%E7%9C%BE%E8%AA%AA%E6%98%8E.pdf",
+        "https://sa.hl.gov.tw/Detail_sp/ac609f428a1e493a8eab718f77810c76",
+        "https://www.mohw.gov.tw/cp-88-235-1.html",
+        "https://service.ntpc.gov.tw/eservice/CaseData.action?itemId=110022"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "「可選常就診醫院但須在公告名單內」出自臺中市衛生局民國101年新制上路時的說明文件。能否到戶籍地以外縣市的鑑定機構鑑定，各縣市做法可能不同，搜尋結果沒有明文，請先洽戶籍地公所或衛生局。法源：身心障礙者鑑定與需求評估作業併同辦理實施辦法；身心障礙者福利與服務需求評估及證明核發辦法（見 national-disability-certificate）。"
+    },
+    {
+      "id": "national-emergency-sms",
+      "name": "聽語障人士119、110簡訊報案",
+      "category": "support",
+      "level": "central",
+      "provider": "內政部消防署、內政部警政署（各縣市消防局、警察局）",
+      "scope": "nationwide",
+      "summary": "聽覺或言語障礙者遇到緊急狀況，可以用手機簡訊向各縣市消防局（119）或警察局（110）報案，也可以用消防署的「119報案APP」。消防局的簡訊號碼按地理位置由北到南連號，到外縣市時也能照常使用。",
+      "eligibility": [
+        "聽覺或言語障礙、無法以語音報案者"
+      ],
+      "benefit": "119：各縣市消防局設有簡訊報案號碼（例如基隆市0911-511-901、臺北市0911-511-902，其餘縣市依地理位置由北至南連號），也可以傳真，或撥打119後連續按1（救災）或9（需要救護車）的按鍵音。「119報案APP」有火警、救護、簡訊報案快捷鍵，會自動把GPS座標傳給所在地消防局。110：各縣市警察局另有簡訊報案號碼（例如臺北市0911-510-914、新北市0911-510-105、高雄市0911-510-917），只受理文字簡訊（SMS），不受理多媒體簡訊（MMS）。",
+      "how_to_apply": "免申請。平時先把住居所在地消防局與警察局的簡訊報案號碼存進手機，或下載「119報案APP」；各縣市完整號碼見消防署與警政署網站。",
+      "target_groups": [
+        "聽覺或平衡障礙",
+        "聲音或語言障礙"
+      ],
+      "source_urls": [
+        "https://www.nfa.gov.tw/cht/index.php?code=list&ids=67",
+        "https://www.nfa.gov.tw/cht/index.php?code=list&ids=354",
+        "https://www.nfa.gov.tw/cht/index.php?code=list&ids=1600",
+        "https://www.npa.gov.tw/ch/app/artwebsite/view?module=artwebsite&id=808&serno=d08673f4-0775-4a09-b4d8-d47c2c4edca2",
+        "http://monthly.nfa.gov.tw/article.php?id=845"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "號碼在不同頁面有新舊差異（例如連江縣、臺北市消防局），使用前以消防署、警政署官網的最新列表為準。消防月刊把視訊報案列為5G普及後的規劃，目前沒有確認已開放。"
+    },
+    {
+      "id": "national-1957-hotline",
+      "name": "衛生福利部1957福利諮詢專線",
+      "category": "support",
+      "level": "central",
+      "provider": "衛生福利部",
+      "scope": "nationwide",
+      "summary": "全國免付費的社會福利諮詢專線，可以詢問身心障礙福利、急難救助、社會救助、國民年金等問題，並提供通報轉介。每天上午8點到晚上10點服務，全年無休。",
+      "eligibility": [
+        "一般民眾皆可撥打"
+      ],
+      "benefit": "提供急難救助、社會救助、老人福利、身心障礙福利、兒少福利、特殊境遇家庭、國民年金保險等各項社會福利的諮詢與通報轉介服務；服務時間每日8:00至22:00，全年不間斷（春節照常服務）。",
+      "how_to_apply": "用手機或市內電話直撥1957（免付費）；聽障、語障者可使用LINE文字客服或網路諮詢。",
+      "contact": "1957",
+      "target_groups": [
+        "聽覺或平衡障礙",
+        "聲音或語言障礙"
+      ],
+      "source_urls": [
+        "https://www.mohw.gov.tw/cp-3203-21786-1.html",
+        "https://www.mohw.gov.tw/fp-16-21130-1.html",
+        "https://www.mohw.gov.tw/cp-16-73247-1.html",
+        "https://www.mohw.gov.tw/fp-23-135-1.html"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "LINE官方帳號名稱與網路諮詢入口，搜尋結果沒有列出。來源多為衛福部歷年新聞稿，服務時間說法一致。target_groups 標示聽語障，是因為有文字諮詢管道；所有障別都可以使用。"
+    },
+    {
+      "id": "national-ltc-1966",
+      "name": "長期照顧服務（長照2.0）與1966長照服務專線",
+      "category": "care",
+      "level": "central",
+      "provider": "衛生福利部（各直轄市、縣（市）長期照顧管理中心）",
+      "scope": "nationwide",
+      "summary": "領有身心障礙證明的失能者，不限年齡都可以申請長照2.0服務。撥打1966長照專線後，由照顧管理專員到府評估失能等級並核定長照額度，再由個案管理員安排居家照顧、交通接送、輔具等服務。",
+      "eligibility": [
+        "領有身心障礙證明（或手冊）的失能者，不限年齡",
+        "65歲以上失能老人、55歲以上失能原住民、50歲以上失智症者",
+        "須經照顧管理專員到府評估，確認為失能者"
+      ],
+      "benefit": "依評估的失能等級核給長照服務額度，由個案管理員與家屬討論服務項目與時段後，安排特約單位提供服務；項目包括居家照顧、交通接送（長照需要等級第2級以上者就醫及復健）、輔具服務等。使用長照住宿式機構服務者，不能申請居家類長照服務。",
+      "how_to_apply": "撥打1966長照服務專線（週一至週五8:30-12:00、13:30-17:30），或直接聯絡居住地的長期照顧管理中心；住院期間可透過出院準備服務銜接，也可以線上申請。",
+      "contact": "1966",
+      "target_groups": [
+        "老年",
+        "家庭照顧者"
+      ],
+      "source_urls": [
+        "https://www.mohw.gov.tw/fp-17-45823-1.html",
+        "https://www.mohw.gov.tw/dl-78305-1531dde4-bb4d-41a0-b681-583db670a969.html",
+        "https://www.mohw.gov.tw/cp-3568-38624-1.html",
+        "https://www.mohw.gov.tw/cp-16-63417-1.html",
+        "https://fyh.mohw.gov.tw/?aid=55&iid=251&page_name=detail&pid=72"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "法源：長期照顧服務法；長期照顧服務申請及給付辦法。各項服務的給付額度與部分負擔比率依失能等級和福利身分而不同，搜尋結果沒有列出現行金額。交通接送「第2級以上」的條件出自桃園市社會局頁面。身障者另可申請身障福利的居家照顧、日間照顧等服務，兩套制度如何擇一或併用，搜尋結果沒有說明，請洽照管中心。"
+    },
+    {
+      "id": "national-assistive-device-subsidy",
+      "name": "身心障礙者輔具費用補助（輔具資源入口網）",
+      "category": "assistive",
+      "level": "mixed",
+      "provider": "衛生福利部社會及家庭署（直轄市、縣（市）政府辦理）",
+      "scope": "nationwide",
+      "summary": "身心障礙者購買輔具，可依中央訂定的補助辦法與基準表申請補助，補助比率看家庭經濟身分；各縣市可以在基準表之外增訂項目或額度。社家署的「輔具資源入口網」整理了補助規定、各縣市補助辦法與輔具資源。",
+      "eligibility": [
+        "領有身心障礙證明，且符合基準表各項目所定補助對象者",
+        "須在購買前提出申請並經核定"
+      ],
+      "benefit": "補助比率：低收入戶全額、中低收入戶75%、一般戶50%，以基準表所列最高補助金額為上限；可採現金或實物給付，實物給付的金額不受附表最高補助金額限制。基準表列出各項目的補助對象、評估人員、規格、最高補助金額及最低使用年限。",
+      "how_to_apply": "向戶籍地公所、社會局（處）或輔具資源中心申請。項目分為四類：不需評估、可至醫療機構或輔具中心評估、須經輔具中心評估、僅需醫師診斷證明。診斷證明或評估報告須在三個月內開立；主管機關原則上在收到評估報告後十日內核定；核定後六個月內完成購買並請款。未經核定先購買者不予補助。",
+      "documents": [
+        "身心障礙證明",
+        "輔具評估報告或醫師診斷證明（三個月內）",
+        "購買後請款：統一發票、保固書等"
+      ],
+      "source_urls": [
+        "https://newrepat.sfaa.gov.tw/home/gov-repat-service/wlfrIntro2",
+        "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0050060",
+        "https://newrepat.sfaa.gov.tw/home/download",
+        "https://newrepat.sfaa.gov.tw/home/repat-welfare/detail/2c90e4c76633d6e70166341120ee07be"
+      ],
+      "source_date": "2022-10",
+      "confidence": "medium",
+      "notes": "法源：身心障礙者輔具費用補助辦法（全國法規資料庫顯示最近修正為111年10月20日）及其附表補助基準表。入口網下載的基準表版本標示108年11月29日修正，是否為現行版本未確認。補助比率出自搜尋摘要，以辦法原文為準。醫療輔具另依「身心障礙者醫療復健費用及醫療輔具補助辦法」辦理；長照失能者的輔具另有長照2.0補助。各縣市另有規定，例如臺中市每人每二年以補助四項為原則。"
+    },
+    {
+      "id": "national-job-redesign",
+      "name": "身心障礙者職務再設計補助",
+      "category": "employment",
+      "level": "central",
+      "provider": "勞動部勞動力發展署（直轄市、縣（市）勞工主管機關受理）",
+      "scope": "nationwide",
+      "summary": "雇主僱用身心障礙者，或身心障礙者自行創業，可以申請職務再設計補助，用來改善工作設備、提供就業輔具或調整工作方法，讓身障者順利工作。每人每年最高補助10萬元。",
+      "eligibility": [
+        "僱用身心障礙員工的公民營事業機構、政府機關、學校或團體",
+        "身心障礙自營作業者"
+      ],
+      "benefit": "補助項目：改善工作設備或機具、提供就業輔具、改善工作條件、調整工作方法、改善職場工作環境。每一申請個案每人每年以新臺幣10萬元為限；有特殊需求、經公立就業服務機構或地方政府專案評估核准者，不受此限。同時具中高齡或高齡身分者，可依各自的工作障礙成因分別計算上限。職業安全衛生法所定的雇主責任項目不予補助。",
+      "how_to_apply": "線上申辦，或以書面向所在地直轄市、縣（市）政府勞工主管機關提出申請。",
+      "documents": [
+        "申請書",
+        "身心障礙證明影本",
+        "身分證件影本"
+      ],
+      "target_groups": [
+        "求職者",
+        "成年"
+      ],
+      "source_urls": [
+        "https://jobacmd.wda.gov.tw/DJOB_WEB/PwdEld/List",
+        "https://orsd.wda.gov.tw/employmentResources/job_redesign",
+        "https://www.mol.gov.tw/1607/1632/1640/14697/post",
+        "https://laws.mol.gov.tw/FLAW/FLAWDAT0202.aspx?id=FL093301"
+      ],
+      "source_date": "2026",
+      "confidence": "high",
+      "notes": "依據勞動部「推動職務再設計服務計畫」（搜尋摘要指出2026年6月修正的版本仍維持每人每年10萬元上限）；另有「身心障礙者職務再設計補助作業要點」（laws.mol.gov.tw，id=FL036080，版本較舊）。"
+    },
+    {
+      "id": "national-quota-employment",
+      "name": "身心障礙者定額進用制度",
+      "category": "employment",
+      "level": "central",
+      "provider": "勞動部勞動力發展署（直轄市、縣（市）勞工主管機關）",
+      "scope": "nationwide",
+      "summary": "法律規定一定規模以上的公私立機關、學校、團體及事業單位，必須僱用一定比例的身心障礙者，未達比例要繳差額補助費。這是保障身障者就業機會的制度。",
+      "eligibility": [
+        "具有就業能力的身心障礙者（領有身心障礙證明）"
+      ],
+      "benefit": "各級政府機關、公立學校及公營事業機構員工總人數34人以上者，進用身心障礙者人數不得低於員工總人數3%；私立學校、團體及民營事業機構員工總人數67人以上者，不得低於1%，且不得少於1人。月領薪資未達基本工資（最低工資）的身心障礙員工，不計入進用人數及員工總人數（部分工時者另有規定）。未足額進用的義務單位，須按差額人數乘以每月基本工資（最低工資），向所在地勞工主管機關的身心障礙者就業基金繳納差額補助費。",
+      "how_to_apply": "身心障礙求職者可向公立就業服務機構或各縣市身心障礙者職業重建窗口求職（見 national-vr-case-management）；義務機關（構）依規定向所在地勞工主管機關辦理。",
+      "target_groups": [
+        "求職者",
+        "成年"
+      ],
+      "source_urls": [
+        "https://orsd.wda.gov.tw/Questions/detail/2",
+        "https://orsd.wda.gov.tw/employer/detail/quota_consumption",
+        "https://www.wda.gov.tw/cp.aspx?n=7AF57F63C66F7B3C",
+        "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0050046"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "法源：身心障礙者權益保障法第38條（定額進用）、第43條（差額補助費）、第96條（私立學校、團體及民營事業機構無正當理由違反第38條第2項者，處2萬元以上10萬元以下罰鍰）。勞動力發展署說明差額補助費屬特別公課，不是罰則。超額進用的獎勵項目搜尋結果沒有列出細節，可參考身心障礙者就業資源網「事業單位進用身心障礙者有何獎勵項目」問答（https://orsd.wda.gov.tw/Questions/detail/4）。"
+    },
+    {
+      "id": "national-startup-support",
+      "name": "身心障礙者創業輔導服務（含創業貸款利息補貼）",
+      "category": "employment",
+      "level": "mixed",
+      "provider": "勞動部（直轄市、縣（市）主管機關辦理）；微型創業鳳凰貸款為勞動部勞動力發展署",
+      "scope": "nationwide",
+      "summary": "依中央訂定的「身心障礙者創業輔導服務實施方式及補助準則」，各縣市可為想創業的身心障礙者提供創業諮詢、指導、研習及創業貸款利息補貼，實際資格與額度由各縣市規定。符合年齡或性別條件的身障者，也可以申請勞動部的「微型創業鳳凰貸款」。",
+      "eligibility": [
+        "具工作能力、創業意願及能力的身心障礙者",
+        "符合戶籍地直轄市、縣（市）主管機關規定的資格",
+        "微型創業鳳凰貸款：未滿45歲的成年女性、45至65歲者，或65歲以下設籍離島的成年人；3年內修習政府創業研習課程至少18小時並接受創業諮詢輔導；登記為事業負責人並實際經營，且不得同時擔任其他事業的負責人、合夥人、董事或監察人"
+      ],
+      "benefit": "創業輔導服務：創業貸款利息補貼、創業諮詢、創業指導、創業知能研習等，實施方式與期間由各地方主管機關決定。微型創業鳳凰貸款：每次貸款期間前二年的利息由勞動力發展署全額補貼；特殊境遇家庭、家暴被害人、職災戶、犯罪被害人、低收入戶、災害受災者及獨力負擔家計者，前三年利息全額補貼（此清單沒有列身心障礙者）。",
+      "how_to_apply": "身心障礙者創業輔導：洽戶籍地直轄市、縣（市）主管機關（依各縣市分工，為勞工或社政單位）。微型創業鳳凰貸款：以事業名義向勞動力發展署申請。",
+      "target_groups": [
+        "求職者",
+        "成年"
+      ],
+      "source_urls": [
+        "https://laws.mol.gov.tw/FLAW/PrintFLAWDAT0202.aspx?id=FL045262",
+        "https://laws.mol.gov.tw/FLAW/PrintFLAWDAT0202.aspx?id=FL048022",
+        "https://www.wda.gov.tw/cp.aspx?n=587504D69D663956"
+      ],
+      "source_date": "2026",
+      "confidence": "medium",
+      "notes": "「身心障礙者創業輔導服務實施方式及補助準則」依身心障礙者權益保障法訂定，條號未查證。各縣市身障創業補助的具體條件與金額這次沒有查到。微型創業鳳凰貸款要點為115年7月30日修正版；勞動力發展署新聞稿標題提到貸款額度提高為200萬元，年度未確認，未寫入。"
+    },
+    {
+      "id": "national-housing-vulnerable",
+      "name": "社會住宅弱勢保障比率與租金補貼（含身心障礙者）",
+      "category": "economic",
+      "level": "central",
+      "provider": "內政部國土管理署（直轄市、縣（市）政府辦理）",
+      "scope": "nationwide",
+      "summary": "依住宅法，社會住宅至少40%要出租給經濟或社會弱勢者，身心障礙者是社會弱勢身分之一。中央的「300億元中央擴大租金補貼專案」延長至115年，弱勢家庭申請時另有評點加權或金額加碼。",
+      "eligibility": [
+        "家庭收入與財產未超過主管機關公告的標準",
+        "符合住宅法第4條所列經濟或社會弱勢身分之一（包括身心障礙者）"
+      ],
+      "benefit": "社會住宅：以直轄市、縣（市）轄區計算，至少40%出租予經濟或社會弱勢者，至少20%出租予新婚二年內或育有未成年子女的婚育家庭。租金補貼：300億元中央擴大租金補貼專案延長至115年，補貼戶數由50萬戶提高到75萬戶；基本補貼依地區租金水準、所得、戶口數及弱勢狀況，分4區3級距，每戶每月2,000至8,000元；111年核定的專案計畫將社會弱勢家庭的補貼金額提高為1.2倍、經濟弱勢家庭提高為1.4倍。另依住宅法，經認定屬經濟或社會弱勢者，補貼評點增加權重，總分相同時優先獲得補貼。",
+      "how_to_apply": "社會住宅：依各直轄市、縣（市）社會住宅的招租公告申請。租金補貼：於受理期間依內政部公告的方式申請。",
+      "target_groups": [
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0070195&flno=4",
+        "https://www.moi.gov.tw/News_Content.aspx?n=4&s=318897",
+        "https://www.nlma.gov.tw/uploads/files/609995de34a34cdb4eff00c31a9d4910.pdf",
+        "https://www.moi.gov.tw/News_Content.aspx?n=4&s=335553"
+      ],
+      "source_date": "2025",
+      "confidence": "medium",
+      "notes": "法源：住宅法第4條。身心障礙者屬社會弱勢身分，依據是營建署文件的說明（共12種弱勢），未直接核對條文原文。1.2倍、1.4倍加碼出自111年5月的核定本，113至115年度作業規定是否相同未確認。115年1月起另有婚育家庭加碼（結婚登記2年內加碼50%，每多生1胎再加碼50%，不得超過實際租金）。各縣市社宅是否另有身障專屬名額或無障礙戶，依各招租公告。"
+    },
+    {
+      "id": "national-sign-language-interpretation",
+      "name": "手語翻譯及同步聽打服務（各縣市申請窗口）",
+      "category": "support",
+      "level": "mixed",
+      "provider": "直轄市、縣（市）政府社政主管機關",
+      "scope": "nationwide",
+      "summary": "依法各縣市政府都必須設置手語翻譯服務申請窗口，讓聽覺或言語障礙者參與公共事務時可以申請手語翻譯，也可依需求申請同步聽打。服務範圍、申請期限與費用由各縣市自訂。",
+      "eligibility": [
+        "聽覺功能或言語功能障礙者（例：新北市為持身心障礙證明的聽、語障者，或合併聽、語障的多重障礙者）"
+      ],
+      "benefit": "依實際需求提供參與公共事務所需的手語翻譯服務，並得提供同步聽打服務；手語翻譯應由手語翻譯技術士技能檢定合格者擔任。地方規定示例：新北市須在服務需求前5天申請，符合資格者免繳費；南投縣須在活動前3天申請。",
+      "how_to_apply": "向縣市政府的手語翻譯服務窗口（多為社會局或其委託單位）申請，依各縣市規定的期限提出。",
+      "target_groups": [
+        "聽覺或平衡障礙",
+        "聲音或語言障礙"
+      ],
+      "source_urls": [
+        "https://law.moj.gov.tw/LawClass/LawSingle.aspx?flno=61&pcode=D0050046",
+        "https://newrepat.sfaa.gov.tw/home/repat-welfare/detail/2c90e4c76633d6e701663411210707ce",
+        "https://newrepat.sfaa.gov.tw/home/repat-welfare/detail/2c90e4c76633d6e701663411207f0786"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "法源：身心障礙者權益保障法第61條。服務範圍及作業程序由各直轄市、縣（市）主管機關另訂；南投縣註明以居住地規定為準，其他縣市是否限戶籍請洽當地社會局。"
+    },
+    {
+      "id": "national-vrs",
+      "name": "手語視訊轉譯服務（VRS）",
+      "category": "support",
+      "level": "central",
+      "provider": "衛生福利部社會及家庭署",
+      "scope": "nationwide",
+      "summary": "社家署設置的「手語視訊轉譯中心」，由手語翻譯員透過通訊軟體提供視訊轉譯，協助聽語障者用社群通訊軟體與他人溝通。",
+      "eligibility": [
+        "聽語障者"
+      ],
+      "benefit": "由手語翻譯員透過通訊軟體協助溝通；服務時間週一至週六9:00至19:00（國定假日除外）。",
+      "how_to_apply": "到手語視訊轉譯中心網站（vrs.sfaa.gov.tw）查詢使用方式，或洽專線(02)7755-0101。",
+      "contact": "(02)7755-0101",
+      "target_groups": [
+        "聽覺或平衡障礙",
+        "聲音或語言障礙"
+      ],
+      "source_urls": [
+        "https://vrs.sfaa.gov.tw/"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "是否須事先註冊、是否收費，以及支援哪些通訊軟體，搜尋結果沒有說明。"
+    },
+    {
+      "id": "national-caregiver-hotline",
+      "name": "家庭照顧者關懷專線",
+      "category": "support",
+      "level": "central",
+      "provider": "衛生福利部",
+      "scope": "nationwide",
+      "summary": "提供家庭照顧者諮詢、協談與資源轉介的免付費專線，照顧身心障礙家人的家屬也可以使用。",
+      "eligibility": [
+        "家庭照顧者，包括照顧身心障礙、失能或失智家人的家屬"
+      ],
+      "benefit": "照顧者服務諮詢、個別或家庭協談、支持團體及轉介福利資源；服務時間週一至週五9:00至18:00。報導指出，接線員可針對高負荷、高風險個案申請社工到府訪視，再視需求媒合服務。",
+      "how_to_apply": "撥打0800-507-272（也寫作0800-50-7272）。",
+      "contact": "0800-507-272",
+      "target_groups": [
+        "家庭照顧者"
+      ],
+      "source_urls": [
+        "https://www.mohw.gov.tw/fp-23-135-1.html",
+        "https://www.commonhealth.com.tw/article/72421"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "專線與服務時間出自衛福部「諮詢服務專線」列表；服務內容與社工訪視的說明出自約2016年的報導，可能已調整。專線的實際承辦單位搜尋結果沒有載明。"
+    },
+    {
+      "id": "national-dual-aging-family",
+      "name": "身心障礙者雙老家庭支持服務",
+      "category": "care",
+      "level": "mixed",
+      "provider": "各直轄市、縣（市）政府（中華民國智障者家長總會等民間團體推動）",
+      "scope": "nationwide",
+      "summary": "針對中高齡身心障礙者和年邁照顧者同住的「雙老家庭」，由社工到家中協助父母及早規劃障礙子女未來的照顧安排。中華民國智障者家長總會自2007年起試辦，並爭取成為法定服務項目。",
+      "eligibility": [
+        "家中身心障礙者年齡35歲以上，且實際居住家中",
+        "家中提供照顧支持者年齡60歲以上"
+      ],
+      "benefit": "社工到家中協助雙老家庭的父母提早規劃子女的照顧計畫並連結資源；智總受衛福部社家署委託製作「未來生活照顧規劃圖卡」，可供家屬、社工或障礙者本人使用。",
+      "how_to_apply": "洽各縣市政府1999或各縣市身心障礙者服務中心；智總文章另列1957為雙老家庭服務諮詢專線。",
+      "target_groups": [
+        "家庭照顧者",
+        "老年",
+        "智能障礙"
+      ],
+      "source_urls": [
+        "https://www.papmh.org.tw/news/2181",
+        "https://www.papmh.org.tw/news/1997",
+        "https://www.papmh.org.tw/news/2221"
+      ],
+      "source_date": "unknown",
+      "confidence": "low",
+      "notes": "資料來自智總網站，未從政府網站確認各縣市是否都有辦理、承辦單位與申請方式。1957在其他文章中是衛福部福利諮詢專線，應是經由1957轉介。"
+    },
+    {
+      "id": "national-laf-disability",
+      "name": "法律扶助基金會身心障礙者法律扶助",
+      "category": "support",
+      "level": "private",
+      "provider": "財團法人法律扶助基金會（含衛生福利部委託的「身心障礙者法律扶助專案」）",
+      "scope": "nationwide",
+      "summary": "身心障礙者遇到法律問題，可以向法律扶助基金會申請律師扶助。除了一般的無資力審查，衛福部委託的「身心障礙者法律扶助專案」資力門檻較寬；因身心障礙無法完全陳述的刑事當事人，在部分情形下免審資力。",
+      "eligibility": [
+        "一般法律扶助：符合法律扶助法第5條的無資力標準（低收入戶、中低收入戶、特殊境遇家庭，或可處分資產與收入低於一定標準者）",
+        "身心障礙者法律扶助專案：身心障礙者，提出新制身心障礙證明或手冊；112年7月1日起，領有身心障礙者生活補助費者提出有效期間內的政府證明，即符合資力審查",
+        "因神經系統構造及精神、心智功能損傷或不全而無法完全陳述，且在偵查或審判中未經選任辯護人或代理人者：申請時免審資力",
+        "檢警第一次偵訊律師陪同到場：113年6月1日起，條件放寬為「因身心障礙，致無法為完全之陳述」"
+      ],
+      "benefit": "提供法律扶助（如律師代理、辯護）；身障專案的案情審查標準與一般法扶相同，但資力門檻較寬。無資力認定標準另規定，身心障礙者可酌情推定為無工作收入。",
+      "how_to_apply": "向法律扶助基金會申請；可參考法扶的「CRPD身心障礙者法扶無障礙網站」（crpd.laf.org.tw）。",
+      "documents": [
+        "身心障礙證明（或手冊）",
+        "領有身心障礙者生活補助費者：有效期間內的政府核發證明"
+      ],
+      "source_urls": [
+        "https://www.laf.org.tw/service-project-detail/8",
+        "https://www.laf.org.tw/news-detail/33",
+        "https://www.laf.org.tw/news-detail/49",
+        "https://crpd.laf.org.tw/?action=service_detail&id=7",
+        "https://www.laf.org.tw/law-detail/10",
+        "https://www.laf.org.tw/law-detail/6"
+      ],
+      "source_date": "2024",
+      "confidence": "medium",
+      "notes": "法源：法律扶助法第5條第4項第3款、第13條（免審資力）；受法律扶助者無資力認定標準；刑事訴訟法第31條第5項（112年12月15日修正，強制辯護範圍由「精神障礙或其他心智缺陷」擴大為「身心障礙」）。身障專案不得以行政院、衛福部及其所屬機關為相對人。部分頁面日期較舊，以法扶官網最新公告為準；法扶的申請專線與分會聯絡方式，這次搜尋沒有取得。法扶依法律扶助法設立，屬財團法人，因此列為民間。"
+    },
+    {
+      "id": "national-telecom-discounts",
+      "name": "電信業者身心障礙者優惠方案",
+      "category": "support",
+      "level": "private",
+      "provider": "中華電信、台灣大哥大、遠傳電信",
+      "scope": "nationwide",
+      "summary": "三大電信業者都有身心障礙者專屬的行動電話優惠方案，中華電信另有HiNet寬頻與MOD優惠。須由本人持有效的身心障礙證明申辦，各家方案、期限不同。",
+      "eligibility": [
+        "本人持有效期內的身心障礙證明（台灣大哥大也接受身心障礙手冊）",
+        "中華電信、台灣大哥大：無行為能力者不適用；中華電信每證限辦一門",
+        "遠傳：另接受低收入、中低收入或清寒學生證明"
+      ],
+      "benefit": "中華電信行動暖心方案：依方案月租費減收最高200元（例：4G月繳149元、24個月，每月減收50元；5G月繳799元、24個月，每月減收200元），合約期間加贈CHT Wi-Fi，不得與其他優惠合併。中華電信HiNet寬頻：115年4月15日起，身心障礙者上網費及電路費75折，優惠期5年，期滿可憑證明續辦。中華電信MOD：免收裝機費，平台服務費前60個月每月45元。台灣大哥大關懷專案：例如5G 599型合約期間每月約499元，另有4G關懷專案（199至799型，合約12至30個月）。遠傳溫暖方案：例如5G溫暖599每月499元，並每月加贈180元國內通信費；4G溫暖系列月租129元起。",
+      "how_to_apply": "本人攜帶國民身分證及有效的身心障礙證明，到各業者門市申辦。中華電信方案到期後須重新申請，否則恢復原價。",
+      "documents": [
+        "國民身分證",
+        "身心障礙證明"
+      ],
+      "contact": "中華電信 0800-080-123",
+      "source_urls": [
+        "https://accessibility.cht.com.tw/home/accessibility/package.html",
+        "https://accessibility.cht.com.tw/home/accessibility/package-hinet.html",
+        "https://accessibility.cht.com.tw/home/accessibility/file/20260408_HiNet_accessibility-discount_notice.pdf",
+        "https://accessibility.cht.com.tw/home/accessibility/package-mod.html",
+        "https://events.taiwanmobile.com/accessible/friendly-accessible-promo.html",
+        "https://www.taiwanmobile.com/csonline/service/normal/normal_20231130_142627.html",
+        "https://accessible.fetnet.net/"
+      ],
+      "source_date": "2026",
+      "confidence": "low",
+      "notes": "資費常調整，以業者官網或門市的最新公告為準。遠傳頁面沒有標日期；台灣大哥大資費表網址為2023年，但標示2026年公告。台灣大哥大2019年版頁面曾提供網內影像電話等身障專屬服務，現況未確認。"
+    },
+    {
+      "id": "national-tfrd-services",
+      "name": "罕見疾病基金會病友服務",
+      "category": "medical",
+      "level": "private",
+      "provider": "財團法人罕見疾病基金會",
+      "scope": "nationwide",
+      "summary": "罕見疾病基金會為罕病病友及家庭提供醫療費用補助、營養品補助、到宅復健、照顧者支持團體與獎助學金等服務。多數服務須先登記為基金會會員。",
+      "eligibility": [
+        "基金會服務病類的罕見疾病病友；多數服務須登記為「螢火蟲家族」會員（病友可隨時申請入會）",
+        "醫療補助須附收據與家庭收入證明等文件"
+      ],
+      "benefit": "醫療補助：基金會1999年設立醫療救助基金，補助罕病基因檢驗、診斷、手術及藥物等費用，2026年的申請表可申請購買藥物、醫療食品、醫療器材、輔具或醫療檢驗費補助。管灌營養品補助：2011年起試辦，並向廠商爭取優惠價格。到宅復健服務：同時讓照顧者短暫喘息，並連結社會福利資源。另有照顧者支持團體、心理諮商、家庭支持課程，以及罕見疾病獎助學金（2026年為第24屆）。",
+      "how_to_apply": "向罕見疾病基金會申請，依各項服務公告的時程與表單辦理。",
+      "contact": "02-25210717",
+      "target_groups": [
+        "罕見疾病",
+        "家庭照顧者"
+      ],
+      "source_urls": [
+        "https://www.tfrd.org.tw/tfrd/intro_d/content/id/41",
+        "https://www.tfrd.org.tw/tfrd/news/content/id/3740",
+        "https://www.tfrd.org.tw/tfrd/news/content/id/3599"
+      ],
+      "source_date": "2026",
+      "confidence": "low",
+      "notes": "營養品補助的資料出自2015年報告，項目可能已變動。電話取自搜尋結果摘要，撥打前請確認。政府端另有依罕見疾病防治及藥物法辦理的補助（例如「支持性及緩和性之照護費用補助」），本筆沒有收錄細節。"
     }
   ]
 }
