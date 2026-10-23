@@ -57,7 +57,10 @@ function writeHash(state) {
 }
 
 function applyHash() {
-  const p = new URLSearchParams(location.hash.slice(1));
+  const raw = location.hash.slice(1);
+  // 也接受只有縣市代碼的短網址，例如 #taipei
+  if (countyNames[raw]) { els.county.value = raw; return; }
+  const p = new URLSearchParams(raw);
   if (p.has("county") && countyNames[p.get("county")]) els.county.value = p.get("county");
   if (p.has("q")) els.q.value = p.get("q");
   const cats = new Set((p.get("cat") || "").split(",").filter(Boolean));
@@ -195,7 +198,10 @@ function init(json) {
   render();
 }
 
-fetch("data/benefits.json")
-  .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+// 單檔版本會把資料內嵌在 #benefits-data，否則讀取 data/benefits.json
+const inlineData = document.getElementById("benefits-data");
+(inlineData
+  ? Promise.resolve(JSON.parse(inlineData.textContent))
+  : fetch("data/benefits.json").then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }))
   .then(init)
   .catch(() => { els.status.textContent = "資料載入失敗，請稍後再試。"; });

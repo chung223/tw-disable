@@ -1,4 +1,7 @@
+/* 版面：單欄查詢工具，篩選在上、結果依類別分組；字級加大、按鈕至少 44px 方便操作 */
 :root {
+  --font-body: "Noto Sans TC", system-ui, -apple-system, "PingFang TC", "Microsoft JhengHei", sans-serif;
+  --font-display: "Noto Serif TC", "Songti TC", serif;
   --bg: #fbfaf7;
   --surface: #ffffff;
   --text: #1c1b19;
@@ -27,6 +30,7 @@
     --warn-soft: #3a2f16;
     --warn-text: #f3d78e;
     --focus: #fb923c;
+    color-scheme: dark;
   }
 }
 
@@ -42,6 +46,7 @@
   --warn-soft: #3a2f16;
   --warn-text: #f3d78e;
   --focus: #fb923c;
+  color-scheme: dark;
 }
 
 * { box-sizing: border-box; }
@@ -50,11 +55,16 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--text);
-  font-family: system-ui, -apple-system, "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+  font-family: var(--font-body);
   line-height: 1.7;
 }
 
-.wrap { max-width: 960px; margin: 0 auto; padding: 0 16px; }
+.wrap {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
 
 a { color: var(--accent); }
 
@@ -68,7 +78,7 @@ a { color: var(--accent); }
 .skip-link:focus { left: 16px; }
 
 .site-header { padding: 32px 0 16px; }
-.site-header h1 { margin: 0; font-size: 1.9rem; letter-spacing: 0.02em; }
+.site-header h1 { margin: 0; font-family: var(--font-display); font-size: 1.9rem; letter-spacing: 0.04em; text-wrap: balance; }
 .lede { margin: 4px 0 0; color: var(--muted); }
 
 .filters {
@@ -127,7 +137,7 @@ select { min-width: 160px; }
   padding: 16px;
   margin-bottom: 24px;
 }
-.county-info h2 { margin: 0 0 4px; font-size: 1.2rem; }
+.county-info h2 { margin: 0 0 4px; font-family: var(--font-display); font-size: 1.2rem; }
 .county-info p { margin: 0; }
 
 .results-heading { font-size: 1.3rem; margin: 0; }
