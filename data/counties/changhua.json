@@ -1,0 +1,562 @@
+{
+  "county_id": "changhua",
+  "county_name": "彰化縣",
+  "agency": "彰化縣政府社會處",
+  "agency_url": "https://social.chcg.gov.tw/",
+  "phone": "社會處身心障礙福利科，依業務分機不同：04-7532304（同步聽打）、04-7532309／04-7532310（輔具）、04-7532376／04-7532366／04-7532367（身障證明、停車證）、04-7532365（租金及購屋貸款利息補貼）",
+  "collected_at": "2026-10-23",
+  "method": "web_search",
+  "notes": "已確認彰化縣政府網域為 chcg.gov.tw（社會處網站 social.chcg.gov.tw，亦鏡像於 www.chcg.gov.tw/DTO/social/；勞工處 labor.chcg.gov.tw；輔具資源中心 atc.chcg.gov.tw；身心障礙福利服務中心 dwsc.chcg.gov.tw）。以 WebSearch（allowed_domains 限 chcg.gov.tw）取得官方頁面摘要整理，共用 14 次搜尋，未能直接開啟原始頁面與附件 PDF。社會處「身心障礙專區」頁面多未標示年度，source_date 記為 unknown。未查到或未收錄：身障專屬的醫療費用補助、看護費補助、緊急救援連線（搜尋結果只見中低收入戶、中低收入老人的傷病醫療及看護費補助，不是身障專屬）；照顧者津貼；運動中心或場館優惠；身障創業補助；鑑定費用。社會處另有「購買或承租公有公共場所商店攤販低利貸款或租金補貼」頁面（https://social.chcg.gov.tw/07other/other01_con.aspx?topsn=715&data_id=20478），內容未取得。",
+  "benefits": [
+    {
+      "id": "changhua-living-allowance",
+      "name": "身心障礙者生活補助",
+      "category": "economic",
+      "level": "central",
+      "summary": "設籍並實際居住彰化縣、領有身心障礙證明且家庭經濟符合標準者，每月發給生活補助，金額依障礙程度及是否為列冊低收入戶而定。",
+      "eligibility": [
+        "設籍並實際居住彰化縣，領有縣府核發之身心障礙證明",
+        "家庭總收入及財產符合規定標準（115年度每人每月最低生活費為15,515元）",
+        "同時符合其他政府生活津貼者僅能擇一領取（低收入戶生活扶助及榮民院外就養金不在此限）"
+      ],
+      "benefit": "115年度：列冊低收入戶之極重度、重度及中度身心障礙者每人每月9,485元，輕度每人每月5,437元；非列冊低收入戶之極重度、重度及中度每人每月5,437元，輕度每人每月4,049元。依規定領取之政府各種補助，每月合計不得超過基本工資。",
+      "how_to_apply": "向戶籍所在地鄉（鎮、市）公所申請。公所代為查調身障證明、戶籍、財產等資料，初審後函送縣府複審核定，再依結果核撥。",
+      "contact": "戶籍所在地鄉（鎮、市）公所",
+      "target_groups": [
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://social.chcg.gov.tw/06service/service01_con.aspx?topsn=2434&data_id=8372",
+        "https://social.chcg.gov.tw/07other/other01_con.asp?topsn=715&data_id=20144"
+      ],
+      "source_date": "2026",
+      "confidence": "high",
+      "notes": "縣府另一份申辦須知 PDF 列較低金額（低收入戶8,499元／4,872元、一般戶4,872元／3,628元，引用基本工資21,009元），為舊年度資料，勿採用。"
+    },
+    {
+      "id": "changhua-insurance-premium",
+      "name": "身心障礙者參加社會保險保險費補助",
+      "category": "economic",
+      "level": "central",
+      "summary": "身心障礙者參加全民健保或公保、勞保、農保等社會保險，自付保費依障礙程度補助；健保部分由縣府直接傳送資料，免申請。",
+      "eligibility": [
+        "領有身心障礙證明，參加全民健康保險，或公教人員保險、勞工保險、農民健康保險、軍人保險、私校教職員保險、公務人員退休保險等"
+      ],
+      "benefit": "自付保險費：極重度及重度全額補助，中度補助二分之一，輕度補助四分之一。",
+      "how_to_apply": "健保部分由縣府直接傳送減免資料給健保署，無須申請。如要申請不列入媒體交換（隱藏身分），向戶籍地鄉（鎮、市）公所或縣府社會處辦理。",
+      "documents": [
+        "申請隱藏身分者：身分證、印章、身心障礙證明、郵局存簿封面影本"
+      ],
+      "contact": "社會處 04-7532326、04-7532308",
+      "source_urls": [
+        "https://social.chcg.gov.tw/07other/other01_con.asp?topsn=715&data_id=20697"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    },
+    {
+      "id": "changhua-assistive-devices",
+      "name": "身心障礙者輔具費用補助",
+      "category": "assistive",
+      "level": "central",
+      "summary": "設籍彰化縣的身心障礙者購買輔具可申請補助，採事前申請制，須等縣府核定函下來才能購買；可向代償墊付特約廠商購買，只付扣除補助後的差額。",
+      "eligibility": [
+        "設籍彰化縣並領有身心障礙證明"
+      ],
+      "benefit": "依中央輔具費用補助基準補助（各項金額未在搜尋結果中列出）。審核符合資格後10個工作天內核發核定函。可選擇自行購買後檢附發票等文件核銷，或向縣府合約代償墊付廠商購買（115–116年度有代償墊付計畫）。",
+      "how_to_apply": "事前申請：向戶籍地公所或彰化縣輔具資源中心送件，或線上申辦；在指定醫院做輔具評估者，部分醫院可代收文件。核定後再購買。",
+      "documents": [
+        "身分證",
+        "身心障礙證明",
+        "印章",
+        "申請表",
+        "郵局存簿封面影本",
+        "三個月內診斷書及輔具評估報告書",
+        "核銷時：發票、保固切結書、照片、核定函等"
+      ],
+      "contact": "社會處 04-7532310、04-7532309",
+      "source_urls": [
+        "https://www.chcg.gov.tw/DTO/social/06service/service01_con.aspx?topsn=2434&data_id=25541",
+        "https://social.chcg.gov.tw/07other/other01_con.asp?topsn=715&data_id=16759",
+        "https://social.chcg.gov.tw/getFile.aspx?file_id=520600&file=2&type=1&did=414994"
+      ],
+      "source_date": "2026",
+      "confidence": "high",
+      "notes": "未經核定先購買者可能不予補助，請先申請。居家無障礙修繕補助需附施工前後照片及房屋相關證明。"
+    },
+    {
+      "id": "changhua-assistive-center",
+      "name": "彰化縣輔具資源中心（租借、回收、媒合）",
+      "category": "assistive",
+      "level": "local",
+      "summary": "田尾與二林輔具資源中心提供輔具諮詢、租借、回收、二手輔具媒合、到宅評估及居家無障礙服務，另有多處輔具服務便利站。",
+      "eligibility": [
+        "租借：居住彰化縣，以未具長照資格、或長照輔具無法滿足需求的身心障礙者與一般民眾為優先"
+      ],
+      "benefit": "租借品項包括帶輪型助步車、輪椅、噴霧化痰機、抽痰機、氣墊床、電動床、氧氣製造機、履帶型爬梯機、可攜式斜坡板、單拐（四腳拐）、腋下拐、助行器、便盆椅、小型發電機；以一個月為一期，最多六期（爬梯機、斜坡板、小型發電機除外）。回收可自送、中心到宅回收或貨運托送。輔具服務便利站分布於北斗、大村、二水、芬園、大城、秀水馬興等地。",
+      "how_to_apply": "洽田尾或二林輔具資源中心；服務時間與據點可能調整（如鹿港據點自114年2月起改為每週五下午開放），出發前請先電話確認。",
+      "contact": "田尾中心 04-8836311；二林中心 04-8962178",
+      "source_urls": [
+        "https://atc.chcg.gov.tw/OnePage.aspx?tid=129",
+        "https://atc.chcg.gov.tw/OnePage.aspx?tid=131",
+        "https://atc.chcg.gov.tw/OnePage.aspx?tid=119"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    },
+    {
+      "id": "changhua-rent-subsidy",
+      "name": "身心障礙者房屋租金補貼",
+      "category": "economic",
+      "level": "mixed",
+      "summary": "在彰化縣租屋、全家無自有住宅的身心障礙者，可依坪數申請每月租金補貼，每年10月受理。",
+      "eligibility": [
+        "設籍彰化縣並領有縣府核發之身心障礙證明",
+        "租賃房屋位於彰化縣內",
+        "身心障礙者本人、配偶及戶籍內直系親屬均無自有住宅（經認定不適合居住者除外）",
+        "家庭總收入符合規定標準（社會處頁面寫未達最低生活費2.5倍或未超過臺灣地區平均每人每月消費支出1.5倍；審核作業規定約為最低生活費3.5倍，兩者有出入）"
+      ],
+      "benefit": "每月每坪補助200元：單身家庭最高7坪，二口家庭最高12坪，三口以上最高17坪，且以租金總額50%為上限。押金、公共管理費等不予補貼。",
+      "how_to_apply": "每年10月1日至10月31日受理。名額依年度預算核定，申請人數超過名額時依計點標準表積分排序，同分抽籤。與購屋貸款利息補貼僅能擇一。",
+      "contact": "社會處身心障礙福利科 04-7532365",
+      "source_urls": [
+        "https://social.chcg.gov.tw/07other/other01_con.asp?topsn=715&data_id=20476",
+        "https://social.chcg.gov.tw/06service/service01_con.aspx?topsn=2434&data_id=25542",
+        "https://lawsearch.chcg.gov.tw/GLRSNEWSOUT/LawContent.aspx?id=FL088163"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "收入門檻各頁面不一，以當年度公告為準。"
+    },
+    {
+      "id": "changhua-mortgage-interest",
+      "name": "身心障礙者購屋貸款利息補貼",
+      "category": "economic",
+      "level": "mixed",
+      "summary": "在彰化縣購屋並有房貸的身心障礙者家庭，可申請貸款利息補貼，最長15年，每半年核撥一次。",
+      "eligibility": [
+        "設籍彰化縣並領有彰化縣核發之身心障礙證明",
+        "家庭總收入平均分配全家人口未達當年度每人每月最低生活費4倍",
+        "本人、配偶及直系親屬均無自有住宅，或僅有一戶為五年內購入且貸款尚未全部清償",
+        "所購住宅位於彰化縣內"
+      ],
+      "benefit": "補貼金額＝（原貸款利率－國民住宅基金提供部分利率）÷12×購屋貸款餘額，貸款額度上限220萬元；補貼最長15年，付息不還本寬限期最長5年；每半年核撥一次。",
+      "how_to_apply": "每年10月1日至10月31日受理。名額依預算核定，超額時依計點標準表積分排序，同分抽籤。與房屋租金補貼僅能擇一。",
+      "documents": [
+        "彰化縣政府辦理身心障礙者購屋貸款利息補貼申請表"
+      ],
+      "contact": "社會處身心障礙福利科 04-7532365",
+      "source_urls": [
+        "https://www.chcg.gov.tw/DTO/social/06service/service01_con.aspx?topsn=2434&data_id=25560",
+        "https://social.chcg.gov.tw/07other/other01_con.aspx?topsn=715&data_id=20477",
+        "https://lawsearch.chcg.gov.tw/GLRSNEWSOUT/LawContent.aspx?id=FL088163"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    },
+    {
+      "id": "changhua-parking-space-subsidy",
+      "name": "身心障礙者購置停車位貸款利息補貼或承租停車位補助",
+      "category": "transport",
+      "level": "mixed",
+      "summary": "低收入、中低收入或領生活補助的身心障礙車主，承租停車位或有停車位貸款，可擇一申請補助。",
+      "eligibility": [
+        "設籍彰化縣並領有身心障礙證明",
+        "屬低收入戶、中低收入戶或領有身心障礙者生活補助者",
+        "為車輛所有人並持有同種車類之有效駕照",
+        "承租者租約期間超過三個月；購買者有尚未清償的停車位貸款"
+      ],
+      "benefit": "承租停車位補助或購買停車位貸款利息補貼，二者擇一（補助金額未在搜尋結果中取得）。",
+      "how_to_apply": "掛號郵寄或親至社會處身心障礙福利科申請。",
+      "documents": [
+        "申請書",
+        "身心障礙證明",
+        "郵局存摺封面",
+        "低收入或中低收入證明",
+        "行車執照及駕駛執照",
+        "停車位貸款契約或租賃契約",
+        "繳款證明"
+      ],
+      "contact": "社會處身心障礙福利科 04-7532312（依福利小幫手所列）",
+      "target_groups": [
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://social.chcg.gov.tw/07other/other01_con.aspx?topsn=715&data_id=20449",
+        "https://lac.chcg.gov.tw//lachelper/home/step7"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    },
+    {
+      "id": "changhua-love-card",
+      "name": "身心障礙者乘車電子票證（愛心卡、愛心陪伴卡）社福點數",
+      "category": "transport",
+      "level": "local",
+      "summary": "彰化縣身心障礙者的愛心卡每月有1,000點社福點數，可搭乘市區公車、國道客運、臺鐵、簽約計程車，並可在特約診所折抵部分負擔；陪伴者可用愛心陪伴卡享半價。",
+      "eligibility": [
+        "設籍彰化縣並領有身心障礙證明",
+        "愛心陪伴卡：身心障礙證明註記需陪伴者之身心障礙者的陪伴者"
+      ],
+      "benefit": "每人每月1,000點社福點數（非新臺幣，不能在商店消費），每月第一次刷卡搭乘時自動儲值，當月有效不累計。可用於彰化縣市區公車、國道客運（統聯、國光客運優待票價車資可全額扣抵）、縣內特約診所部分負擔折抵。臺鐵：起站或迄站其中一站在彰化縣內，自114年11月1日起每趟次最高補助45點（觀光列車、團體列車、太魯閣、普悠瑪、3000型自強號等除外）。計程車：自114年1月1日起搭乘縣府簽約車隊，每趟次補助85點，限起點或迄點在臺中市、南投縣、彰化縣、雲林縣。愛心陪伴卡每趟上、下車均須緊隨愛心卡刷卡始享半價，單獨使用以全票扣款。",
+      "how_to_apply": "申辦窗口未在搜尋結果中確認，可洽戶籍地公所或社會處。",
+      "contact": "社會處 04-7532375",
+      "source_urls": [
+        "https://social.chcg.gov.tw/07other/other01_con.aspx?topsn=715&cate_id=7174&data_id=25908",
+        "https://www.chcg.gov.tw/DTO/social/07other/other01_con.aspx?topsn=715&data_id=22441",
+        "https://social.chcg.gov.tw/07other/other01_con.asp?data_id=24102&topsn=715",
+        "https://social.chcg.gov.tw/07other/other01_con.aspx?topsn=715&data_id=20451",
+        "https://www.chcg.gov.tw/ch2/newsdetail.aspx?bull_id=401901"
+      ],
+      "source_date": "2025-11",
+      "confidence": "high",
+      "notes": "臺鐵補助較早資料為每趟30點，114年11月1日起為45點。計程車85點的新聞以長青幸福卡為題，社會處電子票證頁說明身障愛心卡與長青幸福卡福利大致相同。"
+    },
+    {
+      "id": "changhua-rehab-bus",
+      "name": "身心障礙者小型復康巴士",
+      "category": "transport",
+      "level": "local",
+      "summary": "提供身心障礙者無障礙接送，依里程計費；身障且為低收入戶者就醫每月前8趟免費。可電話、網路或 LINE 預約。",
+      "eligibility": [
+        "領有身心障礙證明之彰化縣民（預約優先等級分A、B、C級）"
+      ],
+      "benefit": "起跳30元，行駛1.5公里後每公里加收7元（小數點以下無條件進位）。同時持有身心障礙證明及低收入戶證明、以就醫為目的搭乘者，每月前8趟次免費（限當月，不累計）。",
+      "how_to_apply": "電話預約 04-8830330（週一至週五，假日不受理）、網路預約 8830330.com.tw，或綁定 LINE 官方帳號預約。預約期限依等級：A級為用車前7日至前1日中午，B級為前5日，C級為前3日。每人每日最多2趟次，每7日內最多2日來回共4趟次。",
+      "contact": "復康巴士預約 04-8830330；社會處 04-7532375",
+      "target_groups": [
+        "肢體障礙",
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://social.chcg.gov.tw/06service/service01_con.aspx?topsn=7006&data_id=25543",
+        "https://social.chcg.gov.tw/07other/other01_con.asp?topsn=715&data_id=20464",
+        "https://lawsearch.chcg.gov.tw/GLRSNEWSOUT/LawContent.aspx?id=FL089075"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "106年修正之乘客服務須知寫「三日前預約、以一星期內為限」，與現行分級預約規定不同，以社會處申辦服務頁為準。"
+    },
+    {
+      "id": "changhua-parking-permit",
+      "name": "身心障礙者專用停車識別證",
+      "category": "transport",
+      "level": "central",
+      "summary": "經需求評估為行動不便的身心障礙者，可申請專用停車識別證；可臨櫃當場核發，也可由公所核轉、郵寄或線上申請。",
+      "eligibility": [
+        "領有身心障礙證明，且經需求評估為行動不便（在無人力或輔具協助下，能否於平坦地面持續行走約一百公尺為判斷重點）",
+        "申請車輛限身心障礙者本人或同戶籍親屬所有（配偶及一親等親屬不限同戶籍）"
+      ],
+      "benefit": "核發身心障礙者專用停車識別證。",
+      "how_to_apply": "臨櫃（社會處身心障礙福利科或彰化縣身心障礙福利服務中心）當場核發；戶籍地公所核轉約14個工作天；郵寄或線上申請（數位便民櫃臺）約7個工作天。換發時須繳回舊證。",
+      "contact": "社會處身心障礙福利科 04-7532376、04-7532366、04-7532367",
+      "source_urls": [
+        "https://social.chcg.gov.tw/06service/service01_con.aspx?topsn=7006&data_id=25552",
+        "https://social.chcg.gov.tw/07other/other01_con.asp?topsn=715&data_id=20447",
+        "https://social.chcg.gov.tw/03bulletin/bulletin02_con.aspx?bull_id=236136",
+        "https://edesk.chcg.gov.tw/eservice/apply_mode_directions2?itemId=4"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    },
+    {
+      "id": "changhua-care-fee-subsidy",
+      "name": "身心障礙者日間照顧及住宿式照顧費用補助",
+      "category": "care",
+      "level": "mixed",
+      "summary": "補助身心障礙者使用日間照顧或住宿式機構的費用，依家庭收入相對於最低生活費的倍數分級補助；年滿30歲、父母高齡或家中多名身障者適用較高比例。",
+      "eligibility": [
+        "設籍並實際居住彰化縣，領有身心障礙證明",
+        "0至15歲學齡階段身心障礙者，除特殊原因外以日間托育為主",
+        "較高補助比例之條件：年滿30歲、父母一方65歲以上、或家中有二名以上身心障礙者"
+      ],
+      "benefit": "一般情形：低收入戶全額補助，中低收入戶75%，收入較高者依序50%、25%，超過一定門檻不補助。符合特定條件者：低收入戶全額，中低收入戶85%，其餘級距比例提高。由縣府轉介安置於身心障礙機構者，最高補助基準為每月22,100元。",
+      "how_to_apply": "依「彰化縣政府辦理身心障礙者日間照顧及住宿式照顧費用補助審核作業要點」申請（受理窗口未在搜尋結果中取得，可洽社會處身心障礙福利科）。",
+      "target_groups": [
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://lawsearch.chcg.gov.tw/GLRSNEWSOUT/LawContent.aspx?id=FL089002",
+        "https://social.chcg.gov.tw/07other/other01_con.asp?topsn=715&data_id=20146"
+      ],
+      "source_date": "2018",
+      "confidence": "medium",
+      "notes": "審核作業要點修正日期為107年，另一份縣府福利一覽表比例略有不同（未達2倍者約75%至85%、2至3倍者約70%），以現行公告為準。住宿式照顧包括社會福利機構、精神復健機構、護理之家等夜間式、全日住宿式照顧。"
+    },
+    {
+      "id": "changhua-respite",
+      "name": "身心障礙者臨時及短期照顧服務",
+      "category": "care",
+      "level": "mixed",
+      "summary": "家庭照顧者需要喘息時，可申請機構式、社區式或到宅式的臨時及短期照顧，依家庭經濟狀況補助費用，每年有補助時數上限。",
+      "eligibility": [
+        "居住在彰化縣的身心障礙者（含戶籍在他縣市者）",
+        "家庭照顧者已接受喘息服務、領有特別照顧津貼或其他照顧費用補助、或聘僱看護（傭）者，通常不符資格"
+      ],
+      "benefit": "收費：機構式、社區式每小時162元，每日最高1,296元；到宅式每小時250元，每日最高2,000元。補助：低收入戶全額，中低收入戶85%，一般戶70%。每案每年最高補助300小時，已使用居家、日間或住宿式服務者為200小時。",
+      "how_to_apply": "洽社會處身心障礙福利科或承辦單位申請（窗口電話未在搜尋結果中取得）。",
+      "target_groups": [
+        "家庭照顧者",
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://social.chcg.gov.tw/07other/other01_con.asp?data_id=20103&topsn=715"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    },
+    {
+      "id": "changhua-family-foster-care",
+      "name": "身心障礙者家庭托顧服務",
+      "category": "care",
+      "level": "mixed",
+      "summary": "由受訓的托顧家庭在自家照顧成年身心障礙者，提供全日或半日托；縣府補助照顧服務費，一般戶每日自付190元，低收入戶免付。",
+      "eligibility": [
+        "設籍彰化縣，18歲以上，領有身心障礙證明",
+        "未接受全日型住宿機構、日間照顧或居家服務等同性質服務"
+      ],
+      "benefit": "115年度照顧服務費（全日托每人每日）：中度880元、重度960元、極重度1,040元，半日托減半。使用者自付額（全日托每人每日）：一般戶190元，中低收入戶114元，低收入戶免負擔。",
+      "how_to_apply": "依「115年彰化縣身心障礙者家庭托顧服務補助實施計畫」向服務提供單位或社會處申請。",
+      "target_groups": [
+        "成年",
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://accounting.chcg.gov.tw/files/8_20260203131819863_115%E5%B9%B4%E5%BD%B0%E5%8C%96%E7%B8%A3%E8%BA%AB%E5%BF%83%E9%9A%9C%E7%A4%99%E8%80%85%E5%AE%B6%E5%BA%AD%E6%89%98%E9%A1%A7%E6%9C%8D%E5%8B%99%E8%A3%9C%E5%8A%A9%E5%AF%A6%E6%96%BD%E8%A8%88%E7%95%AB.pdf"
+      ],
+      "source_date": "2026",
+      "confidence": "high",
+      "notes": "此計畫為縣府補助服務提供單位的實施計畫。"
+    },
+    {
+      "id": "changhua-independent-living",
+      "name": "身心障礙者自立生活支持服務（個人助理）",
+      "category": "care",
+      "level": "mixed",
+      "summary": "經需求評估有自立生活需求的成年身心障礙者，可使用個人助理協助日常生活及陪同參與社會活動，依家庭經濟身分每小時自付0至60元。",
+      "eligibility": [
+        "設籍並實際居住彰化縣，18歲以上，領有身心障礙證明",
+        "經需求評估有自立生活需求"
+      ],
+      "benefit": "個人助理協助日常生活活動並陪同參與社會活動。自付額：低收入戶及中低收入戶0元，領有身障生活補助者每小時20元，一般戶每小時60元。",
+      "how_to_apply": "洽承辦單位財團法人切膚之愛社會福利慈善事業基金會。持新制身心障礙證明但法定服務項目沒有自立生活支持服務者，須先向戶籍地公所申請新增需求評估。",
+      "contact": "04-7119550",
+      "target_groups": [
+        "成年"
+      ],
+      "source_urls": [
+        "https://www.chcg.gov.tw/DTO/social/07other/other01_con.aspx?topsn=715&data_id=20482"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    },
+    {
+      "id": "changhua-community-living",
+      "name": "社區居住與生活服務",
+      "category": "care",
+      "level": "mixed",
+      "summary": "讓成年身心障礙者住在社區的小型住屋，由專業人員提供生活支持，縣內有多個據點。",
+      "eligibility": [
+        "18歲以上，經需求評估有居住社區需求，且須由專業服務人員提供支持服務之身心障礙者"
+      ],
+      "benefit": "社區居住與生活支持服務；據點分布於彰化市、二林鎮、員林市、秀水鄉、芳苑鄉等地（如慈愛教養院彰化市據點、基督教瑪喜樂基金會二林鎮據點）。",
+      "how_to_apply": "洽社會處身心障礙福利科或各據點承辦單位。",
+      "contact": "社會處身心障礙福利科 04-7532317",
+      "target_groups": [
+        "成年"
+      ],
+      "source_urls": [
+        "https://www.chcg.gov.tw/DTO/social/07other/other01_con.aspx?topsn=715&data_id=20481"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    },
+    {
+      "id": "changhua-day-activity",
+      "name": "社區日間作業設施服務",
+      "category": "care",
+      "level": "mixed",
+      "summary": "為15歲以上、經需求評估有需要的身心障礙者，在社區提供日間作業活動與支持服務。",
+      "eligibility": [
+        "設籍彰化縣，15歲以上",
+        "經需求評估有社區日間作業需求，並需專業服務人員提供支持服務"
+      ],
+      "benefit": "社區日間作業活動及支持服務（收費未在搜尋結果中取得）。",
+      "how_to_apply": "洽社會處身心障礙福利科。",
+      "contact": "社會處身心障礙福利科 04-7532363（另見 04-7532262、04-7532320）",
+      "source_urls": [
+        "https://social.chcg.gov.tw/07other/other01_con.aspx?topsn=715&data_id=20098"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "兩處頁面所列電話不同，建議先電話確認。"
+    },
+    {
+      "id": "changhua-community-daycare",
+      "name": "身心障礙者社區式日間照顧服務",
+      "category": "care",
+      "level": "mixed",
+      "summary": "為18歲以上、未住在機構的身心障礙者提供社區型的日間照顧，據點分布員林、鹿港、北斗等地。",
+      "eligibility": [
+        "18歲以上，經需求評估有社區式日間照顧需求",
+        "未安置於社會福利機構、精神復健機構（接受夜間型住宿機構服務者不在此限）"
+      ],
+      "benefit": "社區式日間照顧服務；據點由多個團體承辦，分布於員林、鹿港、北斗、社頭、溪州、彰化市、秀水等地。",
+      "how_to_apply": "洽社會處身心障礙福利科或各據點承辦單位。",
+      "target_groups": [
+        "成年"
+      ],
+      "source_urls": [
+        "https://www.chcg.gov.tw/DTO/social/07other/other01_con.aspx?topsn=715&data_id=20479"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    },
+    {
+      "id": "changhua-caregiver-support",
+      "name": "家庭照顧者支持服務（長照與身障家照共融據點）",
+      "category": "support",
+      "level": "mixed",
+      "summary": "為縣內家庭照顧者提供個案管理、照顧技巧訓練、紓壓活動、支持團體、心理協談及到宅服務，依區域由不同單位承辦。",
+      "eligibility": [
+        "彰化縣內的家庭照顧者"
+      ],
+      "benefit": "家庭個案管理、照顧技巧訓練課程、休閒紓壓活動、家庭照顧者支持團體、心理協談、專業人員到宅服務。依區域分由不同單位承辦（如彰化區：彰化市西區、南區及花壇鄉；員林區：員林市西區、北區及埔心鄉；福秀區：福興鄉、秀水鄉）。",
+      "how_to_apply": "洽所在區域承辦單位，或社會處身心障礙福利科。",
+      "contact": "社會處身心障礙福利科 04-7532369",
+      "target_groups": [
+        "家庭照顧者"
+      ],
+      "source_urls": [
+        "https://www.chcg.gov.tw/DTO/social/07other/other01_con.aspx?topsn=5212&data_id=20467"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    },
+    {
+      "id": "changhua-sign-language",
+      "name": "手語翻譯及同步聽打服務",
+      "category": "support",
+      "level": "mixed",
+      "summary": "聽語障者就醫、就業、就學及社會參與時，可申請手語翻譯或同步聽打，24小時提供（夜間限緊急案件）；參加告別式另可申請免費服務。",
+      "eligibility": [
+        "手語翻譯（個人）：領有第二類或第三類身心障礙證明者及其家屬",
+        "機關、學校、醫療院所等團體亦可申請"
+      ],
+      "benefit": "手語翻譯：24小時服務，夜間（20時至隔日8時）限緊急、臨時突發案件；以縣內為主，必要時可跨縣市至臺中、南投、雲林。同步聽打：24小時服務，協助就醫、就業、就學、就養及社會參與。聽語障者參加告別式可申請免費手語翻譯或同步聽打。",
+      "how_to_apply": "手語翻譯：向社團法人彰化縣聾人協會申請，原則於服務前三個工作天提出，不能指定翻譯員；身心障礙福利服務中心（田尾）設有手語翻譯服務窗口（週一至週五9時至17時）。同步聽打：向社團法人彰化縣聲暉協進會申請。告別式服務：於告別式前三日聯繫縣府承辦單位。",
+      "documents": [
+        "個人申請：身心障礙證明影本",
+        "單位申請：蓋單位關防或職章",
+        "告別式服務：申請表、身心障礙證明影本、訃聞"
+      ],
+      "contact": "手語翻譯 04-8834670、0911-902680（簡訊可）；同步聽打 04-8361223；社會處身心障礙福利科 04-7532304",
+      "target_groups": [
+        "聽覺或平衡障礙",
+        "聲音或語言障礙"
+      ],
+      "source_urls": [
+        "https://social.chcg.gov.tw/06service/service01_con.aspx?topsn=7006&data_id=25563",
+        "https://social.chcg.gov.tw/07other/other01_con.aspx?topsn=715&data_id=20111",
+        "http://social.chcg.gov.tw/07other/other01_con.aspx?topsn=715&data_id=20465",
+        "https://civil.chcg.gov.tw/07other/other01_con.aspx?topsn=2881&cate_id=7666&data_id=27895"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    },
+    {
+      "id": "changhua-vocational-rehab",
+      "name": "身心障礙者職業重建服務（個案管理、支持性就業、庇護性就業、職業輔導評量）",
+      "category": "employment",
+      "level": "central",
+      "summary": "彰化縣勞工處提供身心障礙者職業重建個案管理，評估後轉介支持性就業、庇護性就業或職業輔導評量等服務，免費。",
+      "eligibility": [
+        "15歲以上領有身心障礙證明，具工作意願及能力，並設籍或居住且工作地點在彰化縣",
+        "另有精神疾病穩定者、應屆畢業生、職災勞工等類別",
+        "支持性就業：有就業意願、但能力不足以獨立在競爭性市場工作者，須先經職業重建個案管理員評估"
+      ],
+      "benefit": "職業重建個案管理（就業轉銜、評估、擬定個案服務計畫、追蹤）；支持性就業提供個別化就業安置、訓練及工作協助，並同時服務雇主，服務免費；另有庇護性就業、職業輔導評量。",
+      "how_to_apply": "當事人可直接聯繫勞工處，或由教育、社政、醫療、勞政單位轉介（使用職業重建個案管理服務轉介表）。",
+      "contact": "勞工處就業服務科 04-7532490",
+      "target_groups": [
+        "求職者"
+      ],
+      "source_urls": [
+        "https://labor.chcg.gov.tw/07other/other01_con.aspx?topsn=206&data_id=20011",
+        "https://labor.chcg.gov.tw/07other/other01_con.aspx?topsn=206&data_id=19623",
+        "https://www.chcg.gov.tw/DTO/labor/07other/other01_con.aspx?topsn=206&data_id=19624",
+        "https://www.chcg.gov.tw/DTO/labor/07other/other01_con.aspx?topsn=206&data_id=19622"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    },
+    {
+      "id": "changhua-job-redesign",
+      "name": "身心障礙者職務再設計服務",
+      "category": "employment",
+      "level": "mixed",
+      "summary": "補助身心障礙工作者或雇主改善工作環境、設備、就業輔具及工作方法，全年度受理，單案最高10萬元。",
+      "eligibility": [
+        "具就業事實之身心障礙工作者本人",
+        "僱用身心障礙者的事業單位、團體"
+      ],
+      "benefit": "補助項目：改善無障礙環境、改善工作設備、提供就業輔具、改善工作條件、調整工作方法。單案補助上限新臺幣10萬元（公告所列年度計畫預算230萬元）。",
+      "how_to_apply": "全年度受理，填具相關表件向彰化縣政府勞工處申請；彰化縣輔具資源中心亦提供職務再設計相關服務。",
+      "target_groups": [
+        "求職者"
+      ],
+      "source_urls": [
+        "https://labor.chcg.gov.tw/07other/other01_con.aspx?topsn=6385&cate_id=6388&data_id=24213",
+        "https://atc.chcg.gov.tw/OnePage.aspx?tid=133"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "公告年度未在搜尋結果中標明。"
+    },
+    {
+      "id": "changhua-disability-certificate",
+      "name": "身心障礙證明申請（初次申請、屆期重鑑、換發、補發）",
+      "category": "support",
+      "level": "central",
+      "summary": "初次申請或屆期重鑑者，先到戶籍地公所領鑑定表，再到指定醫療機構鑑定，由社會處專業團隊審查後核發證明；也可郵寄申請。",
+      "eligibility": [
+        "設籍彰化縣，需初次申請、屆期重新鑑定、換發或補發身心障礙證明者"
+      ],
+      "benefit": "核發身心障礙證明。處理時間：申請鑑定者自鑑定完成日起約45個工作天；屆期換證約30個工作天。",
+      "how_to_apply": "向戶籍地公所領取鑑定表（也可到縣內其他鄉鎮市公所申請），到指定醫療機構鑑定，醫院將鑑定表送衛生局再轉社會處審查核發。郵寄申請：附身分證正反面影本、照片及60元掛號回郵，掛號寄至戶籍地公所。換發向戶籍地公所社會課或民政課申請，可委託他人辦理。",
+      "documents": [
+        "身分證、印章、照片（重新鑑定者附原身心障礙證明）",
+        "換發：原身心障礙證明、身分證影本、近三個月內照片一張",
+        "代辦人：代辦人身分證（委託辦理者並附印章）"
+      ],
+      "contact": "社會處身心障礙福利科 04-7532376、04-7532366、04-7532367",
+      "source_urls": [
+        "https://social.chcg.gov.tw/06service/service01_con.aspx?topsn=7006&data_id=25545",
+        "http://social.chcg.gov.tw/07other/other01_con.asp?topsn=715&data_id=20088"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "鑑定費用未在搜尋結果中取得。"
+    },
+    {
+      "id": "changhua-welfare-center",
+      "name": "彰化縣身心障礙福利服務中心（田尾）",
+      "category": "support",
+      "level": "local",
+      "summary": "位於田尾的縣立身心障礙福利服務中心，設有手語翻譯服務窗口，也可臨櫃申請身心障礙者專用停車識別證。",
+      "eligibility": [
+        "彰化縣身心障礙者及其家屬"
+      ],
+      "benefit": "手語翻譯服務窗口（週一至週五9時至17時）、專用停車識別證臨櫃申請等服務。",
+      "how_to_apply": "親至中心或電話洽詢。",
+      "contact": "04-8833263",
+      "source_urls": [
+        "https://dwsc.chcg.gov.tw/",
+        "https://dwsc.chcg.gov.tw/unit_view.php?f=5%2F"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "中心完整服務項目未在搜尋結果中取得。"
+    }
+  ]
+}
