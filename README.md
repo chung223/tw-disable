@@ -2,6 +2,8 @@
 
 整理全台 22 個縣市的身心障礙者福利，以及全國通用、可以跨縣市使用的資源，做成可查詢的靜態網站。
 
+資料重點整理（跨縣市可用資源、各縣市比較、資料缺口）見 [docs/overview.md](docs/overview.md)。
+
 ## 目錄
 
 ```
@@ -13,6 +15,7 @@ data/
 scripts/
   validate.py        檢查資料格式
   build.py           合併資料成 site/data/benefits.json
+docs/overview.md     資料重點整理
 site/                靜態網站（index.html、app.js、style.css）
 ```
 
