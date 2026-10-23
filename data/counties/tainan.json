@@ -1,0 +1,666 @@
+{
+  "county_id": "tainan",
+  "county_name": "臺南市",
+  "agency": "臺南市政府社會局",
+  "agency_url": "https://sab.tainan.gov.tw/",
+  "phone": "06-2991111（社會局身心障礙福利科）",
+  "collected_at": "2026-10-23",
+  "method": "web_search",
+  "notes": "以 WebSearch 限定 tainan.gov.tw 網域蒐集，社會局現行網站為 sab.tainan.gov.tw（social.tainan.gov.tw 為舊站）。蒐集途中整體搜尋額度用盡，以下項目只看到標題、未取得內容而未收錄或僅寫入備註：購屋貸款利息補貼細節、身心障礙者購買停車位貸款利息補貼或承租停車位補助（社會局經濟補助列表有此項，115年3月2日更新）、購買或承租商店攤販低利貸款或租金補貼、社區居住服務（全市約10處）、成年監護（輔助）身心障礙者個案服務、臺南市身心障礙者服務中心、弱勢家庭住宅改善實施計畫、庇護工場細節、日間/住宿式照顧費用補助金額表、鑑定費。",
+  "benefits": [
+    {
+      "id": "tainan-living-allowance",
+      "name": "身心障礙者生活補助費",
+      "category": "economic",
+      "level": "central",
+      "summary": "依中央標準按月發給低收入戶、中低收入戶或家庭所得財產符合標準的身心障礙者生活補助。臺南市金額與中央基準相同。",
+      "eligibility": [
+        "依法領有身心障礙證明",
+        "實際居住於戶籍所在地之直轄市、縣（市），且最近一年在國內居住超過183日",
+        "屬低收入戶、中低收入戶，或家庭總收入及財產符合標準（115年度家庭總收入平均分配全家人口之金額標準為38,788元）",
+        "未經政府補助收容安置於機構夜間式或全日住宿式服務"
+      ],
+      "benefit": "115年度：列冊低收入戶輕度每月5,437元、中度以上每月9,485元；符合最低生活費2.5倍以下者輕度每月4,049元、中度以上每月5,437元。",
+      "how_to_apply": "向戶籍所在地區公所社會課申請。",
+      "documents": [
+        "申請表",
+        "國民身分證正本",
+        "其他必要證明文件",
+        "本人存摺影本（郵局或農會，依行政區不同）"
+      ],
+      "target_groups": ["低收入或中低收入"],
+      "source_urls": [
+        "https://sab.tainan.gov.tw/News_Content.aspx?n=21384&s=4378407",
+        "https://sab.tainan.gov.tw/News_Content.aspx?n=21219&s=7673783"
+      ],
+      "source_date": "2026",
+      "confidence": "high",
+      "notes": "社會局頁面顯示於115年5月4日更新。"
+    },
+    {
+      "id": "tainan-assistive-devices",
+      "name": "身心障礙者輔具費用補助（含居家無障礙設施）",
+      "category": "assistive",
+      "level": "central",
+      "summary": "依中央「身心障礙者輔具費用補助辦法」補助生活輔具與居家無障礙設施，採事前申請制，部分免評估輔具可線上申請。",
+      "eligibility": [
+        "設籍臺南市並依法領有身心障礙證明",
+        "最近一年居住國內超過183日",
+        "符合輔具費用補助基準表規定"
+      ],
+      "benefit": "依中央補助基準表補助；每人每2年度以合計申請4項輔具補助為限（與衛生局醫療輔具合併計算）。部分生活輔具限居家自我照顧所需者申請，須附切結書。",
+      "how_to_apply": "向戶籍所在地區公所或輔具資源中心提出申請，社會局審核後寄發核定通知書，申請人再自行或向簽約廠商購買，憑文件請款。免評估輔具可透過「臺南市一站式整合服務平台」線上申請。須先申請核定再購買。",
+      "contact": "06-6371299（社會局身心障礙福利科）",
+      "source_urls": [
+        "https://sab.tainan.gov.tw/News_Content.aspx?n=21384&s=4378408",
+        "https://sab.tainan.gov.tw/News_Content.aspx?n=17856&s=7800492",
+        "https://sab.tainan.gov.tw/News_Content.aspx?n=21215&s=7942240"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "49歲以下經長照需要等級評估之失能身障者，長照輔具及居家無障礙環境改善另依長照2.0給付（3年4萬元額度），需先經照管評估。"
+    },
+    {
+      "id": "tainan-assistive-center",
+      "name": "臺南市輔具資源中心服務",
+      "category": "assistive",
+      "level": "local",
+      "summary": "社會局委託輔具資源中心提供輔具諮詢、評估、維修、租借與二手輔具回收再利用，並在三處定點免費開立輔具評估書。",
+      "eligibility": [
+        "有輔具需求之臺南市民（評估書開立供身心障礙者輔具費用補助申請使用）"
+      ],
+      "benefit": "輔具諮詢、評估、維修、租借、二手輔具回收；南站（永康區）、北站（官田區）、西站（佳里區）免費定點開立輔具評估書；另有永康、新市、後壁、善化、北區等二手輔具資源站。",
+      "how_to_apply": "電洽各站預約：南站（永康區）06-2098938、北站（官田區）06-5790636、西站（佳里區）06-7266700；亦可上臺南市輔具資源整合網（tnatrc.com.tw）查詢。",
+      "source_urls": [
+        "https://sab.tainan.gov.tw/cl.aspx?n=26624",
+        "https://sab.tainan.gov.tw/News.aspx?n=26626&sms=21516",
+        "https://law01.tainan.gov.tw/GLRSNEWSOUT/LawContent.aspx?id=GL000994"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "據點與電話取自社會局頁面摘要，資料年份不明，前往前請先電話確認。"
+    },
+    {
+      "id": "tainan-medical-assistive-devices",
+      "name": "身心障礙者醫療輔具費用補助（衛生局）",
+      "category": "medical",
+      "level": "central",
+      "summary": "臺南市由衛生局辦理居家使用的醫療輔具費用補助，例如抽痰機、氧氣製造機、呼吸器，並有特約廠商代償墊付服務，減輕先行墊付壓力。",
+      "eligibility": [
+        "設籍臺南市並領有身心障礙手冊或證明",
+        "限居家使用",
+        "最近一年居住臺灣超過183天",
+        "低收入、中低收入戶與一般戶皆可申請，補助金額依福利身分不同"
+      ],
+      "benefit": "補助項目：電動拍痰機、抽痰機、化痰機、血氧偵測機、氧氣製造機、咳嗽（痰）機、呼吸器（單相、雙相）、UPS不斷電系統、壓力衣、矽膠片，另含人工電子耳植入手術費用，以及診斷證明書與醫療輔具評估報告開立費用。與生活輔具合併計算，每人每兩年最多補助4項。",
+      "how_to_apply": "向戶籍所在地區公所申請；須依醫師診斷、治療師評估建議購買，未經核定先行購買者原則上不予補助。可選擇衛生局特約廠商代償墊付。",
+      "documents": [
+        "身心障礙手冊（證明）影本",
+        "身分證影本",
+        "印章",
+        "鑑定醫院開立之診斷證明書",
+        "醫療輔具評估報告（氧氣製造機、咳嗽（痰）機、呼吸器、壓力衣需附）"
+      ],
+      "source_urls": [
+        "https://health.tainan.gov.tw/warehouse/8EC851FE-5785-4D59-BA12-25249B203DF7/F_1764053656941e.pdf",
+        "https://health.tainan.gov.tw/download.asp?orcaid=D9F30DCD-E7B9-41FB-9D8B-C68B351F360A"
+      ],
+      "source_date": "2025-11",
+      "confidence": "high",
+      "notes": "依衛生局114年11月《為民服務Q&A》；115年版特約廠商實施計畫已於2025年11月更新。各項補助金額未在搜尋結果中出現。"
+    },
+    {
+      "id": "tainan-social-insurance",
+      "name": "身心障礙者社會保險保險費補助（全民健保、公教保、勞保、農保、軍保）",
+      "category": "economic",
+      "level": "central",
+      "summary": "依障礙等級補助身心障礙者參加社會保險的自付保險費。",
+      "eligibility": [
+        "領有身心障礙證明並參加全民健保、公教保、勞保、農保或軍保之臺南市民"
+      ],
+      "benefit": "重度、極重度由政府全額補助；中度補助二分之一；輕度補助四分之一。",
+      "how_to_apply": "依保險別由投保單位或社會局辦理，詳洽社會局身心障礙福利科。",
+      "source_urls": [
+        "https://sab.tainan.gov.tw/News_Content.aspx?n=21384&s=4378404"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    },
+    {
+      "id": "tainan-senior-nhi-premium",
+      "name": "六十五歲以上中度及輕度身心障礙者全民健康保險自付保險費補助",
+      "category": "economic",
+      "level": "local",
+      "summary": "臺南市自辦加碼：65歲以上中、輕度身障者在中央補助之外，剩餘的健保自付保費也由市府補助，實質上由政府負擔，且免申請。",
+      "eligibility": [
+        "設籍臺南市",
+        "年滿65歲",
+        "領有中度或輕度身心障礙證明（手冊）",
+        "最近一年經稅捐稽徵機關核定之綜合所得稅稅率未達12%"
+      ],
+      "benefit": "中度補助中央補助後剩餘之二分之一、輕度補助剩餘之四分之三，每人每月最高補助至第六類被保險人應負擔之健保費（不含補充保險費）。",
+      "how_to_apply": "免申請，社會局主動將受補助名冊送健保署減免。若因資料未及時申報或錯誤未減免，可檢具文件向社會局申請補發。",
+      "target_groups": ["老年"],
+      "source_urls": [
+        "https://sab.tainan.gov.tw/News_Content.aspx?n=21384&s=4378405",
+        "https://sab.tainan.gov.tw/News_Content.aspx?n=21235&s=4780938",
+        "https://sab.tainan.gov.tw/News_Content.aspx?n=17856&s=7937455"
+      ],
+      "source_date": "2025",
+      "confidence": "high",
+      "notes": "作業要點現行版本為1140909生效版。社會局新聞稿稱臺南是六都中唯一未規定須設籍滿1年；要點條文只寫「設籍於本市」。另有「老人健保費自付額補助」（65歲以上，每人每月最高826元），為不同方案。"
+    },
+    {
+      "id": "tainan-day-residential-care",
+      "name": "身心障礙者日間/住宿式照顧服務費用補助",
+      "category": "care",
+      "level": "central",
+      "summary": "補助經市府轉介至身心障礙福利機構、精神復健機構、護理之家或榮譽國民之家接受日間或住宿照顧的費用。",
+      "eligibility": [
+        "設籍臺南市並領有身心障礙證明",
+        "經市府轉介至社會福利機構、精神復健機構、護理之家或榮譽國民之家收托或收容",
+        "未領有政府提供之其他生活補助或津貼（日間式照顧服務者不在此限）"
+      ],
+      "benefit": "依家庭經濟狀況補助日間或住宿照顧費用；115年度補助金額一覽表與機構名冊公布於社會局頁面（金額未在搜尋結果中出現）。",
+      "how_to_apply": "向戶籍地區公所社會課申請。",
+      "documents": [
+        "身心障礙證明正反面影本",
+        "申請調查表",
+        "護理之家養護者：最近三個月內專科醫師診斷證明書",
+        "精神障礙者：臺南市精神病患病情分類及處置建議表",
+        "低收入戶證明等相關文件"
+      ],
+      "source_urls": [
+        "https://sab.tainan.gov.tw/News_Content.aspx?n=21384&s=4378403",
+        "https://sab.tainan.gov.tw/News_Content.aspx?n=21219&s=7673785"
+      ],
+      "source_date": "2025",
+      "confidence": "high",
+      "notes": "頁面更新日期顯示為114-09-19（另有115年度機構名冊）。補助金額需下載官方一覽表確認。"
+    },
+    {
+      "id": "tainan-residential-institution-subsidy",
+      "name": "住宿式服務機構使用者補助方案",
+      "category": "care",
+      "level": "central",
+      "summary": "衛福部方案，臺南市配合辦理，補助入住住宿式機構的中重度失能者，減輕機構照顧費用負擔，並可由機構代送申請。",
+      "eligibility": [
+        "入住方案所列類型之住宿式服務機構",
+        "領有中度以上身心障礙證明（或符合長照失能等級條件）",
+        "當年度累計住滿180天"
+      ],
+      "benefit": "112年度：每人每年最高12萬元，每年一次性發給。",
+      "how_to_apply": "可由入住機構代送申請；或洽1966長照專線、臺南市長期照顧管理中心。",
+      "source_urls": [
+        "https://sab.tainan.gov.tw/News_Content.aspx?n=17856&s=8593352",
+        "https://sab.tainan.gov.tw/News_Content.aspx?n=21215&s=8555121",
+        "http://ltc.tainan.gov.tw/mode03_02.asp?num=20191003102319&page=1&t=sub"
+      ],
+      "source_date": "2023",
+      "confidence": "medium",
+      "notes": "資料為112年度公告，115年度條件與金額需再確認。"
+    },
+    {
+      "id": "tainan-respite-care",
+      "name": "身心障礙者臨時及短期照顧服務",
+      "category": "care",
+      "level": "mixed",
+      "summary": "為身心障礙者家庭照顧者提供居家式、社區式或機構式的臨時照顧與短期照顧（喘息），由社會局依家庭經濟身分補助費用。",
+      "eligibility": [
+        "設籍臺南市之身心障礙者及其家庭照顧者，經社工專業評估確有照顧需求",
+        "家庭照顧者未同時使用長照喘息服務或領取政府特別照顧津貼"
+      ],
+      "benefit": "臨時照顧與短期照顧合併每人每年最多300小時；同年度已使用居家服務、日間照顧、住宿機構、家庭托顧等補助服務者上限150小時。臨時照顧每小時收費250元，低收入戶全額補助、中低收入戶補助90%、一般戶補助70%。不含到校陪讀、到機構接送及洗腎回診。",
+      "how_to_apply": "向臺南市政府社會局身心障礙福利科或委託服務單位申請，經社工評估後核定時數；特殊狀況需延長時數者由社工評估送社會局審核。",
+      "contact": "06-2991111（社會局身心障礙福利科）",
+      "target_groups": ["家庭照顧者"],
+      "source_urls": [
+        "https://sab.tainan.gov.tw/cl.aspx?n=26877"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "頁面未標示更新日期。申請窗口細節未在搜尋結果中出現。"
+    },
+    {
+      "id": "tainan-independent-living",
+      "name": "身心障礙者自立生活支持服務（含個人助理）",
+      "category": "support",
+      "level": "mixed",
+      "summary": "提供自立生活規劃、同儕支持員諮詢及個人助理支持服務，協助有意願的成年身障者在社區自主生活。",
+      "eligibility": [
+        "設籍臺南市、18歲以上領有身心障礙證明且有自立生活意願",
+        "經社會局ICF需求評估員、社工及同儕支持員評估",
+        "同時段未重複使用居家照顧、日間照顧或喘息服務，未住機構、未聘僱看護（傭）、未領政府特別照顧津貼等照顧費用補助（外籍看護逃逸失聯、轉出、期滿離境或請假返國期間仍可申請個人助理）"
+      ],
+      "benefit": "個人助理支持服務費每小時250元：低收入戶、中低收入戶全額補助；家庭總收入平均未達最低生活費2.5倍者每小時自付20元；一般戶每小時自付60元。",
+      "how_to_apply": "洽承辦單位社團法人台灣心能量全人健康促進照顧服務協會（06-2089179），或社會局身心障礙福利科（06-2991111#8453）。",
+      "contact": "06-2089179（承辦單位）；06-2991111#8453（社會局）",
+      "target_groups": ["成年"],
+      "source_urls": [
+        "https://sab.tainan.gov.tw/cl.aspx?n=26880"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    },
+    {
+      "id": "tainan-sign-language",
+      "name": "聽障者手語翻譯服務（溝通無障礙）",
+      "category": "support",
+      "level": "central",
+      "summary": "社會局委託社團法人台南市聲暉協進會，依聽語障者參與公共事務的需求派遣手語翻譯員。",
+      "eligibility": [
+        "設籍臺南市之聽覺功能或言語功能障礙者，並領有身心障礙證明"
+      ],
+      "benefit": "依實際需求提供參與公共事務所需之手語翻譯服務；服務時間星期一至星期日08:00–17:30，例假日及夜間視人力派遣。",
+      "how_to_apply": "於服務5天前提出申請（受理時間星期二至星期六09:00–17:00，例假日除外；緊急重大事務可於例假日或夜間申請）：電話06-3123196、簡訊0972-891553、Line ID：voiced，或線上申請表單。",
+      "contact": "06-3123196（台南市聲暉協進會）；申訴：06-2991111#8652",
+      "target_groups": ["聽覺或平衡障礙", "聲音或語言障礙"],
+      "source_urls": [
+        "https://sab.tainan.gov.tw/cl.aspx?n=26870"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "勞工局另有「手語翻譯暨聽打服務」，適用重大政策會議、勞資爭議、職場輔導、職前訓練等就業相關事由，電話06-6322231轉6289。"
+    },
+    {
+      "id": "tainan-captioning",
+      "name": "聽語障者同步聽打服務",
+      "category": "support",
+      "level": "central",
+      "summary": "為聽障、語障者在會議、課程等場合提供即時文字聽打服務，外縣市設籍者在臺南活動也可申請。",
+      "eligibility": [
+        "領有身心障礙證明，障礙類別為聽障、語障或合併聽語障之多重障礙者（設籍外縣市者亦可申請在臺南之服務）"
+      ],
+      "benefit": "派遣同步聽打員到場提供即時文字轉譯。",
+      "how_to_apply": "於服務開始前5天填寫申請表並附相關資料，以傳真或電子郵件（voiced@voiced.org.tw）提出，事後繳回申請表正本；單位申請者需於服務結束後3個工作天內繳回意見回饋表。",
+      "target_groups": ["聽覺或平衡障礙", "聲音或語言障礙", "多重障礙"],
+      "source_urls": [
+        "https://sab.tainan.gov.tw/cl.aspx?n=26875"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "申請人自行聯絡聽打員到場者，不屬社會局派遣案件。"
+    },
+    {
+      "id": "tainan-family-caregiver",
+      "name": "身心障礙者家庭照顧者支持服務",
+      "category": "support",
+      "level": "central",
+      "summary": "社會局委託民間團體在溪北、溪南、永華三區設置據點，為主要照顧身障家人的家屬提供關懷訪視、支持團體、紓壓活動與照顧技巧訓練。",
+      "eligibility": [
+        "設籍臺南市",
+        "家庭中主要照顧身心障礙者之配偶、直系血親、直系姻親或同住家屬，且有明顯照顧負荷"
+      ],
+      "benefit": "個案管理、關懷訪視、支持性團體、紓壓活動、休閒課程或講座、照顧技巧訓練、到宅專業服務。",
+      "how_to_apply": "直接聯繫服務區域據點（111年資料）：溪北據點（樂活社會福利慈善事業基金會）06-6222733；溪南據點（中華民國微光社會福利協會）06-2037461；永華據點（喜憨兒社會福利基金會）06-2610557。",
+      "target_groups": ["家庭照顧者"],
+      "source_urls": [
+        "https://sab.tainan.gov.tw/News.aspx?n=26652&sms=21530",
+        "https://www.tainan.gov.tw/news_content.aspx?n=13370&s=7875672"
+      ],
+      "source_date": "2022",
+      "confidence": "medium",
+      "notes": "服務區域：微光負責新化、玉井、南化、左鎮、善化、新市、安定、山上、楠西、永康、仁德、歸仁、關廟、龍崎；喜憨兒負責南區、東區、北區、中西、安平、安南；樂活負責新營、鹽水、後壁、白河、東山、柳營、佳里、西港、七股、學甲、將軍、北門、麻豆、下營、六甲、官田、大內。承辦單位可能已異動。"
+    },
+    {
+      "id": "tainan-community-day-care",
+      "name": "身心障礙者社區式日間照顧服務",
+      "category": "care",
+      "level": "central",
+      "summary": "在社區小型據點白天照顧18至64歲有照顧需求的身障者，每處同時間最多服務15人。",
+      "eligibility": [
+        "居住臺南市、18歲至64歲，領有身心障礙證明（手冊）",
+        "經社會局ICF社工及服務單位評估有日間照顧需求",
+        "未安置於身心障礙福利機構或精神復健機構"
+      ],
+      "benefit": "社區式日間照顧；每一服務地點同時間服務人數上限15人。全市約布建11處。",
+      "how_to_apply": "洽社會局身心障礙福利科或各服務據點。",
+      "contact": "06-2991111（社會局身心障礙福利科）",
+      "target_groups": ["成年"],
+      "source_urls": [
+        "https://sab.tainan.gov.tw/cl.aspx?n=26629",
+        "https://sab.tainan.gov.tw/News_Content.aspx?n=21388&s=7941865"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "收費標準未在搜尋結果中出現。社會局公告另稱全市有10處社區居住、1處精障會所，社區居住服務細節未取得。"
+    },
+    {
+      "id": "tainan-day-activity-center",
+      "name": "身心障礙者社區日間作業設施",
+      "category": "care",
+      "level": "central",
+      "summary": "為無法進入庇護工場、也不適合成人日間照顧機構的身障者，提供以作業活動為主、輔以自立生活與休閒活動的社區服務。",
+      "eligibility": [
+        "15歲以上領有身心障礙證明",
+        "能每週參與20小時作業活動",
+        "具生活與交通自理能力"
+      ],
+      "benefit": "作業活動、自立生活訓練與休閒活動；社會局網站列有約30–40處據點名單與電話。",
+      "how_to_apply": "直接洽社會局網站所列各作業設施據點，或社會局身心障礙福利科。",
+      "target_groups": ["成年"],
+      "source_urls": [
+        "https://sab.tainan.gov.tw/News.aspx?n=26627&sms=21517"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "據點數不同時期資料為30、32或約40處。收費未在搜尋結果中出現。"
+    },
+    {
+      "id": "tainan-family-foster-care",
+      "name": "身心障礙者家庭托顧服務",
+      "category": "care",
+      "level": "central",
+      "summary": "由具家托員資格的照顧者在自家提供白天照顧，每個家托點最多照顧3人，不提供夜間服務。",
+      "eligibility": [
+        "臺南市18歲以上身心障礙者",
+        "未同時接受全日型住宿機構、日間照顧、居家服務或領取特別照顧津貼等"
+      ],
+      "benefit": "日間家庭托顧，每家托點上限3人；全市約7處據點（如全人照護協會、安安社會福利發展協會）。",
+      "how_to_apply": "洽社會局身心障礙福利科或各家托據點。",
+      "target_groups": ["成年"],
+      "source_urls": [
+        "https://sab.tainan.gov.tw/cl.aspx?n=26879"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "收費標準未在搜尋結果中出現。"
+    },
+    {
+      "id": "tainan-rehab-bus",
+      "name": "臺南市復康巴士",
+      "category": "transport",
+      "level": "local",
+      "summary": "提供行動不便、無法搭乘一般大眾運輸的身障者預約接送，費率為計程車的三分之一，就醫另有每週免費趟次。",
+      "eligibility": [
+        "第一級：行動不便致不能搭乘一般大眾運輸工具之身心障礙者（如領有身心障礙證明且乘坐輪椅者）",
+        "第二級：短暫性行動不便致不能搭乘一般大眾運輸工具者，需附六個月內醫師開立需乘坐輪椅之證明"
+      ],
+      "benefit": "依臺南市計程車費率三分之一計費（小數點以下捨去）；1人陪同免費；停車費、高速公路通行費、平安保險費自付。社會局新聞稿另載每週4單趟免費就醫、低收入戶另加2單趟。服務時間06:00–23:00。",
+      "how_to_apply": "初次需提出申請（社會局頁面有流程與申請表）；預約電話：溪北區06-6328899，永華、溪南區06-2975678（週一至週五08:00–12:00、13:30–17:30，額滿為止）；或網路訂車 https://tainanrehabus.com.tw/、Line官方帳號 @tnrehabus。",
+      "contact": "06-6328899（溪北）；06-2975678（永華、溪南）",
+      "target_groups": ["肢體障礙"],
+      "source_urls": [
+        "https://sab.tainan.gov.tw/News_Content.aspx?n=21381&s=4378360",
+        "https://sab.tainan.gov.tw/News_Content.aspx?n=21235&s=4780952",
+        "https://sab.tainan.gov.tw/News_Content.aspx?n=21215&s=4780200",
+        "https://www.tainan.gov.tw/news_content.aspx?n=13370&s=7916970"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "共乘費率來源說法不一（共乘路段二分之一，或全程計程車費率六分之一）；每週免費就醫趟次出自年份不明的新聞稿，請以社會局最新公告為準。通用計程車亦加入服務。"
+    },
+    {
+      "id": "tainan-love-card-bus",
+      "name": "市民卡愛心卡、愛心陪伴卡公車乘車優惠",
+      "category": "transport",
+      "level": "local",
+      "summary": "設籍臺南的身障市民持市民卡「愛心卡」可免費搭乘本市公車，必要陪伴者持「愛心陪伴卡」享半價。",
+      "eligibility": [
+        "設籍臺南市，持有有效身心障礙證明之市民（愛心卡）",
+        "身心障礙者之必要陪伴者（愛心陪伴卡，須隨同愛心卡使用）"
+      ],
+      "benefit": "115年（115/01/01–115/12/31）：持愛心卡搭乘大台南公車免費（111路及雙層巴士除外）；愛心陪伴卡半價；愛心卡搭高雄捷運半價。未刷卡、持身分證或身心障礙手冊搭車仍須購買半票。",
+      "how_to_apply": "至戶籍所在地區公所申辦，攜帶身分證、身心障礙證明（手冊）及照片；初次辦卡免費。",
+      "source_urls": [
+        "https://civilcard.tainan.gov.tw/page.asp?mainid=18B11D05-1BD3-44E8-96EB-AF0A1A1E6C5F",
+        "https://bca.tainan.gov.tw/News_Content.aspx?n=1041&s=5951",
+        "https://civilcard.tainan.gov.tw/page.asp?nsub=A6A200"
+      ],
+      "source_date": "2026",
+      "confidence": "high"
+    },
+    {
+      "id": "tainan-roadside-parking",
+      "name": "身障車輛路邊停車費優惠",
+      "category": "transport",
+      "level": "local",
+      "summary": "在臺南市路邊收費停車格停車，持身障專用停車位識別證或身障車牌的車輛前2小時免費，用「臺南好停」APP繳費可延長為前4小時免費。",
+      "eligibility": [
+        "持有「身心障礙者專用停車位識別證」之車輛或懸掛身心障礙車牌之車輛（不限臺南市籍）"
+      ],
+      "benefit": "自109年9月1日起：路邊停車當次前2小時免費、第3小時起半價；以臺南好停APP行動支付者當次前4小時免費、第5小時起半價。同一公有收費停車場每日以優惠一次為限。",
+      "how_to_apply": "停車時將識別證放置於前擋風玻璃內；忘記放置或識別證逾期者，可於繳款期限內持有效識別證辦理銷單或繳費。識別證向社會局或區公所申請。",
+      "contact": "06-2141798（臺南市停車管理處）",
+      "source_urls": [
+        "https://www.tainan.gov.tw/news_content.aspx?n=13370&s=7707994",
+        "https://sab.tainan.gov.tw/News_Content.aspx?n=21382&s=4378370",
+        "https://tnda.tainan.gov.tw/civilbook/page.asp?page=146"
+      ],
+      "source_date": "2020-09",
+      "confidence": "medium",
+      "notes": "依109年新聞稿與市民手冊，未找到2026年確認仍實施的公告；部分公有停車場（如新市區行政服務區地下停車場）標示身障免費，各場規定不一。"
+    },
+    {
+      "id": "tainan-rent-subsidy",
+      "name": "身心障礙者房屋租金補貼及購屋貸款利息補貼",
+      "category": "economic",
+      "level": "mixed",
+      "summary": "補貼無自有住宅、在戶籍地租屋的身障者家庭部分房租；另辦理購屋貸款利息補貼。",
+      "eligibility": [
+        "設籍並實際居住臺南市，家庭收入等條件符合規定",
+        "未接受其他政府租金或貸款利息補貼，未使用公有房舍或平價住宅",
+        "身心障礙者及其配偶、戶籍內直系親屬均無自有住宅（現有住宅經認定不適居住者除外）",
+        "租賃房屋位於戶籍所在地之直轄市、縣（市）"
+      ],
+      "benefit": "房屋租金：一人租屋每月最高1,600元、二人家庭每戶最高2,600元、三人以上家庭每戶最高4,000元，皆以租金總額50%為上限。",
+      "how_to_apply": "向戶籍地區公所社會課申請。",
+      "documents": [
+        "身心障礙證明正反面影本",
+        "近一個月內全戶電子戶籍謄本",
+        "租賃契約書影本",
+        "指定金融機構存摺封面影本"
+      ],
+      "contact": "06-2991111分機6532",
+      "source_urls": [
+        "https://sab.tainan.gov.tw/News_Content.aspx?n=21384&s=4378402"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "購屋貸款利息補貼的額度與資格未在搜尋結果中出現。金額為臺南市社會局頁面所列，頁面年份不明。"
+    },
+    {
+      "id": "tainan-low-income-rent",
+      "name": "低收入戶身心障礙者房屋租金補助",
+      "category": "economic",
+      "level": "local",
+      "summary": "列冊低收入戶中的身心障礙者，因無自有住宅而租屋者，按人頭每月補助租金。",
+      "eligibility": [
+        "臺南市列冊低收入戶中之身心障礙者",
+        "無自有住宅而租屋居住"
+      ],
+      "benefit": "每人每月補助800元，最高補助5口。",
+      "how_to_apply": "向戶籍地區公所社會課洽詢。",
+      "target_groups": ["低收入或中低收入"],
+      "source_urls": [
+        "https://w3fs.tainan.gov.tw/001/Upload/177/attachment/19513/4378476/%E4%BD%8E%E6%94%B6%E5%85%A5%E6%88%B6%E3%80%81%E4%B8%AD%E4%BD%8E%E6%94%B6%E5%85%A5%E6%88%B6%E7%9B%B8%E9%97%9C%E7%A4%BE%E6%9C%83%E7%A6%8F%E5%88%A9%E7%B5%A6%E4%BB%98%E4%B8%80%E8%A6%BD%E8%A1%A8.pdf"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "出自「臺南市低收入戶、中低收入戶相關社會福利給付一覽表」，該表為115年以前版本；是否可與身障者房屋租金補貼併領未確認。"
+    },
+    {
+      "id": "tainan-emergency-alert",
+      "name": "身心障礙者在宅緊急救援服務",
+      "category": "support",
+      "level": "local",
+      "summary": "為獨居或缺乏照顧的身障者在家中裝設求救主機、隨身按鈕及跌倒、不活動偵測，由24小時監控中心接收求救並聯繫救護。",
+      "eligibility": [
+        "領有身心障礙證明，未住全日型住宿機構",
+        "經社會局評估為獨居或同住家屬無照顧能力",
+        "生活自理能力不足，能配合不活動監測"
+      ],
+      "benefit": "提供主機、隨身求救按鈕、不活動偵測、跌倒偵測及GPS定位等裝置與24小時監控。低收入戶、中低收入戶或領有身心障礙者生活補助之未滿65歲者全額補助；一般戶補助50%（114年度每人每月社會局補助475元、自付475元）。",
+      "how_to_apply": "洽社會局身心障礙福利科（06-2991111）申請評估；服務廠商台灣新光保全南市分公司06-2412288轉35588。",
+      "contact": "06-2991111（社會局身心障礙福利科）",
+      "source_urls": [
+        "https://sab.tainan.gov.tw/cl.aspx?n=26878",
+        "https://sab.tainan.gov.tw/News_Content.aspx?n=21372&s=4888859"
+      ],
+      "source_date": "2025",
+      "confidence": "high",
+      "notes": "115年度金額可能調整。"
+    },
+    {
+      "id": "tainan-anti-wandering-bracelet",
+      "name": "身心障礙者防走失愛心手鍊",
+      "category": "support",
+      "level": "local",
+      "summary": "社會局以公益彩券盈餘提供刻有編號與警察分局電話的手鍊，協助走失的智能、精神障礙或自閉症者找到回家的路。",
+      "eligibility": [
+        "智能障礙、精神障礙、自閉症等易走失之身心障礙者（失智症患者亦可申請）"
+      ],
+      "benefit": "免費提供防走失愛心手鍊；民眾發現走失者時，撥打手鍊上警察分局電話並告知編號即可查明身分。",
+      "how_to_apply": "向各區公所申請。",
+      "target_groups": ["智能障礙", "精神障礙", "自閉症"],
+      "source_urls": [
+        "https://sab.tainan.gov.tw/News_Content.aspx?n=21215&s=4780219",
+        "https://sab.tainan.gov.tw/News_Content.aspx?n=21372&s=4888857"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "獨居服務頁面所列條件（60歲以上，或未滿60歲領有第一類身心障礙證明）與身障頁面描述不完全一致，申請前請向區公所確認。"
+    },
+    {
+      "id": "tainan-vocational-rehab",
+      "name": "身心障礙者職業重建服務（含支持性就業、居家就業、職業訓練）",
+      "category": "employment",
+      "level": "central",
+      "summary": "臺南市勞工局以個案管理方式提供職業輔導評量、職業訓練、就業服務、職務再設計與創業輔導，另辦理支持性就業、居家就業及身障者職業訓練。",
+      "eligibility": [
+        "設籍、居住或欲在臺南市就業之15歲以上身心障礙者，有就業需求",
+        "支持性就業：有就業意願與能力但不足以在競爭性職場獨立工作者",
+        "居家就業：經職業重建窗口評估有需要者"
+      ],
+      "benefit": "職業重建個案管理、職業輔導評量、職業訓練（養成訓練以日間全日制每日6小時、每週5日為原則）、就業服務、職務再設計、創業輔導、支持性就業、居家就業、庇護性就業。",
+      "how_to_apply": "洽臺南市政府勞工局就業促進科：職業重建06-2991111轉6290；庇護性就業服務轉6687。",
+      "documents": [
+        "身心障礙證明",
+        "身分證"
+      ],
+      "contact": "06-2991111轉6290（勞工局職業重建）",
+      "target_groups": ["求職者"],
+      "source_urls": [
+        "https://web.tainan.gov.tw/labor/cp.aspx?n=510",
+        "https://web.tainan.gov.tw/labor/cp.aspx?n=519",
+        "https://web.tainan.gov.tw/labor/cp.aspx?n=515",
+        "https://web.tainan.gov.tw/labor/cp.aspx?n=512"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "庇護工場細部規定未在搜尋結果中出現。"
+    },
+    {
+      "id": "tainan-startup-loan-interest",
+      "name": "身心障礙者創業貸款利息補貼",
+      "category": "employment",
+      "level": "local",
+      "summary": "臺南市勞工局補貼身障者創業貸款的利息，本金最高50萬元、最長補貼5年。",
+      "eligibility": [
+        "設籍並居住臺南市滿六個月之身心障礙者",
+        "年滿18歲至未滿60歲",
+        "創業未滿一年，且已向銀行取得創業貸款核准",
+        "未曾獲政府創業性貸款或補助"
+      ],
+      "benefit": "補貼貸款本金最高50萬元之利息，利率以6%為計算上限，最長補貼五年，每人以一次為限。",
+      "how_to_apply": "於每年6月及12月的15日內向臺南市政府勞工局提出申請。",
+      "contact": "06-2991111轉8533（勞工局就業促進科）",
+      "target_groups": ["求職者"],
+      "source_urls": [
+        "https://web.tainan.gov.tw/labor/cp.aspx?n=526"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    },
+    {
+      "id": "tainan-disability-assessment",
+      "name": "身心障礙鑑定與需求評估（身心障礙證明申請）",
+      "category": "support",
+      "level": "central",
+      "summary": "向戶籍地區公所申請鑑定表，到指定醫院鑑定後由社會局核發身心障礙證明；行動困難者可申請到宅鑑定。",
+      "eligibility": [
+        "設籍臺南市，有身心障礙鑑定需求者（初次申請或重新鑑定）",
+        "到宅鑑定：全癱無法下床、需24小時使用呼吸器或長期重度昏迷等無法自行到院者，需附診斷證明"
+      ],
+      "benefit": "辦理身心障礙鑑定與需求評估，符合衛福部身心障礙等級者由社會局核發身心障礙證明。",
+      "how_to_apply": "向戶籍所在地區公所社會課申請，取得「臺南市政府身心障礙者鑑定表」後至指定鑑定醫療機構鑑定；部分區公所提供下載申請表郵寄辦理；亦可使用臺南市一站式整合服務平台。",
+      "documents": [
+        "申請表",
+        "身分證正反面影本",
+        "3個月內1吋半身照片3張",
+        "印章",
+        "重新鑑定者：既有身心障礙證明或診斷證明"
+      ],
+      "contact": "06-2950636（社會局）；鑑定標準疑義：衛生局醫事科06-6357716轉120",
+      "source_urls": [
+        "https://sab.tainan.gov.tw/News_Content.aspx?n=21387&s=4378441",
+        "https://onestop.tainan.gov.tw/eservice/apply_mode_directions2?itemId=1482",
+        "https://nanhuadistrict.tainan.gov.tw/News_Content.aspx?n=7532&s=7700548"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "衛生局於2024年4月1日公告鑑定費用修正，實際金額未在搜尋結果中出現。"
+    },
+    {
+      "id": "tainan-student-transport",
+      "name": "國民中小學暨幼稚園身心障礙學生交通費補助",
+      "category": "education",
+      "level": "local",
+      "summary": "臺南市教育局補助無法自行上下學的國民教育階段身障學生交通費。",
+      "eligibility": [
+        "設籍臺南市、無法自行上下學之國民教育階段身心障礙學生，領有身心障礙手冊（證明）",
+        "中度、輕度者需公立醫院或區域級以上醫院診斷證明無法自行上下學",
+        "未請領其他市府交通費補助、教育代金，且未搭乘身障學生專用交通車"
+      ],
+      "benefit": "依當年度預算與教育部補助額度發給交通費。",
+      "how_to_apply": "每學期開學後一個月內向就讀學校提出申請。",
+      "target_groups": ["兒童及少年", "學生"],
+      "source_urls": [
+        "https://law01.tainan.gov.tw/glrsnewsout/LawContent.aspx?id=FL063254"
+      ],
+      "source_date": "2011",
+      "confidence": "medium",
+      "notes": "搜尋到的要點為2011年發布版本，現行金額與規定請洽教育局或學校。"
+    },
+    {
+      "id": "tainan-private-school-tuition",
+      "name": "私立國民中小學身心障礙學生及身心障礙人士子女學雜費減免",
+      "category": "education",
+      "level": "local",
+      "summary": "就讀臺南市私立國中小的身障學生，或父母、監護人為身障者的學生，每學期可申請學雜費減免。",
+      "eligibility": [
+        "就讀私立國民中學、國民小學之身心障礙學生",
+        "父母或監護人設籍臺南市且領有身心障礙手冊（證明）之子女"
+      ],
+      "benefit": "原則上每學期補助新臺幣3,000元；同時符合多項減免者擇一申請。",
+      "how_to_apply": "第一學期9月1日至30日、第二學期3月1日至31日向就讀學校申請，由學校彙整函報教育局。",
+      "target_groups": ["兒童及少年", "學生"],
+      "source_urls": [
+        "http://law01.tainan.gov.tw/glrsnewsout/NewsContent.aspx?id=915"
+      ],
+      "source_date": "2013",
+      "confidence": "medium",
+      "notes": "搜尋到的要點為2013年版本，未找到115學年度公告，金額可能已調整。"
+    },
+    {
+      "id": "tainan-sports-venues",
+      "name": "國民運動中心與游泳池身障優惠",
+      "category": "leisure",
+      "level": "local",
+      "summary": "臺南市部分公有運動場館對身障者提供全時段免費入場，並有身障者專用預約泳道。",
+      "eligibility": [
+        "持身心障礙手冊（證明）者"
+      ],
+      "benefit": "永華國民運動中心：身心障礙者憑手冊全時段免費入場。活力水多多育樂中心：每週三、五14:00–16:30提供身心障礙者及復健者預約專用泳道。",
+      "how_to_apply": "持身心障礙證明至場館入場；專用泳道需事先預約。",
+      "contact": "06-2986111（永華國民運動中心）；06-2157691（臺南市政府體育局）",
+      "source_urls": [
+        "https://sports.tainan.gov.tw/html2/sportsvenues_site?sid=5f1cffdaef550&spo_guid=5ab7cab4d757f",
+        "https://web.tainan.gov.tw/epb/News_Content.aspx?n=15914&sms=17505&s=8697471"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "各館規定不一且資料年份不明，入場前請電話確認。臺南市立游泳池依身權法第59條身障者及陪同者免費（全國性規定）。"
+    }
+  ]
+}

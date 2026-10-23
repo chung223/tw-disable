@@ -1,0 +1,131 @@
+{
+  "county_id": "hsinchu-city",
+  "county_name": "新竹市",
+  "agency": "新竹市政府社會處",
+  "agency_url": "https://society.hccg.gov.tw/",
+  "phone": "03-5352386",
+  "collected_at": "2026-10-23",
+  "method": "web_search",
+  "notes": "資料不完整：蒐集途中 WebSearch 額度（各代理共用）用盡，新竹市只完成一次總覽搜尋，因此只收錄摘要中有具體內容的項目。社會處身心障礙福利科列有以下項目，但本次未取得內容，故未收錄：身心障礙證明申請、早療療育費及交通費補助、同步聽打服務、手語翻譯服務、身心障礙者自立生活支持服務、身心障礙者租賃房屋租金及購屋貸款利息補貼、身心障礙者家庭照顧者支持服務、身心障礙者臨時短期照顧服務、身心障礙者緊急救援服務、無障礙服務。停車優惠、就業（職業重建）、社區式服務、運動場館優惠、年節慰問、急難救助等均未查到，需補查。",
+  "benefits": [
+    {
+      "id": "hsinchu-city-living-allowance",
+      "name": "身心障礙者生活補助",
+      "category": "economic",
+      "level": "central",
+      "summary": "設籍並實際居住新竹市、領有身心障礙證明，且家庭收入與財產未超過門檻者，按月發給生活補助。",
+      "eligibility": [
+        "設籍並實際居住本市，領有身心障礙證明",
+        "家庭收入與財產未超過規定門檻",
+        "與政府其他生活補助僅能擇一領取（低收入戶生活扶助除外）"
+      ],
+      "benefit": "115年度：列冊低收入戶極重度、重度及中度身心障礙者每人每月9,485元；輕度每人每月5,437元。非低收入戶依一般補助標準（金額較低，本次未取得數字）",
+      "how_to_apply": "洽新竹市政府社會處或戶籍所在地區公所（本次搜尋未確認受理窗口）",
+      "contact": "社會處 03-5352386",
+      "target_groups": ["低收入或中低收入"],
+      "source_urls": [
+        "https://society.hccg.gov.tw/ch/home.jsp?id=127&parentpath=0%2C3%2C26&mcustomize=onemessages_view.jsp&toolsflag=Y&dataserno=201603290060&t=SocietyOnes&mserno=201603090030"
+      ],
+      "source_date": "2026-01",
+      "confidence": "high",
+      "notes": "頁面發布日期115年1月8日。中低收入戶及一般戶金額未取得。"
+    },
+    {
+      "id": "hsinchu-city-care-facility-subsidy",
+      "name": "身心障礙者日間照顧及住宿式照顧費用補助",
+      "category": "care",
+      "level": "central",
+      "summary": "經市府轉介安置於簽約機構的身心障礙者，依家庭收入級距補助日間照顧或住宿式照顧費用。",
+      "eligibility": [
+        "經新竹市政府轉介安置於合法立案且與市府簽約之機構",
+        "符合家庭收入等條件"
+      ],
+      "benefit": "依家庭收入級距給予不同比例之日間照顧及住宿式照顧費用補助（比例本次未取得）",
+      "how_to_apply": "經新竹市政府社會處轉介安置",
+      "contact": "社會處 03-5352386",
+      "source_urls": [
+        "https://society.hccg.gov.tw/ch/home.jsp?id=127&parentpath=0,3,26&mcustomize=onemessages_view.jsp&toolsflag=Y&dataserno=201603290063&t=SocietyOnes&mserno=201603090030"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium"
+    },
+    {
+      "id": "hsinchu-city-insurance-premium",
+      "name": "身心障礙者社會保險保險費補助",
+      "category": "economic",
+      "level": "central",
+      "summary": "身心障礙者參加社會保險（含健保）的自付保費，依障礙程度補助，由市府直接辦理。",
+      "eligibility": [
+        "領有身心障礙證明並參加社會保險者"
+      ],
+      "benefit": "極重度及重度：自付保險費全額補助；中度：補助二分之一；輕度：補助四分之一",
+      "how_to_apply": "由市府直接辦理，民眾不需申請",
+      "contact": "社會處 03-5352386",
+      "source_urls": [
+        "https://society.hccg.gov.tw/ch/home.jsp?id=127&parentpath=0%2C3%2C26&mcustomize=onemessages_view.jsp&toolsflag=Y&dataserno=201603290060&t=SocietyOnes&mserno=201603090030",
+        "https://society.hccg.gov.tw/ch/home.jsp?id=71&parentpath=0,1,67"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "內容出自社會處經濟補助類頁面的搜尋摘要，未見獨立頁面。"
+    },
+    {
+      "id": "hsinchu-city-assistive-devices",
+      "name": "身心障礙者輔助器具補助",
+      "category": "assistive",
+      "level": "central",
+      "summary": "依戶別補助身心障礙者購置輔具費用，須先申請核定，不得先購買。",
+      "eligibility": [
+        "設籍本市，領有身心障礙證明"
+      ],
+      "benefit": "依低收入戶、中低收入戶、一般戶補助比例不同；非低收入戶及非中低收入戶補助最高補助金額之50%",
+      "how_to_apply": "戶籍所在地區公所社政課；須先經核定，申請前不得先購買",
+      "source_urls": [
+        "https://society.hccg.gov.tw/ch/home.jsp?id=71&parentpath=0,1,67",
+        "https://society.hccg.gov.tw/ch/home.jsp?id=127&parentpath=0%2C3%2C26&mcustomize=onemessages_view.jsp&toolsflag=Y&dataserno=201603290060&t=SocietyOnes&mserno=201603090030"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "低收入戶、中低收入戶的比例本次未取得；中央辦法為低收入戶全額、中低收入戶四分之三。新竹市輔具資源中心資訊未查到。"
+    },
+    {
+      "id": "hsinchu-city-love-card",
+      "name": "愛心卡／愛心陪伴卡（身心障礙者免費搭乘公車電子票卡）",
+      "category": "transport",
+      "level": "local",
+      "summary": "設籍並實際居住新竹市的身心障礙者可申辦愛心卡，每月補助乘車點數。",
+      "eligibility": [
+        "設籍且實際居住本市，領有身心障礙證明"
+      ],
+      "benefit": "每月補助1,200點（1點等於1元），當月未用完的點數不累積至次月",
+      "how_to_apply": "洽新竹市政府社會處（本次未取得申辦窗口細節）",
+      "contact": "社會處 03-5352386",
+      "source_urls": [
+        "https://society.hccg.gov.tw/ch/home.jsp?id=129&parentpath=&mcustomize=onemessages_view.jsp&toolsflag=Y&dataserno=202308040003&t=SocietyOnes&mserno=201603090032",
+        "https://society.hccg.gov.tw/ch/home.jsp?id=129&parentpath=0%2C3%2C26&mcustomize=onemessages_view.jsp&toolsflag=Y&dataserno=202308040003&t=SocietyOnes&mserno=201603090032"
+      ],
+      "source_date": "2026-10",
+      "confidence": "medium",
+      "notes": "搜尋摘要稱每月1,200點為115年10月公告，前一版為800點；未見官方頁面全文，請以社會處公告為準。點數可用的交通工具範圍本次未取得。"
+    },
+    {
+      "id": "hsinchu-city-rehab-bus",
+      "name": "免費復康巴士服務",
+      "category": "transport",
+      "level": "mixed",
+      "summary": "新竹市社會處交通福利列有免費復康巴士服務。",
+      "eligibility": [
+        "領有身心障礙證明者（詳細資格本次未取得）"
+      ],
+      "benefit": "復康巴士接送服務，項目名稱標示為免費（服務範圍、預約方式本次未取得）",
+      "how_to_apply": "洽新竹市政府社會處",
+      "contact": "社會處 03-5352386",
+      "source_urls": [
+        "https://society.hccg.gov.tw/ch/home.jsp?id=129&parentpath=0%2C3%2C26&mcustomize=onemessages_view.jsp&toolsflag=Y&dataserno=202308040003&t=SocietyOnes&mserno=201603090032"
+      ],
+      "source_date": "unknown",
+      "confidence": "low",
+      "notes": "只在搜尋摘要的社會處服務清單中看到項目名稱，內容待補查。"
+    }
+  ]
+}
