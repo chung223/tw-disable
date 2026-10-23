@@ -112,7 +112,7 @@ function renderCard(b) {
     warn ? `<span class="badge warn">${esc(warn)}</span>` : "",
   ].join("");
   const sources = (b.source_urls || [])
-    .map((u) => `<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(hostname(u))}</a></li>`)
+    .map((u, i) => `<li><a href="${esc(u)}" target="_blank" rel="noopener">來源 ${i + 1}：${esc(hostname(u))}</a></li>`)
     .join("");
   const date = b.source_date && b.source_date !== "unknown" ? `資料年份 ${esc(b.source_date)}` : "資料年份不明";
   return `

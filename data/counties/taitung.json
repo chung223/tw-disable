@@ -1,0 +1,197 @@
+{
+  "county_id": "taitung",
+  "county_name": "臺東縣",
+  "agency": "臺東縣政府社會處",
+  "agency_url": "https://taisoc.taitung.gov.tw/",
+  "phone": "社會福利科 089-340720（傳真 089-340643）",
+  "collected_at": "2026-10-23",
+  "method": "web_search",
+  "notes": "以 WebSearch 限定 taitung.gov.tw 網域蒐集。臺東縣政府社會處網站的身心障礙福利頁面內容幾乎沒有被搜尋引擎收錄，多數資訊來自「臺東市區社福中心112年資源手冊」與社會處組織職掌，金額與分機可能已異動。社會處地址：臺東市桂林北路201號。蒐集途中整體搜尋額度用罄，以下項目尚未查證、未收錄：生活補助115年金額與資格、健保自付保費補助、復康巴士、愛心卡乘車補助、社區日照／家庭托顧／社區居住、個人助理／自立生活、手語翻譯、家庭照顧者支持、職業重建、急難救助、停車費減免、原住民身障者服務（原民處有「原住民社會福利」頁面 https://aborigine.taitung.gov.tw/cl.aspx?n=14340，內容未取得）、偏鄉就醫交通補助。社會處組織職掌另列有房屋租金補貼與購屋貸款利息補貼業務，細節未取得。搜尋摘要提到臺東有以「領有身心障礙者生活補助費」為條件的假牙補助，但來源不明，未收錄。國民年金保費減免（社會救助及社工科 089-350731）屬全國制度，未列入。",
+  "benefits": [
+    {
+      "id": "taitung-living-allowance",
+      "name": "身心障礙者生活補助",
+      "category": "economic",
+      "level": "central",
+      "summary": "依中央規定提供符合家庭經濟條件的身心障礙者每月生活補助，由臺東縣政府社會處承辦。",
+      "eligibility": [
+        "領有身心障礙證明，並符合中央規定的家庭經濟條件（臺東縣頁面細節未取得）"
+      ],
+      "benefit": "按月發給生活補助；臺東縣115年度金額未在臺東縣官方來源中取得。",
+      "how_to_apply": "洽臺東縣政府社會處或戶籍地公所。",
+      "contact": "臺東縣政府社會處 089-340720",
+      "target_groups": [
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://taisoc.taitung.gov.tw/WebSite/About/Organization.aspx?menuid=0zGMn1bvUYg%3D"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "社會處組織職掌列有「身心障礙生活津貼」業務。本項金額依中央標準，但未在臺東縣官方來源取得，請以臺東縣公告為準。"
+    },
+    {
+      "id": "taitung-respite-care",
+      "name": "身心障礙者臨時及短期照顧服務",
+      "category": "care",
+      "level": "central",
+      "summary": "為照顧身心障礙者的家庭提供機構內或到宅的臨時照顧，以及短期照顧，讓家庭照顧者喘息。",
+      "eligibility": [
+        "臺東縣領有身心障礙證明者及其家庭照顧者"
+      ],
+      "benefit": "112年資料：臨時照顧機構內定點照顧每小時250元、在宅照顧每小時450元；短期照顧每日補助1,800元。低收入戶全額補助，中低收入戶補助95%。",
+      "how_to_apply": "向臺東縣政府社會處社會福利科申請，由委託機構提供服務。",
+      "contact": "臺東縣政府社會處社會福利科 089-340720 分機128（依112年資源手冊）",
+      "target_groups": [
+        "家庭照顧者",
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://repat.taitung.gov.tw/img/ck/files/%E8%87%BA%E6%9D%B1%E5%B8%82%E5%8D%80%E7%A4%BE%E7%A6%8F%E4%B8%AD%E5%BF%83112%E5%B9%B4%E8%B3%87%E6%BA%90%E6%89%8B%E5%86%8A.pdf",
+        "https://taisoc.taitung.gov.tw/WebSite/About/Organization.aspx?menuid=0zGMn1bvUYg%3D"
+      ],
+      "source_date": "2023",
+      "confidence": "medium",
+      "notes": "一般戶的補助比例與每年時數上限未在搜尋結果中載明。"
+    },
+    {
+      "id": "taitung-day-residential-care",
+      "name": "身心障礙者日間照顧及住宿式照顧費用補助",
+      "category": "care",
+      "level": "central",
+      "summary": "補助使用日間照顧或住宿式照顧機構的身心障礙者部分費用。",
+      "eligibility": [
+        "領有身心障礙證明，使用日間照顧或住宿式照顧服務（家庭經濟條件依中央補助辦法）"
+      ],
+      "benefit": "依「身心障礙者日間照顧及住宿式照顧費用補助辦法」補助；補助比例與金額未在搜尋結果中載明。",
+      "how_to_apply": "向臺東縣政府社會處社會福利科申請。",
+      "contact": "臺東縣政府社會處社會福利科 089-340720 分機123、125（依112年資源手冊）",
+      "source_urls": [
+        "https://repat.taitung.gov.tw/img/ck/files/%E8%87%BA%E6%9D%B1%E5%B8%82%E5%8D%80%E7%A4%BE%E7%A6%8F%E4%B8%AD%E5%BF%83112%E5%B9%B4%E8%B3%87%E6%BA%90%E6%89%8B%E5%86%8A.pdf"
+      ],
+      "source_date": "2023",
+      "confidence": "medium"
+    },
+    {
+      "id": "taitung-assistive-devices",
+      "name": "身心障礙者生活輔具費用補助",
+      "category": "assistive",
+      "level": "central",
+      "summary": "依「臺東縣身心障礙者輔具費用補助標準表」補助身心障礙者購置生活輔具的費用。",
+      "eligibility": [
+        "臺東縣領有身心障礙證明者（資格依補助標準表）"
+      ],
+      "benefit": "依「臺東縣身心障礙者輔具費用補助標準表」補助；各品項金額未在搜尋結果中載明。",
+      "how_to_apply": "向戶籍地公所申請；亦可洽臺東縣輔具暨生活重建中心。",
+      "contact": "臺東縣政府社會處社會福利科 089-340720 分機109（依112年資源手冊）；臺東縣輔具暨生活重建中心 089-232263",
+      "source_urls": [
+        "https://repat.taitung.gov.tw/img/ck/files/%E8%87%BA%E6%9D%B1%E5%B8%82%E5%8D%80%E7%A4%BE%E7%A6%8F%E4%B8%AD%E5%BF%83112%E5%B9%B4%E8%B3%87%E6%BA%90%E6%89%8B%E5%86%8A.pdf",
+        "https://repat.taitung.gov.tw/"
+      ],
+      "source_date": "2023",
+      "confidence": "medium"
+    },
+    {
+      "id": "taitung-assistive-center",
+      "name": "臺東縣輔具資源中心服務（輔具租借）",
+      "category": "assistive",
+      "level": "local",
+      "summary": "臺東縣輔具資源中心提供輔具租借等服務，可在網站線上申請。",
+      "eligibility": [
+        "有輔具需求之臺東縣民（資格依中心規定）"
+      ],
+      "benefit": "提供輔具租借及相關服務；網站設有輔具資源平台與常見問題（例如輔具損壞後何時可再申請）。租借費用未在搜尋結果中載明。",
+      "how_to_apply": "於臺東縣輔具資源中心網站「線上申請—輔具租借」申請，或電洽中心。",
+      "contact": "臺東縣輔具暨生活重建中心 089-232263（依112年資源手冊）",
+      "source_urls": [
+        "https://repat.taitung.gov.tw/",
+        "https://repat.taitung.gov.tw/apply/borrow",
+        "https://repat.taitung.gov.tw/service/",
+        "https://repat.taitung.gov.tw/article/190"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium"
+    },
+    {
+      "id": "taitung-disability-assessment",
+      "name": "身心障礙鑑定與證明申請（新制鑑定）",
+      "category": "support",
+      "level": "central",
+      "summary": "身心障礙鑑定與證明由戶籍地公所受理。",
+      "eligibility": [
+        "設籍臺東縣、需申請或重新鑑定身心障礙證明者"
+      ],
+      "benefit": "受理新制身心障礙鑑定及證明申請。",
+      "how_to_apply": "至戶籍地鄉（鎮、市）公所申請。",
+      "contact": "臺東縣政府社會處社會福利科 089-340720 分機142（依112年資源手冊）",
+      "source_urls": [
+        "https://repat.taitung.gov.tw/img/ck/files/%E8%87%BA%E6%9D%B1%E5%B8%82%E5%8D%80%E7%A4%BE%E7%A6%8F%E4%B8%AD%E5%BF%83112%E5%B9%B4%E8%B3%87%E6%BA%90%E6%89%8B%E5%86%8A.pdf"
+      ],
+      "source_date": "2023",
+      "confidence": "medium"
+    },
+    {
+      "id": "taitung-case-management",
+      "name": "身心障礙者轉銜暨個案管理服務",
+      "category": "support",
+      "level": "central",
+      "summary": "由臺東縣政府社會處社會福利科受理身心障礙者轉銜與個案管理服務。",
+      "eligibility": [
+        "臺東縣領有身心障礙證明者及其家庭"
+      ],
+      "benefit": "提供轉銜與個案管理服務；服務內容細節未在搜尋結果中載明。",
+      "how_to_apply": "洽臺東縣政府社會處社會福利科。",
+      "contact": "臺東縣政府社會處社會福利科 089-340720",
+      "target_groups": [
+        "家庭照顧者"
+      ],
+      "source_urls": [
+        "https://repat.taitung.gov.tw/img/ck/files/%E8%87%BA%E6%9D%B1%E5%B8%82%E5%8D%80%E7%A4%BE%E7%A6%8F%E4%B8%AD%E5%BF%83112%E5%B9%B4%E8%B3%87%E6%BA%90%E6%89%8B%E5%86%8A.pdf"
+      ],
+      "source_date": "2023",
+      "confidence": "medium"
+    },
+    {
+      "id": "taitung-job-redesign",
+      "name": "身心障礙者職務再設計",
+      "category": "employment",
+      "level": "central",
+      "summary": "為身心障礙者提供就業輔具、改善職場環境與工作條件，協助穩定就業。",
+      "eligibility": [
+        "臺東縣身心障礙者（資格依職務再設計規定）"
+      ],
+      "benefit": "提供就業輔具、改善職場環境與工作條件；補助上限未在搜尋結果中載明。",
+      "how_to_apply": "洽臺東縣政府社會處（勞工行政科）。",
+      "target_groups": [
+        "求職者"
+      ],
+      "source_urls": [
+        "https://repat.taitung.gov.tw/img/ck/files/%E8%87%BA%E6%9D%B1%E5%B8%82%E5%8D%80%E7%A4%BE%E7%A6%8F%E4%B8%AD%E5%BF%83112%E5%B9%B4%E8%B3%87%E6%BA%90%E6%89%8B%E5%86%8A.pdf"
+      ],
+      "source_date": "2023",
+      "confidence": "medium",
+      "notes": "受理單位依社會處組織（含勞工行政科）推定，待確認。"
+    },
+    {
+      "id": "taitung-group-tour",
+      "name": "揪團遊臺東（長者及身心障礙者出遊交通補助）",
+      "category": "leisure",
+      "level": "local",
+      "summary": "臺東縣政府補助交通費，邀請長者與身心障礙者及陪伴親友組團出遊，115年加開假日場。",
+      "eligibility": [
+        "長者、身心障礙者及其陪伴親友"
+      ],
+      "benefit": "115年度續辦並加碼開放假日場；參加者每人只需負擔100元車輛清潔費，交通費由縣府補助。",
+      "how_to_apply": "依臺東縣政府公告報名（報名方式未在搜尋結果中載明）。",
+      "target_groups": [
+        "老年"
+      ],
+      "source_urls": [
+        "https://tour.taitung.gov.tw/zh-tw/news/details/6362"
+      ],
+      "source_date": "2026",
+      "confidence": "high",
+      "notes": "是否限設籍臺東縣、每團人數與行程未確認。"
+    }
+  ]
+}

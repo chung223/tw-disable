@@ -1,0 +1,230 @@
+{
+  "county_id": "hualien",
+  "county_name": "花蓮縣",
+  "agency": "花蓮縣政府社會處",
+  "agency_url": "https://sa.hl.gov.tw/",
+  "phone": "03-8227171（愛心卡業務：社會處社會行政科分機388、389）",
+  "collected_at": "2026-10-23",
+  "method": "web_search",
+  "notes": "以 WebSearch 限定 hl.gov.tw 網域蒐集，主要來源為花蓮縣政府社會處網站與花蓮縣主管法規系統。蒐集途中整體搜尋額度用罄，以下項目尚未查證、未收錄：復康巴士、臨時及短期照顧、社區日照／日間作業設施／社區居住、個人助理／自立生活、手語翻譯／同步聽打、鑑定窗口、家庭照顧者支持、職業重建（勞工單位）、急難救助、停車費減免、原住民身障者服務、偏鄉就醫交通補助。社會福利科職掌另列有身心障礙者托育養護費用補助、租賃房屋租金補助，細節未取得。居家使用維生器材及必要生活輔具用電優惠（https://sa.hl.gov.tw/Detail_sp/ba647c63e70345ee9d22fb48b2d7167f）屬全國一致制度，未列入本檔。",
+  "benefits": [
+    {
+      "id": "hualien-living-allowance",
+      "name": "身心障礙者生活補助",
+      "category": "economic",
+      "level": "central",
+      "summary": "提供符合家庭經濟條件的身心障礙者每月生活補助，金額依障礙等級與家庭經濟身分而定。",
+      "eligibility": [
+        "領有身心障礙證明",
+        "設籍並實際居住花蓮縣",
+        "最近一年居住國內超過183日",
+        "家庭總收入平均分配全家人口未達當年度每人每月最低生活費2.5倍，且未超過台灣地區平均每人每月消費支出1.5倍（115年度為38,787元）",
+        "動產限額依家庭人數增加；不動產（土地及房屋）價值以770萬元為限"
+      ],
+      "benefit": "115年度：列冊低收入戶極重度、重度及中度每人每月9,485元，輕度每人每月5,437元；列冊中低收入戶及其他符合資格者極重度、重度及中度每人每月5,437元，輕度每人每月4,049元。",
+      "how_to_apply": "向戶籍所在地鄉（鎮、市）公所或花蓮縣政府社會處洽詢申請（搜尋結果未詳載申請流程）。",
+      "target_groups": [
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://sa.hl.gov.tw/Detail_sp/919c84e122a24e86ba3ffddffbad4eb6",
+        "https://sa.hl.gov.tw/List_sp/df505e0d35c548d4bc57470513f7782d"
+      ],
+      "source_date": "2026",
+      "confidence": "high",
+      "notes": "領有本補助者，可申請縣府「低(中低)收入戶及弱勢族群醫療及住院照顧費用補助」（醫療費補助70%）。"
+    },
+    {
+      "id": "hualien-insurance-premium",
+      "name": "身心障礙者參加社會保險保險費補助",
+      "category": "economic",
+      "level": "central",
+      "summary": "補助身心障礙者參加社會保險的自付保費，比例依障礙等級而定，免提出申請。",
+      "eligibility": [
+        "設籍花蓮縣",
+        "領有身心障礙手冊或證明",
+        "已參加社會保險（只補助自付部分）"
+      ],
+      "benefit": "極重度及重度自付保費全額補助；中度補助二分之一；輕度補助四分之一。",
+      "how_to_apply": "免提出申請，取得身心障礙資格後縣府主動將資料送交投保單位；不想公開身分者可申請勞健保不列入媒體交換。",
+      "source_urls": [
+        "https://sa.hl.gov.tw/Detail_sp/6f3a241822594b2eb75f960ad6eeda55",
+        "https://sa.hl.gov.tw/List_sp/df505e0d35c548d4bc57470513f7782d"
+      ],
+      "source_date": "2020",
+      "confidence": "medium",
+      "notes": "頁面上線日期為2019年10月7日，申請書檔名標示1091216（民國109年12月），內容可能不是最新版。未找到花蓮縣自辦加碼。"
+    },
+    {
+      "id": "hualien-day-residential-care",
+      "name": "身心障礙者日間照顧及住宿式照顧費用補助",
+      "category": "care",
+      "level": "central",
+      "summary": "補助使用日間照顧或住宿式照顧機構的身心障礙者部分費用。",
+      "eligibility": [
+        "領有身心障礙證明，使用日間照顧或住宿式照顧服務（家庭經濟條件見社會處頁面）"
+      ],
+      "benefit": "依「身心障礙者日間照顧及住宿式照顧費用補助辦法」補助；補助比例與金額未在搜尋結果中載明。",
+      "how_to_apply": "參閱花蓮縣政府社會處頁面或洽社會處社會福利科。",
+      "source_urls": [
+        "https://sa.hl.gov.tw/Detail_sp/4ec7b8804cf044c8987ce30029ba4497"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium"
+    },
+    {
+      "id": "hualien-medical-care-subsidy",
+      "name": "花蓮縣低(中低)收入戶及弱勢族群醫療及住院照顧費用補助",
+      "category": "medical",
+      "level": "local",
+      "summary": "花蓮縣自辦的醫療費與住院照顧費補助，領有身心障礙者生活補助的人可獲醫療費七成補助。",
+      "eligibility": [
+        "設籍花蓮縣之低收入戶、中低收入戶及弱勢族群",
+        "領有身心障礙者生活補助或中低收入老人生活津貼者，適用醫療費用70%補助"
+      ],
+      "benefit": "領有身心障礙者生活補助或中老津貼者，補助醫療費用70%；住院照顧費用另有每日與每年補助上限（金額未在搜尋結果中載明）。同一事由不得重複申請縣府其他補助。",
+      "how_to_apply": "依補助規定向花蓮縣政府社會處申請。",
+      "target_groups": [
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://sa.hl.gov.tw/Detail_sp/456e45a40d7f44c7a14eb687e1d6f373"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "住院照顧費每日、每年上限及其他身分的補助比例待查。"
+    },
+    {
+      "id": "hualien-love-taxi",
+      "name": "花蓮縣敬老愛心計程車（身心障礙者愛心卡搭乘計程車補助）",
+      "category": "transport",
+      "level": "local",
+      "summary": "持花蓮縣敬老愛心卡的身心障礙者搭乘縣府合作計程車，縣府補助車資七成，每月最多1,500元。",
+      "eligibility": [
+        "設籍花蓮縣且領有有效身心障礙證明，持花蓮縣敬老愛心卡者（限本人使用）",
+        "搭乘起站或訖站須位於花蓮縣境內"
+      ],
+      "benefit": "縣府補助每趟車資70%，民眾自付30%（由卡片儲值扣款）；每月至多補助1,500點（元），自115年6月1日起由1,000元調升，不需換卡。點數每月重新計算，未用完不累計；跨縣市路段全額自付。",
+      "how_to_apply": "持卡搭乘貼有辨識貼紙的合作車行車輛，下車刷卡；搭乘前需先儲值（可在超商儲值）。可電話向合作車隊叫車並告知持有愛心卡，通用計程車（可載輪椅）03-8512666。",
+      "contact": "花蓮縣政府社會處社會行政科 03-8227171 分機388、389",
+      "source_urls": [
+        "https://sa.hl.gov.tw/Detail_sp/4257cd2ac3d64f259b7b27c1b6d93de5",
+        "https://sa.hl.gov.tw/Detail_sp/bd266604a3bc4df4867a5fdbcb53c9a6",
+        "https://sa.hl.gov.tw/Upload/202510140913013966461.pdf",
+        "https://glrs.hl.gov.tw/glrsout/LawContent.aspx?id=GL001278",
+        "https://www.hl.gov.tw/News_Content.aspx?n=32725&s=170645"
+      ],
+      "source_date": "2026-06",
+      "confidence": "high",
+      "notes": "113年3月1日全面上路，114年1月1日起合作車行增至10家。縣府作業要點與114年計畫文件仍寫每月1,000元，以社會處115年最新公告為準。截至114年6月全縣有2萬6,142名身心障礙者。"
+    },
+    {
+      "id": "hualien-love-card-transit",
+      "name": "花蓮縣敬老及身心障礙者乘車補助（愛心卡搭乘客運、鐵路）",
+      "category": "transport",
+      "level": "local",
+      "summary": "身心障礙者持花蓮縣愛心卡可免費搭乘縣府簽約的縣內客運，縣境內鐵路車資也可申請補助。",
+      "eligibility": [
+        "設籍花蓮縣且領有有效身心障礙證明"
+      ],
+      "benefit": "持愛心卡免費搭乘與縣府簽約的縣內客運路線；搭乘縣境內鐵路路段，可持票根至戶籍地公所申請補助。持愛心陪伴卡者陪同搭乘大眾運輸享半價（計程車不適用）。",
+      "how_to_apply": "攜帶身分證、身心障礙證明及一吋或二吋大頭照1張，至縣內任一戶政事務所臨櫃申請愛心卡；鐵路補助持票根至戶籍地公所申請。",
+      "documents": [
+        "身分證",
+        "身心障礙證明",
+        "一吋或二吋大頭照1張"
+      ],
+      "source_urls": [
+        "https://glrs.hl.gov.tw/glrsout/LawContent.aspx?id=GL001278",
+        "https://glrs.hl.gov.tw/glrsout/LawContent.aspx?id=GL000150",
+        "https://sfhr.hl.gov.tw/News_Content.aspx?n=725&s=82784",
+        "https://gfhr.hl.gov.tw/News_Content.aspx?n=788&s=82604",
+        "https://hlhr.hl.gov.tw/News_Content.aspx?n=1113&s=82865"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "依據「花蓮縣敬老及身心障礙者乘車補助作業要點」與「花蓮縣老人及身心障礙者愛心乘車費用補助基準」。鐵路補助比例與簽約客運路線未在搜尋結果中載明；部分鄉鎮公所的舊公告（50%補助）已非現行規定。"
+    },
+    {
+      "id": "hualien-guardianship-assessment",
+      "name": "花蓮縣身心障礙者成年監護及輔助宣告鑑定費補助計畫",
+      "category": "support",
+      "level": "local",
+      "summary": "補助身心障礙者聲請成年監護或輔助宣告時的鑑定費用，112年度試辦、113年度續辦。",
+      "eligibility": [
+        "依年度計畫規定之花蓮縣身心障礙者（資格細節未在搜尋結果中載明）"
+      ],
+      "benefit": "補助聲請成年監護及輔助宣告所需的鑑定費；補助金額未在搜尋結果中載明。",
+      "how_to_apply": "依年度計畫公告向花蓮縣政府社會處申請。",
+      "source_urls": [
+        "https://sa.hl.gov.tw/Detail_sp/c4b8097386cf48c4ae3899af6ba8c728",
+        "https://sa.hl.gov.tw/Detail_sp/dd17ce88062f4370ab9c7e0458bf66a7"
+      ],
+      "source_date": "2024",
+      "confidence": "medium",
+      "notes": "114、115年度是否續辦未確認。"
+    },
+    {
+      "id": "hualien-assistive-devices",
+      "name": "身心障礙者生活輔助器具補助",
+      "category": "assistive",
+      "level": "central",
+      "summary": "由花蓮縣政府社會處社會福利科辦理身心障礙者生活輔助器具補助。",
+      "eligibility": [
+        "花蓮縣領有身心障礙證明者（資格依輔具費用補助規定）"
+      ],
+      "benefit": "補助生活輔助器具費用；品項與金額見社會處輔具專區（未在搜尋結果中載明）。",
+      "how_to_apply": "參閱花蓮縣政府社會處「輔具專區」或洽社會福利科。",
+      "source_urls": [
+        "https://sa.hl.gov.tw/Detail_sp/662fed91a0744d67b768f1acef4c91ec",
+        "https://sa.hl.gov.tw/Detail_sp/aca9add5a50a42878441f37dd214499a"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium"
+    },
+    {
+      "id": "hualien-personal-care-home-care",
+      "name": "身心障礙者個人照顧服務（含家庭托顧）",
+      "category": "care",
+      "level": "central",
+      "summary": "花蓮縣政府社會處的個人照顧服務專區，含身心障礙者家庭托顧等服務。",
+      "eligibility": [
+        "花蓮縣領有身心障礙證明者（各項服務另有資格規定）"
+      ],
+      "benefit": "提供家庭托顧等個人照顧服務；服務項目明細與收費未在搜尋結果中載明。",
+      "how_to_apply": "參閱社會處「個人照顧服務」頁面或洽社會福利科。",
+      "target_groups": [
+        "家庭照顧者"
+      ],
+      "source_urls": [
+        "https://sa.hl.gov.tw/Detail_sp/6adaebb906744041a9e09cb709efa470",
+        "https://sa.hl.gov.tw/Detail_sp/9c526fb510374cf598346d5185ca7e00"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "僅確認社會處有個人照顧服務頁面與家托宣導影片，臨時及短期照顧、社區日照等是否列在同頁未確認。"
+    },
+    {
+      "id": "hualien-psych-coop-sites",
+      "name": "精神障礙者協作模式服務據點",
+      "category": "support",
+      "level": "central",
+      "summary": "依強化社會安全網第二期計畫，花蓮縣政府補助民間單位設置精神障礙者協作模式服務據點。",
+      "eligibility": [
+        "花蓮縣精神障礙者及其家庭（服務對象依據點規定）"
+      ],
+      "benefit": "115年度補助計畫簡章（草案）規劃補助民間單位辦理服務據點；據點地點與服務內容未在搜尋結果中載明。",
+      "how_to_apply": "洽花蓮縣政府社會處查詢據點資訊。",
+      "target_groups": [
+        "精神障礙",
+        "家庭照顧者"
+      ],
+      "source_urls": [
+        "https://sa.hl.gov.tw/Upload/202512181103037944961.pdf"
+      ],
+      "source_date": "2025-12",
+      "confidence": "medium",
+      "notes": "來源為對民間單位的補助計畫簡章草案，不是對個人的申請公告。"
+    }
+  ]
+}
