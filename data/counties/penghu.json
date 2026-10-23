@@ -1,0 +1,505 @@
+{
+  "county_id": "penghu",
+  "county_name": "澎湖縣",
+  "agency": "澎湖縣政府社會處",
+  "agency_url": "https://www.penghu.gov.tw/society/",
+  "phone": "06-9274400（縣府總機，社會福利科轉531、247、288）",
+  "collected_at": "2026-10-23",
+  "method": "web_search",
+  "notes": "以 WebSearch（allowed_domains 限 penghu.gov.tw，含社會處、長照管理中心、線上申辦網站、主管法規系統）共14次查詢整理，未能直接開啟原始頁面與 PDF。主要來源為《澎湖縣身心障礙者福利資源手冊（113年修訂）》與《身心障礙者婚姻及生育輔導福利資源手冊（114年9月）》的搜尋摘要，115年度的一般福利手冊或金額公告未查到。未收錄或未查到：澎湖 iPASS 社福卡（社會處網站有此項目，但點數、公車或計程車補助內容未取得；目前「Like澎湖」方案的全縣公車免費為一般旅遊推廣）、計程車補助、身障者專屬船票優惠（車船處列有設籍望安、七美居民免費搭船及冬季七折等縣民優惠，非身障專屬且資料為2016年）、醫療費用及醫療輔具補助金額（手冊列有項目但未見金額）、住院看護補助（只見中低收入戶通用規定）、緊急救援與送餐、照顧者津貼、社區居住、運動中心或場館優惠、急難救助（一般縣民適用）。長期照顧管理中心電話06-9267242；輔具資源中心06-9262740。",
+  "benefits": [
+    {
+      "id": "penghu-living-allowance",
+      "name": "身心障礙者生活補助",
+      "category": "economic",
+      "level": "central",
+      "summary": "依家庭經濟狀況與障礙等級按月發給生活補助。列冊低收入戶及中低收入戶的身心障礙者由縣府依名冊核發，免另行申請。",
+      "eligibility": [
+        "設籍澎湖縣且實際居住，領有身心障礙證明",
+        "家庭總收入平均分配全家人口，每人每月未達當年度最低生活費2.5倍",
+        "全戶存款及不動產在規定數額以下",
+        "未安置於社會福利機構、精神復健機構、護理之家或榮民之家"
+      ],
+      "benefit": "113年手冊所列：列冊低收入戶之中度以上（含重度、極重度）每人每月9,485元，輕度每人每月5,437元；列冊中低收入戶（1.5倍）及符合2.5倍標準者，中度以上每人每月5,437元，輕度每人每月4,049元。",
+      "how_to_apply": "低收入戶及中低收入戶之身心障礙者免予申請，由縣府依名冊核發；其他人檢附全戶戶籍資料、私章及相關證明文件申請（受理窗口搜尋結果未明列，請洽縣府社會處或戶籍地鄉市公所）。",
+      "documents": [
+        "全戶戶籍資料",
+        "私章",
+        "相關證明文件"
+      ],
+      "contact": "澎湖縣政府社會處社會福利科 06-9274400 轉531、247、288",
+      "target_groups": [
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://www.penghu.gov.tw/uploaddowndoc?file=unit01/202409181148040.pdf&filedisplay=113%E5%B9%B4%E6%BE%8E%E6%B9%96%E7%B8%A3%E8%BA%AB%E5%BF%83%E9%9A%9C%E7%A4%99%E8%80%85%E7%A6%8F%E5%88%A9%E8%B3%87%E6%BA%90%E6%89%8B%E5%86%8A(0918%E4%BF%AE).pdf&flag=doc",
+        "https://www.penghu.gov.tw/society/home.jsp?id=225"
+      ],
+      "source_date": "2024",
+      "confidence": "medium",
+      "notes": "金額取自《澎湖縣身心障礙者福利資源手冊（113年修訂）》搜尋摘要，115年度標準未查到。存款與不動產上限數額搜尋結果未顯示。"
+    },
+    {
+      "id": "penghu-insurance-premium",
+      "name": "身心障礙者參加社會保險保險費補助",
+      "category": "economic",
+      "level": "central",
+      "summary": "依障礙等級補助身心障礙者自付的社會保險保險費；健保部分由縣府主動將資料送健保署辦理，免申請。",
+      "eligibility": [
+        "設籍澎湖縣並領有身心障礙證明之被保險人"
+      ],
+      "benefit": "極重度、重度全額補助；中度補助自付保費1/2；輕度補助自付保費1/4（國民年金保險另有不同比例）。",
+      "how_to_apply": "設籍本縣之身心障礙者由縣府主動將資料送中央健康保險署辦理，無需另行申請。",
+      "contact": "澎湖縣政府社會處社會福利科 06-9274400 轉531、247",
+      "source_urls": [
+        "https://www.penghu.gov.tw/uploaddowndoc?file=unit01/202409181148040.pdf&filedisplay=113%E5%B9%B4%E6%BE%8E%E6%B9%96%E7%B8%A3%E8%BA%AB%E5%BF%83%E9%9A%9C%E7%A4%99%E8%80%85%E7%A6%8F%E5%88%A9%E8%B3%87%E6%BA%90%E6%89%8B%E5%86%8A(0918%E4%BF%AE).pdf&flag=doc",
+        "https://www.penghu.gov.tw/society/home.jsp?id=225"
+      ],
+      "source_date": "2024",
+      "confidence": "medium",
+      "notes": "國民年金保險的補助比例搜尋結果未顯示；勞保、農保等是否需另行申請未確認。"
+    },
+    {
+      "id": "penghu-assistive-devices",
+      "name": "身心障礙者生活及醫療輔具費用補助",
+      "category": "assistive",
+      "level": "central",
+      "summary": "補助身心障礙者購買健保未給付的生活及醫療輔具，以每人2年4項為原則，須先申請核定後再購買。",
+      "eligibility": [
+        "設籍澎湖縣持有身心障礙證明，近1年內居住國內超過183日",
+        "申請項目未納入全民健康保險給付範圍",
+        "需評估之項目須先完成輔具評估"
+      ],
+      "benefit": "依中央輔具費用補助基準補助，每人2年4項輔具為原則（生活輔具及醫療輔具併計）；因障礙類別或等級不符、未達使用年限或超過2年4項者，可向輔具中心提出專案申請。",
+      "how_to_apply": "線上申辦（https://atonline.sfaa.gov.tw），或至戶籍地鄉市公所社會課、澎湖縣輔具資源中心（馬公市同和路33號，身障中心1樓）現場申請；採預先申請制，收到核定公文後再購買。免評估項目於購買後6個月內送件核銷，收件後1個月內撥款。",
+      "contact": "澎湖縣輔具資源中心 06-9262740",
+      "source_urls": [
+        "https://www.penghu.gov.tw/society/home.jsp?id=214&act=view&dataserno=201309260012",
+        "https://www.penghu.gov.tw/uploaddowndoc?file=unit01/202409181148040.pdf&filedisplay=113%E5%B9%B4%E6%BE%8E%E6%B9%96%E7%B8%A3%E8%BA%AB%E5%BF%83%E9%9A%9C%E7%A4%99%E8%80%85%E7%A6%8F%E5%88%A9%E8%B3%87%E6%BA%90%E6%89%8B%E5%86%8A(0918%E4%BF%AE).pdf&flag=doc",
+        "https://www.penghu.gov.tw/longcare/home.jsp?id=36"
+      ],
+      "source_date": "2024",
+      "confidence": "medium",
+      "notes": "輔具資源中心地址另一頁寫作同和路32號，前往前請確認。長照2.0輔具另由長期照顧管理中心受理（06-9267242），與身障輔具補助不重複請領；輔具與居家無障礙環境改善採二擇一。"
+    },
+    {
+      "id": "penghu-rehab-bus",
+      "name": "澎湖縣復康巴士",
+      "category": "transport",
+      "level": "local",
+      "summary": "縣府委託營運的復康巴士，以乘坐輪椅的重度肢體障礙者等為優先服務對象，乘客免付費。",
+      "eligibility": [
+        "第一類（優先）：設籍澎湖縣且領有身心障礙證明之重度以上肢體障礙者、中度以上肢體障礙且具下肢不便者等",
+        "身心障礙者須為乘坐輪椅，原則上應有必要陪伴者1人陪同搭乘",
+        "長照交通接送：經澎湖縣長期照顧管理中心評估失能程度、下肢不便需乘坐輪椅者，可用於就醫、復健、洗腎"
+      ],
+      "benefit": "乘客免收任何費用。服務時間：平日08:00至12:30、13:30至18:00，週六08:00至12:00，夜間彈性服務至21:00，國定假日休息。",
+      "how_to_apply": "搭車前30日內預約：電話(06)921-2239、網路預約 https://pub-ph-reha-eden.leaftech.tw/ ，聽障及語障者可傳真(06)921-1635。",
+      "contact": "復康巴士預約專線 06-9212239",
+      "target_groups": [
+        "肢體障礙"
+      ],
+      "source_urls": [
+        "https://www.penghu.gov.tw/society/home.jsp?id=128",
+        "https://www.penghu.gov.tw/uploaddowndoc?file=unit01/202303071850110.pdf&filedisplay=%E6%BE%8E%E6%B9%96%E7%B8%A3%E6%94%BF%E5%BA%9C%E8%BE%A6%E7%90%86%E8%BA%AB%E5%BF%83%E9%9A%9C%E7%A4%99%E8%80%85%E5%BE%A9%E5%BA%B7%E5%B7%B4%E5%A3%AB%E5%A7%94%E8%A8%97%E6%9C%8D%E5%8B%99%E6%A1%88%E4%B9%98%E5%AE%A2%E6%9C%8D%E5%8B%99%E9%A0%88%E7%9F%A5.pdf&flag=pdf"
+      ],
+      "source_date": "2023",
+      "confidence": "medium",
+      "notes": "服務對象另有其他類別，搜尋摘要只列出第一類。搭乘發生事故依強制汽車責任保險及乘客險理賠。"
+    },
+    {
+      "id": "penghu-dialysis-transport",
+      "name": "洗腎者交通補助費",
+      "category": "transport",
+      "level": "local",
+      "summary": "澎湖縣自辦，補助洗腎的身心障礙者往返就醫交通費，赴臺灣本島洗腎者也可申請。",
+      "eligibility": [
+        "設籍澎湖縣，領有重要器官失去功能（腎臟）之身心障礙證明者"
+      ],
+      "benefit": "每人每月最高2,000元：在縣內洗腎每月6次以上補助2,000元，6次以下每次補助350元；於臺灣本島就醫洗腎者每月2次以上補助2,000元，每次1,000元。",
+      "how_to_apply": "向澎湖縣政府社會處申請（受理窗口搜尋結果未明列）；赴臺灣本島洗腎者須附來回機票存根及就醫診斷證明。",
+      "documents": [
+        "臺灣本島就醫者：來回機票存根、就醫診斷證明"
+      ],
+      "contact": "澎湖縣政府社會處社會福利科 06-9274400 轉531、247、288",
+      "source_urls": [
+        "https://www.penghu.gov.tw/society/home.jsp?id=128",
+        "https://www.penghu.gov.tw/uploaddowndoc?file=unit01/202409181148040.pdf&filedisplay=113%E5%B9%B4%E6%BE%8E%E6%B9%96%E7%B8%A3%E8%BA%AB%E5%BF%83%E9%9A%9C%E7%A4%99%E8%80%85%E7%A6%8F%E5%88%A9%E8%B3%87%E6%BA%90%E6%89%8B%E5%86%8A(0918%E4%BF%AE).pdf&flag=doc"
+      ],
+      "source_date": "2024",
+      "confidence": "medium"
+    },
+    {
+      "id": "penghu-airfare-discount",
+      "name": "設籍澎湖身心障礙者搭機3.5折票價優惠",
+      "category": "transport",
+      "level": "local",
+      "summary": "澎湖縣自110年1月1日起，與航空公司簽約讓設籍本縣的身心障礙者及必要陪伴者搭乘國內定期航線享3.5折票價。",
+      "eligibility": [
+        "設籍澎湖縣並領有身心障礙證明者",
+        "必要陪伴者一人（須與身心障礙者同時辦理）"
+      ],
+      "benefit": "國內定期航線機票3.5折；與離島居民最高7折優惠擇最優規定辦理。",
+      "how_to_apply": "於超商、航空公司官網或機場櫃台購票，搭機時出示身心障礙證明、國民身分證或戶口名簿。",
+      "documents": [
+        "身心障礙證明",
+        "國民身分證或戶口名簿"
+      ],
+      "source_urls": [
+        "https://www.penghu.gov.tw/tourism/home.jsp?id=61&act=view&dataserno=10912290012",
+        "https://www.penghu.gov.tw/booking/home.jsp?id=8&act=view&dataserno=10912290012"
+      ],
+      "source_date": "2020-12",
+      "confidence": "medium",
+      "notes": "公告為109年12月發布，現行是否仍適用及適用航線請向航空公司或縣府旅遊處確認。全國性的大眾運輸半價優待未另列。"
+    },
+    {
+      "id": "penghu-medical-transfer-transport",
+      "name": "嚴重或緊急傷病患運送轉診及病危返鄉交通費補助（赴臺就醫）",
+      "category": "medical",
+      "level": "local",
+      "summary": "設籍澎湖的縣民因嚴重或緊急傷病須轉診赴臺就醫或病危返鄉，患者及陪同親屬一人可依票價核實補助交通費。此為全體縣民適用的離島措施，非身障專屬。",
+      "eligibility": [
+        "設籍澎湖縣之縣民",
+        "經指定醫院開立申請表之嚴重或緊急傷病轉診或病危返鄉"
+      ],
+      "benefit": "患者及陪同親屬1人依票價核實補助交通費；不含健康檢查、身心障礙鑑定等非就醫費用。",
+      "how_to_apply": "由指定醫院開立申請表後，依澎湖線上申辦網站說明提出申請。",
+      "source_urls": [
+        "https://eservice.penghu.gov.tw/Service_Content.aspx?n=AB8CF1AC14876400&p=94F4A2897E0F4D22&s=F09FE294F24E4DBA"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "依「澎湖縣嚴重或緊急傷病患運送轉診及病危返鄉交通費補助辦法」辦理。早年的離島急重症轉診包船交通費補助自治條例已於108年廢止。"
+    },
+    {
+      "id": "penghu-parking-permit",
+      "name": "身心障礙者專用停車位識別證",
+      "category": "transport",
+      "level": "central",
+      "summary": "經需求評估為行動不便的身心障礙者可申請專用停車位識別證，一人一證，可臨櫃、郵寄或線上申請。",
+      "eligibility": [
+        "設籍澎湖縣並領有身心障礙證明，經需求評估屬「行動不便」",
+        "申請人為本人或其配偶、一親等親屬；限一人一證"
+      ],
+      "benefit": "核發身心障礙者專用停車位識別證，使用期限不得超過身心障礙證明有效期限。",
+      "how_to_apply": "親自至縣府社會處社會福利科辦理；或郵寄應備文件影本並附回郵信封（信封註明「身障停車證」）；或透過澎湖線上申辦系統申請，審核通過後寄至居住地址。期滿前一個月內依需求評估結果重新申請。",
+      "contact": "澎湖縣政府社會處 06-9274400 轉560、562",
+      "source_urls": [
+        "https://www.penghu.gov.tw/society/home.jsp?id=130&act=view&dataserno=201309250007",
+        "https://www.penghu.gov.tw/uploaddowndoc?file=unit01/202409181148040.pdf&filedisplay=113%E5%B9%B4%E6%BE%8E%E6%B9%96%E7%B8%A3%E8%BA%AB%E5%BF%83%E9%9A%9C%E7%A4%99%E8%80%85%E7%A6%8F%E5%88%A9%E8%B3%87%E6%BA%90%E6%89%8B%E5%86%8A(0918%E4%BF%AE).pdf&flag=doc"
+      ],
+      "source_date": "2024",
+      "confidence": "medium"
+    },
+    {
+      "id": "penghu-parking-space-subsidy",
+      "name": "身心障礙者購買停車位貸款利息補貼或承租停車位補助",
+      "category": "transport",
+      "level": "mixed",
+      "summary": "經濟弱勢的身心障礙車主購買或承租停車位，可擇一申請貸款利息補貼或租金補助，補助比例依經濟身分而定。",
+      "eligibility": [
+        "設籍澎湖縣並持有身心障礙證明",
+        "低收入戶、中低收入戶或領有身心障礙者生活補助費者",
+        "本人為車輛所有人，並持有同種車類有效駕照",
+        "未曾接受政府同性質貸款或補助",
+        "已貸款購買停車位，或已承租停車位且租期逾三個月",
+        "現未入住24小時住宿機構；車位須供停車使用，不得轉售、轉租或轉借"
+      ],
+      "benefit": "承租停車位：低收入戶補助實際月租金50%、中低收入戶40%、領生活補助費者25%，每月最高1,000元（保證金、公共管理費不補助）。購買停車位貸款利息：補貼貸款利率與國民住宅優惠利率之利差，低收入戶全額、中低收入戶80%、領生活補助費者50%，依實際貸款年限，最長十年。",
+      "how_to_apply": "向澎湖縣政府或戶籍所在地鄉（市）公所申請；貸款利息補貼於每年度結束後一個月內檢附全年繳款證明申請，承租補助於次月十日前匯入指定帳戶。",
+      "target_groups": [
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://law.penghu.gov.tw/glrsnewsout/LawContent.aspx?id=GL000081",
+        "https://www.penghu.gov.tw/uploaddowndoc?file=unit01/202409181148040.pdf&filedisplay=113%E5%B9%B4%E6%BE%8E%E6%B9%96%E7%B8%A3%E8%BA%AB%E5%BF%83%E9%9A%9C%E7%A4%99%E8%80%85%E7%A6%8F%E5%88%A9%E8%B3%87%E6%BA%90%E6%89%8B%E5%86%8A(0918%E4%BF%AE).pdf&flag=doc"
+      ],
+      "source_date": "2024",
+      "confidence": "medium",
+      "notes": "作業要點為103年發布，113年手冊內容大致相同。當年度預算用罄即不再核定補助。"
+    },
+    {
+      "id": "penghu-rent-subsidy",
+      "name": "身心障礙者房屋租金補助",
+      "category": "economic",
+      "level": "mixed",
+      "summary": "設籍澎湖的經濟弱勢身心障礙者在縣內租屋，可依家庭人口數申請每月租金補助。",
+      "eligibility": [
+        "設籍澎湖縣，領有身心障礙證明",
+        "家庭總收入平均未達當年度每人每月最低生活費2.5倍，且未超過臺灣地區平均每人每月消費支出1.5倍",
+        "租賃房屋位於澎湖縣，並具合法租賃證明",
+        "與內政部營建署住宅補貼方案擇一辦理"
+      ],
+      "benefit": "113年手冊所列每月上限：單身家庭1,200元、二口家庭1,800元、三口以上家庭2,400元；租屋保證金、公共管理費等不予補助。",
+      "how_to_apply": "向戶籍地鄉市公所社會課（民政課）申請。",
+      "target_groups": [
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://www.penghu.gov.tw/uploaddowndoc?file=unit01/202409181148040.pdf&filedisplay=113%E5%B9%B4%E6%BE%8E%E6%B9%96%E7%B8%A3%E8%BA%AB%E5%BF%83%E9%9A%9C%E7%A4%99%E8%80%85%E7%A6%8F%E5%88%A9%E8%B3%87%E6%BA%90%E6%89%8B%E5%86%8A(0918%E4%BF%AE).pdf&flag=doc",
+        "https://www.penghu.gov.tw/society/home.jsp?id=225&act=view&dataserno=201907130003"
+      ],
+      "source_date": "2024",
+      "confidence": "medium",
+      "notes": "舊版網頁的計算方式不同（按月每平方公尺補助60元，最高20平方公尺，單身家庭以租金總額50%為上限），以現行公告為準。與購屋貸款利息補貼擇一申請。"
+    },
+    {
+      "id": "penghu-mortgage-interest",
+      "name": "身心障礙者購屋貸款利息補貼",
+      "category": "economic",
+      "level": "mixed",
+      "summary": "設籍澎湖的身心障礙者在縣內貸款購屋，可申請補貼貸款利率與國宅優惠利率間的利差，最長15年。",
+      "eligibility": [
+        "設籍並實際居住澎湖縣，領有身心障礙證明",
+        "家庭總收入符合規定上限",
+        "所購房屋位於澎湖縣內",
+        "與房屋租金補助擇一申請"
+      ],
+      "benefit": "補助購屋貸款利率與國民住宅貸款優惠利率之差額，補助期限最長15年。",
+      "how_to_apply": "向戶籍地鄉市公所社會課或澎湖縣政府社會處洽詢申請（受理窗口搜尋結果未明列）。",
+      "contact": "澎湖縣政府社會處 06-9274400",
+      "target_groups": [
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://www.penghu.gov.tw/uploaddowndoc?file=unit01/202409181148040.pdf&filedisplay=113%E5%B9%B4%E6%BE%8E%E6%B9%96%E7%B8%A3%E8%BA%AB%E5%BF%83%E9%9A%9C%E7%A4%99%E8%80%85%E7%A6%8F%E5%88%A9%E8%B3%87%E6%BA%90%E6%89%8B%E5%86%8A(0918%E4%BF%AE).pdf&flag=doc",
+        "https://www.penghu.gov.tw/society/home.jsp?id=225&act=view&dataserno=201907130003"
+      ],
+      "source_date": "2024",
+      "confidence": "medium"
+    },
+    {
+      "id": "penghu-day-residential-care",
+      "name": "身心障礙者日間照顧及住宿式照顧費用補助",
+      "category": "care",
+      "level": "central",
+      "summary": "補助身心障礙者使用日間照顧或住宿式照顧機構的費用，依家庭收入相對於最低生活費的倍數分級補助。",
+      "eligibility": [
+        "設籍澎湖縣領有身心障礙證明，且實際居住本縣",
+        "家庭總收入符合「身心障礙者日間照顧及住宿式照顧費用補助辦法」標準（以當年度每人每月最低生活費倍數計算）"
+      ],
+      "benefit": "依中央補助辦法按家庭收入分級補助日間照顧或住宿式照顧費用（各級比例與收入上限搜尋結果未顯示）。",
+      "how_to_apply": "檢附安置機構入住證明等文件，向澎湖縣政府社會處洽詢申請（受理窗口搜尋結果未明列）。",
+      "documents": [
+        "安置機構入住證明"
+      ],
+      "contact": "澎湖縣政府社會處 06-9274400",
+      "target_groups": [
+        "低收入或中低收入",
+        "家庭照顧者"
+      ],
+      "source_urls": [
+        "https://www.penghu.gov.tw/uploaddowndoc?file=unit01/202409181148040.pdf&filedisplay=113%E5%B9%B4%E6%BE%8E%E6%B9%96%E7%B8%A3%E8%BA%AB%E5%BF%83%E9%9A%9C%E7%A4%99%E8%80%85%E7%A6%8F%E5%88%A9%E8%B3%87%E6%BA%90%E6%89%8B%E5%86%8A(0918%E4%BF%AE).pdf&flag=doc",
+        "https://www.penghu.gov.tw/society/home.jsp?id=225&act=view&dataserno=201309260016"
+      ],
+      "source_date": "2024",
+      "confidence": "medium"
+    },
+    {
+      "id": "penghu-community-day-care",
+      "name": "身心障礙者社區式日間照顧",
+      "category": "care",
+      "level": "central",
+      "summary": "在馬公、湖西、西嶼及離島望安、七美等據點，白天照顧成年身心障礙者，僅酌收餐費與材料費。",
+      "eligibility": [
+        "居住澎湖縣18歲以上（35歲以上優先），領有身心障礙證明",
+        "經需求評估（ICF）社工及服務提供單位評估有日間照顧服務需求",
+        "未安置於身心障礙福利機構或精神復健機構"
+      ],
+      "benefit": "日間照顧服務；酌收每日餐費及課程材料費，每月以不超過2,000元為原則，低收入戶及中低收入戶收取50%。",
+      "how_to_apply": "向各據點或澎湖縣政府社會處洽詢申請；據點包括馬公站（馬公市鎖港里1313號，06-9261790）及湖西、西嶼、望安、七美等站。",
+      "contact": "社區式日間照顧馬公站 06-9261790",
+      "target_groups": [
+        "成年",
+        "家庭照顧者"
+      ],
+      "source_urls": [
+        "https://www.penghu.gov.tw/uploaddowndoc?file=unit01/202409181148040.pdf&filedisplay=113%E5%B9%B4%E6%BE%8E%E6%B9%96%E7%B8%A3%E8%BA%AB%E5%BF%83%E9%9A%9C%E7%A4%99%E8%80%85%E7%A6%8F%E5%88%A9%E8%B3%87%E6%BA%90%E6%89%8B%E5%86%8A(0918%E4%BF%AE).pdf&flag=doc",
+        "https://www.penghu.gov.tw/society/home.jsp?id=229&act=view&dataserno=201309270033"
+      ],
+      "source_date": "2024",
+      "confidence": "medium"
+    },
+    {
+      "id": "penghu-family-care",
+      "name": "身心障礙者家庭托顧服務",
+      "category": "care",
+      "level": "central",
+      "summary": "由家庭托顧服務員在自家照顧身心障礙者，低收入戶免費，一般戶每日自付190元。",
+      "eligibility": [
+        "設籍或居住澎湖縣之身心障礙者（詳細資格見實施計畫）",
+        "未接受機構安置、未接受居家服務、未聘僱看護（傭）",
+        "未領有政府提供之特別照顧津貼、日間照顧費用補助"
+      ],
+      "benefit": "低收入戶由政府全額補助；一般戶每日自付190元；其他身分自付額依家庭收入而定。",
+      "how_to_apply": "向受理單位社團法人澎湖縣照顧服務協會申請。",
+      "contact": "社團法人澎湖縣照顧服務協會 06-9267286",
+      "target_groups": [
+        "家庭照顧者",
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://www.penghu.gov.tw/uploaddowndoc?file=unit01/202404111542330.pdf&filedisplay=%E6%BE%8E%E6%B9%96%E7%B8%A3%E6%94%BF%E5%BA%9C%E8%A3%9C%E5%8A%A9%E8%BE%A6%E7%90%86%E8%BA%AB%E5%BF%83%E9%9A%9C%E7%A4%99%E8%80%85%E5%AE%B6%E5%BA%AD%E6%89%98%E9%A1%A7%E6%9C%8D%E5%8B%99%E5%AF%A6%E6%96%BD%E8%A8%88%E7%95%AB.pdf&flag=doc",
+        "https://www.penghu.gov.tw/uploaddowndoc?file=unit01/202409181148040.pdf&filedisplay=113%E5%B9%B4%E6%BE%8E%E6%B9%96%E7%B8%A3%E8%BA%AB%E5%BF%83%E9%9A%9C%E7%A4%99%E8%80%85%E7%A6%8F%E5%88%A9%E8%B3%87%E6%BA%90%E6%89%8B%E5%86%8A(0918%E4%BF%AE).pdf&flag=doc"
+      ],
+      "source_date": "2024",
+      "confidence": "medium",
+      "notes": "依身心障礙者權益保障法第50條辦理；年度實施計畫可能更新。"
+    },
+    {
+      "id": "penghu-respite-care",
+      "name": "身心障礙者臨時及短期照顧服務",
+      "category": "care",
+      "level": "central",
+      "summary": "家庭照顧者需要喘息時，提供身心障礙者或發展遲緩兒童機構式、居家式或社區式的臨時及短期照顧。",
+      "eligibility": [
+        "領有身心障礙證明者，或持有醫院開立發展遲緩診斷證明之兒童",
+        "經評估有臨時或短期照顧需求"
+      ],
+      "benefit": "機構式、居家式、社區式臨時及短期照顧服務（年度時數上限與自付額搜尋結果未顯示）。",
+      "how_to_apply": "向澎湖縣身心障礙者生涯轉銜暨個案管理中心申請。",
+      "contact": "澎湖縣身心障礙者生涯轉銜暨個案管理中心 06-9270901",
+      "target_groups": [
+        "家庭照顧者",
+        "兒童及少年"
+      ],
+      "source_urls": [
+        "https://www.penghu.gov.tw/uploaddowndoc?file=unit01/202409181148040.pdf&filedisplay=113%E5%B9%B4%E6%BE%8E%E6%B9%96%E7%B8%A3%E8%BA%AB%E5%BF%83%E9%9A%9C%E7%A4%99%E8%80%85%E7%A6%8F%E5%88%A9%E8%B3%87%E6%BA%90%E6%89%8B%E5%86%8A(0918%E4%BF%AE).pdf&flag=doc",
+        "https://www.penghu.gov.tw/society/home.jsp?id=229&act=view&dataserno=201309270033"
+      ],
+      "source_date": "2024",
+      "confidence": "medium",
+      "notes": "符合長照對象（CMS 2至8級）者另可使用長照喘息服務，由澎湖縣長期照顧管理中心評估（https://event.penghu.gov.tw/longcare/home.jsp?id=32）。"
+    },
+    {
+      "id": "penghu-personal-assistant",
+      "name": "身心障礙者個人助理服務",
+      "category": "care",
+      "level": "mixed",
+      "summary": "透過個人助理協助身心障礙者日常生活、活動及社會參與，費用依家庭經濟狀況分級補助。",
+      "eligibility": [
+        "領有身心障礙證明、有自立生活需求者（完整資格條件搜尋結果未顯示）"
+      ],
+      "benefit": "服務費每小時以250元計算；低收入戶由政府全額補助，其他依家庭收入比例負擔（摘要提及一般戶政府補助70%）。",
+      "how_to_apply": "洽澎湖縣政府社會處（受理單位搜尋結果未明列）。",
+      "contact": "澎湖縣政府社會處 06-9274400",
+      "target_groups": [
+        "成年"
+      ],
+      "source_urls": [
+        "https://www.penghu.gov.tw/uploaddowndoc?file=unit01/202409181148040.pdf&filedisplay=113%E5%B9%B4%E6%BE%8E%E6%B9%96%E7%B8%A3%E8%BA%AB%E5%BF%83%E9%9A%9C%E7%A4%99%E8%80%85%E7%A6%8F%E5%88%A9%E8%B3%87%E6%BA%90%E6%89%8B%E5%86%8A(0918%E4%BF%AE).pdf&flag=doc"
+      ],
+      "source_date": "2024",
+      "confidence": "medium",
+      "notes": "搜尋摘要另寫一般戶自負額每小時60元，與250元×30%不符，自付額待確認。"
+    },
+    {
+      "id": "penghu-sign-language",
+      "name": "同步聽打暨手語翻譯服務",
+      "category": "support",
+      "level": "local",
+      "summary": "聽語障者及其家屬，或需與聽語障者接洽的機關、醫院、學校、團體，可申請手語翻譯或同步聽打，符合支付標準者由社會處支付。",
+      "eligibility": [
+        "領有聽語障或併聽語障之多重障礙身心障礙證明者及其家屬",
+        "縣內公務機關、醫療院所、學校或立案非營利組織，因業務需要與聽語障者接洽時"
+      ],
+      "benefit": "符合社會處支付標準之服務由社會處支付；不符合者可自費申請，由中心協助媒合。自費參考收費：手語翻譯每小時第一類1,500元、第二類1,000元、第三類500元；同步聽打每小時700元。",
+      "how_to_apply": "至少於活動7天（手冊寫7個工作天）前填寫申請表，向澎湖縣身心障礙者生涯轉銜暨個案管理中心提出申請（馬公市治平路32號，週一至週五上班時間）。",
+      "contact": "06-9274400 轉298、531、532、355",
+      "target_groups": [
+        "聽覺或平衡障礙",
+        "聲音或語言障礙",
+        "多重障礙"
+      ],
+      "source_urls": [
+        "https://www.penghu.gov.tw/society/home.jsp?id=228&act=view&dataserno=201309250006",
+        "https://www.penghu.gov.tw/uploaddowndoc?file=unit01/202409181148040.pdf&filedisplay=113%E5%B9%B4%E6%BE%8E%E6%B9%96%E7%B8%A3%E8%BA%AB%E5%BF%83%E9%9A%9C%E7%A4%99%E8%80%85%E7%A6%8F%E5%88%A9%E8%B3%87%E6%BA%90%E6%89%8B%E5%86%8A(0918%E4%BF%AE).pdf&flag=doc"
+      ],
+      "source_date": "2024",
+      "confidence": "medium"
+    },
+    {
+      "id": "penghu-case-management",
+      "name": "身心障礙者生涯轉銜暨個案管理服務",
+      "category": "support",
+      "level": "central",
+      "summary": "提供身心障礙者福利資訊、通報轉介、個案管理、生涯轉銜及定期關懷服務，也是臨短托與手語翻譯的受理窗口。",
+      "eligibility": [
+        "領有身心障礙證明，年齡7至64歲者"
+      ],
+      "benefit": "福利資訊服務、通報轉介服務、個案管理服務、生涯轉銜服務及定期關懷服務。",
+      "how_to_apply": "電話洽澎湖縣身心障礙者生涯轉銜暨個案管理中心。",
+      "contact": "澎湖縣身心障礙者生涯轉銜暨個案管理中心 06-9270901",
+      "source_urls": [
+        "https://www.penghu.gov.tw/uploaddowndoc?file=unit01%2F202509241512320.pdf&filedisplay=114%E5%B9%B4%E5%A9%9A%E8%82%B2%E8%BC%94%E5%B0%8E%E8%B3%87%E6%BA%90%E6%89%8B%E5%86%8A-1140924.pdf&flag=doc",
+        "https://www.penghu.gov.tw/uploaddowndoc?file=unit01/202409181148040.pdf&filedisplay=113%E5%B9%B4%E6%BE%8E%E6%B9%96%E7%B8%A3%E8%BA%AB%E5%BF%83%E9%9A%9C%E7%A4%99%E8%80%85%E7%A6%8F%E5%88%A9%E8%B3%87%E6%BA%90%E6%89%8B%E5%86%8A(0918%E4%BF%AE).pdf&flag=doc"
+      ],
+      "source_date": "2025",
+      "confidence": "medium"
+    },
+    {
+      "id": "penghu-marriage-sex-education",
+      "name": "心智障礙者性健康與婚育輔導",
+      "category": "support",
+      "level": "central",
+      "summary": "為15歲以上心智障礙者提供性健康與婚姻、生育輔導；社會處並於114年9月編印身心障礙者婚姻及生育輔導福利資源手冊。",
+      "eligibility": [
+        "設籍或實際居住澎湖縣，年滿15歲以上之心智障礙者"
+      ],
+      "benefit": "性健康與婚育輔導服務（服務內容細節搜尋結果未顯示）。",
+      "how_to_apply": "向澎湖縣身心障礙者服務中心洽詢申請。",
+      "contact": "澎湖縣身心障礙者服務中心 06-9269889",
+      "target_groups": [
+        "智能障礙",
+        "自閉症"
+      ],
+      "source_urls": [
+        "https://www.penghu.gov.tw/uploaddowndoc?file=unit01%2F202509241512320.pdf&filedisplay=114%E5%B9%B4%E5%A9%9A%E8%82%B2%E8%BC%94%E5%B0%8E%E8%B3%87%E6%BA%90%E6%89%8B%E5%86%8A-1140924.pdf&flag=doc"
+      ],
+      "source_date": "2025-09",
+      "confidence": "medium",
+      "notes": "依身心障礙者權益保障法第50條「婚姻及生育輔導」辦理。手冊另列到宅育兒指導（社會處社工婦幼科 06-9274400轉569，優先服務脆弱家庭）。"
+    },
+    {
+      "id": "penghu-disability-assessment",
+      "name": "身心障礙鑑定醫院",
+      "category": "support",
+      "level": "central",
+      "summary": "澎湖縣內可辦理身心障礙鑑定的醫院有三家，申請或重新鑑定身心障礙證明時可就近前往。",
+      "eligibility": [
+        "設籍澎湖縣、需申請或重新鑑定身心障礙證明者"
+      ],
+      "benefit": "縣內鑑定醫院：衛生福利部澎湖醫院（06-9261151）、三軍總醫院澎湖分院（06-9211116）、惠民醫院（06-9272318）。",
+      "how_to_apply": "取得鑑定表後至上述鑑定醫院辦理（鑑定表申請窗口搜尋結果未明列，可洽社會處 06-9274400）。",
+      "source_urls": [
+        "https://www.penghu.gov.tw/uploaddowndoc?file=unit01/202409181148040.pdf&filedisplay=113%E5%B9%B4%E6%BE%8E%E6%B9%96%E7%B8%A3%E8%BA%AB%E5%BF%83%E9%9A%9C%E7%A4%99%E8%80%85%E7%A6%8F%E5%88%A9%E8%B3%87%E6%BA%90%E6%89%8B%E5%86%8A(0918%E4%BF%AE).pdf&flag=doc"
+      ],
+      "source_date": "2024",
+      "confidence": "medium"
+    },
+    {
+      "id": "penghu-vocational-rehab",
+      "name": "身心障礙者職業重建服務窗口",
+      "category": "employment",
+      "level": "central",
+      "summary": "設於縣府社會處勞工行政科，為有就業需求的身心障礙者提供職業輔導評量、庇護性就業與支持性就業等職業重建服務。",
+      "eligibility": [
+        "設籍或居住澎湖縣，15歲以上有就業需求，且有意願在澎湖縣工作的身心障礙者"
+      ],
+      "benefit": "職業輔導評量（了解職業潛能、興趣、技能、工作人格等）、庇護性就業及支持性就業服務；職務再設計補助每進用1名身心障礙者或每名自營作業者每年最高10萬元（特殊需求經專案評估者不在此限）。",
+      "how_to_apply": "至澎湖縣政府社會處勞工行政科（馬公市治平路32號）申請，週一至週五08:00至12:00、13:30至17:30。",
+      "contact": "06-9274400 轉357、06-9261248",
+      "target_groups": [
+        "求職者"
+      ],
+      "source_urls": [
+        "https://www.penghu.gov.tw/society/home.jsp?id=237&act=view&dataserno=201511090007",
+        "https://www.penghu.gov.tw/uploaddowndoc?file=unit01/202409181148040.pdf&filedisplay=113%E5%B9%B4%E6%BE%8E%E6%B9%96%E7%B8%A3%E8%BA%AB%E5%BF%83%E9%9A%9C%E7%A4%99%E8%80%85%E7%A6%8F%E5%88%A9%E8%B3%87%E6%BA%90%E6%89%8B%E5%86%8A(0918%E4%BF%AE).pdf&flag=doc"
+      ],
+      "source_date": "2024",
+      "confidence": "medium",
+      "notes": "縣府網站另公告115年度澎湖縣身心障礙者職業訓練招生，細節未取得。"
+    }
+  ]
+}
