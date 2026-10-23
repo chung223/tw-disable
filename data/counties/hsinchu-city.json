@@ -22,7 +22,9 @@
       "benefit": "115年度：列冊低收入戶極重度、重度及中度身心障礙者每人每月9,485元；輕度每人每月5,437元。非低收入戶依一般補助標準（金額較低，本次未取得數字）",
       "how_to_apply": "洽新竹市政府社會處或戶籍所在地區公所（本次搜尋未確認受理窗口）",
       "contact": "社會處 03-5352386",
-      "target_groups": ["低收入或中低收入"],
+      "target_groups": [
+        "低收入或中低收入"
+      ],
       "source_urls": [
         "https://society.hccg.gov.tw/ch/home.jsp?id=127&parentpath=0%2C3%2C26&mcustomize=onemessages_view.jsp&toolsflag=Y&dataserno=201603290060&t=SocietyOnes&mserno=201603090030"
       ],
@@ -124,7 +126,7 @@
         "https://society.hccg.gov.tw/ch/home.jsp?id=129&parentpath=0%2C3%2C26&mcustomize=onemessages_view.jsp&toolsflag=Y&dataserno=202308040003&t=SocietyOnes&mserno=201603090032"
       ],
       "source_date": "unknown",
-      "confidence": "low",
+      "confidence": "medium",
       "notes": "只在搜尋摘要的社會處服務清單中看到項目名稱，內容待補查。"
     }
   ]

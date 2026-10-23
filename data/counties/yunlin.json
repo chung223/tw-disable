@@ -1,0 +1,233 @@
+{
+  "county_id": "yunlin",
+  "county_name": "雲林縣",
+  "agency": "雲林縣政府社會處",
+  "agency_url": "https://social.yunlin.gov.tw/",
+  "phone": "身心障礙福利科 05-5522616（傳真 05-5338449）",
+  "collected_at": "2026-10-23",
+  "method": "web_search",
+  "notes": "以 WebSearch 限定 yunlin.gov.tw 網域蒐集，主要來源為雲林縣政府社會處「身心障礙福利專區」。蒐集途中整體搜尋額度用罄，以下項目尚未查證、未收錄：臨時及短期照顧、家庭托顧、社區居住、日間作業設施、個人助理／自立生活、手語翻譯／同步聽打、鑑定窗口、職業重建、急難救助、停車費減免、租金補貼、緊急救援。社會處專區另列有「身心障礙者個人照顧服務專區」「身心障礙家庭照顧者服務專區」，以及「雲林縣孤立死預防政策與身心障礙者關懷服務計畫」（https://social.yunlin.gov.tw/cp.aspx?n=25100），內容未取得。",
+  "benefits": [
+    {
+      "id": "yunlin-living-allowance",
+      "name": "身心障礙者生活補助",
+      "category": "economic",
+      "level": "central",
+      "summary": "提供符合家庭經濟條件的身心障礙者每月生活補助，金額依障礙等級與家庭經濟身分而定，每月10日入帳。",
+      "eligibility": [
+        "領有身心障礙證明",
+        "設籍且實際居住雲林縣",
+        "最近一年居住國內超過183日",
+        "列冊低收入戶或中低收入戶，或家庭總收入及財產未超過標準：115年度家庭總收入平均分配全家人口每人每月未達38,788元，另有存款與有價證券、不動產公告現值限額"
+      ],
+      "benefit": "115年度：列冊低收入戶中度以上每月9,485元、輕度每月5,437元；中低收入戶及一般身分中度以上每月5,437元、輕度每月4,049元。每月10日將當月補助款匯入帳戶。",
+      "how_to_apply": "由本人或委託親友至戶籍所在地鄉鎮市公所（或村里辦公處）提出申請，公所初審後送縣府複審。",
+      "documents": [
+        "身分證件",
+        "印章",
+        "身心障礙證明",
+        "存摺封面"
+      ],
+      "contact": "社會處身心障礙生活補助承辦 05-5523466、05-5523668、05-5523789",
+      "target_groups": [
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://social.yunlin.gov.tw/News_Content.aspx?n=8160&s=293100",
+        "https://social.yunlin.gov.tw/cp.aspx?n=743"
+      ],
+      "source_date": "2026",
+      "confidence": "high"
+    },
+    {
+      "id": "yunlin-health-insurance-premium",
+      "name": "身心障礙者全民健康保險自付保險費補助（含65歲以上加碼）",
+      "category": "economic",
+      "level": "mixed",
+      "summary": "中央依障礙等級補助身障者健保自付保費；雲林縣自113年7月1日起再加碼，65歲以上中度以上全額補助、輕度提高到50%。",
+      "eligibility": [
+        "設籍雲林縣",
+        "65歲以上中度以上身心障礙者（縣府加碼至全額）",
+        "65歲以上輕度身心障礙者（縣府加碼至50%）"
+      ],
+      "benefit": "113年7月1日起：65歲以上中度以上身心障礙者健保自付保費原則全額補助（每月最多約826元）；65歲以上輕度身心障礙者由25%追加補助至50%。中央原本對中度補助一半、輕度補助25%。百歲人瑞也一併全額補助。",
+      "how_to_apply": "免個別申請，由雲林縣政府造冊提供衛生福利部中央健康保險署逕行補助。",
+      "target_groups": [
+        "老年"
+      ],
+      "source_urls": [
+        "https://social.yunlin.gov.tw/News_Content.aspx?n=734&sms=9335&s=470229",
+        "https://www.yunlin.gov.tw/News_Content.aspx?n=1244&s=470229",
+        "https://www.yunlin.gov.tw/News_Content.aspx?n=1244&s=443723"
+      ],
+      "source_date": "2024-07",
+      "confidence": "high",
+      "notes": "計畫名稱為「雲林縣政府辦理百歲人瑞、六十五歲以上中度及輕度身心障礙者全民健康保險自付保險費補助計畫」，實施時新增補助18,956人。未能確認115年是否修訂、有無排富條件。"
+    },
+    {
+      "id": "yunlin-day-residential-care",
+      "name": "身心障礙者日間照顧及住宿式照顧費用補助",
+      "category": "care",
+      "level": "central",
+      "summary": "補助使用日間照顧或住宿式照顧機構的身心障礙者部分費用。",
+      "eligibility": [
+        "領有身心障礙證明，使用日間照顧或住宿式照顧服務（家庭經濟條件見社會處頁面）"
+      ],
+      "benefit": "依「身心障礙者日間照顧及住宿式照顧費用補助辦法」補助；補助比例與金額未在搜尋結果中載明。",
+      "how_to_apply": "參閱社會處「身心障礙者經濟補助服務專區」頁面或洽身心障礙福利科。",
+      "contact": "雲林縣政府社會處身心障礙福利科 05-5522616",
+      "source_urls": [
+        "https://social.yunlin.gov.tw/News_Content.aspx?n=8160&s=293254"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium"
+    },
+    {
+      "id": "yunlin-community-day-care",
+      "name": "身心障礙者社區式日間照顧服務",
+      "category": "care",
+      "level": "central",
+      "summary": "在社區提供身心障礙者日間照顧服務。",
+      "eligibility": [
+        "雲林縣領有身心障礙證明者（服務對象條件見社會處頁面）"
+      ],
+      "benefit": "提供社區式日間照顧；服務據點、收費與補助未在搜尋結果中載明。",
+      "how_to_apply": "參閱社會處「身心障礙者個人照顧服務專區」頁面或洽身心障礙福利科。",
+      "contact": "雲林縣政府社會處身心障礙福利科 05-5522616",
+      "source_urls": [
+        "https://social.yunlin.gov.tw/News_Content.aspx?n=8161&s=293228"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium"
+    },
+    {
+      "id": "yunlin-assistive-devices",
+      "name": "身心障礙者輔助器具費用補助",
+      "category": "assistive",
+      "level": "central",
+      "summary": "依雲林縣補助標準表，補助身心障礙者購置輔具的費用，低收入戶與非低收入戶的上限不同。",
+      "eligibility": [
+        "領有身心障礙證明",
+        "依「雲林縣身心障礙者輔助器具補助標準表」所列品項與資格"
+      ],
+      "benefit": "補助標準表依輔具類別分列低收入戶、非低收入戶的最高補助金額與最低使用年限；各品項金額未在搜尋結果中載明。",
+      "how_to_apply": "參閱社會處「輔具服務專區（民眾申請專用）」辦理申請。",
+      "contact": "雲林縣政府社會處身心障礙福利科 05-5522616",
+      "source_urls": [
+        "https://social.yunlin.gov.tw/News.aspx?amp=&n=8169&sms=15238",
+        "https://ews-service.yunlin.gov.tw/001/Uploadyles/relfile/119/647/dedb34e9-cd4d-4424-84b4-376bfd394ceb.pdf"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium"
+    },
+    {
+      "id": "yunlin-rehab-bus",
+      "name": "雲林縣身心障礙者小型復康巴士",
+      "category": "transport",
+      "level": "mixed",
+      "summary": "提供身心障礙者就醫、復健等外出交通服務，每週有免費趟次，超過部分約為計程車費率三分之一。",
+      "eligibility": [
+        "領有身心障礙證明（中度以上且需使用輔具行動者優先）",
+        "搭乘起訖點均須在雲林縣境內"
+      ],
+      "benefit": "領有身心障礙證明的低收入戶每人每週4趟、非低收入戶每週2趟免費搭乘（限就醫、復健）。超出部分收費約為計程車跳表費率1/3：起程1.25公里30元，續程每250公尺加收2元；安排共乘再乘以66%。陪同人員最多2名免費。",
+      "how_to_apply": "電話預約05-5522632、05-5340459，或註冊網路訂車系統、Line@帳號訂車；可於用車一週前預約，網路訂車受理時間為週一至週五上午8:30-12:00及下午時段。",
+      "contact": "復康巴士預約 05-5522632、05-5340459（週一至週五08:00-17:30）",
+      "source_urls": [
+        "https://social.yunlin.gov.tw/News_Content.aspx?n=8163&s=293179",
+        "https://social.yunlin.gov.tw/News_Content.aspx?n=8163&s=298761",
+        "https://www.yunlin.gov.tw/News_Content.aspx?n=1244&s=385837"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "縣府另一則日期不明的說明稱復康巴士「完全免費」，以社會處現行公告為準。大型復康巴士供機關團體租借：全日4,000元、4小時內半日2,000元，立案身障團體或機構8折（https://social.yunlin.gov.tw/News_Content.aspx?n=8163&s=293194）。年滿65歲的非身障者可改用長照交通接送。"
+    },
+    {
+      "id": "yunlin-love-card",
+      "name": "雲林縣身心障礙者愛心卡（乘車）",
+      "category": "transport",
+      "level": "local",
+      "summary": "設籍雲林縣的身心障礙者可免費申辦愛心卡，免費搭乘縣內部分公路客運。",
+      "eligibility": [
+        "設籍雲林縣",
+        "領有身心障礙證明，且未逾重新鑑定或換發日期"
+      ],
+      "benefit": "依112年3月縣府公告：持卡可免費搭乘縣內臺西汽車客運、嘉義汽車客運等公路客運。證明「必要陪伴者優惠措施」欄列有國內大眾運輸工具者可辦陪伴卡，陪伴者半價須自費儲值，縣府不補助。",
+      "how_to_apply": "攜帶身分證明文件及2吋半身彩色照片1張，至戶籍地鄉鎮市公所免費申辦。",
+      "documents": [
+        "身分證明文件",
+        "2吋半身彩色照片1張"
+      ],
+      "source_urls": [
+        "https://social.yunlin.gov.tw/News_Content.aspx?n=8164&s=410787",
+        "https://welfare.yunlin.gov.tw/People/CaseInfo/64/202005009"
+      ],
+      "source_date": "2023-03",
+      "confidence": "medium",
+      "notes": "未找到雲林縣愛心卡搭乘計程車的點數補助。"
+    },
+    {
+      "id": "yunlin-happiness-bus",
+      "name": "雲林縣幸福專車服務",
+      "category": "transport",
+      "level": "local",
+      "summary": "在6個鄉鎮市行駛免費專車，沿線隨招即停，為老人、身心障礙者及弱勢家庭提供交通。",
+      "eligibility": [
+        "不限身心障礙者，計畫目的為服務老人、身心障礙者及弱勢家庭"
+      ],
+      "benefit": "115年度行駛古坑、大埤、林內、斗六、元長、莿桐6鄉鎮市路線，沿線隨招即停、免費搭乘。大埤線時刻表自115年2月1日起適用。",
+      "how_to_apply": "免申請，依各線時刻表在沿線招車搭乘。",
+      "source_urls": [
+        "https://social.yunlin.gov.tw/News_Content.aspx?n=721&s=516109",
+        "https://social.yunlin.gov.tw/News_Content.aspx?n=721&s=401957",
+        "https://linnei.yunlin.gov.tw/1502.htm"
+      ],
+      "source_date": "2026",
+      "confidence": "high",
+      "notes": "由社會處身心障礙福利科發布。早期林內鄉公所頁面載明本服務依雲林縣公益彩券盈餘分配規劃「雲林縣幸福專車試辦計畫」辦理。"
+    },
+    {
+      "id": "yunlin-disability-service-center",
+      "name": "雲林縣身心障礙者服務中心（個案管理）",
+      "category": "support",
+      "level": "central",
+      "summary": "為6歲以上身心障礙者及其家庭提供福利諮詢、通報轉介與個案管理。",
+      "eligibility": [
+        "實際居住雲林縣",
+        "領有身心障礙證明且年滿6歲之身心障礙者及其家庭"
+      ],
+      "benefit": "提供福利諮詢、通報轉介、個案管理等服務，按區域設有服務窗口。",
+      "how_to_apply": "洽身心障礙者服務中心各區窗口或社會處身心障礙福利科。",
+      "contact": "雲林縣政府社會處身心障礙福利科 05-5522616",
+      "target_groups": [
+        "家庭照顧者"
+      ],
+      "source_urls": [
+        "https://social.yunlin.gov.tw/News_Content.aspx?n=8159&s=293147"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium"
+    },
+    {
+      "id": "yunlin-exam-driving-certificate",
+      "name": "身心障礙者參加公職考試補習、汽車駕駛訓練考照暨技術士證照計畫",
+      "category": "employment",
+      "level": "local",
+      "summary": "雲林縣勞工處的115年度計畫，協助身心障礙者參加公職考試補習、汽車駕駛訓練考照與技術士證照。",
+      "eligibility": [
+        "身心障礙者（設籍與其他條件依計畫規定）"
+      ],
+      "benefit": "115年度計畫包含公職考試補習、汽車駕駛訓練考照及技術士證照三類；補助方式與金額未在搜尋結果中載明。",
+      "how_to_apply": "依雲林縣政府勞工處計畫頁面公告辦理。",
+      "target_groups": [
+        "求職者"
+      ],
+      "source_urls": [
+        "https://labor.yunlin.gov.tw/0116-1.htm"
+      ],
+      "source_date": "2026",
+      "confidence": "medium",
+      "notes": "僅取得計畫名稱，資格、補助上限與受理期間待查。"
+    }
+  ]
+}
