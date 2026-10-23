@@ -1,0 +1,37 @@
+{
+  "county_id": "chiayi-county",
+  "county_name": "嘉義縣",
+  "agency": "嘉義縣政府社會局",
+  "agency_url": "https://sabcc.cyhg.gov.tw/",
+  "collected_at": "2026-10-23",
+  "method": "web_search",
+  "notes": "未完成：本縣只做到一次 WebSearch（限定 cyhg.gov.tw），之後整體搜尋額度用盡，目前只收錄生活補助一筆。嘉義縣社會局身心障礙福利業務專區列有：身心障礙證明及其他福利、個別化與生涯轉銜服務、個人照顧服務、家庭照顧服務、經濟扶助、機構管理、社會參與、權益保障、公益彩券與輔具服務等，但各項內容都還沒查到。核心項目與縣自辦項目需要再搜尋補齊。",
+  "benefits": [
+    {
+      "id": "chiayi-county-living-allowance",
+      "name": "身心障礙者生活補助",
+      "category": "economic",
+      "level": "central",
+      "summary": "按月發給家庭經濟條件符合的嘉義縣籍身障者生活補助，金額依福利身分與障礙等級區分，每年重新調查資格。",
+      "eligibility": [
+        "設籍嘉義縣並領有身心障礙證明",
+        "家庭總收入、存款及不動產未超過規定上限",
+        "未同時領取其他政府生活補助"
+      ],
+      "benefit": "依嘉義縣身心障礙者生活補助審核作業規定（109年修正版）：低收入戶極重度、重度及中度每月8,836元，輕度每月5,065元；中低收入戶與非列冊戶中度以上每月5,065元，輕度每月3,772元。",
+      "how_to_apply": "向戶籍所在地鄉鎮市公所申請（亦可經村里辦公處）。",
+      "documents": [
+        "身心障礙手冊或證明影本",
+        "戶口名簿影本"
+      ],
+      "target_groups": ["低收入或中低收入"],
+      "source_urls": [
+        "https://sabcc.cyhg.gov.tw/News_Content.aspx?n=7758D80ACB766B61&sms=301E5FB80CAEB11C&s=B77966CF83DF0079",
+        "http://law.cyhg.gov.tw/LawContent.aspx?id=FL020420"
+      ],
+      "source_date": "2020",
+      "confidence": "medium",
+      "notes": "金額出自109年修正的審核作業規定，生活補助標準隨衛福部公告調整，現行（115年度）金額應已不同，請以縣府最新公告為準。有死亡、機構安置、家庭經濟改善等情形會停發。"
+    }
+  ]
+}
