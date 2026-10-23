@@ -1,0 +1,565 @@
+{
+  "county_id": "kaohsiung",
+  "county_name": "高雄市",
+  "agency": "高雄市政府社會局",
+  "agency_url": "https://socbu.kcg.gov.tw/",
+  "phone": "07-3368333（社會局；身心障礙福利科分機依業務約3943–3952）",
+  "collected_at": "2026-10-23",
+  "method": "web_search",
+  "notes": "以 WebSearch 限定 kcg.gov.tw 網域蒐集，內容多為社會局、區公所、交通局、勞工局、衛生局頁面與法規系統的搜尋摘要。社會局多數頁面未標示年度，查無115年度身障生活補助調整公告。蒐集途中搜尋額度用盡，以下項目未能查證而未收錄：身心障礙鑑定申請窗口、勞工局職業重建（支持性就業、職務再設計）細節、家庭照顧者支持服務內容（僅見頁面標題 s_id=1918）、子女教育補助、年節慰問金、急難救助、運動中心優惠、緊急救援系統、115年度住宿式服務機構使用者補助方案的金額。",
+  "benefits": [
+    {
+      "id": "kaohsiung-living-allowance",
+      "name": "身心障礙者生活補助",
+      "category": "economic",
+      "level": "central",
+      "summary": "家庭經濟條件符合標準的身心障礙者，依障礙程度及是否為低收入戶、中低收入戶，每月發給生活補助。",
+      "eligibility": [
+        "設籍且實際居住本市，領有身心障礙證明",
+        "最近一年居住國內超過183日",
+        "家庭總收入平均分配全家人口，每人每月未達當年度最低生活費2.5倍，且未超過臺灣地區平均每人每月消費支出1.5倍"
+      ],
+      "benefit": "社會局現行頁面（未標示年度）：列冊低收入戶極重度、重度、中度每人每月9,485元，輕度5,437元；列冊中低收入戶極重度、重度、中度5,437元，輕度4,049元；非低收入戶及非中低收入戶極重度、重度、中度5,437元，輕度4,049元。",
+      "how_to_apply": "向戶籍所在地區公所申請。",
+      "target_groups": [
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://socbu.kcg.gov.tw/index.php?prog=2&b_id=6&m_id=34&s_id=304",
+        "https://gushan.kcg.gov.tw/News_Content.aspx?n=634FF445902ABAE3&sms=C6567501899DE0B8&s=08A4824F4E83ACBD",
+        "https://orgws.kcg.gov.tw/001/KcgOrgUploadFiles/210/relfile/73016/263315/309e5889-6257-4b13-a66a-71f6ff6f1dff.pdf"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "金額與113年福利措施簡介相同，查無115年度公告。消費支出1.5倍的上限，社會局頁面列36,861元，113年簡介列36,048元，以當年度公告為準。"
+    },
+    {
+      "id": "kaohsiung-severe-allowance",
+      "name": "重度以上身心障礙者福利津貼",
+      "category": "economic",
+      "level": "local",
+      "summary": "高雄市自辦，按月發給符合設籍條件的重度以上身心障礙者福利津貼。",
+      "eligibility": [
+        "重度以上身心障礙者",
+        "符合要點規定的設籍條件（以2001年12月20日為界，區分原高雄縣、原高雄市及父母設籍等條件，細節見要點原文）"
+      ],
+      "benefit": "依要點（民國100年1月4日發布）：每月新臺幣1,000元，核給之次月起按月撥入申請人郵局帳戶。",
+      "how_to_apply": "填具申請書，檢附身心障礙手冊（證明）等文件向戶籍所在區公所申請，區公所複審後由社會局撥款。",
+      "documents": [
+        "申請書",
+        "身心障礙手冊或證明"
+      ],
+      "source_urls": [
+        "https://outlaw.kcg.gov.tw/LawContent.aspx?id=GL000266"
+      ],
+      "source_date": "2011",
+      "confidence": "medium",
+      "notes": "只查到民國100年發布的要點，不確定現在是否仍在發放，請向社會局或區公所確認。喪失資格或死亡時應通知戶籍區公所停發。"
+    },
+    {
+      "id": "kaohsiung-caregiver-allowance",
+      "name": "身心障礙照顧者津貼",
+      "category": "economic",
+      "level": "local",
+      "summary": "家中有中度照顧需求身心障礙者、且未全時工作的同住家屬，可申請每月照顧津貼。",
+      "eligibility": [
+        "被照顧者：2歲以上未滿65歲，設籍且實際居住本市，已領身心障礙者生活補助",
+        "被照顧者：經社會局或受委託單位評估日常生活活動功能達中度需求強度（失智者需附臨床失智症評估量表）",
+        "被照顧者：未領其他照顧服務補助，未入住安養、護理或身障福利機構",
+        "照顧者：16歲以上未滿65歲，與被照顧者同戶籍且同住本市",
+        "照顧者：未從事全時工作（每日工作不超過4小時），除夜間睡眠外陪同被照顧者8小時以上",
+        "照顧者：為生活補助應計家庭成員或父母、子女、配偶等近親（近親已過世或無法照顧時，可由二親等內血親擔任）",
+        "未僱用看護（傭）或外籍監護工"
+      ],
+      "benefit": "審核通過後，自申請日次月起每月發給照顧者3,000元；每位照顧者限領一份，不得同時領其他照顧津貼。年度預算總量控管，額滿依序候缺。",
+      "how_to_apply": "向戶籍地區公所或社會局身心障礙福利科申請，也可經高雄數位市民平台查看申辦資訊。",
+      "contact": "社會局身心障礙福利科 07-3368333 分機3946",
+      "target_groups": [
+        "家庭照顧者"
+      ],
+      "source_urls": [
+        "https://socbu.kcg.gov.tw/index.php?prog=2&b_id=5&m_id=205&s_id=425",
+        "https://kgo.kcg.gov.tw/apply/info/S2023111600007?applyType=C"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "不同年份的頁面條文略有差異，申請前請再確認。"
+    },
+    {
+      "id": "kaohsiung-health-insurance",
+      "name": "身心障礙者全民健康保險保費自付額補助（含本市加碼）",
+      "category": "economic",
+      "level": "mixed",
+      "summary": "依中央辦法補助身障者健保自付保費，高雄市另對所得較低的輕、中度身障者補足法定未補助的部分。",
+      "eligibility": [
+        "法定補助：領有身心障礙證明並參加全民健保",
+        "本市加碼：64歲以下領有輕、中度身心障礙證明，符合設籍與居住條件，最近一年綜合所得稅稅率5%或所得未達申報標準",
+        "本市加碼：65歲以上領有輕、中度身心障礙證明，綜合所得稅稅率12%者"
+      ],
+      "benefit": "法定：極重度、重度全額補助，中度補助1/2，輕度補助1/4。本市加碼：補助法定未補助的部分，以第六類第二目被保險人保費計算的自付額為上限（110年為826元），自符合資格次月起補助。",
+      "how_to_apply": "原則免申請，由社會局篩選後報送健保署；符合資格卻未獲補助者，可向社會局或戶籍地區公所申請補發，最多追溯24個月。不希望投保單位得知身障身分者，可申請不列入媒體交換。",
+      "contact": "社會局身心障礙福利科 07-3368333 分機3945",
+      "target_groups": [
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://outlaw.kcg.gov.tw/LawContent.aspx?id=GL001193",
+        "https://socbu.kcg.gov.tw/index.php?prog=2&b_id=5&m_id=205&s_id=395",
+        "https://kccdo.kcg.gov.tw/News_Content.aspx?n=509EB794BCFC6D0C&sms=46E4432768A330BE&s=08E534E892DD2533",
+        "https://kgo.kcg.gov.tw/apply/info/S2020111010042?applyType=E"
+      ],
+      "source_date": "2021",
+      "confidence": "medium",
+      "notes": "加碼上限金額各來源不一（749元、826元），826元為110年數字，現行金額請以社會局公告為準。"
+    },
+    {
+      "id": "kaohsiung-assistive-devices",
+      "name": "身心障礙者輔具費用補助",
+      "category": "assistive",
+      "level": "central",
+      "summary": "依中央「身心障礙者輔具費用補助基準表」補助購置或裝配輔具的費用。",
+      "eligibility": [
+        "設籍本市並領有身心障礙證明",
+        "經評估有輔具需求（需輔具評估報告書）"
+      ],
+      "benefit": "依基準表各項輔具補助標準核給；每人每二年度原則補助4項，同一項目在使用年限內不得重複補助。",
+      "how_to_apply": "向戶籍地區公所社會課或社會局身心障礙福利科申請，也可用衛福部社家署輔具線上申辦系統。申請前不得先行購置或裝配，核定後6個月內檢附購買或付費憑證請款。",
+      "documents": [
+        "身心障礙證明",
+        "身分證明",
+        "診斷書",
+        "輔具評估報告書（3個月內開立）",
+        "購買或付費憑證（核定後）"
+      ],
+      "source_urls": [
+        "https://socbu.kcg.gov.tw/index.php?prog=2&b_id=5&m_id=208&s_id=393"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    },
+    {
+      "id": "kaohsiung-assistive-center",
+      "name": "高雄市輔具資源中心（評估、租借、維修、回收）",
+      "category": "assistive",
+      "level": "local",
+      "summary": "市府設有南、北區輔具資源中心及服務站，提供輔具評估、諮詢、二手輔具租借、維修與回收。",
+      "eligibility": [
+        "有輔具需求的市民（租借收費依標準表辦理）"
+      ],
+      "benefit": "提供評估、諮詢、租借、維修、回收服務。二手輔具經專業人員維修、消毒及清潔後出借，常見品項有輪椅、電動病床、助行器、拐杖。",
+      "how_to_apply": "南區輔具資源中心：前鎮區翠亨北路392號，07-8416336（服務小港、前鎮、苓雅、旗津、新興、林園、前金、鹽埕），週一至週五08:00–12:00、13:30–17:30；北區輔具資源中心：岡山區公園東路131號，07-6226730（服務岡山、橋頭、燕巢等北區各區）；楠梓服務站：07-3661130（服務鼓山、左營、楠梓、三民）。",
+      "contact": "南區 07-8416336；北區 07-6226730；楠梓服務站 07-3661130",
+      "source_urls": [
+        "https://fsop.kcg.gov.tw/News_Content.aspx?n=13784C94B49AC55F&sms=97AD491DE757555F&s=70A5D34872418EDF",
+        "https://neimen.kcg.gov.tw/News_Content.aspx?n=A5386375DF36A0D2&sms=A7E6A64E79FA8B80&s=0227B6A13E674047",
+        "https://socbu.kcg.gov.tw/index.php?prog=2&b_id=5&m_id=208&s_id=393"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "地址、電話出自年份較舊的資料（約112年前後），另有內門等輔具便利站。租借收費依「租借輔具及委託評估費用標準表」，金額未查到。"
+    },
+    {
+      "id": "kaohsiung-care-facility-subsidy",
+      "name": "身心障礙者日間照顧及住宿式照顧費用補助",
+      "category": "care",
+      "level": "central",
+      "summary": "身障者到評鑑合格的機構接受日間照顧或住宿照顧，依家庭經濟狀況補助部分或全部費用。",
+      "eligibility": [
+        "設籍本市並領有身心障礙證明",
+        "安置於評鑑乙等以上的身心障礙福利機構，或甲等以上的養護中心、護理之家等"
+      ],
+      "benefit": "113年度資料：低收入戶依核准收費標準全額補助；中低收入戶補助75%或85%；非低收入戶及中低收入戶未滿30歲依家庭經濟狀況補助75%、50%或25%，30歲以上補助85%至40%不等。",
+      "how_to_apply": "向戶籍所在地區公所或社會局身心障礙福利科申請。",
+      "contact": "社會局身心障礙福利科 07-3368333 分機3949、3950",
+      "target_groups": [
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://socbu.kcg.gov.tw/index.php?prog=2&b_id=5&m_id=211&s_id=345",
+        "https://health.kcg.gov.tw/News_Content.aspx?n=3807026F3A50DC3F&sms=3E68ABCC0A5BB507&s=171D4393E9199B85"
+      ],
+      "source_date": "2024",
+      "confidence": "medium",
+      "notes": "衛生局另有「115年度住宿式服務機構使用者補助方案」（衛生局、社會局承辦），但搜尋結果沒有補助金額，未另列。"
+    },
+    {
+      "id": "kaohsiung-respite",
+      "name": "身心障礙者臨時及短期照顧服務",
+      "category": "care",
+      "level": "mixed",
+      "summary": "為減輕家庭照顧者負擔，提供身障者臨時（12小時內）或短期（連續14日內）照顧，依身分補助費用。",
+      "eligibility": [
+        "居住本市、領有身心障礙證明，並經需求評估核定有臨時或短期照顧需求（設籍外縣市但居住高雄者也可申請）",
+        "家庭照顧者未同時接受長照法的喘息服務，未領特別照顧津貼或其他照顧費用補助",
+        "同一時段未接受日間、住宿式或居家照顧服務"
+      ],
+      "benefit": "臨時照顧每次12小時以內，短期照顧每次超過12小時、連續受托14日以內。臨時照顧每小時以200元計（交通費另計）；低收入戶全額補助，中低收入戶補助90%，一般戶補助70%。",
+      "how_to_apply": "經需求評估核定後，向社會局或委託服務單位申請。",
+      "target_groups": [
+        "家庭照顧者"
+      ],
+      "source_urls": [
+        "https://socbu.kcg.gov.tw/index.php?b_id=5&m_id=213&prog=2&s_id=343"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "搜尋結果沒有每年可用時數的上限。"
+    },
+    {
+      "id": "kaohsiung-community-services",
+      "name": "身心障礙者社區式照顧服務（社區日間作業設施、日間照顧據點、社區居住、家庭托顧）",
+      "category": "care",
+      "level": "central",
+      "summary": "社會局透過補助計畫，在身障資源不足或偏遠地區設置社區日間作業設施、日間照顧據點、社區居住與家庭托顧，讓身障者就近使用。",
+      "eligibility": [
+        "社區居住與生活服務：年滿18歲、領有身心障礙證明，並經需求評估有社區居住需求",
+        "其他服務依各服務類型及需求評估結果"
+      ],
+      "benefit": "社區日間作業設施：以作業活動為主，每日4小時以上、每週原則20小時以上；社區居住與生活服務：在一般社區住宅提供非機構式夜間住宿；家庭托顧：托顧服務員在其住所提供身體照顧、日常生活照顧與安全照顧。",
+      "how_to_apply": "洽社會局身心障礙福利科或各服務據點。",
+      "contact": "社會局身心障礙福利科 07-3368333 分機3952",
+      "target_groups": [
+        "成年"
+      ],
+      "source_urls": [
+        "https://socbu.kcg.gov.tw/index.php?b_id=5&m_id=210&prog=2&s_id=919",
+        "https://socbu.kcg.gov.tw/index.php?b_id=5&m_id=210&prog=2&s_id=356"
+      ],
+      "source_date": "2024",
+      "confidence": "medium",
+      "notes": "社會局有111、113、114年度的「身心障礙者社區式照顧服務支持計畫」，補助對象是設置據點的非營利法人、團體（苓雅、左營、楠梓、鼓山等區列為第一優先）。服務使用者的收費標準未查到。"
+    },
+    {
+      "id": "kaohsiung-independent-living",
+      "name": "身心障礙者自立生活支持服務（個人助理）",
+      "category": "support",
+      "level": "mixed",
+      "summary": "協助有意願自立生活的成年身障者擬定自立生活計畫，提供同儕支持及個人助理服務。",
+      "eligibility": [
+        "18歲以上領有身心障礙證明，有自立生活意願，經ICF需求評估與社工評估（設籍高雄市者優先）",
+        "未接受機構安置、未聘僱看護（傭）、未領政府特別照顧津貼或其他照顧費用補助（有例外情形）",
+        "不可同時使用居家照顧服務與日間照顧服務"
+      ],
+      "benefit": "舊資料：個人助理每小時250元，低收入戶、中低收入戶全額補助，一般戶補助每小時190元；自付額為低收入戶及中低收入戶0元、領身障生活補助者每小時20元、一般戶每小時60元；每人每月最多60小時，特殊情況可專案申請；同儕支持諮詢全額補助。",
+      "how_to_apply": "向社會局或南、北區承辦單位申請（南區由財團法人高雄市關愛社會福利慈善事業基金會承辦，07-5311845；北區 0966-977383）。",
+      "contact": "社會局 07-3368333 分機3952",
+      "target_groups": [
+        "成年"
+      ],
+      "source_urls": [
+        "https://socbu.kcg.gov.tw/index.php?prog=2&b_id=5&m_id=213&s_id=821"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "頁面約為數年前的版本，費率、時數上限與承辦單位可能已調整。"
+    },
+    {
+      "id": "kaohsiung-sign-language",
+      "name": "高雄市手語服務中心（手語翻譯）",
+      "category": "support",
+      "level": "local",
+      "summary": "社會局委託民間單位營運手語服務中心，為聽語障者提供現場手語翻譯與手語視訊服務。",
+      "eligibility": [
+        "設籍且實際居住本市，領有身心障礙證明，障礙類別為聽語障或合併聽語障的多重障礙者",
+        "因業務需要與聽語障者接洽的本市公務機關、學校、社會福利團體等"
+      ],
+      "benefit": "現場手語翻譯、手語視訊（平日可透過 LINE）。",
+      "how_to_apply": "現場手語翻譯需於3個工作天前提出申請，檢附手語翻譯申請書及身心障礙證明正反面影本，傳真至07-9697802。",
+      "contact": "手語翻譯服務 07-9697800 分機19；夜間緊急專線 0956-778000",
+      "target_groups": [
+        "聽覺或平衡障礙",
+        "聲音或語言障礙"
+      ],
+      "source_urls": [
+        "https://takao.kcg.gov.tw/article/3489"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "由平安社會福利慈善事業基金會營運。資料來自高雄畫刊（市府新聞局）的報導，不是業務頁面。"
+    },
+    {
+      "id": "kaohsiung-captioning",
+      "name": "聽語障者同步聽打服務",
+      "category": "support",
+      "level": "local",
+      "summary": "社會局委託民間團體，為聽障者參與的活動提供同步聽打（即時文字轉譯）。",
+      "eligibility": [
+        "實際領有身心障礙證明的聽障者或合併聽障的多重障礙者及其家屬",
+        "各級機關學校、非營利團體及其他公共服務單位、事業單位（辦理有聽障者參與的活動）"
+      ],
+      "benefit": "提供同步聽打服務；涉及私人商業利益的活動不在服務範圍。",
+      "how_to_apply": "由活動辦理單位或聽障者本人提出，最遲須於活動前3日完成申請（承辦：高雄市聲暉協會）。",
+      "contact": "07-2315626、07-2315627",
+      "target_groups": [
+        "聽覺或平衡障礙"
+      ],
+      "source_urls": [
+        "https://socbu.kcg.gov.tw/index.php?b_id=5&m_id=213&prog=2&s_id=1714"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "頁面所附簡章、申請表的年度不明，請確認是否為最新版本。"
+    },
+    {
+      "id": "kaohsiung-employment-sign-language",
+      "name": "勞工局手語翻譯暨聽打服務（就業相關）",
+      "category": "employment",
+      "level": "local",
+      "summary": "勞工局協助聽語障者在求職面試、在職訓練、勞資爭議調解等就業相關場合使用手語翻譯或聽打。",
+      "eligibility": [
+        "本市聽語障者或合併聽語障的多重障礙者",
+        "限就業相關事項（如勞資爭議調解、求職面試、在職訓練）"
+      ],
+      "benefit": "113.11.21 核定版：提供手語翻譯或聽打服務，同一聽障者每月以10小時為限。",
+      "how_to_apply": "申請單位於使用前3個工作天，將申請表、身心障礙證明正反面影本等資料傳真或函送勞工局職業重建科。",
+      "documents": [
+        "申請表",
+        "身心障礙證明正反面影本"
+      ],
+      "contact": "勞工局職業重建科 07-8124613 分機532",
+      "target_groups": [
+        "聽覺或平衡障礙",
+        "聲音或語言障礙",
+        "求職者"
+      ],
+      "source_urls": [
+        "https://orgws.kcg.gov.tw/001/KcgOrgUploadFiles/420/relfile/74763/62420/997cae3b-9720-4d75-bed7-ca1301241516.pdf"
+      ],
+      "source_date": "2024-11",
+      "confidence": "high"
+    },
+    {
+      "id": "kaohsiung-social-welfare-points",
+      "name": "博愛卡社福點數",
+      "category": "transport",
+      "level": "local",
+      "summary": "設籍高雄的身障者持博愛卡可獲社福點數，用於搭乘公車、捷運及特約計程車等；115年10月起改為按季發放。",
+      "eligibility": [
+        "設籍本市領有身心障礙證明，並申辦博愛卡（必要陪伴者可申辦博陪卡）"
+      ],
+      "benefit": "113年1月1日起每月900點；115年10月1日起改為每季2,700點（總額與每月900點相同）。可搭乘公車、捷運、計程車等；通用（無障礙）計程車限博愛卡使用。舊制扣點：特約計程車每趟扣50點，特約無障礙計程車車資200元以下扣54點、201元以上扣72點。點數用完仍享身權法的半價優惠。",
+      "how_to_apply": "向戶籍地區公所申辦博愛卡。搭特約計程車需事先預約並說明使用博愛卡付款；一般計程車刷卡機尚未設定社福點數功能。卡片需先在社會局、各區公所或捷運站服務台過卡或刷卡，才能用點數搭計程車。點數不足時，差額以卡片儲值金或現金支付。",
+      "contact": "社會局 07-3368333 分機3944",
+      "source_urls": [
+        "https://socbu.kcg.gov.tw/index.php?prog=2&b_id=5&m_id=207&s_id=375",
+        "https://older.kcg.gov.tw/cp.aspx?n=DD8A8F620A1794BE",
+        "https://hsingsin.kcg.gov.tw/cp.aspx?n=E2909B89B7B176B3"
+      ],
+      "source_date": "2026-10",
+      "confidence": "high",
+      "notes": "計程車扣點數字屬舊制，新制可能調整。敬老卡新制採「當季核發、當季使用、不累計」，博愛卡是否相同未見明文。"
+    },
+    {
+      "id": "kaohsiung-parking-discount",
+      "name": "高雄市公有收費停車場身心障礙者停車優惠",
+      "category": "transport",
+      "level": "local",
+      "summary": "符合資格的身障車輛停放本市公有收費停車格，前4小時免費，其後全額或半價收費；外縣市身障者也有半價優惠。",
+      "eligibility": [
+        "已申領加註車號身心障礙者專用停車位識別證的車輛",
+        "懸掛身心障礙專用車牌的汽車",
+        "經公路監理機關檢驗合格的特製機車"
+      ],
+      "benefit": "本市身障者：路邊及路外平面停車場計時格位，當日前4小時免費，第5小時起全額收費；計次或高費率格位半價。立體及地下停車場當次前4小時免費，第5小時起半價，每日限一次。外縣市身障者：計時、計次格位半價，高費率格位不優惠。特製機車停放機車收費格免費。",
+      "how_to_apply": "立體及地下停車場出場前，到管理室出示識別證，或由人員確認懸掛的專用車牌。",
+      "contact": "交通局 07-2299825 分機317",
+      "target_groups": [
+        "肢體障礙"
+      ],
+      "source_urls": [
+        "https://socbu.kcg.gov.tw/index.php?prog=2&b_id=5&m_id=207&s_id=381",
+        "https://khhr.kcg.gov.tw/News_Content.aspx?n=FCDBEAEA5E149FDA&sms=00015989C49C2658&s=3C346669EADEB902"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "頁面更新時間較久，費率與規定可能已調整，請向交通局確認。"
+    },
+    {
+      "id": "kaohsiung-parking-permit",
+      "name": "身心障礙者專用停車位識別證（含牌照稅一站式服務）",
+      "category": "transport",
+      "level": "central",
+      "summary": "經需求評估核定行動不便的身障者，可免費申辦專用停車位識別證，並可在同一窗口一併辦理牌照稅相關手續。",
+      "eligibility": [
+        "設籍本市，領有經需求評估核定為行動不便的身心障礙證明",
+        "符合車輛所有人與車種條件"
+      ],
+      "benefit": "免費辦理；有效期限以身心障礙證明為準。識別證與身障專用牌照只能擇一。",
+      "how_to_apply": "向社會局或區公所申辦，也可經高雄數位市民平台線上申辦；證明到期前一個月內應重新申請。",
+      "target_groups": [
+        "肢體障礙"
+      ],
+      "source_urls": [
+        "https://socbu.kcg.gov.tw/index.php?prog=2&b_id=5&m_id=207&s_id=389",
+        "https://kgo.kcg.gov.tw/apply/info/S2020113000005?applyType=E"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    },
+    {
+      "id": "kaohsiung-rehab-bus",
+      "name": "高雄市復康巴士",
+      "category": "transport",
+      "level": "local",
+      "summary": "交通局辦理的預約制無障礙接送服務，車資比照計程車日間費率的二分之一，低收入戶三分之一。",
+      "eligibility": [
+        "領有身心障礙證明者",
+        "需使用輪椅、持診斷證明並以就醫為用途者",
+        "設籍本市、因就學需要經教育局審核的身心障礙學生",
+        "依辦法，服務對象也包括中度以上失能者及行動不便者"
+      ],
+      "benefit": "一般費率為本市計程車日間費率1/2；低收入戶為1/3；共乘為1/3（小數點無條件進位）。服務時間06:00–23:00。",
+      "how_to_apply": "可用電話、網路或傳真預約（傳真以聽障者優先）；訂車時段為08:30–12:30、13:30–17:00。重度以上且使用輪椅者等可於用車前7日起訂車，其他對象依辦法於用車前5日或6日起訂車。",
+      "target_groups": [
+        "肢體障礙",
+        "學生"
+      ],
+      "source_urls": [
+        "https://socbu.kcg.gov.tw/index.php?prog=2&b_id=5&m_id=207&s_id=378",
+        "https://outlaw.kcg.gov.tw/LawContent.aspx?id=GL000746",
+        "https://khhr.kcg.gov.tw/News_Content.aspx?n=FCDBEAEA5E149FDA&sms=00015989C49C2658&s=942866943E2D4ED2"
+      ],
+      "source_date": "2024-06",
+      "confidence": "high",
+      "notes": "依據「高雄市復康巴士服務及收費辦法」（最近修正113年6月14日）。有舊資料列預約專線07-3601160，未確認現行，故未列為聯絡電話。"
+    },
+    {
+      "id": "kaohsiung-rent-subsidy",
+      "name": "身心障礙者房屋租金補貼",
+      "category": "economic",
+      "level": "local",
+      "summary": "社會局按租屋坪數補貼身障者家庭的房租，每年12月受理。",
+      "eligibility": [
+        "設籍本市並領有身心障礙證明",
+        "租賃的房屋位於本市",
+        "家庭總收入平均每人每月未達最低生活費2.5倍"
+      ],
+      "benefit": "113年度：按實際承租坪數每坪每月補貼200元，以租金總額50%為上限（保證金、公共管理費不補貼）；單身最高補貼7坪，二口家庭12坪，三口以上17坪。",
+      "how_to_apply": "每年12月依當年度公告受理，名額依公告；可經高雄數位市民平台查看申辦資訊。",
+      "contact": "社會局身心障礙福利科 07-3368333 分機3944",
+      "target_groups": [
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://socbu.kcg.gov.tw/index.php?prog=2&b_id=5&m_id=206&s_id=313",
+        "https://kgo.kcg.gov.tw/apply/info/S2020120100002?applyType=E"
+      ],
+      "source_date": "2024",
+      "confidence": "medium",
+      "notes": "與都市發展局的租金補貼（每年約7–8月）、中央300億租金補貼是不同方案。"
+    },
+    {
+      "id": "kaohsiung-parking-space-rent",
+      "name": "身心障礙者承租停車位租金補助",
+      "category": "transport",
+      "level": "local",
+      "summary": "補助身障者承租本市停車位的租金，依家庭身分按月租比例補助，每年12月受理。",
+      "eligibility": [
+        "設籍本市並領有身心障礙證明",
+        "承租位於本市的停車位，租約期間逾3個月",
+        "不得與購買停車位貸款利息補貼同時申請"
+      ],
+      "benefit": "114年度：補助114年1–12月租金，每月最高1,000元（保證金、管理費不補助）；低收入戶補助實際月租50%，中低收入戶40%，領身心障礙者生活補助者25%。",
+      "how_to_apply": "每年12月依當年度公告受理；合格者超過名額時依計點標準表積分順序補助。",
+      "contact": "社會局身心障礙福利科 07-3368333 分機3943或3944",
+      "target_groups": [
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://socbu.kcg.gov.tw/index.php?prog=2&b_id=5&m_id=206&s_id=741",
+        "https://kgo.kcg.gov.tw/apply/info/S2020120100003?applyType=E"
+      ],
+      "source_date": "2025",
+      "confidence": "high"
+    },
+    {
+      "id": "kaohsiung-loan-interest",
+      "name": "身心障礙者購屋貸款利息補助、購買停車位貸款利息補貼",
+      "category": "economic",
+      "level": "local",
+      "summary": "社會局補助身障者購買自用住宅或停車位的貸款利息，每年12月受理。",
+      "eligibility": [
+        "設籍本市並領有身心障礙證明",
+        "購屋貸款利息：購買自用住宅未滿5年（依作業要點）"
+      ],
+      "benefit": "補助購屋或購買停車位的貸款利息；補助標準未查到。",
+      "how_to_apply": "每年12月依當年度公告受理，名額依公告。",
+      "source_urls": [
+        "https://outlaw.kcg.gov.tw/LawContent.aspx?id=GL000232",
+        "https://socbu.kcg.gov.tw/index.php?b_id=5&m_id=206&prog=2&s_id=742"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "作業要點發布於2011年，之後是否修正未確認；補助金額與比例請以社會局當年度公告為準。"
+    },
+    {
+      "id": "kaohsiung-self-reliance",
+      "name": "高雄市身心障礙者自力更生補助（創業）",
+      "category": "employment",
+      "level": "local",
+      "summary": "勞工局補助身障者創業的營業場所租金及設備費用。",
+      "eligibility": [
+        "領有身心障礙手冊或證明",
+        "設籍本市一年以上",
+        "年滿20歲至65歲",
+        "營業場所房屋為本人、配偶或二親等內直系親屬所有者，不得申請租金補助"
+      ],
+      "benefit": "依辦法（102年）：租金補助第一年每月補助房租七成、上限8,000元，第二年為第一年的一半，最長合計2年；設備補助為創業一年內購置設備費用的1/2，上限6萬元（耗材、裝潢、維修不補助）。",
+      "how_to_apply": "向高雄市政府勞工局申請。",
+      "target_groups": [
+        "成年",
+        "求職者"
+      ],
+      "source_urls": [
+        "https://outlaw.kcg.gov.tw/LawContent.aspx?id=GL000730",
+        "https://socbu.kcg.gov.tw/index.php?b_id=5&m_id=29&prog=2&s_id=328"
+      ],
+      "source_date": "2013",
+      "confidence": "medium",
+      "notes": "法規系統顯示的是102年公布版本，後續是否修正未確認。"
+    },
+    {
+      "id": "kaohsiung-medical-aid",
+      "name": "高雄市經濟弱勢市民醫療補助（含看護費補助）",
+      "category": "medical",
+      "level": "local",
+      "summary": "社會局補助低收入戶、中低收入戶及領身障生活補助者的部分醫療費用與看護費。",
+      "eligibility": [
+        "設籍本市，且為低收入戶、中低收入戶或領有身心障礙者生活補助等身分之一"
+      ],
+      "benefit": "補助醫療費用及看護費，有年度上限；假牙、齒列矯正、證明書費、指定藥品或材料、自費項目等不補助。",
+      "how_to_apply": "向社會局或戶籍地區公所申請。",
+      "contact": "社會局 07-3368333 分機3945",
+      "target_groups": [
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://socbu.kcg.gov.tw/index.php?prog=2&b_id=6&m_id=34&s_id=706",
+        "https://older.kcg.gov.tw/cp.aspx?n=EF43CD081A223E8D&s=0FD1844107AF0BDA"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "補助比例與年度上限金額未查到。搜尋結果沒有營養品補助。"
+    },
+    {
+      "id": "kaohsiung-medical-rehab-devices",
+      "name": "身心障礙者醫療復健費用及醫療輔具補助",
+      "category": "medical",
+      "level": "central",
+      "summary": "衛生局依中央辦法，補助身障者醫療復健所需費用及醫療輔具。",
+      "eligibility": [
+        "設籍本市並領有身心障礙證明",
+        "符合收入條件"
+      ],
+      "benefit": "依111年1月1日起的新版醫療復健費用及醫療輔具補助標準補助。",
+      "how_to_apply": "向戶籍地衛生所或衛生局申請（111年起使用新版申請表單）。",
+      "source_urls": [
+        "https://health.kcg.gov.tw/News_Content.aspx?n=1FB08C4963EC16C7&s=52D4AE5B4F1BE370&sms=6C385E925A27543E",
+        "https://sig.kcg.gov.tw/News_Content.aspx?n=4B74A5D168914C92&sms=A17975A36639F515&s=936815D88CED9777"
+      ],
+      "source_date": "2022",
+      "confidence": "medium",
+      "notes": "各品項補助金額未查到。"
+    }
+  ]
+}
