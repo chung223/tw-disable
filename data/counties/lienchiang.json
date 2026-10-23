@@ -1,0 +1,122 @@
+{
+  "county_id": "lienchiang",
+  "county_name": "連江縣",
+  "agency": "連江縣衛生福利局",
+  "agency_url": "https://www.matsu.gov.tw/",
+  "phone": "連江縣民服務中心 0836-25131（地址：20941 連江縣南竿鄉介壽村76號）",
+  "collected_at": "2026-10-23",
+  "method": "web_search",
+  "notes": "以 WebSearch 共 12 次搜尋（11 次限定 matsu.gov.tw），可取得內容主要來自連江縣政府主管法規共用系統與縣民服務中心，衛生福利局「身心障礙者福利」頁面（https://www.matsu.gov.tw/texthtml/content/371030000A0001/5974）的內容未出現在搜尋摘要中。多項法規年代甚早（生活津貼要點民國95年發布、99年修正；乘車船補助要點民國84年），現行金額請向衛生福利局或鄉公所確認。未查到而未收錄：中央「身心障礙者生活補助」在連江縣的金額與窗口（僅見其他法規提及「中低收入身心障礙生活補助費」）、身心障礙者參加社會保險費用補助、日間及住宿式照顧費用補助、復康巴士（網站僅見選單名稱）、身障停車證、個人助理、社區居住、年節慰問、醫療補助、緊急救援。已知存在但只見名稱：「連江縣身心障礙者臨時及短期照顧服務實施計畫」（115年8月25日修正第五、十、十二點）、「連江縣肢體障礙者生活重建服務計畫」（https://law.matsu.gov.tw/LawContent.aspx?id=GL000657）、衛生福利局網站「身心障礙者就業專區」。另衛福部「離島地區嚴重傷病就醫交通費補助」涵蓋連江縣全縣，屬中央制度且非身障專屬，未列入；民間資料提及東引鄉海空運票價補助自治條例對身心障礙者有經濟艙票價全額補助字樣，但無法在官網證實，未收錄。",
+  "benefits": [
+    {
+      "id": "lienchiang-living-allowance",
+      "name": "連江縣身心障礙者生活津貼",
+      "category": "economic",
+      "level": "local",
+      "summary": "連江縣自辦的身心障礙者每月生活津貼，不以低收入為條件，依障礙等級發給。",
+      "eligibility": [
+        "設籍連江縣，一年內實際居住合計183日（含）以上",
+        "依法領有身心障礙手冊（證明）",
+        "現職軍公教及公營事業人員不予發給",
+        "已領有其他政府生活津貼且金額較低者，可領取差額"
+      ],
+      "benefit": "每人每月：輕度、中度、重度新臺幣3,500元；極重度新臺幣4,000元（依民國95年發布、99年修正之實施要點）。",
+      "how_to_apply": "向戶籍所在地鄉公所提出申請，經鄉公所初核、縣府審核通過後，自當月份發給；各鄉每月5日前辦理撥款。縣民服務中心提供「身心障礙者生活津貼申請書」下載。",
+      "contact": "戶籍所在地鄉公所（南竿、北竿、莒光、東引）",
+      "source_urls": [
+        "https://law.matsu.gov.tw/LawContent.aspx?id=GL000413",
+        "https://eservice.matsu.gov.tw/home?page=2"
+      ],
+      "source_date": "2010",
+      "confidence": "medium",
+      "notes": "要點年代較舊，現行金額與資格（例如是否已改為身心障礙證明、是否與中央身心障礙生活補助併領）請向衛生福利局或鄉公所確認。經費由公益彩券盈餘分配基金專戶及縣府年度預算支應。"
+    },
+    {
+      "id": "lienchiang-assistive-devices",
+      "name": "連江縣身心障礙者輔具費用補助",
+      "category": "assistive",
+      "level": "mixed",
+      "summary": "依中央輔具費用補助基準表，並加上連江縣增訂的補助項目，補助身心障礙者購買輔具。",
+      "eligibility": [
+        "設籍連江縣，且最近一年居住國內超過183日",
+        "持有身心障礙手冊（證明）",
+        "申請項目符合補助基準表或連江縣增訂表之規定",
+        "申請補助項目未獲政府其他相關補助或社會保險給付"
+      ],
+      "benefit": "依中央補助基準表及連江縣增訂表補助（搜尋結果未列各項金額）。",
+      "how_to_apply": "向戶籍所在地鄉公所或連江縣輔具資源中心申請；須經評估之輔具，未經評估及核定即先行購買者不予補助。核定後應於審核結果書面通知送達日起六個月內，檢附購買或付費憑證申請核銷撥付。",
+      "documents": [
+        "國民身分證正本",
+        "各項目之診斷證明書或輔具評估報告書（開立日起三個月內提出申請）"
+      ],
+      "contact": "戶籍所在地鄉公所、連江縣輔具資源中心",
+      "source_urls": [
+        "https://law.matsu.gov.tw/LawContent.aspx?id=GL000571"
+      ],
+      "source_date": "2024",
+      "confidence": "high",
+      "notes": "審核要點最近一次修正為民國113年4月30日。連江縣增訂表的項目內容搜尋結果未顯示。"
+    },
+    {
+      "id": "lienchiang-mainland-ferry",
+      "name": "連江縣身心障礙者赴大陸交通船費補助",
+      "category": "transport",
+      "level": "local",
+      "summary": "未滿65歲的連江縣籍身心障礙者搭乘小三通船舶往返大陸，每趟可補助全票票價一半，每年有上限。",
+      "eligibility": [
+        "設籍連江縣",
+        "未滿65歲",
+        "領有身心障礙證明（或手冊）"
+      ],
+      "benefit": "往返每趟補助全票票價1/2，一年最高補助新臺幣2,500元。",
+      "how_to_apply": "填具「身心障礙者赴大陸交通船費補助申請」（連江縣民服務中心提供申辦項目），申請期限依要點規定（搜尋結果未顯示受理窗口與期限細節）。",
+      "contact": "連江縣民服務中心 0836-25131",
+      "source_urls": [
+        "https://law.matsu.gov.tw/LawContent.aspx?id=GL000569",
+        "https://eservice.matsu.gov.tw/home?page=2"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    },
+    {
+      "id": "lienchiang-bus-ferry-free",
+      "name": "老人、身心障礙者及六歲以下兒童乘車、船補助",
+      "category": "transport",
+      "level": "local",
+      "summary": "設籍並實際居住連江縣的身心障礙者，搭乘縣內公車及島內船舶時出示證件即可免費。",
+      "eligibility": [
+        "設籍並實際居住連江縣",
+        "持有身心障礙手冊（證明）"
+      ],
+      "benefit": "搭乘縣內公車及島內船舶免費（公車業者每月向縣府請領補助，海運業者按人數以船票半價請領）。縣府「車船優惠」頁面另載縣內公車刷縣民卡皆免費，航運免費票適用設籍之身心障礙者。",
+      "how_to_apply": "搭乘時出示身分證件（身心障礙證明）或刷縣民卡。",
+      "contact": "連江縣民服務中心 0836-25131",
+      "source_urls": [
+        "https://law.matsu.gov.tw/LawContent.aspx?id=GL000421",
+        "https://www.matsu.gov.tw/texthtml/content/371050000A0001MC/1953/"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "補助要點為民國84年發布，未見近期修正紀錄。身心障礙者陪伴者是否同享優惠，各頁面記載不一，請洽詢確認。"
+    },
+    {
+      "id": "lienchiang-referral-transport",
+      "name": "身心障礙者轉診赴台就醫交通費補助",
+      "category": "medical",
+      "level": "local",
+      "summary": "連江縣民服務中心列有「身心障礙者轉診赴台就醫交通費補助申請」申辦項目，補助身障者轉診赴臺灣本島就醫的交通費。",
+      "eligibility": [
+        "連江縣籍身心障礙者經轉診赴臺就醫（詳細資格搜尋結果未顯示）"
+      ],
+      "benefit": "補助轉診赴臺就醫交通費；補助標準、是否含陪同者，搜尋結果均未顯示。",
+      "how_to_apply": "透過連江縣民服務中心申辦（eservice.matsu.gov.tw 提供表單下載與線上申辦欄位），或洽衛生福利局、戶籍所在地鄉公所。",
+      "contact": "連江縣民服務中心 0836-25131",
+      "source_urls": [
+        "https://eservice.matsu.gov.tw/home?page=2"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "僅確認申辦項目存在，未取得要點內容。申請前請向連江縣衛生福利局索取補助要點。"
+    }
+  ]
+}
