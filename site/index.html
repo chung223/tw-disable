@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>全台身障福利查詢</title>
+  <meta name="description" content="查詢全台 22 縣市的身心障礙者福利，以及全國通用、可跨縣市使用的資源。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;600&family=Noto+Serif+TC:wght@700&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#results">跳到查詢結果</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <h1>全台身障福利查詢</h1>
+      <p class="lede">選擇戶籍所在縣市，查看當地福利與全國通用的資源。</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <form id="filters" class="filters" role="search" aria-label="篩選福利">
+      <div class="field">
+        <label for="county">戶籍縣市</label>
+        <select id="county" name="county">
+          <option value="">全部縣市</option>
+        </select>
+      </div>
+
+      <div class="field field-grow">
+        <label for="q">關鍵字</label>
+        <input id="q" name="q" type="search" placeholder="例如：生活補助、復康巴士、停車" autocomplete="off">
+      </div>
+
+      <fieldset class="field field-full">
+        <legend>福利類別</legend>
+        <div id="categories" class="chips"></div>
+      </fieldset>
+
+      <fieldset class="field field-full">
+        <legend>資料範圍</legend>
+        <div class="chips">
+          <label class="chip"><input type="checkbox" name="scope" value="county" checked> <span>縣市福利</span></label>
+          <label class="chip"><input type="checkbox" name="scope" value="nationwide" checked> <span>全國通用</span></label>
+          <label class="chip"><input type="checkbox" name="scope" value="interop" checked> <span>跨縣市互通</span></label>
+        </div>
+      </fieldset>
+
+      <button type="reset" class="reset">清除條件</button>
+    </form>
+
+    <section id="county-info" class="county-info" hidden aria-live="polite"></section>
+
+    <section id="results" aria-labelledby="results-heading" tabindex="-1">
+      <h2 id="results-heading" class="results-heading">查詢結果</h2>
+      <p id="status" class="status" role="status" aria-live="polite">載入中…</p>
+      <div id="list"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>本站資料整理自各縣市政府及中央機關公開資訊，金額與資格每年調整，實際以主管機關公告為準。標示「待核實」的項目來源較舊或為二手資料，申請前請先向承辦單位確認。</p>
+      <p>福利諮詢：衛福部 1957 福利諮詢專線；長照服務：1966。<span id="generated"></span></p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

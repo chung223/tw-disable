@@ -1,0 +1,12 @@
+[
+  { "id": "economic", "name": "經濟補助", "description": "生活補助、津貼、保費補助、租屋與購屋補貼等現金給付" },
+  { "id": "medical", "name": "醫療與復健", "description": "醫療費用、復健、營養品、健保相關補助" },
+  { "id": "assistive", "name": "輔具", "description": "輔具費用補助、租借、維修、居家無障礙改善" },
+  { "id": "care", "name": "照顧服務", "description": "居家照顧、日間照顧、住宿機構、喘息、社區居住、家庭托顧、個人助理" },
+  { "id": "transport", "name": "交通與停車", "description": "復康巴士、乘車優惠、社福卡點數、停車證與停車費優惠" },
+  { "id": "employment", "name": "就業", "description": "職業重建、支持性就業、庇護工場、職務再設計、創業" },
+  { "id": "education", "name": "教育", "description": "學雜費減免、特殊教育、獎助學金" },
+  { "id": "tax", "name": "稅賦與規費減免", "description": "所得稅、牌照稅、規費等減免" },
+  { "id": "leisure", "name": "文化休閒", "description": "公有場館、風景區、運動中心門票優惠" },
+  { "id": "support", "name": "家庭支持與其他", "description": "諮詢專線、個案管理、手語翻譯、自立生活、法律扶助等" }
+]

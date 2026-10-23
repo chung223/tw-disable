@@ -1,0 +1,707 @@
+{
+  "county_id": "taipei",
+  "county_name": "臺北市",
+  "agency": "臺北市政府社會局",
+  "agency_url": "https://dosw.gov.taipei/",
+  "phone": "1999（外縣市 02-27208889）",
+  "collected_at": "2026-10-23",
+  "method": "web_search",
+  "notes": "以 WebSearch（allowed_domains 限 dosw.gov.taipei、gov.taipei、fd.gov.taipei 等臺北市政府網域）取得官方頁面摘要整理，未能直接開啟原始頁面與附件 PDF。多數申請說明頁未標示年度，source_date 記為 unknown；有明確年度者（115年度生活補助、購屋貸款利息補貼門檻、愛心卡點數、計程車補助）照記。未收錄：緊急生活扶助／急難救助、醫療補助、營養品補助（搜尋結果僅見低收入戶通用規定或110年舊手冊，非身障專屬）、居家照顧（長照）細節、日間照顧及住宿式照顧之115年7月1日新版作業要點內容（只見檔名）。社會局身心障礙者福利科分機1358、1617、6964；地址：臺北市信義區市府路1號。",
+  "benefits": [
+    {
+      "id": "taipei-living-allowance",
+      "name": "身心障礙者生活補助",
+      "category": "economic",
+      "level": "mixed",
+      "summary": "依家庭經濟狀況與障礙等級按月發給生活補助。臺北市列冊低收入戶的補助金額高於一般家庭，且由社會局主動核發。",
+      "eligibility": [
+        "設籍並實際居住臺北市，最近一年居住國內超過183日",
+        "領有身心障礙證明",
+        "家庭總收入平均分配全家人口，每人每月未超過臺灣地區消費支出1.5倍（115年度為39,960元）",
+        "全家人口動產（含存款、股票及投資）合計：單一人口家庭200萬元，每增加一口得增加25萬元",
+        "全家人口土地及房屋價值合計不超過992萬元（115年度）"
+      ],
+      "benefit": "115年度：本市列冊低收入戶之極重度、重度及中度身心障礙者每人每月9,485元，輕度每人每月5,437元；本市列冊中低收入戶及其他符合資格者（非列冊低收入戶）之極重度、重度及中度每人每月5,437元，輕度每人每月4,049元。",
+      "how_to_apply": "向申請人戶籍所在地區公所社會課申請；本市列冊低收入戶者由社會局主動核發，無須另外申請。",
+      "documents": [
+        "申請書1份",
+        "申請人國民身分證正本",
+        "申請人本人之郵局或台北富邦銀行存摺封面影本1份",
+        "視情況檢附：新式戶口名簿、同住家人身分證明、租賃契約或借住證明（借住需附房屋稅證明或所有權狀影本）",
+        "財產或收入異動資料：最近3個月薪資證明或在職證明、最近2年內房屋土地交易證明影本、最近2年集保帳戶存摺封面、交易內頁、對帳單影本"
+      ],
+      "contact": "戶籍所在地區公所社會課；市民熱線1999（外縣市02-2720-8889）",
+      "target_groups": ["低收入或中低收入"],
+      "source_urls": [
+        "https://dosw.gov.taipei/cp.aspx?n=C764A5808F9A3B08",
+        "https://dosw.gov.taipei/cp.aspx?n=1BBD3CDD6206A2DC",
+        "https://dosw.gov.taipei/News_Content.aspx?n=91F35523B74F69AC&sms=87415A8B9CE81B16&s=8D79133341A528E3",
+        "https://dosw.gov.taipei/cp.aspx?n=C764A5808F9A3B08&s=F07CC253EA16024A"
+      ],
+      "source_date": "2026",
+      "confidence": "high",
+      "notes": "部分社會局頁面仍為114年度標準（收入上限38,589元、房屋土地上限943萬元），以115年度為準。"
+    },
+    {
+      "id": "taipei-care-fee-subsidy",
+      "name": "身心障礙者日間照顧及住宿式照顧費用補助",
+      "category": "care",
+      "level": "mixed",
+      "summary": "補助身心障礙者使用日間照顧或住宿式機構的費用，依家庭收入分級補助比例；臺北市對年滿30歲、父母高齡或家中多名身障者等情形提高補助比例。",
+      "eligibility": [
+        "持臺北市身心障礙證明，使用身心障礙日間照顧或住宿式照顧服務",
+        "依家庭總收入平均分配全家人口後，相對於當年度每人每月最低生活費的倍數分級",
+        "提高補助比例之特定條件：身心障礙者年滿30歲、成年身障者之父母之一年滿65歲以上，或家中有2名以上身心障礙者"
+      ],
+      "benefit": "一般補助比例：列冊低收入戶全額補助；中低收入戶或家庭總收入平均未達最低生活費2倍者75%；2至3倍者50%；3至4倍者25%。符合特定條件者：中低收入戶或未達2倍者85%；2至3倍者70%；3至4倍者60%；4至5倍者50%；5至6倍者40%。",
+      "how_to_apply": "申請方式與應備文件見社會局「身心障礙者日間照顧及住宿式照顧費用補助」申請說明及常見問答頁（搜尋結果未顯示受理窗口）；可洽1999轉社會局身心障礙者福利科。",
+      "contact": "1999（外縣市02-2720-8889）",
+      "target_groups": ["低收入或中低收入", "家庭照顧者"],
+      "source_urls": [
+        "https://dosw.gov.taipei/News_Content.aspx?n=91F35523B74F69AC&sms=87415A8B9CE81B16&s=B1EF2D3EA87A4947",
+        "https://dosw.gov.taipei/cp.aspx?n=31679B4CB3CEE04D",
+        "https://dosw.gov.taipei/cp.aspx?n=31679B4CB3CEE04D&s=8ADAB66792C528A1"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "補助比例取自未標示年度的社會局常見問答。社會局另列有「身心障礙者日間照顧及住宿式照顧費用補助作業要點（115年7月1日生效）」及「補助金額一覽表」，內容未能讀取，比例可能已調整。上述標準不含老人長期照顧機構養護型、失智照顧型及榮民之家安養床；50歲以上未滿65歲入住老人長照機構者改依老人收容安置補助計畫審理。"
+    },
+    {
+      "id": "taipei-assistive-devices",
+      "name": "身心障礙者輔具費用補助",
+      "category": "assistive",
+      "level": "mixed",
+      "summary": "補助身心障礙者購置輔具，採先申請核定、後購買請款的兩階段方式；需評估的品項須先評估，先買後申請不予補助。可線上預約評估並由特約廠商代墊。",
+      "eligibility": [
+        "設籍臺北市，且最近1年居住國內達183日",
+        "領有臺北市核（換、補）發或註記之身心障礙證明",
+        "需評估之品項須檢附3個月內之輔具評估報告書；非政府自辦或委託之輔具服務單位開立者，須由身障鑑定醫院內之治療師開立"
+      ],
+      "benefit": "共計補助242項輔助器具；每人每2年以申請4項為限（合併醫療輔具補助項次計算）。",
+      "how_to_apply": "第一階段：持輔具評估報告書及（或）診斷證明書至本市輔具中心提出申請，社會局寄送核定公文。第二階段：收受核定公文起6個月內完成購置，持應備文件回輔具中心請款。亦可透過「輔具補助線上通」線上預約評估、申請，並由特約廠商代償墊付。",
+      "documents": [
+        "輔具評估報告書（3個月內）及（或）診斷證明書",
+        "購置後請款之應備文件（依核定公文所列）"
+      ],
+      "contact": "合宜輔具中心02-7713-7760（北投、士林、中山、大同）；西區輔具中心02-2523-7902（中正、萬華、大安、松山）；南區輔具中心02-2720-7364（信義、內湖、南港、文山）",
+      "source_urls": [
+        "https://dosw.gov.taipei/cp.aspx?n=49304F9B0793FFEF",
+        "https://dosw.gov.taipei/News_Content.aspx?n=91F35523B74F69AC&sms=87415A8B9CE81B16&s=70F51D9B39B2C7C9",
+        "https://dosw.gov.taipei/cp.aspx?n=B5E20B16E8E9AFCE"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "各品項補助金額未於搜尋結果中呈現。長照輔具另有制度，需經長期照顧管理中心評估。"
+    },
+    {
+      "id": "taipei-assistive-center",
+      "name": "臺北市輔具中心服務（輔具評估、到宅評估）",
+      "category": "assistive",
+      "level": "local",
+      "summary": "社會局委託合宜、西區、南區三處輔具中心，依行政區分區受理輔具補助申請與請款，提供輔具評估；確有需要者可由社工員或治療師到宅評估。",
+      "eligibility": [
+        "臺北市身心障礙者（依居住行政區對應輔具中心）",
+        "到宅服務需經社會局委託之輔具中心社工員或治療師專業評估確有需要"
+      ],
+      "benefit": "輔具評估、輔具補助申請與核銷窗口；經評估有需要者提供到宅評估。",
+      "how_to_apply": "依行政區洽對應輔具中心，或於「輔具補助線上通」線上預約評估。",
+      "contact": "合宜輔具中心02-7713-7760（北投、士林、中山、大同）；西區輔具中心02-2523-7902（中正、萬華、大安、松山）；南區輔具中心02-2720-7364（信義、內湖、南港、文山）",
+      "source_urls": [
+        "https://dosw.gov.taipei/cp.aspx?n=F00D57EC34399445",
+        "https://dosw.gov.taipei/cp.aspx?n=49304F9B0793FFEF"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "各中心服務時間為週二至週六或週一至週五（依中心而異），出發前請先電話確認。"
+    },
+    {
+      "id": "taipei-hearing-aid-test",
+      "name": "助聽器輔具檢測費用補助計畫",
+      "category": "assistive",
+      "level": "local",
+      "summary": "臺北市自辦，補助經核定購置中階以上助聽器的聽障者，於身障鑑定醫院做驗配後檢測的費用。",
+      "eligibility": [
+        "已取得社會局審定，符合助聽器中階型、進階型或雙對側傳聲型之輔具補助，並於時效內購置",
+        "經身心障礙鑑定醫院聽力師開立驗證合格報告，且於配戴滿一個月後至三個月內完成檢測",
+        "同一項助聽器在最低使用年限內不得重複申請"
+      ],
+      "benefit": "依身心障礙鑑定醫院收費單據核實補助，每案最高新臺幣2,000元；限驗配後之檢測費用，聽力師開立輔具評估報告書之評估費用不予補助。",
+      "how_to_apply": "依社會局「助聽器輔具檢測費用補助計畫」申請說明辦理，檢附醫院驗配檢測收費單據正本（2014年新聞稿稱向區公所申請，現行窗口請以社會局頁面為準）。",
+      "documents": [
+        "醫院驗配檢測收費單據正本",
+        "聽力師開立之驗證合格報告"
+      ],
+      "target_groups": ["聽覺或平衡障礙"],
+      "source_urls": [
+        "https://dosw.gov.taipei/cp.aspx?n=9DEC9932DB012281",
+        "https://dosw.gov.taipei/News_Content.aspx?n=6CA16D3397A7A302&sms=72544237BBE4C5F6&s=FBE7B04A074F6122&ccms_cs=1"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "搜尋結果未見2026年版本，金額可能調整。"
+    },
+    {
+      "id": "taipei-cochlear-implant",
+      "name": "身心障礙者人工電子耳補助",
+      "category": "medical",
+      "level": "local",
+      "summary": "臺北市依家庭經濟身分補助身心障礙者植入人工電子耳的費用，另有人工電子耳配件補助計畫。",
+      "eligibility": [
+        "臺北市身心障礙者，有植入人工電子耳需求",
+        "依低收入戶、中低收入戶、一般戶分級補助"
+      ],
+      "benefit": "低收入戶每人最高補助60萬元整；中低收入戶每人最高補助45萬元整；一般戶每人最高補助30萬元整。",
+      "how_to_apply": "申請期間與洽辦單位見社會局常見問答「身心障礙者人工電子耳補助內容與申請期間」（搜尋摘要未完整顯示）；可洽1999轉社會局。",
+      "contact": "1999（外縣市02-2720-8889）",
+      "target_groups": ["聽覺或平衡障礙", "低收入或中低收入"],
+      "source_urls": [
+        "https://dosw.gov.taipei/News_Content.aspx?n=91F35523B74F69AC&sms=87415A8B9CE81B16&s=A84BA6E6BDF0B9A3"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "只看到常見問答摘要，申請期間、窗口與資格細節未確認；配件補助計畫內容未取得。"
+    },
+    {
+      "id": "taipei-parenting-aids",
+      "name": "育兒輔具費用補助試辦計畫",
+      "category": "assistive",
+      "level": "local",
+      "summary": "臺北市試辦，補助懷孕或育有6歲以下兒童的身心障礙者購置育兒輔具，減輕照顧負荷。",
+      "eligibility": [
+        "設籍並居住於臺北市，領有身心障礙證明",
+        "符合其一：領有孕婦健康手冊，或育有6歲（含）以下兒童且為主要照顧者"
+      ],
+      "benefit": "補助育兒輔具購置費用（補助品項與金額上限搜尋結果未呈現）；試辦期間115年1月1日至116年12月31日。",
+      "how_to_apply": "兩階段：先向社會局委託之輔具中心提出申請（附申請書及3個月內輔具評估報告書，不需評估品項免附），取得社會局核定函後才購買；購買後於核定後6個月內向輔具中心申請核銷。可線上申請。",
+      "documents": [
+        "申請書",
+        "3個月內開立之輔具評估報告書（不需評估之品項免附）"
+      ],
+      "contact": "02-2720-8889",
+      "target_groups": ["家庭照顧者", "兒童及少年"],
+      "source_urls": [
+        "https://dosw.gov.taipei/cp.aspx?n=1C6CF70EFEB33E48"
+      ],
+      "source_date": "2026",
+      "confidence": "high",
+      "notes": "未先取得核定即購買者可能無法補助；補助金額上限請向社會局確認。"
+    },
+    {
+      "id": "taipei-insurance-premium",
+      "name": "身心障礙者參加社會保險保險費補助",
+      "category": "economic",
+      "level": "central",
+      "summary": "依障礙等級補助健保、公保、勞保、軍保、農保等社會保險自付保費。臺北市另提供「不列入媒體補助」，由社會局直接撥款，避免投保單位得知身障身分。",
+      "eligibility": [
+        "設籍臺北市，持本市核發或註記之身心障礙證明",
+        "已參加健保、公保、勞保、軍保或農保等社會保險"
+      ],
+      "benefit": "以本人自付保費為限：重度、極重度全額補助；中度補助二分之一；輕度補助四分之一。不含二代健保補充保費。",
+      "how_to_apply": "按月減免：取得證明後於投保單位直接減免，健保、勞保、農保不需申請；公保、軍保由本人向投保單位申請。不列入媒體補助：向社會局申請（可線上申辦，或下載申請表寄送社會局），之後可隨時申請改回按月減免。",
+      "documents": [
+        "不列入媒體補助者：申請表、郵局或金融機構帳戶資料"
+      ],
+      "contact": "社會局身心障礙者福利科：1999（外縣市02-2720-8889）分機1358、1617、6964",
+      "source_urls": [
+        "https://dosw.gov.taipei/cp.aspx?n=5F79B48807F7B363"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    },
+    {
+      "id": "taipei-rent-subsidy",
+      "name": "身心障礙者房屋租金補貼",
+      "category": "economic",
+      "level": "mixed",
+      "summary": "補貼無自有住宅、在臺北市租屋的身心障礙者部分房租，依居住面積及同住直系親屬人數計算。",
+      "eligibility": [
+        "設籍並實際居住臺北市，持本市核發之身心障礙證明",
+        "家庭收入條件與其他福利資格符合規定",
+        "租賃房屋非社會住宅",
+        "本人及配偶、直系親屬均無自有住宅"
+      ],
+      "benefit": "每平方公尺每月最高100元；獨居最多計30平方公尺，每增加一名同住直系親屬加計15平方公尺（最多增加三名）。每月上限：獨居3,000元、2人4,500元、3人6,000元、4人以上7,500元；不得超過房租總額一半，押金與管理費不補貼。",
+      "how_to_apply": "向社會局身心障礙者福利科申請，或透過「臺北市民服務通」線上辦理。",
+      "contact": "社會局身心障礙者福利科：1999（外縣市02-2720-8889）",
+      "source_urls": [
+        "https://dosw.gov.taipei/cp.aspx?n=A119F2D98118E1D5",
+        "https://dosw.gov.taipei/News_Content.aspx?n=91F35523B74F69AC&sms=87415A8B9CE81B16&s=A5EE932EBAF577FE",
+        "https://dosw.gov.taipei/News_Content.aspx?n=3FA90D294890AFE9&s=3924CE7C457690DE"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "家庭收入門檻數字搜尋結果未呈現；與購屋貸款利息補貼等不得重複領取。"
+    },
+    {
+      "id": "taipei-mortgage-interest",
+      "name": "身心障礙者購屋貸款利息補貼",
+      "category": "economic",
+      "level": "mixed",
+      "summary": "補貼在臺北市購置自住住宅的身心障礙者部分房貸利息。",
+      "eligibility": [
+        "設籍並實際居住臺北市，持本市身心障礙證明",
+        "家庭平均收入未達當年度每人每月最低生活費4倍（115年度為82,976元）",
+        "購置住宅位於臺北市，並以該住宅作為貸款抵押物",
+        "身障者、配偶及同戶籍直系親屬在各縣市均無自有住宅（或僅有一戶為五年內申請本補貼並仍有貸款之住宅）",
+        "未同時領取其他購屋貸款利息補貼、興建住宅費用補貼、房屋租金補貼或本市身心障礙者津貼"
+      ],
+      "benefit": "貸款額度最高220萬元，寬限期最長5年；優惠利率以郵局二年期定存機動利率減0.533%計算，利息差額由市府補貼。",
+      "how_to_apply": "每年1月1日至12月31日向社會局受理申請；核准者於每季前檢附資料請款，款項撥入申請人指定帳戶。",
+      "contact": "社會局身心障礙者福利科：1999（外縣市02-2720-8889）",
+      "source_urls": [
+        "https://dosw.gov.taipei/cp.aspx?n=A6E6C76ECBD747A9",
+        "https://dosw.gov.taipei/News_Content.aspx?n=91F35523B74F69AC&sms=87415A8B9CE81B16&s=71AF8C9CB886D363",
+        "https://dosw.gov.taipei/News_Content.aspx?n=91F35523B74F69AC&sms=87415A8B9CE81B16&s=6B3F419FC5DF0B50"
+      ],
+      "source_date": "2026",
+      "confidence": "high"
+    },
+    {
+      "id": "taipei-love-card",
+      "name": "愛心卡（身心障礙者乘車優待，愛心悠遊卡）",
+      "category": "transport",
+      "level": "local",
+      "summary": "設籍臺北市的身心障礙者可申請愛心卡，每月撥入交通點數，可用於雙北及基隆公車、捷運、臺鐵、計程車、復康巴士、貓空纜車、YouBike等。",
+      "eligibility": [
+        "設籍臺北市",
+        "領有身心障礙證明"
+      ],
+      "benefit": "自115年7月1日起每月免費優待600點（1點1元，原為480點），當月未用完不累計至次月。可用於雙北及基隆公車、捷運與輕軌、臺鐵、敬老愛心計程車、復康巴士、貓空纜車，以及臺北市境內微笑單車。",
+      "how_to_apply": "至臺北市各區公所申請。",
+      "contact": "1999（外縣市02-2720-8889）",
+      "source_urls": [
+        "https://dosw.gov.taipei/cp.aspx?n=98EA840859DF5D7F",
+        "https://dosw.gov.taipei/News_Content.aspx?n=6CA16D3397A7A302&s=A6588504E6C41569",
+        "https://dosw.gov.taipei/News_Content.aspx?n=6CA16D3397A7A302&sms=72544237BBE4C5F6&s=46D4D10F0CDEAB53",
+        "https://pto.gov.taipei/News_Content.aspx?n=6B4D38874E971F4B&s=EF90141C6AF495F7"
+      ],
+      "source_date": "2026-07",
+      "confidence": "high",
+      "notes": "部分舊頁面仍寫每月480點，以115年7月起600點為準。另有「愛心陪伴悠遊卡」供陪伴者使用，細節未取得。"
+    },
+    {
+      "id": "taipei-taxi",
+      "name": "敬老愛心計程車（愛心卡點數搭乘計程車）",
+      "category": "transport",
+      "level": "local",
+      "summary": "持臺北市愛心卡搭乘加入敬老愛心車隊的計程車，每趟可用點數折抵部分車資。",
+      "eligibility": [
+        "持臺北市愛心卡（身心障礙者乘車優待卡）",
+        "搭乘敬老愛心車隊計程車"
+      ],
+      "benefit": "自115年2月1日起每趟次車資扣85點（原為65點），其餘車資由卡片儲值金支付；例如車資100元，補助85點，自付15元。",
+      "how_to_apply": "搭乘敬老愛心車隊計程車時刷愛心卡即可，卡片須有足夠儲值金支付差額。",
+      "source_urls": [
+        "https://dosw.gov.taipei/cp.aspx?n=59C18B4C973AED21",
+        "https://dosw.gov.taipei/News_Content.aspx?n=6CA16D3397A7A302&s=FAC76037053F0B2F",
+        "https://dosw.gov.taipei/News_Content.aspx?n=91F35523B74F69AC&sms=87415A8B9CE81B16&s=5247953AF1EE24F7"
+      ],
+      "source_date": "2026-02",
+      "confidence": "high",
+      "notes": "儲值金小於整趟車資時，即使點數足夠也無法用點數折抵部分車資。點數與公車、捷運等共用每月600點額度。"
+    },
+    {
+      "id": "taipei-rehab-bus",
+      "name": "小型復康巴士",
+      "category": "transport",
+      "level": "local",
+      "summary": "臺北市公共運輸處提供及門預約的小型復康巴士，依障別分級排定優先順序，車資約為計程車費率三分之一。",
+      "eligibility": [
+        "設籍臺北市且領有身心障礙證明者，依障別分特A、A1、A2、B等級排定優先順序",
+        "外縣市民眾：領有外縣市身心障礙手冊或證明，且為植物人、重度以上肢體障礙或重度視障者，起點或迄點須位於臺北市"
+      ],
+      "benefit": "及門預約服務，車資以計程車費率3分之1計算，共乘乘客再享66%費率優惠；特A及A1等級且具臺北市低收入戶資格者，每月可免費搭乘8次。捷運石牌站至榮總醫院接駁車免預約，每人15元，陪伴1人免費。",
+      "how_to_apply": "於用車日前3日至5日依開放時間以專線電話、傳真或網路訂車（民眾網路訂車系統），服務時段每日上午6時至下午11時。",
+      "source_urls": [
+        "https://pto.gov.taipei/cp.aspx?n=3B812B093D7FF7E8",
+        "https://pto.gov.taipei/News_Content.aspx?n=6B4D38874E971F4B&sms=87415A8B9CE81B16&s=E39C658A5D7963AE",
+        "https://dosw.gov.taipei/News_Content.aspx?n=91F35523B74F69AC&sms=87415A8B9CE81B16&s=A27FBAA646AEFD75",
+        "https://0809080650.gov.taipei/index.jsp?ID=126"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "訂車專線號碼未於搜尋結果中呈現。大型復康巴士須向各業者洽詢租用。愛心卡點數可用於支付復康巴士車資。"
+    },
+    {
+      "id": "taipei-parking",
+      "name": "身心障礙者專用停車位識別證與路邊停車優惠",
+      "category": "transport",
+      "level": "local",
+      "summary": "臺北市路邊收費停車格對身障車輛提供前4小時免費，駕照註記C的肢障自駕者可全日免費，中度以上肢障者因工作需要可享10小時免費。",
+      "eligibility": [
+        "持身心障礙者專用停車位識別證（加註車號者可直接免開前4小時費用）或懸掛身障車牌",
+        "全日免費：駕照註記「C」之肢障或合併肢障者，持同車號加貼「C」防偽標章識別證",
+        "10小時免費：自行開車之中度以上肢障者，因工作需要停放於工作地點500公尺內，持加註車號識別證辦理"
+      ],
+      "benefit": "一般路邊收費格及身障專用格前4小時免費，計次格半價，第5小時起依路段費率收費；「C」標章識別證停放路邊收費格全日免繳（同一格位連續停放超過3日，第3日起不再優惠）；中度以上肢障自駕者因工作需要當日停車10小時免費。外縣市核發之身障專用停車識別證亦享前4小時免費。",
+      "how_to_apply": "專用停車位識別證申請說明見社會局「專用停車位識別證申請」頁；停車費優惠與「C」標章、10小時工作停車由臺北市停車管理工程處辦理。未加註車號之識別證一律先開單，事後檢附證件銷單。",
+      "target_groups": ["肢體障礙"],
+      "source_urls": [
+        "https://pma.gov.taipei/Content_List.aspx?n=B25FB43AECFE51B0",
+        "https://pma.gov.taipei/News_Content.aspx?n=E860B620A78D1DAA&sms=87415A8B9CE81B16&s=F8516425C3A7CA52",
+        "https://pma.gov.taipei/cp.aspx?n=F4380FE8CE0BEAEA",
+        "https://dosw.gov.taipei/News_Content.aspx?n=E76EE035FB30679A&s=296201ED84D94C2B"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "停管處規範有102年及較新版本，部分數字在不同版本有差異，辦理前以停管處最新公告為準。社會局說明識別證本身是保障停車權益，免費停車屬停管處另訂優惠。"
+    },
+    {
+      "id": "taipei-respite",
+      "name": "身心障礙者臨時及短期照顧服務",
+      "category": "care",
+      "level": "mixed",
+      "summary": "由照顧服務員到家或安排至機構，暫代家屬照顧身心障礙者，讓家庭照顧者喘息。每日12小時內為臨時照顧，超過12小時為短期照顧。",
+      "eligibility": [
+        "實際居住臺北市",
+        "具中度、重度或極重度身心障礙證明",
+        "符合家庭照顧者服務辦法相關規定，並經社工專業評估需要照顧"
+      ],
+      "benefit": "服務費每小時補助上限250元（未滿30分鐘以半小時計），每日補助上限4,000元；春節（農曆除夕至初三）每小時服務費調整為2倍。交通費每次補助上限100元（安排至身心障礙機構為85元）。每年補助時數上限：在家照顧未安置機構者380小時；使用日托、就學、就業或日間照顧等服務者200小時；安置於全日型住宿機構等情形者100小時。短期照顧每次以14日為上限。",
+      "how_to_apply": "依社會局「身心障礙者臨時及短期照顧服務」申請說明辦理，經社工評估後派案；可洽1999轉社會局。",
+      "contact": "1999（外縣市02-2720-8889）",
+      "target_groups": ["家庭照顧者"],
+      "source_urls": [
+        "https://dosw.gov.taipei/cp.aspx?n=A365D7BCFBE9BAEA"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "服務範圍以臺北市為限，有醫囑或社工評估需要時陪同就醫可擴及新北市（不含復健、療育、民俗療法）。民眾自付額搜尋結果未呈現。失能者亦可經長照管理中心評估使用長照喘息服務（1966；臺北市長期照顧管理中心02-25371099）。"
+    },
+    {
+      "id": "taipei-independent-living",
+      "name": "身心障礙者自立生活支持服務（個人助理）",
+      "category": "care",
+      "level": "mixed",
+      "summary": "由專業社工與同儕支持員協助擬定自立生活計畫，並提供個人助理協助身心障礙者在社區自主生活。",
+      "eligibility": [
+        "實際居住臺北市、年滿18歲，有自立生活意願",
+        "持臺北市核（換）發之身心障礙證明，經需求評估確認需要此服務",
+        "使用個人助理者：未入住機構、未聘僱看護（傭），且未領取政府提供之特別照顧津貼或日間照顧費等補助（長照喘息服務補助除外；聘僱外籍看護另有放寬規定）",
+        "同一時段不得同時使用居家服務、家庭托顧或喘息服務等長照服務"
+      ],
+      "benefit": "個人助理支持服務費每小時250元：低收入戶與中低收入戶免自付；一般戶每小時自付60元；其餘收入區間每小時自付20元。另提供同儕支持與自立生活計畫擬定。",
+      "how_to_apply": "向社會局身心障礙者福利科申請，各區身心障礙者服務中心亦可提供諮詢。",
+      "contact": "1999（外縣市02-2720-8889）轉身心障礙者福利科分機1358、1617、6964（週一至週五9:00–17:00）",
+      "target_groups": ["成年"],
+      "source_urls": [
+        "https://dosw.gov.taipei/cp.aspx?n=8FB6C60B46BA3407"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "自付額分級（一般戶60元、其餘收入區間20元）照搜尋摘要記錄，收入區間定義未取得，申請前請向社會局確認。"
+    },
+    {
+      "id": "taipei-family-foster-care",
+      "name": "身心障礙者家庭托顧服務",
+      "category": "care",
+      "level": "mixed",
+      "summary": "類似褓母模式，由家庭托顧服務員在自家照顧身心障礙者，提供身體照顧、日常生活照顧與安全性照顧。",
+      "eligibility": [
+        "年滿18歲，設籍且實際居住臺北市",
+        "經社工專業評估有照顧需求"
+      ],
+      "benefit": "日間托顧服務，含身體照顧、日常生活照顧與安全性照顧（收費標準搜尋結果未呈現）。",
+      "how_to_apply": "依社會局「身心障礙者家庭托顧服務」申請說明辦理；可洽1999轉社會局。",
+      "contact": "1999（外縣市02-2720-8889）",
+      "target_groups": ["成年", "家庭照顧者"],
+      "source_urls": [
+        "https://dosw.gov.taipei/cp.aspx?n=61BF0E7B433E2808"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    },
+    {
+      "id": "taipei-day-activity",
+      "name": "社區日間作業設施（小作所）",
+      "category": "care",
+      "level": "mixed",
+      "summary": "提供無法進入庇護性就業場所的身心障礙者日間作業活動，並搭配自立生活與文康休閒。",
+      "eligibility": [
+        "15歲以上，設籍並實際居住臺北市",
+        "持臺北市政府核發之身心障礙證明",
+        "經需求評估中心評估符合資格，且無法進入庇護性就業場所"
+      ],
+      "benefit": "週一至週五提供作業活動，作業時間以每日4小時、每週20小時為原則，搭配自立生活訓練與文康休閒。",
+      "how_to_apply": "依社會局「社區日間作業設施」申請說明辦理，經需求評估中心評估；可於「臺北市身障供需地圖」查詢各設施。",
+      "contact": "1999（外縣市02-2720-8889）",
+      "target_groups": ["成年", "智能障礙"],
+      "source_urls": [
+        "https://dosw.gov.taipei/cp.aspx?n=8AF55BABC5D4423D",
+        "https://map.dosw.gov.taipei/taipeiWelfare_map/all_new/disabled_map.aspx"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    },
+    {
+      "id": "taipei-community-living",
+      "name": "社區居住服務",
+      "category": "care",
+      "level": "mixed",
+      "summary": "以社區式居住單位提供身心障礙者生活支持，訓練獨立生活能力，逐步回歸社區生活。",
+      "eligibility": [
+        "18歲以上身心障礙者",
+        "經需求評估有居住社區需求，且需要專業服務人員提供支持服務"
+      ],
+      "benefit": "生活支持規劃、健康管理、日常生活活動支持、強化親職功能、休閒生活與社區參與（收費標準搜尋結果未呈現）。",
+      "how_to_apply": "依社會局「社區居住」申請說明辦理；可洽1999轉社會局身心障礙者福利科。",
+      "contact": "1999（外縣市02-2720-8889）",
+      "target_groups": ["成年"],
+      "source_urls": [
+        "https://dosw.gov.taipei/cp.aspx?n=23469EF4A4D96C8A"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "只看到服務對象與內容摘要，申請流程與應備文件未取得。"
+    },
+    {
+      "id": "taipei-community-daycare",
+      "name": "社區式日間照顧服務／身障社區長照機構（日間照顧）",
+      "category": "care",
+      "level": "mixed",
+      "summary": "為18至64歲需日間照顧的身心障礙者提供社區式日間照顧。",
+      "eligibility": [
+        "18至64歲",
+        "持臺北市身心障礙證明，經需求評估符合資格"
+      ],
+      "benefit": "社區式日間照顧服務；日間照顧單位亦可提供臨時及短期照顧或喘息服務（收費與補助見「日間照顧及住宿式照顧費用補助」）。",
+      "how_to_apply": "依社會局「社區式日間照顧服務」及「身障社區長照機構（日間照顧）」申請說明辦理。",
+      "contact": "1999（外縣市02-2720-8889）",
+      "target_groups": ["成年"],
+      "source_urls": [
+        "https://dosw.gov.taipei/cp.aspx?n=529C7179D9E5894E",
+        "https://dosw.gov.taipei/cp.aspx?n=68F871BAD320753B"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "只看到服務對象摘要，服務時間、收托失能等級與收費未取得。"
+    },
+    {
+      "id": "taipei-caregiver-support",
+      "name": "長期照顧者家庭及身心障礙者家庭照顧者支持服務據點",
+      "category": "support",
+      "level": "mixed",
+      "summary": "臺北市多個行政區設有照顧者支持據點，提供照顧技巧課程、紓壓活動、支持團體與一對一心理協談，照顧者參加活動時可提供臨時照顧。",
+      "eligibility": [
+        "臺北市長期照顧者家庭及身心障礙者家庭照顧者"
+      ],
+      "benefit": "照顧技巧課程、休閒紓壓活動、支持性團體、一對一專業心理協談；照顧者參加活動期間提供臨時性照顧。",
+      "how_to_apply": "就近洽各行政區支持服務據點（承辦單位包括紅心字會、伊甸視障服務中心、台灣愛鄰社區服務協會、台北市立心慈善基金會等），或撥1999詢問。",
+      "contact": "1999（外縣市02-2720-8889），服務時間週一至週五9:00–17:00",
+      "target_groups": ["家庭照顧者"],
+      "source_urls": [
+        "https://dosw.gov.taipei/cp.aspx?n=70898293C7B4ABE5"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    },
+    {
+      "id": "taipei-service-centers",
+      "name": "身心障礙者服務中心（個案管理）",
+      "category": "support",
+      "level": "local",
+      "summary": "社會局委託6家身心障礙者服務中心分區提供個案管理，依鑑定與需求評估結果訂定個別化服務計畫並連結資源，不分障別。",
+      "eligibility": [
+        "實際居住臺北市、6至64歲領有身心障礙證明者及其家庭（不分障別）",
+        "65歲以上身障者或低收入戶可洽各區老人服務中心或社會福利服務中心"
+      ],
+      "benefit": "個案管理、個別化服務計畫、資源連結與轉介、家庭支持；並提供喘息、培訓與研習等照顧者支持性服務。",
+      "how_to_apply": "依居住行政區直接洽詢各區身心障礙者服務中心。",
+      "contact": "士林、北投（廣青文教基金會）02-28955737；大安、文山（心路社會福利基金會）02-29314933；中正、萬華（臺北市智障者家長協會）02-23069661；信義、南港（臺北市智障者家長協會）02-87808910；內湖、松山（臺北市康復之友協會）02-26570073；大同、中山（喜憨兒社會福利基金會）02-25222486",
+      "target_groups": ["兒童及少年", "成年", "家庭照顧者"],
+      "source_urls": [
+        "https://dosw.gov.taipei/cp.aspx?n=061314A04A30E835",
+        "https://dosw.gov.taipei/News_Content.aspx?n=91F35523B74F69AC&sms=87415A8B9CE81B16&s=D98BE58B1DC04FFB"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "各中心電話可能異動，撥打前可先經1999確認。"
+    },
+    {
+      "id": "taipei-life-rebuilding",
+      "name": "身心障礙者生活重建／訓練／支援及家庭支持服務計畫",
+      "category": "support",
+      "level": "mixed",
+      "summary": "為中途致障者及特定障別者提供生活重建、社交訓練與心理支持，並為家屬提供支持團體、照顧技能訓練與臨托安排。",
+      "eligibility": [
+        "15歲以上，設籍並居住臺北市，持身心障礙證明，經需求評估有生活重建需求（肢體、聽語障類等）",
+        "智能障礙與自閉症類：居住社區之15歲以上智能障礙或自閉症者及其家屬",
+        "視障者另由臺北市廣慈視障者生活重建中心提供服務"
+      ],
+      "benefit": "日常生活能力培養、社交活動與人際關係訓練、心理支持或輔導；家屬心理情緒支持、成長團體、諮詢與照顧技能訓練，並可協助安排臨托及短期照顧、家庭關懷訪視。",
+      "how_to_apply": "依社會局申請說明洽各障別承辦單位（肢體障礙由伊甸基金會承辦；自閉症及智能障礙由臺北市自閉症家長協會承辦）。",
+      "target_groups": ["肢體障礙", "聽覺或平衡障礙", "智能障礙", "自閉症", "視覺障礙", "家庭照顧者"],
+      "source_urls": [
+        "https://dosw.gov.taipei/cp.aspx?n=58AD92A8DB2B1952",
+        "https://dosw.gov.taipei/cp.aspx?n=DB76DA9ADC1C3A37"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    },
+    {
+      "id": "taipei-positive-behavior-support",
+      "name": "身心障礙者嚴重情緒行為正向支持服務",
+      "category": "support",
+      "level": "local",
+      "summary": "協助有嚴重情緒行為困擾的身心障礙者及其家庭改善情緒行為與生活品質，提供現場輔導與跨體系資源連結。",
+      "eligibility": [
+        "設籍臺北市、經評估有嚴重情緒行為問題之身心障礙者",
+        "優先對象：15歲以上、住在家中或社區居住據點，含日間有接受服務但未使用身心障礙日間機構服務者"
+      ],
+      "benefit": "諮詢評估、現場輔導、家庭支持，協助連結醫療、社政、勞政等資源。",
+      "how_to_apply": "洽受託單位財團法人育成社會福利基金會（電子信箱 pbs.tp@ycswf.org.tw）。",
+      "target_groups": ["智能障礙", "自閉症", "家庭照顧者"],
+      "source_urls": [
+        "https://dosw.gov.taipei/cp.aspx?n=7199A5A357B65867"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    },
+    {
+      "id": "taipei-sign-language",
+      "name": "聽語障溝通服務方案（24小時手語翻譯及聽打服務）",
+      "category": "support",
+      "level": "mixed",
+      "summary": "社會局整合手語翻譯與聽打服務，提供聽語障者日常洽公、就醫等溝通協助，手語翻譯24小時派遣。",
+      "eligibility": [
+        "領有臺北市核（換）發身心障礙證明，障礙類別為第二類且ICD診斷欄位註記【02】，或身心障礙手冊障礙類別屬聽語障或併聽語障之多重障礙者",
+        "臺北市各級政府機關、醫療院所、學校或非營利組織因業務需要與聽語障者接洽者"
+      ],
+      "benefit": "手語翻譯24小時服務；聽打服務通常於8:00–22:00提供。每人（單位）每月最高由社會局補助30小時手語翻譯，涉及特定公共事務者全額補助。",
+      "how_to_apply": "以電話、傳真、電子郵件、手機簡訊或線上申辦提出（受理時間週一至週五8:00–20:00，國定假日及例假日除外），審核後派遣手語翻譯員。",
+      "contact": "免付費電話0800-365-224；傳真0800-365-624；聽障者簡訊0963-047-723；線上申辦 www.theme.gov.taipei/sign2hear",
+      "target_groups": ["聽覺或平衡障礙", "聲音或語言障礙"],
+      "source_urls": [
+        "https://www.theme.gov.taipei/sign2hear/question.aspx",
+        "https://dosw.gov.taipei/News_Content.aspx?n=91F35523B74F69AC&sms=87415A8B9CE81B16&s=EC7522F354A477B7",
+        "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&sms=72544237BBE4C5F6&s=919EA369FF9D11C1"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "聽打服務於2016年併入本方案，承辦單位（2016年新聞稿為中華民國聽障人協會）與洽詢分機請以現行官網為準。就業場合請改用勞動力重建運用處「職場手語翻譯及聽打服務」。"
+    },
+    {
+      "id": "taipei-workplace-interpreting",
+      "name": "職場手語翻譯及聽打服務",
+      "category": "employment",
+      "level": "local",
+      "summary": "臺北市勞動力重建運用處為聽語障者在職業訓練、就業諮詢、面試、在職訓練及會議等就業相關場合提供手語翻譯與聽打。",
+      "eligibility": [
+        "領有身心障礙證明且符合障別與ICD註記條件之聽語障者",
+        "申請單位為臺北市公私立機關、學校、團體或事業單位；服務地點以臺北市優先，新北市次之"
+      ],
+      "benefit": "手語翻譯：職業訓練、就業諮詢、面談、本職工作相關教育訓練與會議等對外公開且不收費之就業相關活動。聽打：就業相關研習、在職訓練及會議，每位聽語障者每月至多30小時（109年版須知）。",
+      "how_to_apply": "於活動前5天（含例假日）提出申請，緊急案件不在此限；可透過台北服務通線上申辦（手語翻譯 service.taipei/case-detail/EB013；聽打 service.taipei/case-detail/EB019）。",
+      "contact": "臺北市勞動力重建運用處(02)2338-1600分機5117、5118",
+      "target_groups": ["聽覺或平衡障礙", "聲音或語言障礙", "求職者"],
+      "source_urls": [
+        "https://fd.gov.taipei/cp.aspx?n=C484BF8E2EE25EEB",
+        "https://fd.gov.taipei/cp.aspx?n=7B05CBD7BC80055A",
+        "https://www-ws.gov.taipei/001/Upload/358/relfile/17855/3170368/1cfa77e1-4f5a-4da7-92fa-fa3750e2159c.pdf"
+      ],
+      "source_date": "2020",
+      "confidence": "medium",
+      "notes": "聽打時數上限出自109年1月製表之申請須知，現行規定可能調整。"
+    },
+    {
+      "id": "taipei-vocational-rehab",
+      "name": "身心障礙者職業重建服務（臺北市勞動力重建運用處）",
+      "category": "employment",
+      "level": "central",
+      "summary": "臺北市勞動局所屬勞動力重建運用處辦理身心障礙者求職服務、職業輔導評量、支持性就業、庇護性就業、職務再設計與創業輔導。",
+      "eligibility": [
+        "持身心障礙證明、15歲以上，設籍或居住於臺北市者優先",
+        "庇護性就業：就業能力不足、需長期支持者，依職業輔導評量結果並經職業重建個案管理人員評估後推介"
+      ],
+      "benefit": "求職服務與支持性就業（開發工作機會、面試陪同、工作訓練、職場輔導）；庇護性就業（商店型、手工藝型、工作站、工作隊等庇護工場）；職業輔導評量；職務再設計（調整職務流程、提供就業輔具、改善職場環境）；創業輔導。",
+      "how_to_apply": "至臺北市勞動力重建運用處身心障礙就業服務櫃檯（臺北市萬華區艋舺大道101號）或電話洽詢。",
+      "contact": "身心障礙就業服務櫃檯(02)2338-1600分機5318或5222；職務再設計分機5113、5115、5119",
+      "target_groups": ["求職者"],
+      "source_urls": [
+        "https://fd.gov.taipei/cp.aspx?n=81CBC201F3747484",
+        "https://fd.gov.taipei/cp.aspx?n=7CE8B94C810A91A0",
+        "https://fd.gov.taipei/cp.aspx?n=44A40C74FF25ED19",
+        "https://fd.gov.taipei/cp.aspx?n=5C4C2AAF3DB3F287"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    },
+    {
+      "id": "taipei-disability-assessment",
+      "name": "身心障礙鑑定與需求評估（身心障礙證明申請）",
+      "category": "support",
+      "level": "central",
+      "summary": "初次鑑定、重新鑑定及到宅鑑定均向戶籍地區公所申請，衛生局與社會局審查後由區公所通知結果，社會局需求評估中心接續辦理需求評估。",
+      "eligibility": [
+        "設籍臺北市者（居住外縣市者須親自或委託他人至臺北市任一區公所申請，不能在居住地區公所或鑑定醫院辦理）",
+        "證明有效期間最長5年，應於效期屆滿前90日內申請重新鑑定及需求評估"
+      ],
+      "benefit": "辦理身心障礙鑑定、需求評估與核發身心障礙證明；可選一般流程或在併同辦理醫院一次完成鑑定與需求評估，需求評估可選併同評估、定點評估或到宅評估。另可申請英文、日文身分證明。",
+      "how_to_apply": "向戶籍所在地區公所提出申請，於申請表勾選鑑定流程與需求評估方式。",
+      "documents": [
+        "身心障礙證明申請表",
+        "國民身分證正反面影本",
+        "印章（或簽名）",
+        "最近3個月內1吋半身照片",
+        "視情況：最近3個月內之診斷證明書；併同辦理者另附近期病歷摘要；委託代辦者附受託人身分證明文件"
+      ],
+      "contact": "鑑定疑問：1999轉衛生局分機7083；需求評估：社會局身心障礙者需求評估中心（經1999轉接）",
+      "source_urls": [
+        "https://dosw.gov.taipei/cp.aspx?n=26BB4C5F2992FAFB",
+        "https://dosw.gov.taipei/News_Content.aspx?n=91F35523B74F69AC&sms=87415A8B9CE81B16&s=57B480D744F5B95C",
+        "https://dosw.gov.taipei/cp.aspx?n=4B1384BBF5BD55B5",
+        "https://dosw.gov.taipei/cp.aspx?n=A6691D9F6DCD7B9D"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    },
+    {
+      "id": "taipei-emergency-alert",
+      "name": "身心障礙者緊急救援系統",
+      "category": "support",
+      "level": "local",
+      "summary": "為獨居或缺乏求救能力的未滿65歲身心障礙者裝設緊急通報設備，按鈕後由遠端通報中心聯繫緊急聯絡人或警消。",
+      "eligibility": [
+        "未滿65歲，設籍且實際居住臺北市，持本市核發之身心障礙證明",
+        "獨居或同住家屬無照顧能力",
+        "未接受機構24小時安置且未聘看護（傭）",
+        "缺乏生活自理及求救能力，經社會局評估有需求"
+      ],
+      "benefit": "手錶或項鍊式緊急通報按鈕；24小時救護車緊急通報、緊急聯絡人通知、系統自動檢測、外出與返家訊息登錄、定期關懷訪視、福利諮詢轉介。",
+      "how_to_apply": "填寫申請表（向各身心障礙者資源中心索取或從社會局網站下載），連同證件影本向社會局申請。",
+      "documents": [
+        "申請表",
+        "身分證正反面影本",
+        "身心障礙證明正反面影本"
+      ],
+      "contact": "1999（外縣市02-2720-8889）轉分機1590（週一至週五9:00–17:00）",
+      "source_urls": [
+        "https://dosw.gov.taipei/cp.aspx?n=E86150FC6E5E9C66"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "65歲以上者改適用「老人緊急救援系統」。是否收費未於搜尋結果呈現。"
+    },
+    {
+      "id": "taipei-sports-centers",
+      "name": "臺北市運動中心身心障礙者優惠",
+      "category": "leisure",
+      "level": "mixed",
+      "summary": "臺北市各運動中心讓身心障礙者及1名必要陪同者不限時段免費使用游泳池與健身房，並提供停車4小時免費。",
+      "eligibility": [
+        "持身心障礙手冊或證明",
+        "必要陪同者以1人為限，須經需求評估認定須有人陪伴"
+      ],
+      "benefit": "本人及1名必要陪同者不限時段免費使用游泳池、健身房；停車免收4小時費用。球類等場地須全部使用者均為身心障礙者及其必要陪伴者1名才給予免費；公辦民營場館優惠不含球場租金及活動課程。",
+      "how_to_apply": "至各運動中心出示身心障礙證明（陪同者須符合需求評估註記）。",
+      "contact": "臺北市政府體育局運動產業科(02)2570-2330分機4228",
+      "source_urls": [
+        "https://sports.gov.taipei/News_Content.aspx?n=30346D17ED329AC1&sms=87415A8B9CE81B16&s=66F4A4DFEC07BE9C",
+        "https://elders.gov.taipei/News_Content.aspx?n=9C14AA08DBB34EB9&sms=21884AF41A49B03F&s=304898E7F6D6F6BE"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "依身心障礙者權益保障法第59條（公營設施免費、民營半價）辦理；臺北市運動中心多為公辦民營仍提供免費，並加上停車4小時免費。"
+    }
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "county_id": "kinmen",
+  "county_name": "金門縣",
+  "agency": "金門縣政府社會處",
+  "agency_url": "https://social.kinmen.gov.tw/",
+  "phone": "搜尋結果未顯示社會處身障業務專線；各項補助多由戶籍所在地鄉（鎮）公所受理",
+  "collected_at": "2026-10-23",
+  "method": "web_search",
+  "notes": "以 WebSearch（allowed_domains 限 kinmen.gov.tw）共 12 次搜尋，取得金門縣政府社會處、衛生局、公共車船管理處與主管法規共用系統頁面摘要整理，未能直接開啟原始頁面與附件。社會處多數頁面未標示年度，source_date 記為 unknown。已知存在但搜尋結果只見項目名稱、未見資格或金額而未收錄：身心障礙者參加社會保險費用補助（自付保費補助）、身心障礙者臨時及短期照顧服務費用補助、多元身心障礙者社區居住與生活服務、身心障礙者日間作業設施、身心障礙者醫療及生活輔助器具費用補助、重度以上中低收入身心障礙者裝設有線電視補助、金門縣緊急傷病及失能之縣民照顧服務補助、境內外縣籍身心障礙安置個案及機構三節慰問。另「金門縣失能身心障礙者使用居家服務補助要點」（https://law.kinmen.gov.tw/LawContent.aspx?id=GL000126）規定符合生活補助者政府補助九成、自付一成，惟可能已由長照2.0制度取代，未收錄。未查到：個人助理／自立生活、停車優惠、手語翻譯、緊急救援（僅見老人在宅緊急救援）、職業重建。居家用電優惠（維生器材）、大眾運輸半價等全國一致項目未列入。",
+  "benefits": [
+    {
+      "id": "kinmen-living-allowance",
+      "name": "身心障礙生活補助",
+      "category": "economic",
+      "level": "mixed",
+      "summary": "家庭經濟條件符合規定的身心障礙者，依障礙等級與福利身分（低收入戶、中低收入戶等）按月領取生活補助。",
+      "eligibility": [
+        "設籍並實際居住金門縣",
+        "領有身心障礙證明",
+        "最近一年居住國內超過183日",
+        "未經政府補助收容安置於機構",
+        "家庭總收入及財產符合規定（中低收入戶標準為家庭總收入未達最低生活費2.5倍）"
+      ],
+      "benefit": "每人每月（頁面未標示年度）：中度、重度、極重度——低收入戶9,485元，中低收入戶及非列冊但符合資格者5,437元，同時領有榮民院外就養金者2,123元；輕度——低收入戶5,437元，中低收入戶及非列冊但符合資格者4,049元，同時領有榮民院外就養金者2,123元。",
+      "how_to_apply": "向戶籍所在地鄉（鎮）公所社會課申請。",
+      "contact": "戶籍所在地鄉（鎮）公所社會課",
+      "target_groups": [
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://social.kinmen.gov.tw/cp.aspx?n=a3f704e25195cdb4&s=22D6E2432D9E211D"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "補助款存入帳戶若遭扣押或強制執行，可先洽各鄉鎮公所社會課諮詢。領有本補助者亦可作為紙尿褲看護墊補助「福利身分別」的資格依據。"
+    },
+    {
+      "id": "kinmen-home-living-allowance",
+      "name": "金門縣身心障礙者居家生活津貼",
+      "category": "economic",
+      "level": "local",
+      "summary": "金門縣自辦的身心障礙者每月津貼，依障礙等級發給，與中央的身心障礙生活補助不同，設籍年限是重要條件。",
+      "eligibility": [
+        "持金門縣核發或註記之身心障礙證明",
+        "符合設籍條件，其中一項為至申請日止連續設籍金門縣滿十五年（完整設籍與其他條件搜尋結果未完整顯示）"
+      ],
+      "benefit": "每月：輕度2,500元、中度3,000元、重度3,500元、極重度4,500元（頁面未標示年度）。",
+      "how_to_apply": "向戶籍所在地鄉（鎮）公所提出申請。",
+      "contact": "戶籍所在地鄉（鎮）公所",
+      "source_urls": [
+        "https://social.kinmen.gov.tw/cp.aspx?n=A3F704E25195CDB4&s=8775D8E8343AB4D1"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "資格條件只從搜尋摘要取得片段，是否有收入、財產或與其他津貼不得重複領取的限制，請向公所或社會處確認。"
+    },
+    {
+      "id": "kinmen-caregiver-allowance",
+      "name": "金門縣身心障礙照顧者津貼",
+      "category": "economic",
+      "level": "local",
+      "summary": "家中照顧重度以上（或經評估需他人照顧的中度）身心障礙者、且未全時工作的家屬，每月可領照顧者津貼。",
+      "eligibility": [
+        "受照顧者領有重度以上身心障礙手冊或證明，或中度且經社工評估需他人照顧",
+        "照顧者年滿16歲、未滿65歲，未從事全時工作",
+        "照顧者與受照顧者均設籍並實際居住金門縣",
+        "同一受照顧者由多人照顧時，僅限一人請領",
+        "照顧者不得同時領取老人特別照顧津貼"
+      ],
+      "benefit": "經審核符合者，每月發給照顧者津貼新臺幣3,000元（頁面未標示年度）。",
+      "how_to_apply": "向受照顧者或照顧者戶籍所在地鄉（鎮）公所提出申請；實施要點與申請表可於社會處頁面下載。",
+      "documents": [
+        "國民身分證",
+        "身心障礙證明",
+        "戶口名簿",
+        "郵局存簿封面",
+        "可證明無全時工作之文件"
+      ],
+      "contact": "戶籍所在地鄉（鎮）公所",
+      "target_groups": [
+        "家庭照顧者"
+      ],
+      "source_urls": [
+        "https://social.kinmen.gov.tw/cp.aspx?n=a3f704e25195cdb4&s=7B3DCC1528F2E48A"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    },
+    {
+      "id": "kinmen-holiday-condolence",
+      "name": "極重度長期失能身心障礙者三節慰問金",
+      "category": "economic",
+      "level": "local",
+      "summary": "對設籍滿十年、長照失能等級高且身障等級為極重度的縣民，於春節、端午、中秋三節各發放慰問金；113年9月3日起已停止新增對象。",
+      "eligibility": [
+        "設籍滿十年並實際居住金門縣",
+        "以節日當日前60日為基準，經縣衛生局評估長照失能等級達6級以上",
+        "身心障礙證明為極重度",
+        "已領有金門縣低收入戶三節慰問金或安置機構院民三節慰問金者不另發給",
+        "自113年9月3日起停止新增慰問對象，僅原已核定對象續發"
+      ],
+      "benefit": "農曆春節、端午節、中秋節各發一次，每次新臺幣2,000元。",
+      "how_to_apply": "免申請：縣府於節日前60日透過照顧資訊管理平台審核資格，審核無誤後於節日前後30日內派員到府發放。",
+      "contact": "金門縣政府社會處",
+      "source_urls": [
+        "https://law.kinmen.gov.tw/LawContent.aspx?id=GL000214"
+      ],
+      "source_date": "2024",
+      "confidence": "high",
+      "notes": "已停止新增對象，新申請者無法領取。審查期間喪失資格、遷離金門縣或證明不實者不發放，已發放者追回。"
+    },
+    {
+      "id": "kinmen-rent-subsidy",
+      "name": "金門縣身心障礙者租賃房屋租金補助",
+      "category": "economic",
+      "level": "local",
+      "summary": "在金門縣內租屋的中低收入身心障礙者家庭，依家庭人數按坪數每月補助租金，以租金一半為上限。",
+      "eligibility": [
+        "設籍並實際居住金門縣，領有金門縣身心障礙證明",
+        "家庭總收入平均分配全家人口，低於當年度每人每月最低生活費2.5倍，且未超過臺灣地區平均每人每月消費支出1.5倍",
+        "現未接受政府同性質貸款或補助",
+        "未借住公有房舍或平價住宅",
+        "租賃房屋位於金門縣內，且非三親等以內親屬所有"
+      ],
+      "benefit": "按月每坪補助新臺幣300元，最高補助坪數：單身家庭8坪（另一頁面列7坪）、二口家庭13坪、三口以上家庭18坪，並以租金總額50%為上限；租屋保證金、公共管理費等不予補助。補助期間最長一年，期滿前一個月內須重新申請。",
+      "how_to_apply": "向戶籍所在地鄉（鎮）公所申請，經公所初審後報縣府核定。",
+      "contact": "戶籍所在地鄉（鎮）公所",
+      "target_groups": [
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://social.kinmen.gov.tw/cp.aspx?n=a3f704e25195cdb4&s=A53E0BA10DD4457E",
+        "https://law.kinmen.gov.tw/LawContent.aspx?id=FL052083"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "社會處頁面與審核作業規定對單身家庭最高坪數記載不一（8坪或7坪），以公所或縣府最新公告為準。"
+    },
+    {
+      "id": "kinmen-assistive-devices",
+      "name": "身心障礙者輔具費用補助（含代償墊付服務）",
+      "category": "assistive",
+      "level": "central",
+      "summary": "依身心障礙者輔具費用補助辦法補助購買輔具；金門縣另有代償墊付服務，持核定函向特約廠商購買時由廠商先墊付補助款，民眾只付差額。",
+      "eligibility": [
+        "設籍金門縣並領有身心障礙證明，且最近1年居住國內達183日",
+        "申請補助項目未獲政府其他醫療補助、社會保險給付或其他相同性質（輔具器具）補助",
+        "曾申請輔具補助者，須已超過該輔具之補助年限"
+      ],
+      "benefit": "依身心障礙者輔具費用補助基準補助（搜尋結果未列各項金額）。代償墊付：憑「身心障礙輔具費用補助核定函」向代償墊付特約廠商購置輔具或無障礙環境改善，由廠商先墊付補助款，購置金額高於補助金額者自付差額。",
+      "how_to_apply": "備齊文件向戶籍所在地鄉（鎮）公所或輔具中心申請；須經評估及核定後再購買，未經評估及核定即先購買者不予補助。",
+      "documents": [
+        "申請書",
+        "三個月內身心障礙鑑定醫院診斷證明",
+        "三個月內輔具評估建議書",
+        "照片及保固書影本等"
+      ],
+      "contact": "戶籍所在地鄉（鎮）公所或金門縣輔具中心",
+      "source_urls": [
+        "https://social.kinmen.gov.tw/cp.aspx?n=a3f704e25195cdb4&s=8E76622C0BB74F1B",
+        "https://social.kinmen.gov.tw/cp.aspx?n=a3f704e25195cdb4&s=A9B362B421957FCE"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "符合長照資格的身障者，亦可透過衛生局長期照顧管理中心申請長照輔具及居家無障礙環境改善補助（https://phb.kinmen.gov.tw/Content_List.aspx?n=65D85809A5ABC2C9），使用年限未滿的相同項目不得重複申請。"
+    },
+    {
+      "id": "kinmen-diaper-subsidy",
+      "name": "金門縣紙尿褲看護墊補助",
+      "category": "care",
+      "level": "local",
+      "summary": "需使用紙尿褲的身心障礙者或65歲以上老人，經醫院診斷證明後，可依身分別每月領取一定片數的紙尿褲、紙尿片或看護墊。",
+      "eligibility": [
+        "一般身分別：領有身心障礙證明或65歲以上老人，並有醫院診斷證明",
+        "福利身分別：列冊低收入戶或中低收入戶、領有中低收入老人生活津貼或身心障礙者生活補助者，並有醫院診斷證明"
+      ],
+      "benefit": "以片數計：一般身分別紙尿褲成人片型、紙尿片或看護墊三項搭配每月最高150片，穿脫式紙尿褲每月最高60片；福利身分別上限約100片，依品項與搭配方式另有規定（頁面未列金額）。",
+      "how_to_apply": "詳細申請窗口搜尋結果未顯示，請洽金門縣政府社會處或戶籍所在地鄉（鎮）公所。",
+      "target_groups": [
+        "老年",
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://social.kinmen.gov.tw/cp.aspx?n=a3f704e25195cdb4&s=A7DEFD7838C61B55"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "摘要所列一般身分別上限高於福利身分別，與一般認知不同，片數與身分別對應請向社會處確認。"
+    },
+    {
+      "id": "kinmen-day-residential-care",
+      "name": "身心障礙者日間及住宿式照顧費用補助",
+      "category": "care",
+      "level": "central",
+      "summary": "補助身心障礙者使用日間照顧或住宿式機構的費用，依家庭收入分級補助。",
+      "eligibility": [
+        "持有身心障礙證明，設籍並實際居住金門縣",
+        "最近一年居住國內超過183日",
+        "家庭總收入平均分配全家人口，未達當年度每人每月最低生活費2.5倍，且未超過臺灣地區平均每人每月消費支出1.5倍",
+        "未重複領取政府同性質服務或補助"
+      ],
+      "benefit": "補助使用日間照顧或住宿式照顧之費用；各級補助比例搜尋結果未顯示，依「金門縣政府身心障礙者日間照顧及住宿式照顧費用補助審核作業要點」辦理。",
+      "how_to_apply": "受理窗口搜尋結果未顯示，請洽金門縣政府社會處。",
+      "target_groups": [
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://social.kinmen.gov.tw/cp.aspx?n=A3F704E25195CDB4&s=0961791BC9811633",
+        "https://law.kinmen.gov.tw/LawContent.aspx?id=GL000475"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium"
+    },
+    {
+      "id": "kinmen-referral-transport",
+      "name": "金門地區居民嚴重傷病患轉診赴臺就醫交通費補助（身障者陪同者）",
+      "category": "medical",
+      "level": "local",
+      "summary": "金門縣民轉診赴臺灣本島就醫可申請機（船）票補助；持中度以上身心障礙證明者，其陪同家屬或看護一人也可請領來回機（船）票實售價半價。",
+      "eligibility": [
+        "金門地區居民經轉診赴臺灣本島就醫",
+        "持中度以上（中、重度）身心障礙證明者，其陪同家屬或看護一人可一併申請",
+        "陪同者須年滿13歲，且與患者搭乘同一班機或船"
+      ],
+      "benefit": "身障患者之陪同者一人：補助來回機（船）票實售價半價（持重大傷病證明者之陪同者為全額）。次數：持重大傷病證明者不限次數，未持有者每年最多四次，病情需要經專案審查可增至六次。",
+      "how_to_apply": "於赴臺就醫日起三個月內，向金門縣衛生局提出申請。",
+      "documents": [
+        "申請表",
+        "機（船）票票根（遺失可用購票證明代替）",
+        "身心障礙證明影本",
+        "存摺影本"
+      ],
+      "contact": "金門縣衛生局",
+      "source_urls": [
+        "https://phb.kinmen.gov.tw/cp.aspx?n=E831CA0A5CD0193D",
+        "https://phb.kinmen.gov.tw/cp.aspx?n=F07126851C0347B8"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "衛生局不同文件對補助比例、次數及陪同者年齡寫法略有出入；患者本人之補助比例搜尋結果未清楚顯示。實際申請前請向金門縣衛生局確認。"
+    },
+    {
+      "id": "kinmen-medical-lodging",
+      "name": "金門縣赴臺就醫病患及陪同者住宿費用補助",
+      "category": "medical",
+      "level": "local",
+      "summary": "金門縣民赴臺就醫期間入住合法旅宿，病患及陪同者可依家庭經濟身分申請每日住宿費補助。",
+      "eligibility": [
+        "金門縣民赴臺就醫之病患及陪同者",
+        "入住合法旅宿"
+      ],
+      "benefit": "每日最高補助：低收入戶1,200元、中低收入戶800元、一般戶500元；一年以六次為限，持重大傷病卡等情形可增至十二次。",
+      "how_to_apply": "依金門縣衛生局「赴臺就醫病患及陪同者住宿費用補助申請標準作業程序」向衛生局申請。",
+      "contact": "金門縣衛生局",
+      "target_groups": [
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://law.kinmen.gov.tw/LawContent.aspx?id=GL000665",
+        "https://phb.kinmen.gov.tw/Content_List.aspx?n=E18B8CE23A200638",
+        "https://www.kinmen.gov.tw/News_Content2.aspx?n=98E3CA7358C89100&sms=BF7D6D478B935644&s=E25CC626C89A151E"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "非身心障礙者專屬，金門縣民赴臺就醫皆可依規定申請；因離島就醫特性收錄。"
+    },
+    {
+      "id": "kinmen-family-visit-transport",
+      "name": "身心障礙者探家屬交通費補助（安置於臺灣機構者家屬）",
+      "category": "support",
+      "level": "local",
+      "summary": "金門縣籍身心障礙者安置於臺灣的教養或療養機構時，家屬往返臺金探視的機票或船票由縣府全額補助。",
+      "eligibility": [
+        "家屬之金門縣籍身心障礙者，經安置於臺灣教養或療養機構"
+      ],
+      "benefit": "家屬台金空中或海上往返交通費由縣府全額補助，每年可申請四人次（限機票或船票）。",
+      "how_to_apply": "填具「身心障礙者探家屬交通費補助申請表」向金門縣政府社會處申請（受理窗口細節搜尋結果未顯示）。",
+      "contact": "金門縣政府社會處",
+      "target_groups": [
+        "家庭照顧者"
+      ],
+      "source_urls": [
+        "https://social.kinmen.gov.tw/cp.aspx?n=A3F704E25195CDB4&s=E20A501306E87CC8",
+        "https://www.kinmen.gov.tw/News_Content.aspx?n=B641F587CB6336A3&s=479B91917EAA9458&Create=1"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "補助內容來自搜尋摘要，第一個來源網址為社會處福利服務項目頁，無法確認摘要文字出自哪一頁。"
+    },
+    {
+      "id": "kinmen-weak-group-transport",
+      "name": "弱勢族群交通費補貼（臺金機票／船票、金廈小三通船票）",
+      "category": "transport",
+      "level": "local",
+      "summary": "金門縣低收入戶與身心障礙者搭乘臺灣—金門航班（船班）或金門—廈門（泉州）船班，每年可憑票根領取定額交通費補貼。",
+      "eligibility": [
+        "持有身心障礙證明之金門縣民（或低收入戶）",
+        "同時符合學生交通補貼資格者，應先申請學生補貼，不足部分再申請差額"
+      ],
+      "benefit": "每年補貼額度：身心障礙者中度以下4,000元、重度以上6,000元（低收入戶6,000元）；適用臺灣與金門間機票（船票）及金門與廈門（或泉州）間船票。",
+      "how_to_apply": "使用後憑票根向戶籍所在地鄉（鎮）公所申領，當場發給現金。",
+      "contact": "戶籍所在地鄉（鎮）公所",
+      "source_urls": [
+        "https://social.kinmen.gov.tw/cp.aspx?n=99ff9571f64e278f&s=B33DCD9A3A555C4D",
+        "https://law.kinmen.gov.tw/LawContent.aspx?id=FL051823"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "民國98年發布的「金門縣弱勢族群航空票價補貼實施辦法」已期滿廢止（當時身障者每年4,000元交通券）；現行依社會處「弱勢族群交通費補貼」頁面，其表格排版不清，金額請向社會處或公所確認。"
+    },
+    {
+      "id": "kinmen-rehab-bus",
+      "name": "金門縣身心障礙者復康巴士",
+      "category": "transport",
+      "level": "local",
+      "summary": "提供中度以上身心障礙者就醫、就學等用途的預約接送，設籍金門縣者免費搭乘。",
+      "eligibility": [
+        "戶籍在金門縣、領有中度以上身心障礙證明（手冊）者，優先順序為極重度、重度、中度",
+        "可由一位家屬或看護隨行",
+        "主要用於就醫、就學"
+      ],
+      "benefit": "設籍金門縣之身心障礙者免費；非設籍金門縣之身心障礙者（含外勞、外籍人士）每人每趟次新臺幣100元。服務區域：金城鎮、金湖鎮、金沙鎮、金寧鄉。",
+      "how_to_apply": "每日上班時間撥打免付費預約專線0800-811-100，向社團法人金門縣身心障礙福利協進會預約，目前僅接受前一日預約；亦可親洽受託單位、聽語障者可傳真預約，或於縣府網站填寫表單。承辦單位為金門縣公共車船管理處。",
+      "contact": "0800-811-100（社團法人金門縣身心障礙福利協進會）",
+      "source_urls": [
+        "https://social.kinmen.gov.tw/cp.aspx?n=a3f704e25195cdb4&s=02C49713EE2E5FAB",
+        "https://bus.kinmen.gov.tw/?page_id=228",
+        "https://www.kinmen.gov.tw/News_Content.aspx?n=9411CE56D765FB40&sms=B675900615BB79BF&s=BCD7841A12056D5A"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "服務區域未列烈嶼鄉（小金門）。常見問答仍使用「身心障礙者手冊」舊稱。縣府另推廣通用計程車無障礙服務，細節未查。"
+    },
+    {
+      "id": "kinmen-ferry-free",
+      "name": "大小金門班船（輪渡）縣籍身心障礙者免費",
+      "category": "transport",
+      "level": "local",
+      "summary": "金門縣籍身心障礙者使用電子票卡搭乘大、小金門間班船免費，由縣政府全額補助。",
+      "eligibility": [
+        "金門縣籍身心障礙者",
+        "使用電子票卡搭乘"
+      ],
+      "benefit": "縣籍身心障礙者使用電子票卡搭乘班船免費，費用由縣政府全額補助；身心障礙者及必要陪伴者一人可購買半票。",
+      "how_to_apply": "持電子票卡搭乘即可（電子票卡身分註記方式搜尋結果未顯示，請洽金門縣公共車船管理處）。",
+      "contact": "金門縣公共車船管理處",
+      "source_urls": [
+        "https://bus.kinmen.gov.tw/?p=281",
+        "http://bus.kinmen.gov.tw/BusSite/wSite/ct?xItem=3015&ctNode=242&mp=6"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,417 @@
+{
+  "county_id": "yilan",
+  "county_name": "宜蘭縣",
+  "agency": "宜蘭縣政府社會處（老人及身障福利科）；身心障礙鑑定、需求評估與照顧服務由宜蘭縣長期照護服務管理所辦理",
+  "agency_url": "https://sntroot.e-land.gov.tw/cp.aspx?n=10414",
+  "phone": "社會處 03-932-8822；長期照護服務管理所 03-935-9990；縣境內1999",
+  "collected_at": "2026-10-23",
+  "method": "web_search",
+  "notes": "以 WebSearch（allowed_domains 限 e-land.gov.tw，含社會處 sntroot、勞工處、法規系統、鄉鎮公所網域）共查詢15次，依搜尋結果摘要整理，未能直接開啟原始頁面與附件。宜蘭縣多數申請向戶籍所在地鄉鎮市公所社會課提出；鑑定、需求評估、日間及住宿式照顧補助、停車識別證等由長期照護服務管理所承辦。多數頁面未標示年度，部分資料停留在113年或更早。未收錄或缺漏：生活補助之列冊低收入戶金額與115年度門檻（縣府頁面只列輕度4,049元、中度以上5,437元及113年門檻）；臨時及短期照顧（喘息）、社區居住、家庭托顧、社區式日間照顧與社區日間作業設施細節（搜尋未見）；計程車補助（僅見106年底已結束之無障礙計程車試辦計畫）；社福卡點數制度（未見）；身心障礙者專屬緊急救援（僅見獨居老人方案）；視障者生活重建（只見名稱）；醫療復健費用補助、營養品補助；文化休閒場館優惠；庇護工場據點。輔具補助比例搜尋結果未列。",
+  "benefits": [
+    {
+      "id": "yilan-living-allowance",
+      "name": "身心障礙者生活補助",
+      "category": "economic",
+      "level": "mixed",
+      "summary": "家庭收入與財產符合標準的身心障礙者，依障礙等級按月發給生活補助，每月10日撥入郵局帳戶。",
+      "eligibility": [
+        "設籍並實際居住宜蘭縣，領有身心障礙證明",
+        "家庭總收入平均分配全家人口，每人每月未達當年度最低生活費2.5倍，且未超過臺灣地區平均每人每月消費支出1.5倍（縣府頁面列113年為35,575元；頭城鎮公所114年更新之一覽表列38,589元）",
+        "全家人口存款及不動產需在限額內（金額依當年度公告）"
+      ],
+      "benefit": "經縣府核定符合者，自資料備齊當月份起核給：輕度每月4,049元，中度以上每月5,437元，每月10日撥入身心障礙者郵局帳戶。",
+      "how_to_apply": "向戶籍所在地鄉鎮市公所社會課或村里辦公處申請。",
+      "contact": "戶籍所在地鄉鎮市公所社會課；社會處老人及身障福利科 03-932-8822",
+      "target_groups": [
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://sntroot.e-land.gov.tw/cp.aspx?n=CCAA0B61D9D67743",
+        "https://sntroot.e-land.gov.tw/cp.aspx?n=10894",
+        "https://toucheng.e-land.gov.tw/cp.aspx?n=536B193E51ABAE9E&s=C9D95B1B1E5081B9"
+      ],
+      "source_date": "2024",
+      "confidence": "medium",
+      "notes": "縣府頁面列的收入門檻為113年數字，115年度門檻未查到。列冊低收入戶身心障礙者的補助金額未在宜蘭縣頁面中出現。頭城鎮公所頁面列土地房屋上限746萬元，各頁面數字有出入，請以公所公告為準。"
+    },
+    {
+      "id": "yilan-insurance-premium",
+      "name": "身心障礙者參加社會保險保險費補助",
+      "category": "economic",
+      "level": "central",
+      "summary": "依障礙等級補助身心障礙者參加社會保險的自付保費；隱藏身分而自行繳納全額保費者，可於規定時段向社會處申請退補。",
+      "eligibility": [
+        "宜蘭縣身心障礙者，已參加社會保險"
+      ],
+      "benefit": "極重度及重度：自付保費全額補助；中度：補助二分之一；輕度：補助四分之一。",
+      "how_to_apply": "一般由系統直接減免。因隱藏身分由本人先繳全額保費者，上半年（1至6月）保費於每年10月申請，下半年（7至12月）於次年4月申請，文件郵寄社會處。",
+      "documents": [
+        "申請書、領據",
+        "身心障礙證明影本",
+        "身分證影本",
+        "存簿封面影本",
+        "繳費證明（無收據者可向健保署或勞保局申請投保或繳費證明）"
+      ],
+      "contact": "社會處老人及身障福利科 03-932-8822 分機200",
+      "source_urls": [
+        "https://sntroot.e-land.gov.tw/cp.aspx?n=F784A8B8EA24709A",
+        "https://sntroot.e-land.gov.tw/cp.aspx?n=10411"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    },
+    {
+      "id": "yilan-assistive-devices",
+      "name": "身心障礙者輔具費用補助",
+      "category": "assistive",
+      "level": "mixed",
+      "summary": "依宜蘭縣身心障礙者輔具費用補助作業要點，經評估符合基準者先申請核定、再購買新品輔具後請款。",
+      "eligibility": [
+        "設籍宜蘭縣，最近一年居住國內超過183日",
+        "持有身心障礙證明，且符合輔具補助基準",
+        "經輔具資源中心評估，或由醫師開立診斷書及治療師評估報告"
+      ],
+      "benefit": "依輔具補助基準補助新品輔具費用；每人每兩年最多申請4項。",
+      "how_to_apply": "向戶籍所在地鄉鎮市公所社會課申請，診斷書或評估報告開立後3個月內提出；以縣府核定函為準，未經核定先購買者不予受理。核定後於核定函發文日起6個月內購置，備齊文件送公所初審，再由縣府撥款。",
+      "documents": [
+        "診斷書或輔具評估報告（開立3個月內）",
+        "核定函（請款時）",
+        "郵局存摺影本（請款時）",
+        "統一發票或收據、保固與規格說明（請款時）"
+      ],
+      "contact": "戶籍所在地鄉鎮市公所社會課；長期照護服務管理所 03-935-9990（輔具資源服務）",
+      "source_urls": [
+        "https://glrslaw.e-land.gov.tw/LawContent.aspx?id=GL000382",
+        "http://glrslaw.e-land.gov.tw/NewsContent.aspx?id=886",
+        "https://toucheng.e-land.gov.tw/cp.aspx?n=536B193E51ABAE9E&s=C9D95B1B1E5081B9"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "作業要點最初於103年12月發布，後有修正，現行版本請洽縣府確認。依家庭經濟狀況的補助比例搜尋結果未列。"
+    },
+    {
+      "id": "yilan-care-fee-subsidy",
+      "name": "身心障礙者日間照顧及住宿式照顧費用補助（托育養護費補助）",
+      "category": "care",
+      "level": "mixed",
+      "summary": "經政府轉介、在縣府同意之機構接受日間照顧或住宿式照顧的身心障礙者，依年齡與家庭收入分級補助費用。",
+      "eligibility": [
+        "設籍宜蘭縣，最近一年居住國內超過183日，領有身心障礙手冊或證明",
+        "在縣府同意之合格機構（經政府轉介）接受日間照顧或住宿式照顧",
+        "依家庭總收入平均每人相對最低生活費倍數分級（頭城鎮公所一覽表：全戶所得未超過最低生活費2至6倍以上等條件）"
+      ],
+      "benefit": "低收入戶全額補助；其他依收入倍數與年齡分級，例如未滿30歲之中低收入戶補助75%。每月補助以新臺幣21,000元為計算基準；65歲以上呼吸照護費用以每月25,000元為計算基準。每年定期辦理資格重新調查。",
+      "how_to_apply": "向戶籍所在地鄉鎮市公所申請；業務由宜蘭縣長期照護服務管理所承辦。",
+      "contact": "宜蘭縣長期照護服務管理所 03-935-9990",
+      "target_groups": [
+        "低收入或中低收入",
+        "家庭照顧者"
+      ],
+      "source_urls": [
+        "https://glrslaw.e-land.gov.tw/LawContent.aspx?id=GL000463",
+        "https://sntroot.e-land.gov.tw/cp.aspx?n=8353E8D0FFCD1E66",
+        "https://sntroot.e-land.gov.tw/cp.aspx?n=10406",
+        "https://toucheng.e-land.gov.tw/cp.aspx?n=536B193E51ABAE9E&s=C9D95B1B1E5081B9"
+      ],
+      "source_date": "2020",
+      "confidence": "medium",
+      "notes": "依「宜蘭縣身心障礙者日間照顧及住宿式照顧費用補助審核作業規定」（109年修正），各級距完整比例搜尋結果未列，金額可能已調整。"
+    },
+    {
+      "id": "yilan-independent-living",
+      "name": "身心障礙者自立生活支持服務（個人助理）",
+      "category": "care",
+      "level": "mixed",
+      "summary": "以個人助理與同儕支持協助身心障礙者自己做決定、參與社會；個人助理費用依身分補助。",
+      "eligibility": [
+        "年滿18歲，設籍或實際居住宜蘭縣，持有身心障礙證明",
+        "經長期照護服務管理所ICF需求評估，確認有自立生活意願",
+        "未同時使用居家照顧、日間照顧或喘息服務，未接受機構安置，未領取照顧者津貼"
+      ],
+      "benefit": "個人助理以每小時250元計算：低收入戶無自付額，一般戶每小時自付60元；另有同儕支持服務。",
+      "how_to_apply": "經長期照護服務管理所需求評估後，洽社會處老人及身障福利科。",
+      "contact": "社會處老人及身障福利科 03-932-8822 分機217；長期照護服務管理所 03-935-9990",
+      "target_groups": [
+        "成年"
+      ],
+      "source_urls": [
+        "https://sntroot.e-land.gov.tw/cp.aspx?n=C08FBC53BDDFAAAA&s=8206784C8D10DDA7"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "中低收入戶的自付額搜尋結果未列。"
+    },
+    {
+      "id": "yilan-emotional-support",
+      "name": "身心障礙者情緒支持暨心理重建服務",
+      "category": "support",
+      "level": "mixed",
+      "summary": "為身心障礙者提供到宅或定點的個別、團體或家庭諮商，協助生活適應與情緒疏導，每年補助一定時數。",
+      "eligibility": [
+        "設籍或實際居住宜蘭縣，持有身心障礙證明",
+        "經評估轉介或申請核定"
+      ],
+      "benefit": "心理衛生宣導、諮商輔導、心理治療、情緒疏導與社會福利資源轉介；每次1小時，每人每年度最高補助8小時，經專業人員評估並同意後最高12小時。",
+      "how_to_apply": "向社會處老人及身障福利科申請。第1類（精神）身心障礙者需諮商者，可洽衛生局社區心理衛生中心。",
+      "contact": "社會處老人及身障福利科 03-932-8822（頁面分機分列168、218）",
+      "source_urls": [
+        "https://sntroot.e-land.gov.tw/cp.aspx?n=C08FBC53BDDFAAAA&s=E9E0D080980C2F19"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "依身心障礙者權益保障法第50條及身心障礙者個人照顧服務辦法辦理。"
+    },
+    {
+      "id": "yilan-rent-subsidy",
+      "name": "身心障礙者租賃房屋租金補助",
+      "category": "economic",
+      "level": "mixed",
+      "summary": "家庭收入符合標準、租屋居住的身心障礙者，依家庭人口與坪數補助租金。",
+      "eligibility": [
+        "設籍並實際居住宜蘭縣，持有本縣核發之身心障礙手冊或證明",
+        "家庭收入低於一定門檻",
+        "已領取其他租金或貸款利息補貼、或住宿式照顧補助者通常不適用"
+      ],
+      "benefit": "每月每坪補助200元；單身家庭最高5坪，二口家庭最高7坪，三口以上最高10坪。",
+      "how_to_apply": "向戶籍所在地鄉鎮市公所社會課申請。",
+      "contact": "戶籍所在地鄉鎮市公所社會課",
+      "target_groups": [
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://sntroot.e-land.gov.tw/cp.aspx?n=10410"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "收入門檻具體數字與租金占比上限搜尋結果未列。與購屋貸款利息補貼僅能擇一。"
+    },
+    {
+      "id": "yilan-mortgage-interest",
+      "name": "身心障礙者購屋貸款利息補貼",
+      "category": "economic",
+      "level": "mixed",
+      "summary": "無自有住宅的身心障礙者購屋貸款，補貼原貸款利率與國宅基金利率的差額，每年有上限。",
+      "eligibility": [
+        "家庭總收入平均分配全家人口，未達當年度每人每月最低生活費標準4倍",
+        "本人、配偶及戶籍內直系親屬原則上無自有住宅"
+      ],
+      "benefit": "貸款額度最高新臺幣220萬元，年限最長30年，付息不還本寬限期最長5年；補貼原貸款利率與國宅基金利率之差額，每年最高15,000元。",
+      "how_to_apply": "每年12月31日前向戶籍所在地鄉鎮市公所申請前一年度補貼。",
+      "contact": "戶籍所在地鄉鎮市公所社會課",
+      "source_urls": [
+        "https://sntroot.e-land.gov.tw/cp.aspx?n=F3BAF3DE8124717A",
+        "https://sntroot.e-land.gov.tw/News_Content.aspx?n=11280&s=133774"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "房屋租金補貼與購屋貸款利息補貼僅能擇一辦理。"
+    },
+    {
+      "id": "yilan-parking-space-subsidy",
+      "name": "身心障礙者購買停車位貸款利息補貼或承租停車位補助",
+      "category": "transport",
+      "level": "central",
+      "summary": "經濟弱勢、自有車輛的身心障礙者，貸款購買或承租停車位時可申請利息補貼或租金補助。",
+      "eligibility": [
+        "低收入戶、中低收入戶或領有身心障礙者生活補助者",
+        "為車輛所有人並持有同種車輛之有效駕照",
+        "未接受政府同性質款項或補助",
+        "已貸款購買停車位，或承租停車位期間超過3個月"
+      ],
+      "benefit": "補貼購買停車位貸款利息或承租停車位租金（金額搜尋結果未列）。",
+      "how_to_apply": "洽社會處老人及身障福利科。",
+      "contact": "社會處老人及身障福利科 03-932-8822 分機202",
+      "target_groups": [
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://sntroot.e-land.gov.tw/cp.aspx?n=10418"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium"
+    },
+    {
+      "id": "yilan-love-card",
+      "name": "社會福利智慧卡（愛心卡、愛心陪伴卡）免費乘車",
+      "category": "transport",
+      "level": "local",
+      "summary": "設籍宜蘭縣的身心障礙者可申請愛心卡，免費搭乘行經縣境的客運自營路線，不限次數。",
+      "eligibility": [
+        "設籍宜蘭縣，領有身心障礙手冊（證明）",
+        "愛心陪伴卡：身心障礙者之必要陪伴者"
+      ],
+      "benefit": "持卡免費搭乘大眾交通運輸客運業者行經本縣境之自營路線，不限搭乘次數，上下車需刷卡。",
+      "how_to_apply": "可線上申請，或洽戶籍所在地鄉鎮市公所。",
+      "contact": "社會處老人及身障福利科 03-932-8822",
+      "source_urls": [
+        "https://sntroot.e-land.gov.tw/News_Content.aspx?n=10124&s=130386",
+        "https://sntroot.e-land.gov.tw/News_Content.aspx?n=11277&s=133425",
+        "https://yilan.e-land.gov.tw/News_Content.aspx?n=18705&sms=16134&s=372390"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "依「宜蘭縣老人及身心障礙者免費乘車實施要點」。宜蘭市公所頁面另載儲值後搭乘縣外大眾捷運系統4至5折優惠。搜尋結果未見點數制度；愛心陪伴卡申請資格細節未查到。"
+    },
+    {
+      "id": "yilan-rehab-bus",
+      "name": "身心障礙者交通服務（復康巴士、長照交通接送）",
+      "category": "transport",
+      "level": "mixed",
+      "summary": "社會處辦理復康巴士與長照交通接送；在核定補助趟次內依長照交通補助標準收取低額自付額，超出部分依復康巴士收費標準。",
+      "eligibility": [
+        "復康巴士：領有身心障礙證明者",
+        "長照交通車（就醫、復健）：居住宜蘭縣，經長期照護服務管理所評估長照需要等級第2級以上，且為65歲以上老人或領有身心障礙證明者等"
+      ],
+      "benefit": "核定補助趟次以內（依長照交通補助標準）：一般戶自付62元、中低收入戶20元、低收入戶0元；超出補助趟次依本縣復康巴士收費標準計費。",
+      "how_to_apply": "於服務時間內電話預約；縣內行程應於乘車日前一個工作天預約。114年起溪北（宜蘭市、員山鄉、壯圍鄉、礁溪鄉、頭城鎮）與溪南由不同服務單位營運。",
+      "contact": "復康巴士：社會處老人及身障福利科 03-932-8822 分機215；長照交通車：分機213",
+      "source_urls": [
+        "https://sntroot.e-land.gov.tw/cp.aspx?n=E784C485B87CE2ED",
+        "https://sntroot.e-land.gov.tw/cp.aspx?n=E784C485B87CE2ED&s=0A4EE184089EA212",
+        "https://sntroot.e-land.gov.tw/News_Content.aspx?n=10117&sms=12817&s=131214"
+      ],
+      "source_date": "2025",
+      "confidence": "high",
+      "notes": "各區服務單位名稱與預約電話搜尋摘要未列，請洽社會處。過去之無障礙計程車補助試辦計畫已於106年12月31日結束。"
+    },
+    {
+      "id": "yilan-parking",
+      "name": "身心障礙者專用停車位識別證及路邊停車優惠",
+      "category": "transport",
+      "level": "mixed",
+      "summary": "身心障礙者可申請專用停車位識別證；宜蘭縣路邊收費停車場停身障專用格免費，停一般收費格每日累計6小時內免費。",
+      "eligibility": [
+        "符合資格之身心障礙者（識別證由社會處審核）",
+        "識別證限本人持用，或配偶、親屬乘載本人時使用"
+      ],
+      "benefit": "路邊收費停車場：停身障專用格位且於前擋風玻璃放置有效識別證、專用車輛牌照或身障手冊者免費；停一般收費格位，宜蘭縣登記領證者每日累計未超過6小時免收費。羅東運動公園停車場：專用格位免費，一般車位每日6小時內免費。",
+      "how_to_apply": "識別證向長期照護服務管理所（承辦）申請；路邊停車優惠須於前擋風玻璃明顯處放置有效識別證或專用車輛牌照。",
+      "contact": "宜蘭縣長期照護服務管理所 03-935-9990",
+      "source_urls": [
+        "https://sntroot.e-land.gov.tw/cp.aspx?n=4E41B619F24B7E26",
+        "https://park.e-land.gov.tw/news/12/view/67",
+        "http://glrslaw.e-land.gov.tw/NewsContent.aspx?id=261",
+        "https://gym.e-land.gov.tw/cp.aspx?n=6945"
+      ],
+      "source_date": "2020",
+      "confidence": "medium",
+      "notes": "路邊停車規定公告約為2020年。外縣市領證者每日累計超過6小時須於繳費期限內辦理銷單或繳費；證件不齊、逾期或車輛登記不符不適用優惠。識別證申請資格細節（需求評估條件）搜尋結果未列。"
+    },
+    {
+      "id": "yilan-care-attendant-subsidy",
+      "name": "中低收入傷病住院看護費用補助",
+      "category": "medical",
+      "level": "local",
+      "summary": "符合中低收入戶資格的身心障礙者或65歲以上老人住院需請看護時，可申請看護費用補助。",
+      "eligibility": [
+        "符合中低收入戶資格之身心障礙者或年滿65歲老人（低收入戶另有較高標準）"
+      ],
+      "benefit": "中低收入戶：每人每日750元，每年最高9萬元；低收入戶：每日1,500元，每年最高18萬元。",
+      "how_to_apply": "洽戶籍所在地鄉鎮市公所社會課或社會處（搜尋結果未載明受理窗口）。",
+      "target_groups": [
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://sntroot.e-land.gov.tw/cp.aspx?n=93923C22C4426E88",
+        "http://glrslaw.e-land.gov.tw/NewsContent.aspx?id=662"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "非一般身心障礙者通案補助。同頁另有低收入戶及中低收入戶傷病醫療、照顧服務費用補助（中低收入戶之身心障礙者可申請照顧服務費），細節未查到。"
+    },
+    {
+      "id": "yilan-vocational-rehab",
+      "name": "身心障礙者職業重建服務窗口",
+      "category": "employment",
+      "level": "central",
+      "summary": "宜蘭縣政府勞工處設有身心障礙者職業重建服務窗口，提供職業訓練、職業輔導評量與一般性、支持性、庇護性就業服務。",
+      "eligibility": [
+        "設籍宜蘭縣，年滿15歲至未滿65歲，領有身心障礙手冊（證明）",
+        "具就業意願及基本工作能力"
+      ],
+      "benefit": "職業重建個案管理、職業訓練、職業輔導評量、一般性就業、支持性就業、庇護性就業服務。",
+      "how_to_apply": "洽勞工處身心障礙者職業重建服務窗口。",
+      "contact": "職業重建服務窗口 03-925-5277",
+      "target_groups": [
+        "求職者"
+      ],
+      "source_urls": [
+        "https://labor.e-land.gov.tw/cp.aspx?n=3103",
+        "https://www.e-land.gov.tw/cp.aspx?n=803B7F79C8DED3C2&s=A741CB68461D28D9"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "宜蘭縣庇護工場據點搜尋結果未見。"
+    },
+    {
+      "id": "yilan-sign-language",
+      "name": "手語翻譯及聽打服務",
+      "category": "support",
+      "level": "mixed",
+      "summary": "聽語障者參與公共事務、就醫、研習等需要時，可申請手語翻譯或同步聽打，服務委託中華民國聾人協會辦理。",
+      "eligibility": [
+        "設籍並居住宜蘭縣，或工作地點在宜蘭縣之聽（語）障礙者",
+        "公共服務單位（含勞政、就業單位）因業務需要亦可申請"
+      ],
+      "benefit": "派遣手語翻譯員或同步聽打服務。",
+      "how_to_apply": "於活動前7日提出申請，可透過免付費電話、LINE或視訊聯繫受託單位。",
+      "contact": "受託單位中華民國聾人協會 0800-556-272",
+      "target_groups": [
+        "聽覺或平衡障礙",
+        "聲音或語言障礙"
+      ],
+      "source_urls": [
+        "https://sntroot.e-land.gov.tw/cp.aspx?n=C08FBC53BDDFAAAA&s=B609F836B094D8AE",
+        "http://glrslaw.e-land.gov.tw/LawContent.aspx?id=GL000093"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "「宜蘭縣手語翻譯服務申請作業規定」發布於民國99年3月26日，現行版本以官網為準。"
+    },
+    {
+      "id": "yilan-disability-assessment",
+      "name": "身心障礙鑑定及需求評估",
+      "category": "support",
+      "level": "central",
+      "summary": "向戶籍地鄉鎮市公所申請鑑定表後至醫院鑑定；鑑定與需求評估業務由宜蘭縣長期照護服務管理所辦理，臥床者可申請在宅鑑定。",
+      "eligibility": [
+        "欲申請身心障礙證明之民眾",
+        "在宅鑑定：植物人或臥床無法自行至鑑定醫院者"
+      ],
+      "benefit": "辦理身心障礙鑑定、福利與服務需求評估及證明核發；對鑑定結果有異議者，得於收到通知書次日起30日內以書面申請複檢，以一次為限。",
+      "how_to_apply": "持文件向戶籍所在地鄉鎮市公所申請鑑定表；在宅鑑定須附醫院3個月內診斷證明。",
+      "documents": [
+        "戶口名簿或身分證",
+        "一吋半身照片3張",
+        "印章"
+      ],
+      "contact": "宜蘭縣長期照護服務管理所（宜蘭市聖後街141號）03-935-9990",
+      "source_urls": [
+        "https://www.nanao.e-land.gov.tw/News_Content.aspx?n=13328&s=184248",
+        "https://glrslaw.e-land.gov.tw/(X(1)S(fiwmh2eq4w0pgg55ehtjva45))/LawContent.aspx?id=GL000397",
+        "https://sntroot.e-land.gov.tw/cp.aspx?n=10414"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium"
+    },
+    {
+      "id": "yilan-service-center",
+      "name": "宜蘭縣身心障礙者服務中心",
+      "category": "support",
+      "level": "local",
+      "summary": "分溪北、溪南兩個據點，提供身心障礙者福利諮詢與照顧相關資訊等服務。",
+      "eligibility": [
+        "實際居住宜蘭縣，年滿7歲以上並持有縣市政府核（換）發之身心障礙證明"
+      ],
+      "benefit": "福利諮詢等服務（服務項目細節搜尋結果未完整列出）。",
+      "how_to_apply": "洽溪北或溪南服務中心。",
+      "contact": "社會處老人及身障福利科 03-932-8822",
+      "source_urls": [
+        "https://sntroot.e-land.gov.tw/cp.aspx?n=10417&s=1880"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "頁面已約兩年多未更新，各據點地址電話未查到。"
+    }
+  ]
+}

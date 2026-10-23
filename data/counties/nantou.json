@@ -1,0 +1,416 @@
+{
+  "county_id": "nantou",
+  "county_name": "南投縣",
+  "agency": "南投縣政府社會及勞動處",
+  "agency_url": "https://welfare.nantou.gov.tw/1486",
+  "phone": "社會福利科 049-2243985（依113年福利手冊）；福利諮詢專線 1957",
+  "collected_at": "2026-10-23",
+  "method": "web_search",
+  "notes": "以 WebSearch 限定 nantou.gov.tw 網域蒐集。主要依據為南投縣社會福利資訊網、南投縣主管法規共用系統及「身心障礙者福利手冊（113年6月版）」，手冊經排版轉換後部分數字難以辨識。第二輪補查（12次搜尋）新增溫馨巴士（小型復康巴士）、社區日間作業設施、社區式日間照顧、手語翻譯暨同步聽打、停車優惠、家庭照顧支持服務，並補充生活補助（低收入戶金額與收入財產門檻）、輔具（113年1月施行之審核作業規定）、大型復康巴士收費、臨短托補助比例、家托與個人助理收費、租金與購屋貸款利息補貼金額、職業重建項目。仍缺：115年度生活補助金額（官方來源僅見113年數字）；日間及住宿式照顧費用現行補助比例（僅見97至101年間版本）及115年10月住宿加碼補助內容；輔具各品項金額與輔具資源中心聯絡方式；臨短托時數上限；社區居住內容與收費；停車位與商店攤販貸款利息或租金補助金額；住院看護費用補助金額（手冊排版錯置，每日900元、每年108,000元的歸屬未能確認，未收錄）；緊急救援服務（未找到）；急難救助、年節慰問、照顧者津貼、運動中心優惠、原住民身障者服務、偏鄉就醫交通補助；職務再設計與創業補助金額；鑑定窗口；愛心卡申辦窗口；溫馨巴士現行營運方式。社會福利資訊網另有「預防走失愛心手鍊」頁面（https://welfare.nantou.gov.tw/1486/3018），內容未取得。機關名稱：手冊與部分頁面為「社會及勞動處」，資訊網部分頁面標題為「社會及勞動局」，待確認。社會福利科電話除手冊所載049-2243985外，搜尋摘要另出現049-2244210，待確認。",
+  "benefits": [
+    {
+      "id": "nantou-living-allowance",
+      "name": "身心障礙者生活補助費",
+      "category": "economic",
+      "level": "central",
+      "summary": "提供符合家庭經濟條件的身心障礙者每月生活補助，金額依障礙等級與家庭經濟身分而定。",
+      "eligibility": [
+        "領有身心障礙證明",
+        "設籍南投縣並實際居住於戶籍所在地",
+        "最近一年居住國內超過183日",
+        "非政府補助收容於機構住宿者",
+        "未領取政府其他社會福利補助或津貼",
+        "非列冊低收入戶或中低收入戶者：家庭總收入平均分配全家人口未達當年度每人每月最低生活費2.5倍（113年手冊載為35,575元），且未超過臺灣地區平均每人每月消費支出1.5倍",
+        "存款本金及有價證券合計：1人以200萬元為限，每增加1人增計25萬元；另有不動產限額"
+      ],
+      "benefit": "113年度（南投縣身心障礙者福利手冊）：列冊低收入戶極重度、重度、中度每人每月9,485元，輕度5,437元；列冊中低收入戶及一般戶極重度、重度、中度每人每月5,437元，輕度4,049元。115年度金額未在南投縣官方來源取得。",
+      "how_to_apply": "向戶籍所在地鄉（鎮、市）公所洽詢申請；可撥福利諮詢專線1957或洽社會及勞動處社會福利科。",
+      "contact": "南投縣政府社會及勞動處社會福利科 049-2243985（依113年6月福利手冊）",
+      "target_groups": [
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://welfare.nantou.gov.tw/ViewService/FileDownload.ashx?id=978d5f8a-026d-4966-b855-213bbc104774&name=9BEDA02DDCCC41B7A9959FF6E50C5ED7&module=File",
+        "https://glrs.nantou.gov.tw/LawContent.aspx?id=FL037383",
+        "https://welfare.nantou.gov.tw/1486/WebMap/ListView/4095/zh-Hant-TW"
+      ],
+      "source_date": "2024-06",
+      "confidence": "medium",
+      "notes": "金額與門檻依113年6月福利手冊及「南投縣身心障礙者生活補助審核作業規定」，115年度最低生活費與金額請以戶籍地公所公告為準。家庭人口與收入計算依社會救助法相關規定。"
+    },
+    {
+      "id": "nantou-insurance-premium",
+      "name": "身心障礙者參加社會保險保險費補助",
+      "category": "economic",
+      "level": "central",
+      "summary": "補助身心障礙者參加全民健保、勞保、公保、農保、軍保等社會保險的自付保費，比例依障礙等級而定。",
+      "eligibility": [
+        "設籍南投縣",
+        "領有身心障礙證明",
+        "已參加全民健保、公保、勞保、農保、軍保等社會保險"
+      ],
+      "benefit": "113年度手冊：極重度及重度自付保費全額補助；中度補助二分之一；輕度補助四分之一。",
+      "how_to_apply": "申請方式未在搜尋結果中載明，請洽社會及勞動處社會福利科或戶籍地公所確認。",
+      "contact": "南投縣政府社會及勞動處社會福利科 049-2243985（依113年6月福利手冊）",
+      "source_urls": [
+        "https://welfare.nantou.gov.tw/ViewService/FileDownload.ashx?id=978d5f8a-026d-4966-b855-213bbc104774&name=9BEDA02DDCCC41B7A9959FF6E50C5ED7&module=File",
+        "https://www.nantou.gov.tw/getfile.php?path=upload%2FgfF2zAyP2HgIgFAq.pdf"
+      ],
+      "source_date": "2024-06",
+      "confidence": "medium",
+      "notes": "112年度總決算：本項補助37萬3,112人次、金額6,777萬7,827元。未找到南投縣自辦的健保費加碼方案。"
+    },
+    {
+      "id": "nantou-day-residential-care",
+      "name": "身心障礙者日間照顧及住宿式照顧費用補助",
+      "category": "care",
+      "level": "central",
+      "summary": "補助使用日間照顧或住宿式照顧服務的身心障礙者部分費用；115年10月起另有住宿費用加碼補助開放受理。",
+      "eligibility": [
+        "領有身心障礙證明",
+        "使用日間照顧或住宿式照顧服務",
+        "符合「南投縣身心障礙者日間照顧及住宿式照顧費用補助審核作業規定」之條件"
+      ],
+      "benefit": "依南投縣審核作業規定之補助比例辦理（金額未在搜尋結果中載明）。115年10月1日起，社會福利資訊網公告「住宿式服務機構使用者補助方案及身心障礙者住宿費用加碼補助」開放受理。",
+      "how_to_apply": "洽社會及勞動處社會福利科；加碼補助受理資訊見南投縣社會福利資訊網最新消息。",
+      "contact": "南投縣政府社會及勞動處社會福利科 049-2243985（依113年6月福利手冊）",
+      "source_urls": [
+        "https://www.nantou.gov.tw/getfile.php?path=upload%2F72091_1.doc",
+        "https://welfare.nantou.gov.tw/1486",
+        "https://welfare.nantou.gov.tw/ViewService/FileDownload.ashx?id=978d5f8a-026d-4966-b855-213bbc104774&name=9BEDA02DDCCC41B7A9959FF6E50C5ED7&module=File"
+      ],
+      "source_date": "2026-10",
+      "confidence": "medium",
+      "notes": "南投縣政府網站所載審核作業規定（97至101年間修正版本，是否為現行版未確認）按年齡與家庭經濟分級：未滿30歲且由主管機關安置者，低收入戶全額補助，中低收入戶或家庭總收入平均未達最低生活費2倍者補助75%，2倍至未達3倍補助50%，3倍至未達4倍補助25%，4倍以上不補助；30歲以上或20歲以上且父母一方65歲以上者，補助比例較高（2倍至未達3倍為70%），6倍以上不補助；家中有兩名以上身心障礙者另有標準。113年手冊對一般戶門檻的寫法（最低生活費1.5倍）與上述版本不同。加碼補助的主辦層級（中央或縣府）、金額與資格未確認。舊制另有「南投縣身心障礙者托育養護費用補助審核作業規定」（https://glrs.nantou.gov.tw/LawContent.aspx?id=FL027719），是否仍適用待確認。"
+    },
+    {
+      "id": "nantou-assistive-devices",
+      "name": "身心障礙者輔助器具費用補助",
+      "category": "assistive",
+      "level": "central",
+      "summary": "補助身心障礙者購置生活輔助器具的費用。",
+      "eligibility": [
+        "設籍南投縣",
+        "最近一年居住國內超過183日",
+        "領有身心障礙證明",
+        "申請品項非屬全民健保給付、勞政職務再設計或職業災害補助及其他公部門補助方案之輔具"
+      ],
+      "benefit": "依「南投縣身心障礙者輔具費用補助審核作業規定」（112年12月14日修正、113年1月1日施行）及中央補助基準補助購置費用；各品項金額未在搜尋結果中載明。採事前申請、核定後購買；補助之輔具以新品為限；同一項目在最低使用年限內不得重複申請；補助所購輔具不得出售或變賣，否則追回補助款。短期、急用或臨時需求可使用輔具借用服務，長期需求可經輔具中心評估使用媒合服務。",
+      "how_to_apply": "向戶籍所在地鄉（鎮、市）公所提出申請；經縣輔具資源中心評估者，直接向輔具資源中心提出。評估可由鑑定醫療機構醫師與治療師或輔具資源中心評估人員開立，診斷書與評估報告須於開立後6個月內申請核定。核定後購買，於期限內檢附發票、保固文件等向公所申請核銷撥款。",
+      "contact": "南投縣政府社會及勞動處社會福利科 049-2243985（依113年6月福利手冊）",
+      "source_urls": [
+        "https://glrs.nantou.gov.tw/LawContent.aspx?id=GL000032",
+        "https://glrs.nantou.gov.tw/glrsout/LawContent.aspx?id=GL000418",
+        "https://welfare.nantou.gov.tw/1486/3002",
+        "https://www.nantou.gov.tw/upload/99255_f1.pdf"
+      ],
+      "source_date": "2024-01",
+      "confidence": "high",
+      "documents": [
+        "輔具補助資格審查申請表",
+        "診斷書或輔具評估報告",
+        "購買發票、保固文件（核銷時）"
+      ],
+      "notes": "輔具資源中心的地址與電話未在搜尋結果中取得。輔具租借、維修、評估及媒合另依「南投縣政府輔具租借維修評估及媒合服務作業要點」辦理。"
+    },
+    {
+      "id": "nantou-love-card-taxi",
+      "name": "南投縣政府敬老愛心卡（老人及身心障礙者乘車補助）",
+      "category": "transport",
+      "level": "local",
+      "summary": "持敬老愛心卡的身心障礙者每月有1,000點乘車補助，可刷卡搭乘縣府特約計程車。",
+      "eligibility": [
+        "持南投縣敬老愛心卡之身心障礙者（卡片限本人使用）",
+        "同一卡片制度也適用滿65歲長者及滿60歲原住民"
+      ],
+      "benefit": "每月補助1,000點（1點=1元），月底未用完不累計。搭乘特約計程車每趟最高補助100點，每天最多刷4趟，超出部分以卡片儲值或現金支付。113年7月1日起特約車隊共9家、約4,500輛車裝有刷卡設備。",
+      "how_to_apply": "持卡搭乘有特約車隊LOGO或車身特約車辨識貼紙的計程車，下車刷卡。遇盜刷或冒名車隊，記下車隊、車牌、司機姓名與乘車時間，向車隊或社會及勞動處申訴。",
+      "source_urls": [
+        "https://www.nantou.gov.tw/big5/bureau/news_content.php?dptid=376480000au240000&cid=75&id=157165",
+        "https://welfare.nantou.gov.tw/1486/1009",
+        "https://www.nantou.gov.tw/big5/hotnewsdetail.asp?dptid=376480000&catetype=01&cid=2&cid1=252&mcid=143587"
+      ],
+      "source_date": "2024",
+      "confidence": "high",
+      "notes": "每月額度曾由300元提高到1,000元，每趟上限由85點提高到100點。愛心卡申辦窗口與應備文件未在搜尋結果中取得。"
+    },
+    {
+      "id": "nantou-rehab-bus",
+      "name": "大型復康巴士服務",
+      "category": "transport",
+      "level": "local",
+      "summary": "南投縣政府大型復康巴士供立案身心障礙團體或機構辦理社區參與活動租用，依縣府收費辦法收費。",
+      "eligibility": [
+        "立案之身心障礙團體或機構",
+        "用途為身心障礙者社區參與活動"
+      ],
+      "benefit": "依「南投縣政府大型復康巴士服務及收費辦法」：行駛苗栗、臺中、彰化、南投等縣市，每日使用費3,000元；使用費於預約完成後先行繳納，油料等費用於用畢後繳交。",
+      "how_to_apply": "於用車日前三星期向南投縣政府預約；一般諮詢可撥縣府總機（049）2222106~9（週一至週五上班時間）。",
+      "source_urls": [
+        "https://glrs.nantou.gov.tw/GLRSOUT/LawContent.aspx?id=GL000243",
+        "https://www.nantou.gov.tw/big5/hotnews.php?dptid=&cid=960",
+        "https://welfare.nantou.gov.tw/ViewService/FileDownload.ashx?id=4becb9fb-e0e0-4c0a-aa8a-c33aebaf5356&name=2FAF36D25C384CCBB7B3618564354550&module=File"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "收費辦法版本日期不明。個人搭乘的小型復康巴士見「南投縣溫馨巴士」項目。縣府另有「友善交通接送資訊整合系統服務計畫」（114年5月22日修訂），與復康巴士的關係待確認。"
+    },
+    {
+      "id": "nantou-respite-care",
+      "name": "身心障礙者臨時及短期照顧服務",
+      "category": "care",
+      "level": "central",
+      "summary": "為照顧身心障礙者的家庭提供臨時或短期的替代照顧，讓家庭照顧者喘息。",
+      "eligibility": [
+        "實際居住南投縣（戶籍在他縣市亦可）並領有身心障礙證明",
+        "未接受機構安置、未聘僱看護（傭）",
+        "經縣府需求評估確認有臨時或短期照顧需求"
+      ],
+      "benefit": "提供臨時及短期照顧服務。113年福利手冊：低收入戶與單親家庭由政府全額補助；家中有兩位以上身心障礙者時，其中一位全額補助、其餘補助70%，由家屬決定補助對象，同一年度內不得更換。補助時數上限與一般戶自付比例未在搜尋結果中載明。",
+      "how_to_apply": "洽社會及勞動處社會福利科，或參閱社會福利資訊網「臨時及短期照顧服務」頁面。",
+      "contact": "南投縣政府社會及勞動處社會福利科 049-2243985（依113年6月福利手冊）",
+      "target_groups": [
+        "家庭照顧者"
+      ],
+      "source_urls": [
+        "https://welfare.nantou.gov.tw/1486/3015",
+        "https://welfare.nantou.gov.tw/ViewService/FileDownload.ashx?id=978d5f8a-026d-4966-b855-213bbc104774&name=9BEDA02DDCCC41B7A9959FF6E50C5ED7&module=File"
+      ],
+      "source_date": "2024-06",
+      "confidence": "medium"
+    },
+    {
+      "id": "nantou-home-care-independent-living",
+      "name": "身心障礙者家庭托顧及自立生活支持服務",
+      "category": "care",
+      "level": "central",
+      "summary": "家庭托顧由托顧服務員在家中照顧成年身心障礙者；自立生活支持提供個人助理與同儕支持，一般戶個人助理每小時自付60元。",
+      "eligibility": [
+        "家庭托顧：年滿18歲、戶籍或實際居住南投縣、領有身心障礙證明並經需求評估符合資格",
+        "自立生活支持：設籍或實際居住南投縣、18歲以上、領有身心障礙證明，有自立生活意願並通過需求評估",
+        "申請個人助理者另須未入住機構、未領取政府特別照顧津貼，且同時段未使用居家照顧、日間照顧、喘息服務或聘僱看護（傭）"
+      ],
+      "benefit": "113年福利手冊：家庭托顧提供身體照顧、生活照顧與安全性照顧，分全日托（8小時）與半日托（4小時）；一般戶由政府補助75%、自付25%，低收入戶由政府全額補助。自立生活支持之個人助理每小時支持服務費250元：低收入戶及中低收入戶全額補助；家庭平均所得達最低生活費1.5倍以上未達2.5倍（領生活補助者）每小時自付20元；一般戶每小時自付60元。同儕支持服務每小時最高補助230元，每年原則最高20小時（經評估需要者不在此限）。",
+      "how_to_apply": "洽社會及勞動處社會福利科；家庭托顧依服務區域洽各承辦單位。",
+      "contact": "南投縣政府社會及勞動處社會福利科 049-2243985（依113年6月福利手冊）",
+      "source_urls": [
+        "https://welfare.nantou.gov.tw/ViewService/FileDownload.ashx?id=978d5f8a-026d-4966-b855-213bbc104774&name=9BEDA02DDCCC41B7A9959FF6E50C5ED7&module=File",
+        "https://welfare.nantou.gov.tw/1486/WebMap/ListView/4095/zh-Hant-TW"
+      ],
+      "source_date": "2024-06",
+      "confidence": "medium",
+      "notes": "家庭托顧全日托與半日托的收費金額、個人助理每月時數上限未在搜尋結果中載明。南投縣開放資料平台有「身心障礙者家庭托顧服務單位」資料集（https://data.nantou.gov.tw/user/dosa_admin）。",
+      "target_groups": [
+        "成年",
+        "家庭照顧者"
+      ]
+    },
+    {
+      "id": "nantou-supported-employment",
+      "name": "身心障礙者職業重建服務（含支持性就業）",
+      "category": "employment",
+      "level": "central",
+      "summary": "南投縣社會及勞動處設有身心障礙者職業重建專區，提供職業重建服務窗口、支持性就業、庇護性就業、職務再設計等服務。",
+      "eligibility": [
+        "有就業意願之身心障礙者（詳細資格見服務頁面）"
+      ],
+      "benefit": "職業重建專區列有：職業重建服務窗口、職業訓練、庇護性就業、支持性就業、職務再設計、職業輔導評量、身心障礙者創業輔導、定額進用。各項補助金額未在搜尋結果中載明；社會福利資訊網的勞工行政業務另列有身心障礙者就業基金。",
+      "how_to_apply": "洽南投縣政府社會及勞動處勞工行政相關科室；說明見社會福利資訊網「支持性就業服務」頁面。",
+      "target_groups": [
+        "求職者"
+      ],
+      "source_urls": [
+        "https://welfare.nantou.gov.tw/1486/186104",
+        "https://welfare.nantou.gov.tw/1486/186105",
+        "https://www.nantou.gov.tw/big5/download.asp?dptid=376480000au130000&catetype=01&cid=2033"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "「南投縣身心障礙者庇護工場設立管理及補助要點」已於109年5月18日廢止，其補助數字不再適用。職業重建窗口電話未取得。"
+    },
+    {
+      "id": "nantou-housing-business-loans",
+      "name": "身心障礙者房屋租金、購屋貸款利息、停車位及商店攤販貸款利息或租金補助",
+      "category": "economic",
+      "level": "central",
+      "summary": "113年福利手冊的經濟補助列有房屋租金、購屋貸款利息、停車位、商店攤販等貸款利息或租金補助。",
+      "eligibility": [
+        "房屋租金補貼：設籍南投縣之低收入戶身心障礙者，本人、配偶及戶籍內直系親屬均無自有住宅，租賃房屋位於南投縣",
+        "購屋貸款利息補貼：家庭總收入平均未達當年度每人每月最低生活費4倍，購置住宅位於南投縣，申請人及家屬無自有住宅",
+        "其他項目資格見福利手冊"
+      ],
+      "benefit": "房屋租金補貼：每人每月500元，最高以5人為限；實際租金低於額度者以實際租金補貼，押金、公共管理費不補貼（作業要點108年9月24日修正，113年手冊同）。購屋貸款利息補貼：貸款額度由金融機構或郵局核實決定，最高220萬元，年限最長30年、付息不還本寬限期最長5年，補貼原購屋貸款利率與國民住宅基金提供利率之差額，由縣府直接撥付給身心障礙者本人。停車位貸款利息或承租補助、商店攤販貸款利息或租金補助金額未在搜尋結果中載明。",
+      "how_to_apply": "房屋租金補貼向戶籍所在地鄉（鎮、市）公所申請，主管機關於受理後60日內完成審核；其他項目洽社會及勞動處社會福利科。",
+      "contact": "南投縣政府社會及勞動處社會福利科 049-2243985（依113年6月福利手冊）",
+      "target_groups": [
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://glrs.nantou.gov.tw/glrsout/LawContent.aspx?id=GL000180",
+        "https://welfare.nantou.gov.tw/1486/3003",
+        "https://welfare.nantou.gov.tw/ViewService/FileDownload.ashx?id=978d5f8a-026d-4966-b855-213bbc104774&name=9BEDA02DDCCC41B7A9959FF6E50C5ED7&module=File"
+      ],
+      "source_date": "2024-06",
+      "confidence": "medium",
+      "notes": "入住24小時住宿式機構、戶籍遷出本縣等情形會停止租金補貼並可能追繳。停車位與商店攤販相關補助僅確認項目名稱。"
+    },
+    {
+      "id": "nantou-health-check",
+      "name": "身心障礙者免費健康檢查",
+      "category": "medical",
+      "level": "central",
+      "summary": "113年福利手冊的健康維護項目列有身心障礙者免費健康檢查。",
+      "eligibility": [
+        "南投縣領有身心障礙證明者（詳細條件見福利手冊）"
+      ],
+      "benefit": "提供免費健康檢查。手冊同類另列有低收入戶與中低收入戶的傷病醫療補助、住院看護費用補助。檢查項目與次數未在搜尋結果中載明。",
+      "how_to_apply": "洽社會及勞動處社會福利科。",
+      "contact": "南投縣政府社會及勞動處社會福利科 049-2243985（依113年6月福利手冊）",
+      "source_urls": [
+        "https://welfare.nantou.gov.tw/ViewService/FileDownload.ashx?id=978d5f8a-026d-4966-b855-213bbc104774&name=9BEDA02DDCCC41B7A9959FF6E50C5ED7&module=File"
+      ],
+      "source_date": "2024-06",
+      "confidence": "medium"
+    },
+    {
+      "id": "nantou-warm-bus",
+      "name": "南投縣溫馨巴士（身心障礙者小型復康巴士）",
+      "category": "transport",
+      "level": "local",
+      "summary": "縣府小型復康巴士提供身心障礙者免費到宅接送，須於用車前三天預約，可併車搭乘。",
+      "eligibility": [
+        "領有身心障礙證明（手冊）者",
+        "陪同親友一人可同行"
+      ],
+      "benefit": "免費交通接送服務，採事前預約到宅接送，可併車搭乘。",
+      "how_to_apply": "於用車前三天預約（星期六、日及國定假日不計入），電話預約或填寫申請書傳真。",
+      "contact": "預約電話 049-2209110；傳真 049-2209440",
+      "source_urls": [
+        "https://www.nantou.gov.tw/big5/hotnewsdetail.asp?dptid=376..&catetype=01&mcid=113011&cid1=613&cid=1",
+        "https://www.nantou.gov.tw/big5/hotnews.php?dptid=&cid=960"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "來源為日期不明的縣府新聞。社會福利資訊網另有特約單位「第二位陪同者收費金額/趟」表（社團法人南投縣脊髓損傷者協會25元、財團法人愚人之友社會福利慈善事業基金會100元等，https://welfare.nantou.gov.tw/ViewService/FileDownload.ashx?id=42993225-bd27-4760-b617-670cd58ba669&name=17F64932355442CC975F34B3378D8004&module=File），顯示現行可能由特約單位營運、收費規定不同，預約前請先確認。"
+    },
+    {
+      "id": "nantou-day-activity-facility",
+      "name": "身心障礙者社區日間作業設施",
+      "category": "care",
+      "level": "central",
+      "summary": "提供15至64歲身心障礙者在社區據點白天參與作業活動與生活訓練，不提供住宿。",
+      "eligibility": [
+        "居住南投縣、15歲至64歲之身心障礙者",
+        "未安置於社會福利機構或精神醫療復健機構（接受夜間型住宿機構服務者不在此限）",
+        "有意願且經作業設施評估能每日參與作業活動4小時以上、每週原則20小時以上",
+        "具生活自理與交通能力"
+      ],
+      "benefit": "於日間提供作業活動與生活能力訓練，服務場所不提供夜間住宿。南投站、竹山站由財團法人中華社會福利基金會承辦。收費未在搜尋結果中載明。",
+      "how_to_apply": "洽各作業設施承辦單位或社會及勞動處社會福利科。",
+      "contact": "南投縣政府社會及勞動處社會福利科 049-2243985（依113年6月福利手冊）",
+      "target_groups": [
+        "成年"
+      ],
+      "source_urls": [
+        "https://welfare.nantou.gov.tw/ViewService/FileDownload.ashx?id=978d5f8a-026d-4966-b855-213bbc104774&name=9BEDA02DDCCC41B7A9959FF6E50C5ED7&module=File",
+        "https://data.nantou.gov.tw/user/dosa_admin"
+      ],
+      "source_date": "2024-06",
+      "confidence": "medium",
+      "notes": "開放資料平台有「身心障礙者社區日間作業設施」資料集可下載最新據點名單。"
+    },
+    {
+      "id": "nantou-community-day-care",
+      "name": "身心障礙者社區式日間照顧服務",
+      "category": "care",
+      "level": "central",
+      "summary": "在社區據點為18至64歲中度以上身心障礙者提供日間照顧。",
+      "eligibility": [
+        "南投縣18歲至64歲、中度以上身心障礙者（詳細資格見福利手冊）"
+      ],
+      "benefit": "提供社區式日間照顧，每單位最多服務15人。據點、收費與補助未在搜尋結果中載明。",
+      "how_to_apply": "洽社會及勞動處社會福利科。",
+      "contact": "南投縣政府社會及勞動處社會福利科 049-2243985（依113年6月福利手冊）",
+      "target_groups": [
+        "成年"
+      ],
+      "source_urls": [
+        "https://welfare.nantou.gov.tw/ViewService/FileDownload.ashx?id=978d5f8a-026d-4966-b855-213bbc104774&name=9BEDA02DDCCC41B7A9959FF6E50C5ED7&module=File"
+      ],
+      "source_date": "2024-06",
+      "confidence": "medium",
+      "notes": "開放資料平台另有「成年心智障礙者社區居住與獨立生活服務單位」資料集，社區居住的內容與收費未查到。"
+    },
+    {
+      "id": "nantou-sign-language",
+      "name": "南投縣手語翻譯暨同步聽打服務",
+      "category": "support",
+      "level": "central",
+      "summary": "為聽語障者及其家屬、縣內公家機關提供預約制的手語翻譯與同步聽打服務。",
+      "eligibility": [
+        "設籍並實際居住南投縣、領有身心障礙證明之聽語障者，或合併聽語障之多重障礙者及其家屬",
+        "南投縣各公家機關"
+      ],
+      "benefit": "提供手語翻譯與同步聽打服務，採事先預約：手語翻譯應於活動前3日申請，同步聽打應於活動前7日申請。是否收費未在搜尋結果中載明。",
+      "how_to_apply": "向南投縣手語翻譯服務中心預約，申請表可於縣府網站下載。",
+      "documents": [
+        "身心障礙證明",
+        "其他證明文件"
+      ],
+      "contact": "南投縣手語翻譯服務中心（049）2241211，簡訊 0988-960125（依113年6月福利手冊）",
+      "target_groups": [
+        "聽覺或平衡障礙",
+        "聲音或語言障礙"
+      ],
+      "source_urls": [
+        "https://welfare.nantou.gov.tw/1486/3017",
+        "https://welfare.nantou.gov.tw/ViewService/FileDownload.ashx?id=978d5f8a-026d-4966-b855-213bbc104774&name=9BEDA02DDCCC41B7A9959FF6E50C5ED7&module=File",
+        "https://www.nantou.gov.tw/big5/download.asp?dptid=376480000AU130000&catetype=01&cid=957&cid1=1451"
+      ],
+      "source_date": "2024-06",
+      "confidence": "medium",
+      "notes": "縣府網站的申請表件多為108年前後版本。未查到視訊手語服務。"
+    },
+    {
+      "id": "nantou-parking",
+      "name": "身心障礙者專用停車位識別證及縣有停車場停車優惠",
+      "category": "transport",
+      "level": "mixed",
+      "summary": "貼有身心障礙者專用停車位識別證或懸掛專用車牌的車輛，在南投縣縣有公共停車場每日可免費停車4小時。",
+      "eligibility": [
+        "身心障礙者使用之車輛，貼有政府核發之身心障礙者專用停車位識別證或懸掛身心障礙者專用車牌"
+      ],
+      "benefit": "依「南投縣縣有公共停車場收費及管理自治條例」（111年3月11日修正）：停車費當日4小時免費。",
+      "how_to_apply": "識別證申辦方式見南投縣社會福利資訊網「身心障礙者專用停車位識別證」專頁；停車時車輛須貼妥識別證或懸掛專用車牌。",
+      "source_urls": [
+        "https://glrs.nantou.gov.tw/GLRSOUT/LawContent.aspx?id=FL022282",
+        "https://welfare.nantou.gov.tw/1486/3029"
+      ],
+      "source_date": "2022-03",
+      "confidence": "medium",
+      "notes": "路邊停車場收費及管理可委辦鄉（鎮、市）公所，各地執行方式請向停車地點所在公所確認。舊版「南投縣公共停車場收費自治條例」曾規定免收停車費且未限4小時。溪頭、合歡山等風景區停車場另行收費，身障優惠未查到。識別證申請資格與文件未在搜尋結果中取得。"
+    },
+    {
+      "id": "nantou-caregiver-support",
+      "name": "身心障礙者家庭照顧支持服務",
+      "category": "support",
+      "level": "central",
+      "summary": "為照顧身心障礙者的家庭照顧者提供個案服務、關懷訪視、照顧技巧指導與心理協談。",
+      "eligibility": [
+        "居住南投縣、照顧身心障礙者之家庭照顧者"
+      ],
+      "benefit": "113年福利手冊：個案服務、志工關懷訪視、專業支持服務（照顧技巧指導、心理協談）等。",
+      "how_to_apply": "洽社會及勞動處社會福利科。",
+      "contact": "南投縣政府社會及勞動處社會福利科 049-2243985（依113年6月福利手冊）",
+      "target_groups": [
+        "家庭照顧者"
+      ],
+      "source_urls": [
+        "https://welfare.nantou.gov.tw/ViewService/FileDownload.ashx?id=978d5f8a-026d-4966-b855-213bbc104774&name=9BEDA02DDCCC41B7A9959FF6E50C5ED7&module=File"
+      ],
+      "source_date": "2024-06",
+      "confidence": "medium",
+      "notes": "承辦單位與服務據點未查到。"
+    }
+  ]
+}

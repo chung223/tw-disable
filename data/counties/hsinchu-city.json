@@ -1,0 +1,470 @@
+{
+  "county_id": "hsinchu-city",
+  "county_name": "新竹市",
+  "agency": "新竹市政府社會處",
+  "agency_url": "https://society.hccg.gov.tw/",
+  "phone": "03-5352386",
+  "collected_at": "2026-10-23",
+  "method": "web_search",
+  "notes": "新竹市政府網域為 hccg.gov.tw（社會處 society.hccg.gov.tw、勞工及青年處 dep-labor.hccg.gov.tw、交通處 dep-traffic.hccg.gov.tw、身心障礙福利服務大樓 wscd.hccg.gov.tw、數位申辦平台 dgservice.hccg.gov.tw、法規系統 law.hccg.gov.tw）。第二輪以 WebSearch（allowed_domains 限 hccg.gov.tw）補查14次，依官方頁面搜尋摘要整理，未能直接開啟頁面；社會處頁面多未標示年度，source_date 多記為 unknown。臨短托、自立生活、家庭托顧、社區居住四項的來源網址為社會處「個人照顧支持服務」類頁面，頁面與項目的對應依搜尋清單推定，故各列兩個網址。仍缺或未收錄：身心障礙者緊急救援服務、身心障礙者家庭照顧者支持服務（只見社會處服務列表中的項目名稱，無內容）；身心障礙者嚴重情緒行為正向支持整合模式服務（115年5月頁面，只見標題）；社區式日間照顧據點的資格與費用；日間及住宿式照顧費用補助比例；身障專屬醫療或看護補助、照顧者津貼；運動中心優惠（愛心卡點數可用於國民運動中心，已收錄）；年節慰問、急難救助。",
+  "benefits": [
+    {
+      "id": "hsinchu-city-living-allowance",
+      "name": "身心障礙者生活補助",
+      "category": "economic",
+      "level": "central",
+      "summary": "設籍並實際居住新竹市、領有身心障礙證明，且家庭收入與財產未超過門檻者，按月發給生活補助。",
+      "eligibility": [
+        "設籍並實際居住本市，領有身心障礙證明",
+        "家庭總收入平均未達當年度每人每月最低生活費2.5倍，動產及不動產未超過規定上限",
+        "未領有政府其他生活補助；同時符合其他生活補助要件者僅能擇一領取（低收入戶生活扶助除外）"
+      ],
+      "benefit": "115年度：列冊低收入戶之極重度、重度及中度身心障礙者每人每月9,485元，輕度每人每月5,437元。非低收入戶（含中低收入戶）之中度以上每人每月5,437元，輕度每人每月4,049元（後者見北區區公所頁面）。依規定領取之政府各種補助每月合計不得超過基本工資（低收入戶生活扶助除外）。",
+      "how_to_apply": "隨時可向戶籍地里辦公室或戶籍所在地區公所提出申請",
+      "contact": "社會處 03-5352386；北區區公所社政 03-5152525分機302",
+      "target_groups": [
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://society.hccg.gov.tw/ch/home.jsp?id=127&parentpath=0%2C3%2C26&mcustomize=onemessages_view.jsp&toolsflag=Y&dataserno=201603290060&t=SocietyOnes&mserno=201603090030",
+        "https://dep-n-district.hccg.gov.tw/ch/home.jsp?id=46&parentpath=0%2C4%2C45",
+        "https://law.hccg.gov.tw/LawContent.aspx?id=FL085049"
+      ],
+      "source_date": "2026-01",
+      "confidence": "high",
+      "notes": "社會處頁面發布日期115年1月8日。非低收入戶金額出自北區區公所頁面，未標年度，請向區公所確認。",
+      "documents": [
+        "身心障礙證明正反面影本",
+        "身心障礙者郵局存摺封面影本",
+        "身心障礙者及代辦人身分證及印章"
+      ]
+    },
+    {
+      "id": "hsinchu-city-care-facility-subsidy",
+      "name": "身心障礙者日間照顧及住宿式照顧費用補助",
+      "category": "care",
+      "level": "central",
+      "summary": "經市府轉介安置於簽約機構的身心障礙者，依家庭收入級距補助日間照顧或住宿式照顧費用。",
+      "eligibility": [
+        "經新竹市政府轉介安置於合法立案且與市府簽約之機構",
+        "符合家庭收入等條件"
+      ],
+      "benefit": "依家庭收入級距給予不同比例之日間照顧及住宿式照顧費用補助（比例本次未取得）",
+      "how_to_apply": "經新竹市政府社會處轉介安置",
+      "contact": "社會處 03-5352386",
+      "source_urls": [
+        "https://society.hccg.gov.tw/ch/home.jsp?id=127&parentpath=0,3,26&mcustomize=onemessages_view.jsp&toolsflag=Y&dataserno=201603290063&t=SocietyOnes&mserno=201603090030",
+        "https://law.hccg.gov.tw/LawContent.aspx?media=print&id=FL085209"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "補助比例詳見「新竹市身心障礙者日間照顧及住宿式照顧費用補助審核作業規定」，本次未取得條文內容。"
+    },
+    {
+      "id": "hsinchu-city-insurance-premium",
+      "name": "身心障礙者社會保險保險費補助",
+      "category": "economic",
+      "level": "central",
+      "summary": "身心障礙者參加社會保險（含健保）的自付保費，依障礙程度補助，由市府直接辦理。",
+      "eligibility": [
+        "領有身心障礙證明並參加社會保險者"
+      ],
+      "benefit": "極重度及重度：自付保險費全額補助；中度：補助二分之一；輕度：補助四分之一",
+      "how_to_apply": "由市府直接辦理，民眾不需申請",
+      "contact": "社會處 03-5352386",
+      "source_urls": [
+        "https://society.hccg.gov.tw/ch/home.jsp?id=127&parentpath=0,3,26&mcustomize=onemessages_view.jsp&toolsflag=Y&dataserno=201603290064&t=SocietyOnes&mserno=201603090030",
+        "https://society.hccg.gov.tw/ch/home.jsp?id=127&parentpath=0%2C3%2C26&mcustomize=onemessages_view.jsp&toolsflag=Y&dataserno=201603290060&t=SocietyOnes&mserno=201603090030",
+        "https://society.hccg.gov.tw/ch/home.jsp?id=71&parentpath=0,1,67"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "社會處有獨立頁面「身心障礙者健康保險及社會保險自付額保費補助」，本次只取得標題，補助比例出自經濟補助類頁面的搜尋摘要。"
+    },
+    {
+      "id": "hsinchu-city-assistive-devices",
+      "name": "身心障礙者輔助器具補助",
+      "category": "assistive",
+      "level": "central",
+      "summary": "依戶別補助身心障礙者購置輔具費用，須先申請核定，不得先購買。",
+      "eligibility": [
+        "設籍本市，領有身心障礙證明",
+        "經輔具評估有需求者"
+      ],
+      "benefit": "依身分補助最高補助金額之比例：低收入戶全額、中低收入戶75%、其他戶50%。自112年1月1日起須先申請、經書面核定後才能購買或裝配，核定後須於6個月內完成購置並送件核銷。",
+      "how_to_apply": "檢附文件至戶籍地區公所社政課申請，核定後再購買：東區區公所 03-5218231分機311、北區區公所 03-5152525分機302、香山區區公所 03-5307105分機302",
+      "source_urls": [
+        "https://society.hccg.gov.tw/ch/home.jsp?id=71&parentpath=0,1,67",
+        "https://society.hccg.gov.tw/ch/home.jsp?id=127&parentpath=0%2C3%2C26&mcustomize=onemessages_view.jsp&toolsflag=Y&dataserno=201603290060&t=SocietyOnes&mserno=201603090030",
+        "https://society.hccg.gov.tw/ch/home.jsp?id=193&parentpath=&mcustomize=qanda_view.jsp&toolsflag=Y&dataserno=201101260831&t=QandA&mserno=201603090008",
+        "https://dep-n-district.hccg.gov.tw/ch/home.jsp?id=46&parentpath=0%2C4%2C45"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "舊《新竹市身心障礙者輔助器具補助作業要點》已於113年4月9日廢止，現行依中央輔具費用補助辦法辦理。65歲以上或符合長照資格者可改向新竹市長期照顧管理中心（03-5355283）申請長照輔具及居家無障礙改善。",
+      "documents": [
+        "3個月內開立之輔具評估報告書",
+        "身心障礙證明",
+        "診斷證明書"
+      ]
+    },
+    {
+      "id": "hsinchu-city-love-card",
+      "name": "愛心卡／愛心陪伴卡（身心障礙者免費搭乘公車電子票卡）",
+      "category": "transport",
+      "level": "local",
+      "summary": "設籍並實際居住新竹市的身心障礙者可申辦愛心卡，每月補助點數可搭市區公車、台鐵、計程車，也可在國民運動中心、農會、藥局使用；有必要陪伴者資格者可另辦愛心陪伴卡。",
+      "eligibility": [
+        "設籍且實際居住本市，領有身心障礙證明"
+      ],
+      "benefit": "115年10月起每月補助1,200點（1點等於1元），當月未用完不累積至次月。可用於市區公車、台鐵、國道客運新竹—台中與新竹—林口長庚路線、國民運動中心；計程車每趟最多折抵100點，限貼有「敬老愛心車隊」標誌的台灣大車隊、紅帥衛星車隊、都會好車隊、第一中華車隊、大文山衛星車隊；農會（酒類除外）及藥局每月使用上限300點。",
+      "how_to_apply": "首次申請可透過新竹市政府數位申辦平台，或洽戶籍地區公所、社會處",
+      "contact": "社會處 03-5352386分機502",
+      "source_urls": [
+        "https://society.hccg.gov.tw/ch/home.jsp?id=13&parentpath=0%2C2&mcustomize=municipalnews_view.jsp&dataserno=b1c29d5c-ba54-4b30-a086-058c5a446222&aplistdn=ou%3Dmunicipalnews%2Cou%3Dmessage%2Cou%3Dap_root%2Co%3Dhccg%2Cc%3Dtw&toolsflag=Y&mserno=201601300103",
+        "https://dgservice.hccg.gov.tw/serviceNotice.do?rule=guest&id=18",
+        "https://society.hccg.gov.tw/ch/home.jsp?id=129&parentpath=&mcustomize=onemessages_view.jsp&toolsflag=Y&dataserno=202308040003&t=SocietyOnes&mserno=201603090032",
+        "https://society.hccg.gov.tw/ch/home.jsp?id=13&parentpath=&mcustomize=municipalnews_view.jsp&toolsflag=Y&dataserno=202412190005&t=MunicipalNews&mserno=201601300103",
+        "https://society.hccg.gov.tw/ch/home.jsp?id=13&parentpath=0%2C2&mcustomize=municipalnews_view.jsp&dataserno=202505050001&aplistdn=ou%3Dmunicipalnews%2Cou%3Dmessage%2Cou%3Dap_root%2Co%3Dhccg%2Cc%3Dtw&toolsflag=Y&mserno=201601300103"
+      ],
+      "source_date": "2026-10",
+      "confidence": "high",
+      "notes": "點數沿革：114年11月1日起由600點調為800點（農會、藥局上限200點），115年10月起再調為1,200點（農會、藥局上限300點），由市府115年5月新聞宣布、數位申辦平台已載明1,200點。社會處部分舊頁面仍寫600點或800點，以最新公告為準。"
+    },
+    {
+      "id": "hsinchu-city-rehab-bus",
+      "name": "免費復康巴士服務",
+      "category": "transport",
+      "level": "local",
+      "summary": "新竹市復康巴士免費載送身心障礙者，以就醫優先、共乘為原則，服務範圍為新竹縣市境內且起迄點須有一端在新竹市。",
+      "eligibility": [
+        "領有身心障礙證明者；可預約天數依障礙類別及是否設籍本市而不同（如設籍本市之重度肢障者可提前7天預約，非設籍者較晚開放）"
+      ],
+      "benefit": "免收費；以共乘為原則，每人每週以6趟次為限，以載送就醫為優先。服務範圍為新竹縣、市境內，起迄點須有一端位於新竹市。車上無救護設備與人員，急診或有生命危險者不建議使用。",
+      "how_to_apply": "電話預約 03-5624119 或上復康巴士預約平台 https://wellbus.tw ；預約時間為用車前7日起至前1日 09:00–16:00（週一至週五），臨時訂車為乘車當日 08:00–15:00",
+      "contact": "預約專線 03-5624119；社會處身心障礙福利科 03-5352386分機502",
+      "source_urls": [
+        "https://society.hccg.gov.tw/ch/home.jsp?id=129&parentpath=&mcustomize=onemessages_view.jsp&toolsflag=Y&dataserno=202308100003&t=SocietyOnes&mserno=201603090032",
+        "https://wscd.hccg.gov.tw/floor_02.php",
+        "https://society.hccg.gov.tw/ch/home.jsp?id=13&parentpath=&mcustomize=municipalnews_view.jsp&toolsflag=Y&dataserno=202312270007&t=MunicipalNews&mserno=201601300282"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "身心障礙福利服務大樓頁面另列 03-5623685，可能為舊資料。各障礙類別的預約開放天數請以社會處公告為準。社會處另訂有「新竹市身心障礙團體借用小型復康巴士使用規範」。"
+    },
+    {
+      "id": "hsinchu-city-parking",
+      "name": "身心障礙者專用停車位識別證及停車優惠",
+      "category": "transport",
+      "level": "local",
+      "summary": "持身心障礙者專用停車位識別證或專用車牌，在新竹市公有收費停車場及路邊收費格可免費停車3小時；指定醫院周邊路段就醫可享6小時優惠。",
+      "eligibility": [
+        "持直轄市、縣（市）政府核發之身心障礙者專用停車位識別證或專用車牌（外縣市身心障礙者本人或搭載身心障礙者之車輛同享3小時免費）",
+        "專用停車位識別證與專用車牌僅能擇一申請"
+      ],
+      "benefit": "公有收費停車場免費3小時，未滿3小時以3小時計；路邊收費路段每日僅優惠一次，每次最高3小時。新竹醫院、馬偕醫院周邊等指定路段就醫者優惠6小時，須於15日內備齊證件至交通處停車管理科核銷。優惠限出場之當日當次，跨日部分照常收費。無人化停車場須先繳費，自停車當日起15日內持繳費收據及識別證至府後街45號辦理退費。",
+      "how_to_apply": "識別證向新竹市政府社會處申請（申請窗口細節本次未取得）；停車費核銷、退費洽交通處停車管理科",
+      "source_urls": [
+        "https://dep-traffic.hccg.gov.tw/ch/home.jsp?id=36&parentpath=0%2C26",
+        "https://society.hccg.gov.tw/ch/home.jsp?id=129&parentpath=0%2C3%2C26&mcustomize=onemessages_view.jsp&toolsflag=Y&dataserno=201603290076&t=SocietyOnes&mserno=201603090032",
+        "https://www.hccg.gov.tw/hccg/app/data/view?module=news&id=30122&serno=dfad16d9-c9d4-4aa6-a6c8-fd1d8f13abaa"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "身心障礙者專用停車格只限全國通用的黃色識別證；新竹市核發、限竹市使用的粉紅色識別證只能停放一般公有停車位（市府新聞稿）。停車費率與收費時間以現場公告為準。"
+    },
+    {
+      "id": "hsinchu-city-rent-mortgage",
+      "name": "身心障礙者租賃房屋租金及購屋貸款利息補貼",
+      "category": "economic",
+      "level": "local",
+      "summary": "設籍新竹市、家庭收入符合標準的身心障礙者，租屋可依面積按月補助租金，或購屋可補貼貸款利息，兩者擇一。",
+      "eligibility": [
+        "設籍本市，領有身心障礙證明",
+        "租金補貼：家庭總收入平均未達每人每月最低生活費3.5倍等條件",
+        "購屋貸款利息補貼：家庭總收入平均未達當年度每人每月最低生活費4倍等條件",
+        "租金補貼與購屋貸款利息補貼只能擇一申請"
+      ],
+      "benefit": "租金補貼：每月每平方公尺補助100元，上限為租金總額50%；補助面積上限單身家庭20平方公尺、二口家庭32平方公尺、三口以上44平方公尺。購屋貸款利息補貼：補貼原購屋貸款利率與國民住宅基金提供部分利率之差額，貸款額度最高220萬元，年限最長30年。",
+      "how_to_apply": "洽新竹市政府社會處身心障礙福利科（受理期間與窗口本次未取得）",
+      "contact": "社會處 03-5352386分機502",
+      "source_urls": [
+        "https://law.hccg.gov.tw/LawContent.aspx?id=FL086064",
+        "https://society.hccg.gov.tw/ch/home.jsp?id=127&parentpath=0,3,26&mcustomize=onemessages_view.jsp&toolsflag=Y&dataserno=201603290062&t=SocietyOnes&mserno=201603090030"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "依「新竹市政府身心障礙者房屋租金及購屋貸款利息補貼作業要點」；社會處說明頁較舊，資格與金額可能已修正。"
+    },
+    {
+      "id": "hsinchu-city-respite",
+      "name": "身心障礙者臨時短期照顧服務",
+      "category": "care",
+      "level": "mixed",
+      "summary": "家屬需要喘息時，可申請臨時照顧（按時）或短期照顧（按天），市府依身分補助大部分費用並全額補助交通費。",
+      "eligibility": [
+        "新竹市身心障礙者，經需求評估有臨時或短期照顧需求（詳細資格本次未取得）"
+      ],
+      "benefit": "收費：臨時照顧每小時200元，短期照顧每天2,000元，假日短期照顧每天2,200元，每次交通費100元。全年補助上限：由家屬自行照顧、未安置於機構者臨托240小時、短托14天；安置於住宿教養機構或夜間使用社區居住者150小時、9天。補助比例：非低收入戶市府補助70%、家屬自付30%；列冊低收入戶全額補助；交通費由市府全額補助。",
+      "how_to_apply": "洽新竹市政府社會處或受託服務單位（受託單位本次未取得）",
+      "contact": "社會處 03-5352386分機503",
+      "target_groups": [
+        "家庭照顧者"
+      ],
+      "source_urls": [
+        "https://society.hccg.gov.tw/ch/home.jsp?id=128&parentpath=0%2C3%2C26&mcustomize=onemessages_view.jsp&toolsflag=Y&dataserno=201603290069&t=SocietyOnes&mserno=201603090031",
+        "https://society.hccg.gov.tw/ch/home.jsp?id=128&parentpath=0%2C3%2C26&mcustomize=onemessages_view.jsp&toolsflag=Y&dataserno=201911120002&t=SocietyOnes&mserno=201603090031"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "收費頁面為數年前發布，費用與時數可能已調整。來源網址為社會處「個人照顧支持服務」類頁面，與自立生活支持服務頁面的對應依搜尋清單推定。"
+    },
+    {
+      "id": "hsinchu-city-independent-living",
+      "name": "身心障礙者自立生活支持服務（個人助理）",
+      "category": "care",
+      "level": "mixed",
+      "summary": "為有自立生活意願的成年身心障礙者提供個人助理等支持服務。",
+      "eligibility": [
+        "實際居住本市、年滿18歲，領有身心障礙證明並持有需求評估報告",
+        "有自立生活意願",
+        "使用個人助理服務之同時段，不得重複使用居家照顧服務及日間照顧服務"
+      ],
+      "benefit": "個人助理等自立生活支持服務（時數上限與收費本次未取得）。",
+      "how_to_apply": "洽受託單位社團法人新竹市身心障礙者聯合就業協會（03-5629127）",
+      "contact": "受託單位 03-5629127；社會處 03-5352386分機503",
+      "target_groups": [
+        "成年"
+      ],
+      "source_urls": [
+        "https://society.hccg.gov.tw/ch/home.jsp?id=128&parentpath=0%2C3%2C26&mcustomize=onemessages_view.jsp&toolsflag=Y&dataserno=201911120002&t=SocietyOnes&mserno=201603090031",
+        "https://society.hccg.gov.tw/ch/home.jsp?id=128&parentpath=0%2C3%2C26&mcustomize=onemessages_view.jsp&toolsflag=Y&dataserno=201603290069&t=SocietyOnes&mserno=201603090031"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "來源網址為社會處「個人照顧支持服務」類頁面，與臨時短期照顧頁面的對應依搜尋清單推定。"
+    },
+    {
+      "id": "hsinchu-city-day-activity",
+      "name": "社區日間作業設施服務",
+      "category": "care",
+      "level": "mixed",
+      "summary": "俗稱小作所，為15歲以上、具生活自理能力的身心障礙者提供白天的作業活動與文康休閒，不提供夜間住宿。",
+      "eligibility": [
+        "實際居住本市、年滿15歲，領有本市核（換）發身心障礙證明並持有身心障礙福利與服務需求評估報告",
+        "未安置於社會福利機構或精神醫療復健機構等",
+        "具生活自理能力，經評估能每日參與作業活動4小時以上、每週原則20小時以上"
+      ],
+      "benefit": "以作業活動為主、文康休閒為輔，不提供夜間住宿。使用者須負擔之費用項目包括伙食費、作業材料費、交通費及活動與個人用品等（金額本次未取得）。",
+      "how_to_apply": "洽新竹市政府社會處身心障礙福利科",
+      "contact": "社會處 03-5352386分機503",
+      "target_groups": [
+        "兒童及少年",
+        "成年"
+      ],
+      "source_urls": [
+        "https://society.hccg.gov.tw/ch/home.jsp?id=128&parentpath=0%2C3%2C26&mcustomize=onemessages_view.jsp&toolsflag=Y&dataserno=202208100002&t=SocietyOnes&mserno=201603090031"
+      ],
+      "source_date": "2026-05",
+      "confidence": "high"
+    },
+    {
+      "id": "hsinchu-city-family-foster-care",
+      "name": "身心障礙者家庭托顧服務",
+      "category": "care",
+      "level": "mixed",
+      "summary": "由托顧家庭在社區中照顧18至64歲身心障礙者，分半日與全日托顧，政府補助大部分照顧費並補助交通費。",
+      "eligibility": [
+        "實際居住本市、18至64歲，持有需求評估報告",
+        "未使用全日住宿機構、日間照顧等同性質服務"
+      ],
+      "benefit": "半日托顧4小時、全日托顧8小時。照顧服務費依障礙程度計算，全日托約760元（輕度）至1,040元（極重度），半日托減半。政府補助後，一般戶全日托每人每天自付190元，中低收入戶及領有生活補助者114元，低收入戶免自付。交通補助：5公里內每月最高1,100元，超過5公里每月最高2,200元。",
+      "how_to_apply": "洽新竹市政府社會處身心障礙福利科",
+      "contact": "社會處 03-5352386分機503",
+      "target_groups": [
+        "成年"
+      ],
+      "source_urls": [
+        "https://society.hccg.gov.tw/ch/home.jsp?id=128&parentpath=0%2C3%2C26&mcustomize=onemessages_view.jsp&toolsflag=Y&dataserno=202308230001&t=SocietyOnes&mserno=201603090031",
+        "https://society.hccg.gov.tw/ch/home.jsp?id=128&parentpath=0%2C3%2C26&mcustomize=onemessages_view.jsp&toolsflag=Y&dataserno=201603290070&t=SocietyOnes&mserno=201603090031"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "來源網址為社會處「個人照顧支持服務」類頁面，與社區居住頁面的對應依搜尋清單推定。"
+    },
+    {
+      "id": "hsinchu-city-community-living",
+      "name": "身心障礙者社區居住服務",
+      "category": "care",
+      "level": "mixed",
+      "summary": "由受託單位在社區提供家庭式或獨立式居住與生活訓練，讓身心障礙者在社區中生活。",
+      "eligibility": [
+        "新竹市身心障礙者，須經受託單位評估",
+        "低收入戶及中低收入戶身心障礙者，或照顧者無力照顧者優先"
+      ],
+      "benefit": "家庭式居住（11戶）、獨立式居住及到宅支持之生活訓練（收費本次未取得）。",
+      "how_to_apply": "洽受託單位天主教仁愛社會福利基金會，或新竹市政府社會處",
+      "contact": "社會處 03-5352386",
+      "target_groups": [
+        "成年"
+      ],
+      "source_urls": [
+        "https://society.hccg.gov.tw/ch/home.jsp?id=128&parentpath=0%2C3%2C26&mcustomize=onemessages_view.jsp&toolsflag=Y&dataserno=201603290070&t=SocietyOnes&mserno=201603090031",
+        "https://society.hccg.gov.tw/ch/home.jsp?id=128&parentpath=0%2C3%2C26&mcustomize=onemessages_view.jsp&toolsflag=Y&dataserno=202308230001&t=SocietyOnes&mserno=201603090031"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "頁面日期較舊，戶數與受託單位可能已變動。"
+    },
+    {
+      "id": "hsinchu-city-day-care-center",
+      "name": "新竹市身心障礙者日間照顧中心",
+      "category": "care",
+      "level": "local",
+      "summary": "市府委託伊甸社會福利基金會在新竹市身心障礙福利服務大樓辦理的日間照顧中心，提供成年身心障礙者白天的照顧與課程活動。",
+      "eligibility": [
+        "設籍新竹市、18至64歲，領有身心障礙證明",
+        "經需求評估有日間照顧需求，具部分生活自理能力"
+      ],
+      "benefit": "以生活自理、人際關係、社交技巧、休閒生活、健康促進、社區共融等六大類課程活動為主（收費本次未取得）。",
+      "how_to_apply": "洽新竹市身心障礙福利服務大樓日間照顧中心（財團法人伊甸社會福利基金會辦理）",
+      "target_groups": [
+        "成年"
+      ],
+      "source_urls": [
+        "https://wscd.hccg.gov.tw/floor_03.php"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "費用可申請「身心障礙者日間照顧及住宿式照顧費用補助」。"
+    },
+    {
+      "id": "hsinchu-city-assistive-center",
+      "name": "新竹市輔具資源中心",
+      "category": "assistive",
+      "level": "local",
+      "summary": "位於新竹市身心障礙福利服務大樓1樓，提供輔具諮詢、評估、訓練、維修保養與二手輔具短期借用。",
+      "eligibility": [
+        "有輔具需求之新竹市身心障礙者（詳細資格本次未取得）"
+      ],
+      "benefit": "輔具諮詢、評估、訓練、維修保養；二手輔具短期借用90天（可借項目與保證金請洽詢）。",
+      "how_to_apply": "親洽、電話、網路或傳真申請；地址新竹市竹蓮街6號（身心障礙福利服務大樓1樓），服務時間週一至週五08:00–17:00，國定假日休息",
+      "contact": "03-5623685",
+      "source_urls": [
+        "https://wscd.hccg.gov.tw/floor_01.php"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "由財團法人伊甸社會福利基金會承辦。較舊文件列輔具服務專車預約電話03-5623707分機136，可能已過時。"
+    },
+    {
+      "id": "hsinchu-city-sign-language",
+      "name": "手語翻譯服務及同步聽打服務",
+      "category": "support",
+      "level": "mixed",
+      "summary": "聽語障者在就醫、警政、司法、教育訓練等公共事務場合，可申請手語翻譯或同步聽打，機關團體也可申請。",
+      "eligibility": [
+        "手語翻譯：聽語障者及其家屬，以及本市各級公共服務或事業單位、社會福利機關（構）團體",
+        "同步聽打：領有聽覺障礙（第二類）身心障礙證明或合併聽語障之多重障礙者；醫療院所、公私立學校、非營利組織及各級政府機關等單位亦可申請"
+      ],
+      "benefit": "手語翻譯以就醫、教育訓練、福利活動、警政、司法等公共事務為主，不涉及私人商業利益。同步聽打服務範圍以新竹市為限，服務時間週一至週日8:00–21:00。",
+      "how_to_apply": "手語翻譯：於服務日前10個工作天填寫申請表並附相關文件提出申請；免付費專線0800-365-330，LINE ID：hccg0800365330；委託中華民國聾人協會辦理，可用LINE或手機簡訊0921-420537申請（週一至週五8:30–17:30）。同步聽打：洽受理單位社團法人新竹市聲暉協會（03-5620030、0800-035-002）。申請表可於社會處網站下載。",
+      "contact": "手語翻譯：社會處身心障礙福利科 03-5352386分機505；同步聽打：社會處 03-5352386分機503",
+      "target_groups": [
+        "聽覺或平衡障礙",
+        "聲音或語言障礙"
+      ],
+      "source_urls": [
+        "https://society.hccg.gov.tw/ch/home.jsp?id=132&parentpath=0%2C3%2C26&mcustomize=onemessages_view.jsp&toolsflag=Y&dataserno=201603290080&t=SocietyOnes&mserno=201603090035",
+        "https://society.hccg.gov.tw/ch/home.jsp?id=132&mcustomize=onemessages_view.jsp&toolsflag=Y&dataserno=201806150001&t=SocietyOnes&mserno=201603090035",
+        "https://www.hccg.gov.tw/hccg/app/data/view?module=news&id=30122&serno=202506080002",
+        "https://dep-hcfaa.hccg.gov.tw/ch/home.jsp?id=224&parentpath=0,43"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "各頁面聯絡資訊與更新日期不一致。告別式手語翻譯或同步聽打另由殯葬管理所受理；職場上的手語翻譯及同步聽打由勞工及青年處辦理。"
+    },
+    {
+      "id": "hsinchu-city-vocational-rehab",
+      "name": "身心障礙者職業重建服務",
+      "category": "employment",
+      "level": "central",
+      "summary": "新竹市政府勞工及青年處以個案管理方式串連職業重建資源，提供職業輔導評量、支持性就業、庇護性就業、職務再設計等服務。",
+      "eligibility": [
+        "年滿15歲，具就業意願和能力，有意願於新竹市工作之身心障礙者"
+      ],
+      "benefit": "職業重建個案管理（受理申請、評估、擬訂計畫，再連結就業、社政、衛政資源）、職業輔導評量、支持性就業、庇護性就業、職務再設計暨合理調整、職業訓練，以及職場手語翻譯與同步聽打。",
+      "how_to_apply": "電洽03-5357400申請；服務地點為新竹市身心障礙者就業綜合大樓（東區龍山西路99號）",
+      "contact": "03-5357400",
+      "target_groups": [
+        "求職者"
+      ],
+      "source_urls": [
+        "https://dep-labor.hccg.gov.tw/ch/home.jsp?id=54&parentpath=0%2C3%2C40&mcustomize=onemessages_view.jsp&toolsflag=Y&dataserno=202402160001&t=LaborOnes&mserno=201603080016",
+        "https://dep-labor-youth.hccg.gov.tw/ch/home.jsp?id=62&parentpath=0,4&mcustomize=multimessages_view.jsp&toolsflag=Y&dataserno=202207180001&t=Law&mserno=201604290004",
+        "https://dep-labor.hccg.gov.tw/ch/home.jsp?id=61&parentpath=0,4&mcustomize=filedownload_view.jsp&toolsflag=Y&dataserno=201806130001&t=Download&mserno=201606210007"
+      ],
+      "source_date": "2024",
+      "confidence": "medium",
+      "notes": "勞工處（現名勞工及青年處）於111年1月11日進駐身心障礙者就業綜合大樓。"
+    },
+    {
+      "id": "hsinchu-city-disability-certificate",
+      "name": "身心障礙證明申請（鑑定及需求評估）",
+      "category": "support",
+      "level": "central",
+      "summary": "申請身心障礙證明須先到區公所領取鑑定表，再到指定醫院鑑定，經衛生局審核後由社會處核發證明。",
+      "eligibility": [
+        "設籍本市之疑似身心障礙者或需重新鑑定者（設籍本市可跨區申請鑑定表；外縣市戶籍須回戶籍地區公所辦理）"
+      ],
+      "benefit": "流程：備齊文件至區公所社政課領取鑑定表→至指定鑑定醫療機構鑑定→衛生局審核→社會處核發身心障礙證明。本市鑑定醫療機構包括臺大醫院新竹臺大分院新竹醫院、國泰綜合醫院新竹分院、馬偕紀念醫院新竹分院等。",
+      "how_to_apply": "至區公所社政課申請鑑定表（本市各區可跨區辦理）",
+      "documents": [
+        "近3個月內1吋半身照片3張",
+        "身分證（14歲以下檢附戶口名簿正本或健保卡）",
+        "印章",
+        "重新鑑定者：原身心障礙證明",
+        "提早超過90天重新鑑定者：診斷證明書",
+        "委託代辦者：委託書及受託人身分證"
+      ],
+      "source_urls": [
+        "https://society.hccg.gov.tw/ch/home.jsp?id=130&parentpath=0%2C3%2C26&mcustomize=onemessages_view.jsp&toolsflag=Y&dataserno=202206070001&t=SocietyOnes&mserno=201603090033",
+        "https://dep-n-district.hccg.gov.tw/ch/home.jsp?id=52&parentpath=0,4&mcustomize=qanda_view.jsp&toolsflag=Y&dataserno=201101261947&t=QandA&mserno=201604110008",
+        "https://dep-e-district.hccg.gov.tw/ch/home.jsp?id=25&parentpath=0,1,9&mcustomize=qanda_view.jsp&toolsflag=Y&dataserno=201305140002&t=QandA&mserno=201603140019"
+      ],
+      "source_date": "2025-05",
+      "confidence": "high",
+      "notes": "社會處頁面標示114年5月更新；區公所頁面較舊。"
+    },
+    {
+      "id": "hsinchu-city-early-intervention",
+      "name": "發展遲緩兒童早期療育費用補助",
+      "category": "medical",
+      "level": "mixed",
+      "summary": "設籍新竹市、已通報早療服務單位的學齡前疑似遲緩、遲緩或身心障礙兒童，自費療育訓練費與交通費可合併申請補助。",
+      "eligibility": [
+        "設籍本市，並通報至本市兒童發展早期療育委託服務單位之兒童",
+        "未達就學年齡之疑似發展遲緩、發展遲緩或身心障礙兒童",
+        "同時領取身心障礙者日間照顧費用補助或弱勢兒童醫療補助者不適用"
+      ],
+      "benefit": "115年：療育訓練費與交通補助費合併計算，非低收入戶每人每月最高4,000元，低收入戶每人每月最高6,000元；交通補助每次200元。採每雙月申請、依實核銷，當月未用完的額度不可併入次月。",
+      "how_to_apply": "先經新竹市政府數位申辦平台辦理補助資格審查，再每雙月申請補助；市府委託財團法人伊甸社會福利基金會新竹分事務所受理",
+      "documents": [
+        "本府核備之自費療育單位開立的發票（收據）正本",
+        "經治療師蓋章之療育紀錄單（未蓋章日數不予補助交通費）"
+      ],
+      "target_groups": [
+        "兒童及少年"
+      ],
+      "source_urls": [
+        "https://dgservice.hccg.gov.tw/serviceNotice.do?rule=guest&id=1005",
+        "https://dgservice.hccg.gov.tw/serviceNotice.do?rule=guest&id=1007",
+        "https://society.hccg.gov.tw/ch/home.jsp?id=101&parentpath=0%2C3%2C21&mcustomize=onemessages_view.jsp&toolsflag=Y&dataserno=201801240001&t=SocietyOnes&mserno=201603090015",
+        "https://kids.hccg.gov.tw/explain.php?pageid=JCUyMTcjIQ%3D%3D"
+      ],
+      "source_date": "2026",
+      "confidence": "high",
+      "notes": "實際依每年度「新竹市發展遲緩兒童及身心障礙兒童早期療育費用實施計畫」辦理；資格審查頁為115年修訂版。"
+    }
+  ]
+}

@@ -1,0 +1,656 @@
+{
+  "county_id": "new-taipei",
+  "county_name": "新北市",
+  "agency": "新北市政府社會局",
+  "agency_url": "https://www.sw.ntpc.gov.tw/",
+  "phone": "1999（新北市境內）；02-29603456",
+  "collected_at": "2026-10-23",
+  "method": "web_search",
+  "notes": "以 WebSearch 限定 ntpc.gov.tw 網域蒐集（含社會局 sw.ntpc.gov.tw、福利補助自己查 welfare.ntpc.gov.tw、線上申辦 service.ntpc.gov.tw、輔具資源中心、交通局、勞工局新北勞動雲、體育局、各區公所）。本輪搜尋額度用盡前未能查到：居家無障礙環境改善、急難救助、年節慰問金、身障者子女教育補助、樂活大學、身心障礙者服務中心、承租市有基地租金優惠、商店攤販低利貸款或租金補貼等項目細節，故未收錄。臨時及短期照顧、自立生活、小作所等項目只查到舊年度計畫的數字，已在各筆 notes 註明。",
+  "benefits": [
+    {
+      "id": "new-taipei-living-allowance",
+      "name": "身心障礙者生活補助",
+      "category": "economic",
+      "level": "central",
+      "summary": "家庭收入與財產符合標準的身心障礙者，依障礙程度及低收、中低收身分每月領取生活補助。",
+      "eligibility": [
+        "領有身心障礙證明",
+        "家庭總收入、動產及不動產符合當年度審查標準（115年度動產：第1人200萬元，每增加1人增加25萬元）",
+        "年滿65歲以上之身心障礙者，基於福利最佳原則請先申請中低收入老人生活津貼"
+      ],
+      "benefit": "115年度：一般戶及列冊中低收入戶，中度、重度、極重度每月5,437元，輕度每月4,049元；列冊低收入戶，中度以上每月9,485元，輕度每月5,437元。",
+      "how_to_apply": "依新北市政府福利補助自己查及線上申辦頁面說明辦理；受理窗口請洽1999確認（新北市同類經濟補助如房屋租金補貼、日間照顧及住宿式照顧費用補助，均由戶籍所在地區公所社會課受理）。",
+      "contact": "1999（新北市境內）",
+      "target_groups": [
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://welfare.ntpc.gov.tw/viewService/show/22180?actionName=list6&fromOpa=1",
+        "https://service.ntpc.gov.tw/eservice/CaseData.action?itemId=110049"
+      ],
+      "source_date": "2026",
+      "confidence": "high",
+      "notes": "不動產標準頁面寫「全家人口不動產（含房屋、土地）價值未超過臺灣省不動產限額2倍」，另列有770萬元一項，搜尋摘要沒有說明這項怎麼適用；收入標準細節請向區公所確認。"
+    },
+    {
+      "id": "new-taipei-health-insurance-subsidy",
+      "name": "身心障礙者參加全民健康保險及社會保險自付保費補助",
+      "category": "economic",
+      "level": "central",
+      "summary": "依障礙程度補助健保、勞保、農保等社會保險的自付保費，健保等由市府主動申報，多數人不必另外申請。",
+      "eligibility": [
+        "領有身心障礙證明並參加全民健康保險或其他社會保險"
+      ],
+      "benefit": "極重度及重度：全額補助；中度：補助二分之一；輕度：補助四分之一。",
+      "how_to_apply": "勞保、健保、農保由市府主動申報（媒體交換），無須申請；公保、軍保向投保單位提出申請。若不列入媒體交換對權益有不良影響，可申請改由政府直接補助；已自行繳納者可申請退費。線上申辦處理期限21天。",
+      "documents": [
+        "改由政府直接補助：身分證影本、身心障礙證明影本、郵局存簿正面影本",
+        "自付額退費：身分證、身心障礙證明、領據、授權查調自付額資料文件"
+      ],
+      "contact": "新北市政府社會局身心障礙福利科 (02)29603456 分機3792、3794、3821",
+      "source_urls": [
+        "https://welfare.ntpc.gov.tw/viewService/show/22110?actionName=list6&fromOpa=1",
+        "https://service.ntpc.gov.tw/eservice/CaseData.action?itemId=110043"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    },
+    {
+      "id": "new-taipei-care-fee-subsidy",
+      "name": "身心障礙者日間照顧及住宿式照顧費用補助",
+      "category": "care",
+      "level": "mixed",
+      "summary": "入住或使用與市府簽約之日間照顧、住宿機構的身心障礙者，依家庭收入與障礙類別、程度補助部分或全額費用；符合特殊條件者補助比例較高、所得門檻較寬。",
+      "eligibility": [
+        "設籍新北市，需他人協助或無法自理生活",
+        "入住或使用新北市政府身心障礙者日間照顧及住宿式照顧合約機構",
+        "家庭總收入平均分配全家人口未達當年度每人每月最低生活費4倍（具特殊條件者放寬至未達6倍）"
+      ],
+      "benefit": "補助基準：住宿每人每月新臺幣2萬元、日間照顧每人每月新臺幣1萬2千元（實際最高補助額依障礙類別及程度另有一覽表）。一般資格：低收入戶全額；中低收入戶或未達最低生活費2倍補助75%；2至3倍補助50%；3至4倍補助25%；4倍以上不補助。具特殊條件者（年滿30歲、或年滿一定年齡且父母任一方年滿65歲、或家中有2名以上身心障礙者），依所得給予最高補助額40%、50%、60%、70%、85%，達6倍以上不補助。",
+      "how_to_apply": "向戶籍所在地區公所社會課申請，處理期限約44天；採年度申請制，每年底需辦理次年度複查。",
+      "source_urls": [
+        "https://welfare.ntpc.gov.tw/viewService/show/22074?fromOpa=1",
+        "https://service.ntpc.gov.tw/eservice/CaseData.action?itemId=110036",
+        "https://www.sw.ntpc.gov.tw/userfiles/1100600/files/%E6%96%B0%E5%8C%97%E5%B8%82%E8%BA%AB%E5%BF%83%E9%9A%9C%E7%A4%99%E8%80%85%E6%97%A5%E9%96%93%E7%85%A7%E9%A1%A7%E5%8F%8A%E4%BD%8F%E5%AE%BF%E5%BC%8F%E7%85%A7%E9%A1%A7%E8%B2%BB%E7%94%A8%E8%A3%9C%E5%8A%A9%E6%A8%99%E6%BA%96%E4%B8%80%E8%A6%BD%E8%A1%A8(1).pdf"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "特殊條件的年齡門檻各頁面寫法不一（區公所頁面寫年滿20歲且父母一方65歲以上，部分市府頁面寫年滿18歲），申請前請向區公所確認。補助標準表依機構類型（身障福利機構、老人福利機構、護理之家、康復之家等）分開列出。社會局首頁曾出現「身心障礙者住宿費用加碼補助」公告標題，但搜尋未找到內容，未收錄。"
+    },
+    {
+      "id": "new-taipei-assistive-devices",
+      "name": "身心障礙者輔具費用補助（新北市加碼基準）",
+      "category": "assistive",
+      "level": "mixed",
+      "summary": "由新北市輔具資源中心受理，依新北市自訂的加碼補助基準，補助身心障礙者購買輔具的費用；可向特約廠商購買直接扣抵。",
+      "eligibility": [
+        "設籍或居住新北市之身心障礙者（持新北市身心障礙證明）",
+        "依核定項目於核定後六個月內購買"
+      ],
+      "benefit": "依「新北市政府身心障礙者輔具費用補助基準（新北市加碼）」：低收入戶補助最高補助金額全額，中低收入戶75%，一般戶50%；基準中標註「※」的項目各類戶別皆可全額補助。向特約廠商購買可於付款時直接扣除補助額。",
+      "how_to_apply": "備妥身分證字號，以「輔具Easy GO」APP線上申請，或電洽新北市輔具資源中心；免評估輔具電話即可辦理，需評估者由中心免費安排評估（已在醫院完成評估可傳真評估報告書）。自行購買者自行請款，輔具中心初審不超過4日、社會局複審不超過12日。",
+      "contact": "新北市輔具資源中心 蘆洲中心 (02)8286-7045、新店中心 (02)2912-1911",
+      "source_urls": [
+        "https://atrc.aihsin.ntpc.gov.tw/Service/1",
+        "https://atrc.aihsin.ntpc.gov.tw/Download/eform/3/%E6%96%B0%E5%8C%97%E5%B8%82%E6%94%BF%E5%BA%9C%E8%BA%AB%E5%BF%83%E9%9A%9C%E7%A4%99%E8%80%85%E8%BC%94%E5%85%B7%E8%B2%BB%E7%94%A8%E8%A3%9C%E5%8A%A9%E5%9F%BA%E6%BA%96(%E6%96%B0%E5%8C%97%E5%B8%82%E5%8A%A0%E7%A2%BC).pdf",
+        "https://welfare.ntpc.gov.tw/viewService/show/1008023"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "一般輔具每人每二年以補助四項為原則。輔具中心也提供助聽器免費評估及試戴14日（無身心障礙證明者亦可）。氧氣製造機、抽痰機、呼吸器等醫療用輔具由衛生局主辦，見 new-taipei-medical-assistive。"
+    },
+    {
+      "id": "new-taipei-parenting-assistive",
+      "name": "身心障礙者育兒輔具補助試辦計畫",
+      "category": "assistive",
+      "level": "local",
+      "summary": "新北市自辦，補助懷孕或育有6歲以下子女的身心障礙者購買推車、揹抱輔具、嬰兒床等育兒輔具，減輕照顧負擔。",
+      "eligibility": [
+        "設籍新北市且領有身心障礙證明",
+        "持有孕婦健康手冊，或育有6歲（含）以下子女"
+      ],
+      "benefit": "共17項育兒輔具，例如推車最高補助6,500元、揹抱輔具最高5,000元、電動吸乳器最高4,000元；另含嬰兒床、寶寶監測器、自動泡奶機、兒童餐椅、洗澡椅、兒童遊戲圍欄等（各項上限依官方附表）。",
+      "how_to_apply": "電話向新北市輔具資源中心申請，或以「輔具EasyGo」APP線上申請；採先申請、核定後再購買，不需自行填寫申請表。",
+      "documents": [
+        "戶口名簿等資料"
+      ],
+      "contact": "蘆洲中心 (02)8286-7045、新店中心 (02)2912-1911",
+      "target_groups": [
+        "家庭照顧者"
+      ],
+      "source_urls": [
+        "https://atrc.aihsin.ntpc.gov.tw/NewsInfo/100"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "公告標題為「試辦計畫」，搜尋結果沒有試辦期限與預算資訊，申請前請向輔具中心確認是否仍在受理。"
+    },
+    {
+      "id": "new-taipei-medical-assistive",
+      "name": "身心障礙者醫療復健所需醫療費用及醫療輔具補助",
+      "category": "medical",
+      "level": "mixed",
+      "summary": "由新北市衛生局主辦，補助身心障礙者購買氧氣製造機、抽痰機、呼吸器等醫療輔具，以及人工電子耳植入手術等醫療費用；氧氣筒為新北市自行加列的補助項目。",
+      "eligibility": [
+        "設籍新北市之身心障礙者"
+      ],
+      "benefit": "23項醫療輔具（依衛福部公告辦理，其中氧氣筒僅新北市補助）；3項醫療費用：人工電子耳植入手術費用、診斷證明書費用、評估報告費用。",
+      "how_to_apply": "備齊申請文件，送件至新北市政府衛生局高齡及長期照顧科或各區公所。",
+      "contact": "新北市衛生局醫療輔具承辦人 (02)2257-7155 分機3763，或 (02)7716-3667 分機12",
+      "source_urls": [
+        "https://welfare.ntpc.gov.tw/viewService/show/268435483?actionName=list6&fromOpa=1",
+        "https://atrc.aihsin.ntpc.gov.tw/Service/1"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "人工電子耳「耗材」屬社會局輔具補助（社會局身心障礙福利科 02-29603456 分機3642、3643、3865），首次申請需耳鼻喉科醫師診斷及輔具中心評估報告；衛生局與社會局的分工在各來源寫法略有出入。"
+    },
+    {
+      "id": "new-taipei-rent-subsidy",
+      "name": "身心障礙者房屋租金補貼",
+      "category": "economic",
+      "level": "mixed",
+      "summary": "協助無自有住宅、需在外租屋的新北市身心障礙者家庭負擔部分房租，依家庭人數分級補助。",
+      "eligibility": [
+        "設籍並實際居住新北市，租屋地點也在新北市",
+        "家庭總收入平均每人每月低於當年度最低生活費2.5倍，或未超過全台平均每人每月消費支出1.5倍",
+        "申請人、配偶及同住直系親屬均無自有住宅",
+        "租屋須有合法房屋證明，且非社會住宅、公有房舍或平價住宅",
+        "未同時領取其他政府租金或房貸利息補貼，未接受住宿式照顧費用補助"
+      ],
+      "benefit": "每坪每月最高330元，且不超過租金總額50%；單身每月最高2,400元，2人家庭最高3,200元，3人以上家庭最高4,400元。租金保證金、公共管理費不予補助。",
+      "how_to_apply": "本人或委託親屬至戶籍所在地區公所社會課申請；核准後次月起每月25日撥入郵局帳戶。處理期限約44至65天。",
+      "source_urls": [
+        "https://welfare.ntpc.gov.tw/viewService/show/22042",
+        "https://service.ntpc.gov.tw/eservice/CaseData.action?itemId=110030",
+        "https://tucheng.ntpc.gov.tw/home.jsp?act=be4f48068b2b0031&dataserno=1f265398e5b91053bd1398360fae1860&id=6428140bf7da48aa"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "部分區公所網頁（如永和區）仍顯示舊版收入倍數3.5倍，市府現行頁面為2.5倍。實際租金低於上限時依實際租金核實補貼。與購屋貸款利息補貼只能擇一。"
+    },
+    {
+      "id": "new-taipei-mortgage-interest",
+      "name": "身心障礙者購屋貸款利息補貼",
+      "category": "economic",
+      "level": "mixed",
+      "summary": "補助身心障礙者購屋貸款利率與國民住宅基金部分利率之差額，減輕購屋負擔。",
+      "eligibility": [
+        "房屋所有權人為身心障礙者，或與配偶、同戶籍直系親屬共同持有，且貸款人為身心障礙者本人",
+        "家庭總收入平均每人每月不超過最低生活費4倍",
+        "五年內購置住宅並已辦理貸款"
+      ],
+      "benefit": "補助原承貸金融機構貸款利率與國民住宅基金部分利率之差額；貸款額度最高新臺幣220萬元，寬限期最長五年；每月補助不超過新臺幣3,000元。",
+      "how_to_apply": "備齊文件向新北市各區公所申請，處理期限44天；核定後每月20日前檢具繳息收據至區公所請款，市府於次月10日前撥款。",
+      "documents": [
+        "申請表",
+        "購屋契約書",
+        "貸款相關資料及貸款繳納餘額證明",
+        "郵局存簿封面影本"
+      ],
+      "source_urls": [
+        "https://welfare.ntpc.gov.tw/viewService/show/22218?actionName=list6&fromOpa=1",
+        "https://service.ntpc.gov.tw/eservice/CaseData.action?itemId=110073"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "每月3,000元上限有的頁面寫「每戶」，有的寫「每人」，請以區公所說明為準。與房屋租金補貼只能擇一。"
+    },
+    {
+      "id": "new-taipei-social-welfare-card",
+      "name": "新北市愛心悠遊卡（社福點數）及愛心陪伴卡",
+      "category": "transport",
+      "level": "local",
+      "summary": "新北市身心障礙者可申辦愛心卡，每月自動匯入社福點數，可扣抵公車、捷運、台鐵、計程車、YouBike 等費用；115年7月起由480點加碼為600點，並擴大使用範圍。",
+      "eligibility": [
+        "設籍新北市且持有身心障礙證明之市民",
+        "居留地址在新北市、持永久居留證並取得我國身心障礙證明之外籍人士",
+        "愛心陪伴卡：同上，且身心障礙證明「必要陪伴者優惠措施」欄註記國內大眾運輸工具"
+      ],
+      "benefit": "每月補助點數（1點=1元）：115年7月1日起由480點提高為600點，當月第一次扣點時自動匯入。可用於公車、捷運、台鐵（起或迄站在新北、臺北、桃園、基隆或宜蘭境內，每趟最高扣抵150點）、新北敬老愛心車隊計程車、YouBike（115年7月起新增 YouBike 2.0E 電輔車前30分鐘免費）；115年7月起並新增國道客運、運動中心、掛號費補助等使用範圍。愛心陪伴卡供一位必要陪伴者陪同搭乘公車、捷運時享半價。",
+      "how_to_apply": "至居住地區公所辦理。",
+      "documents": [
+        "身心障礙證明正反面影本",
+        "近3個月內1吋脫帽照片",
+        "申請表"
+      ],
+      "contact": "新北市政府社會局老人福利科；1999（新北市境內）",
+      "source_urls": [
+        "https://www.ntpc.gov.tw/ch/home.jsp?id=28&dataserno=202509240035",
+        "https://www.ntpc.gov.tw/ch/home.jsp?id=e8ca970cde5c00e1&dataserno=2d1a350445e8953a23b56baeacb12dcc",
+        "https://sw.ntpc.gov.tw/home.jsp?act=be4f48068b2b0031&dataserno=346d8d281c52f64eef0e0a92ff9e9186&id=6918f79d690935a2",
+        "https://lkk.ntpc.gov.tw/home.jsp?id=aa967983e02a861f"
+      ],
+      "source_date": "2026-07",
+      "confidence": "high",
+      "notes": "市府表示消費通路設有每月300點使用上限，並預計118年實施點數累積機制（需先全面換發二代卡）。剩餘點數可在捷運票卡查詢機或向悠遊卡公司查詢。部分區公所頁面仍寫480點，屬舊資料。"
+    },
+    {
+      "id": "new-taipei-taxi-points",
+      "name": "新北敬老愛心車隊（愛心卡扣點搭計程車）",
+      "category": "transport",
+      "level": "local",
+      "summary": "持新北市愛心悠遊卡搭乘貼有「新北敬老愛心車隊」標章的計程車，可用社福點數扣抵部分車資。",
+      "eligibility": [
+        "持新北市核發之有效愛心悠遊卡（或敬老悠遊卡）"
+      ],
+      "benefit": "115年2月起每趟次最高扣抵85點（原為65點），其餘車資由卡內儲值金扣除；點數與儲值合計不足時無法扣點，需全額付現。上車地點須在北北基桃宜境內，下車地點不限。",
+      "how_to_apply": "以電話或 APP 向新北市具敬老愛心車輛的計程車隊（共11家）叫車，並告知司機使用愛心卡。",
+      "source_urls": [
+        "https://service.ntpc.gov.tw/eservice/CaseData.action?itemId=110026",
+        "https://www.traffic.ntpc.gov.tw/userfiles/1130901/files/%E6%96%B0%E5%8C%97%E6%95%AC%E8%80%81%E6%84%9B%E5%BF%83%E8%BB%8A%E9%9A%8A%E5%B8%B8%E8%A6%8B%E5%95%8F%E7%AD%94.pdf"
+      ],
+      "source_date": "2026-02",
+      "confidence": "high",
+      "notes": "部分較舊頁面仍寫每趟最高65點。點數額度見 new-taipei-social-welfare-card。"
+    },
+    {
+      "id": "new-taipei-rehab-bus",
+      "name": "新北市身心障礙者小型復康巴士服務",
+      "category": "transport",
+      "level": "mixed",
+      "summary": "提供行動不便身心障礙者預約制無障礙接送，費率為計程車費率的三分之一，服務範圍涵蓋新北、臺北、基隆、桃園。",
+      "eligibility": [
+        "領有身心障礙證明並經復康巴士營運中心驗證之會員",
+        "起迄點至少一端位於新北市；非設籍新北市者訂車起點須在新北市內"
+      ],
+      "benefit": "以新北市核定計程車費率乘以三分之一計價，安排共乘者再乘以66折；設籍新北市之低收入戶每月補助8趟次免費。依身障級別可於搭車日前7天、5天、3天訂車。",
+      "how_to_apply": "備妥身心障礙證明正反面影本及聯絡人資料，傳真復康巴士營運中心驗證後，於營運中心網站（https://www.ycbus.org.tw）或電話預約。",
+      "contact": "復康巴士營運中心 02-82583200（預約時間：每日上午7時至下午7時，另有資料寫週一至週五）",
+      "source_urls": [
+        "https://welfare.ntpc.gov.tw/viewService/show/1008100?fromOpa=1",
+        "https://traffic.ntpc.gov.tw/home.jsp?act=be4f48068b2b0031&dataserno=736dd506bb28d4e899106849dd5ce23b&id=cfc1d1d11fb9e723"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "交通局另有中型、大型復康巴士服務須知（大型復康巴士須知 2025-06 上傳）。部分資料更新時間較早，費率請以營運中心最新公告為準。"
+    },
+    {
+      "id": "new-taipei-parking",
+      "name": "身心障礙者專用停車位識別證及停車費優惠",
+      "category": "transport",
+      "level": "local",
+      "summary": "行動不便身心障礙者可免費申請專用停車位識別證；設籍新北市者在路邊收費停車格及公有停車場享有免費時數或半價等優惠。",
+      "eligibility": [
+        "識別證：領有新北市核發之身心障礙證明且具行動不便認定",
+        "路邊全日免費：設籍新北市，持有效且加註車號的專用識別證或專用車牌，行照、駕照、身心障礙證明為同一人",
+        "路外公有停車場：設籍新北市，持專用識別證或專用車牌"
+      ],
+      "benefit": "識別證申請免費，處理期限7天。路邊收費停車格依可享優惠時數（免費4小時、免費10小時、全日免費）先開立零費率繳費通知單，或計次路段半價收費；交通局轄管路外公有停車場前4小時免費，超過部分半價計費，並可攜駕照及愛心悠遊卡至指定停車場登記免銷單。",
+      "how_to_apply": "識別證向新北市政府線上申辦或依申辦說明辦理；停車時於擋風玻璃明顯處放置有效識別證（或懸掛專用車牌），未自動減免者向交通局申請銷單（通常需於停車當日辦理）。",
+      "documents": [
+        "身心障礙手冊或證明、駕照、行照、專用識別證（銷單用「四證」）"
+      ],
+      "source_urls": [
+        "https://service.ntpc.gov.tw/eservice/CaseData.action?itemId=110007",
+        "https://welfare.ntpc.gov.tw/viewService/show/1008102?actionName=list6&fromOpa=1",
+        "https://traffic.ntpc.gov.tw/home.jsp?dataserno=201802090088&id=77&mcustomize=faq_view.jsp&mserno=201711280007&parentpath=0%2C6",
+        "https://www.traffic.ntpc.gov.tw/home.jsp?id=148&parentpath=0,5&mcustomize=news_view.jsp&dataserno=201803260004&mserno=201712040001"
+      ],
+      "source_date": "2018",
+      "confidence": "medium",
+      "notes": "路邊全日免費條件出自2016至2018年間的交通局常見問答與公告，可能已調整，請以交通局停車管理科最新公告為準。識別證停車時已失效者仍須補繳停車費。"
+    },
+    {
+      "id": "new-taipei-sign-language",
+      "name": "手語翻譯暨同步聽打服務",
+      "category": "support",
+      "level": "local",
+      "summary": "新北市社會局委託中華民國聾人協會提供聽語障者免費手語翻譯與同步聽打，可線上、LINE、電話申請。",
+      "eligibility": [
+        "有手語翻譯或同步聽打需求的聽語障者（需先於線上系統註冊）"
+      ],
+      "benefit": "符合資格者免費。須於需求日5個工作天前提出申請並檢附相關文件；臨時取消或變更應於2天前提出，否則須自行負擔費用；不能指定特定翻譯員。",
+      "how_to_apply": "新北市手語翻譯暨同步聽打線上申辦系統（signtext.sw.ntpc.gov.tw）、LINE 官方帳號 @ntpc0963047746、電子信箱 ntcst@nad.org.tw，或免付費電話 0800-365-324；受理時間週一至週五 8:30–17:30。",
+      "contact": "0800-365-324（中華民國聾人協會承辦）",
+      "target_groups": [
+        "聽覺或平衡障礙",
+        "聲音或語言障礙"
+      ],
+      "source_urls": [
+        "https://www.ntpc.gov.tw/ch/home.jsp?id=28&dataserno=202401110033",
+        "https://service.ntpc.gov.tw/eservice/CaseData.action?itemId=110039",
+        "https://ilabor.ntpc.gov.tw/page/sign-language-interpretation"
+      ],
+      "source_date": "2024-01",
+      "confidence": "medium",
+      "notes": "就業、職場相關的手語翻譯由勞工局另案辦理（新北勞動雲），每月最高20小時、全年上限60小時，可用傳真、電子郵件或郵寄申請。"
+    },
+    {
+      "id": "new-taipei-respite-care",
+      "name": "身心障礙者臨時及短期照顧服務",
+      "category": "care",
+      "level": "mixed",
+      "summary": "家庭照顧者需要休息或臨時有事時，提供居家式臨時照顧或機構式短期照顧，以陪伴身心障礙者受托期間的安全為主。",
+      "eligibility": [
+        "居住於新北市之身心障礙者家庭（設籍外縣市但居住新北市者亦可申請）"
+      ],
+      "benefit": "依「115-116年身心障礙者臨時及短期照顧服務實施計畫」辦理，現行費率未查到。111-112年度計畫：居家式臨時照顧給（支）付價格每小時385元（原住民區或離島463元）；自付比率列冊低收、中低收入戶0%，領有生活補助或中低收入老人津貼者5%，一般戶16%；機構式短期照顧每人每日補助上限2,310元、每年最多14日；年度時數上限：有使用日間服務機構者210小時，未使用者360小時。",
+      "how_to_apply": "依「115-116年身心障礙者臨時及短期照顧服務實施計畫」辦理，申請方式請見社會局身心障礙者福利頁面或洽1999。",
+      "contact": "1999（新北市境內）；02-29603456",
+      "target_groups": [
+        "家庭照顧者"
+      ],
+      "source_urls": [
+        "https://sw.ntpc.gov.tw/home.jsp?act=be4f48068b2b0031&dataserno=05bc0d353c9309a0439454daf564d4a6&id=d4abdaae79035953",
+        "https://www.sw.ntpc.gov.tw/uploaddowndoc?file=anounce%2F202111101728250.pdf&filedisplay=111-112%E5%B9%B4%E8%BA%AB%E9%9A%9C%E8%80%85%E8%87%A8%E6%99%82%E5%8F%8A%E7%9F%AD%E6%9C%9F%E7%85%A7%E9%A1%A7%E6%9C%8D%E5%8B%99%E5%AF%A6%E6%96%BD%E8%A8%88%E7%95%AB.pdf&flag=doc"
+      ],
+      "source_date": "2022",
+      "confidence": "medium",
+      "notes": "金額與時數出自111-112年度舊計畫，現行115-116年度計畫的數字未查到，請以社會局最新公告為準。服務衍生的加班費由使用者依補助標準自行負擔。"
+    },
+    {
+      "id": "new-taipei-day-workshop",
+      "name": "身心障礙者社區日間作業設施（小作所）",
+      "category": "care",
+      "level": "mixed",
+      "summary": "社會局補助民間單位在社區設置小型作業所，提供身心障礙者白天的作業活動、休閒與社區參與。",
+      "eligibility": [
+        "15至64歲、領有身心障礙證明",
+        "未安置於社會福利機構或精神復健機構（夜間型住宿機構服務者不在此限）"
+      ],
+      "benefit": "以作業活動為主，另含文康休閒、社區參與、自立生活與健康促進；週一至週五服務，作業時間原則每日4小時、每週20小時；每個據點至多服務20人。至115年8月全市已設置34家，可服務662人。",
+      "how_to_apply": "洽新北市政府社會局身心障礙福利科或各小作所（據點名單見社會局多元照顧支持服務頁面）。",
+      "contact": "1999（新北市境內）；02-29603456",
+      "source_urls": [
+        "https://www.sw.ntpc.gov.tw/home.jsp?id=b51403733dcb08dc",
+        "https://wedid.ntpc.gov.tw/Governance/Detail/eR6yPpmWLwYJ",
+        "https://www.sw.ntpc.gov.tw/uploaddowndoc?dis=download&file=download%2F202603181702410.pdf&filedisplay=%E3%80%8C115-116%E5%B9%B4%E8%BA%AB%E5%BF%83%E9%9A%9C%E7%A4%99%E8%80%85%E7%A4%BE%E5%8D%80%E5%BC%8F%E6%94%AF%E6%8C%81%E7%85%A7%E9%A1%A7%E6%9C%8D%E5%8B%99%E3%80%8D%E5%AF%A6%E6%96%BD%E8%A8%88%E7%95%AB.pdf&flag=doc"
+      ],
+      "source_date": "2026-08",
+      "confidence": "medium",
+      "notes": "服務對象、時數等規定來自110-112年度社區式支持照顧服務計畫，115-116年度計畫已公告但搜尋摘要沒有列出細節。社區式支持照顧服務單位可向服務對象收取水電、瓦斯、作業材料等費用，每人每月最多3,000元。"
+    },
+    {
+      "id": "new-taipei-community-living",
+      "name": "身心障礙者社區居住服務",
+      "category": "care",
+      "level": "mixed",
+      "summary": "在社區一般住宅提供夜間住宿與生活支持，協助身心障礙者在社區中生活。",
+      "eligibility": [
+        "18歲以上、設籍新北市、領有身心障礙證明",
+        "經評估適合社區居住與生活"
+      ],
+      "benefit": "提供夜間住宿，每處至多服務6名身心障礙者；服務內容包括日常生活支持、休閒與社區參與。",
+      "how_to_apply": "洽新北市政府社會局身心障礙福利科或社區居住服務單位。",
+      "contact": "1999（新北市境內）；02-29603456",
+      "source_urls": [
+        "https://www.sw.ntpc.gov.tw/home.jsp?id=b51403733dcb08dc",
+        "https://www.sw.ntpc.gov.tw/userfiles/1100600/files/111-112%E8%A3%9C%E5%8A%A9%E6%A1%88_%E8%BA%AB%E5%BF%83%E9%9A%9C%E7%A4%99%E8%80%85%E7%A4%BE%E5%8D%80%E5%BC%8F%E7%85%A7%E9%A1%A7%E6%9C%8D%E5%8B%99%E6%94%AF%E6%8C%81%E5%AF%A6%E6%96%BD%E8%A8%88%E7%95%AB.pdf"
+      ],
+      "source_date": "2022",
+      "confidence": "medium",
+      "notes": "規定出自111-112年度社區式支持照顧服務計畫，收費與補助標準未查到；115-116年度計畫已公告，請以最新版本為準。"
+    },
+    {
+      "id": "new-taipei-family-foster-care",
+      "name": "身心障礙者家庭托顧服務",
+      "category": "care",
+      "level": "mixed",
+      "summary": "由受訓的家庭托顧員在自己家中白天照顧身心障礙者，市府依障礙程度給付照顧服務費，使用者負擔定額自負額。",
+      "eligibility": [
+        "身心障礙者（詳細服務對象見115年實施計畫全文）",
+        "照顧者不得為身心障礙者的配偶、直系血親、直系姻親或兄弟姊妹（否則不予給付）"
+      ],
+      "benefit": "115年度：照顧服務費依障礙程度給付，全日托每人每日輕度840元、中度970元、重度1,060元、極重度1,150元（半日托另計，如輕度420元）；每人每月以22日為上限。使用者自負額：一般戶全日托每人每日190元，低收入戶免負擔，領有身心障礙者生活補助之中低收入戶114元。照顧困難個案全日托每日加計200元、半日托加計100元，加計部分免計自負額。",
+      "how_to_apply": "洽新北市政府社會局身心障礙福利科或家庭托顧服務單位。",
+      "contact": "1999（新北市境內）；02-29603456",
+      "target_groups": [
+        "家庭照顧者",
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://www.sw.ntpc.gov.tw/uploaddowndoc?dis=anounce&file=anounce/202512161354310.pdf&filedisplay=(%E5%85%AC%E5%91%8A)115%E5%B9%B4%E5%AE%B6%E5%BA%AD%E6%89%98%E9%A1%A7%E6%9C%8D%E5%8B%99(%E8%A3%9C%E5%8A%A9%E6%A1%88)%E5%AF%A6%E6%96%BD%E8%A8%88%E7%95%AB.pdf&flag=doc"
+      ],
+      "source_date": "2026",
+      "confidence": "high",
+      "notes": "出自「新北市政府社會局115年補助辦理身心障礙者家庭托顧服務實施計畫」（114.12.10簽准）。搜尋只看到節錄，其他障礙程度的半日托金額與適用對象細節請查閱計畫全文。"
+    },
+    {
+      "id": "new-taipei-independent-living",
+      "name": "身心障礙者自立生活支持服務（個人助理）",
+      "category": "care",
+      "level": "mixed",
+      "summary": "由同儕支持員協助擬定自立生活計畫、連結資源，並由個人助理協助日常生活與社會參與。",
+      "eligibility": [
+        "設籍或實際居住新北市、年滿18歲、領有身心障礙證明",
+        "經需求評估建議使用本服務",
+        "申請個人助理者：未接受機構安置、未領取照顧者津貼，同時段未使用居家照顧、日間照顧或喘息服務；聘僱外籍看護者有限制"
+      ],
+      "benefit": "同儕支持服務與個人助理服務（協助家務、料理、外出購物、搭乘大眾運輸、休閒活動，以及如廁、進食、服藥、翻身等必要協助）。109-110年度計畫：低收入及中低收入戶全額補助個人助理服務費，其他符合條件者補助比例較低，每月時數上限60小時。",
+      "how_to_apply": "向新北市政府社會局委託的自立生活支持服務單位（分區辦理）申請。",
+      "contact": "1999（新北市境內）；02-29603456",
+      "source_urls": [
+        "https://www.sw.ntpc.gov.tw/home.jsp?id=d4abdaae79035953&act=be4f48068b2b0031&dataserno=c88dc1550b57916734cd1fbb6c66833a",
+        "https://www.sw.ntpc.gov.tw/uploaddowndoc?file=anounce/202501171715371.pdf&filedisplay=%E6%96%B0%E5%8C%97%E5%B8%82%E6%94%BF%E5%BA%9C%E7%A4%BE%E6%9C%83%E5%B1%80%E5%A7%94%E8%A8%97%E8%BE%A6%E7%90%86%E8%BA%AB%E5%BF%83%E9%9A%9C%E7%A4%99%E8%80%85%E8%87%AA%E7%AB%8B%E7%94%9F%E6%B4%BB%E6%94%AF%E6%8C%81%E6%9C%8D%E5%8B%99-%E5%8D%97%E5%8D%80.pdf&flag=doc"
+      ],
+      "source_date": "2025",
+      "confidence": "medium",
+      "notes": "資格出自2025年南區委託計畫草案；補助比例與60小時上限出自109-110年度舊計畫，現行標準可能已調整。"
+    },
+    {
+      "id": "new-taipei-caregiver-support",
+      "name": "身心障礙者家庭照顧者支持服務",
+      "category": "support",
+      "level": "mixed",
+      "summary": "社會局委託民間團體設置家庭照顧者支持據點，提供關懷訪視、個案管理、支持團體、喘息活動與心理協談；115年度並推動長照與身障家照共融據點。",
+      "eligibility": [
+        "照顧新北市身心障礙者的家庭照顧者"
+      ],
+      "benefit": "電訪或面訪關懷、個案管理、支持團體與喘息活動、專業心理協談。社會局網站列有10個委辦團體（如台灣障友家庭經濟研究會、新北市智障者家長協會、新北市自閉症服務協進會，以及精神障礙、脊髓損傷等類別團體）。",
+      "how_to_apply": "洽社會局或各委辦據點；也可撥家庭照顧者關懷專線。",
+      "contact": "1999（新北市境內）；02-29603456；家庭照顧者關懷專線 0800-50-7272",
+      "target_groups": [
+        "家庭照顧者"
+      ],
+      "source_urls": [
+        "https://www.sw.ntpc.gov.tw/home.jsp?id=5d499342b11990bc",
+        "https://www.sw.ntpc.gov.tw/uploaddowndoc?dis=anounce&file=anounce/202511211620411.pdf&filedisplay=115%E5%B9%B4%E9%95%B7%E6%9C%9F%E7%85%A7%E9%A1%A7%E8%80%85%E5%8F%8A%E8%BA%AB%E5%BF%83%E9%9A%9C%E7%A4%99%E8%80%85%E5%AE%B6%E5%BA%AD%E7%85%A7%E9%A1%A7%E8%80%85%E6%94%AF%E6%8C%81%E6%9C%8D%E5%8B%99%E8%A8%88%E7%95%AB(%E9%95%B7%E7%85%A7%E8%88%87%E8%BA%AB%E9%9A%9C%E5%AE%B6%E7%85%A7%E5%85%B1%E8%9E%8D%E6%93%9A%E9%BB%9E).pdf&flag=doc",
+        "https://wedid.ntpc.gov.tw/Governance/Detail/r6W3veZyP42O"
+      ],
+      "source_date": "2025-11",
+      "confidence": "medium",
+      "notes": "據點名單的更新日期不明；施政成果網另寫共9處家照據點，兩者未必是同一批資料。115年共融據點計畫為草案。"
+    },
+    {
+      "id": "new-taipei-guardianship-fee",
+      "name": "身心障礙者監護（輔助）宣告聲請費及醫院鑑定費補助",
+      "category": "support",
+      "level": "local",
+      "summary": "補助經濟弱勢或受安置的身心障礙者向法院聲請監護或輔助宣告的規費，以及法院指定醫院的鑑定費。",
+      "eligibility": [
+        "設籍新北市、年滿18歲、領有身心障礙證明",
+        "並符合下列之一：具低收入戶或中低收入戶資格；為社會局身心障礙保護安置個案；安置於社會福利機構且無民法所定親屬"
+      ],
+      "benefit": "補助法院聲請規費及法院指定醫院鑑定費，每案上限新臺幣2萬5,000元，核撥至申請人郵局或金融機構帳戶。",
+      "how_to_apply": "民眾或機構於醫院鑑定後2個月內備齊文件，向新北市政府社會局身心障礙福利科申請，全年受理。",
+      "documents": [
+        "申請表、領據",
+        "法院規費正本收據及指定鑑定醫院正本收據（繳款人須為申請人本人）",
+        "存摺封面影本",
+        "切結書及低收或中低收入戶證明"
+      ],
+      "contact": "新北市政府社會局身心障礙福利科 (02)2960-3456 分機2498、2506、2504、2497",
+      "target_groups": [
+        "低收入或中低收入",
+        "成年"
+      ],
+      "source_urls": [
+        "https://www.sw.ntpc.gov.tw/home.jsp?id=d4abdaae79035953&act=be4f48068b2b0031&dataserno=ccc05d6abeafec69a2462d1b9adb2b15",
+        "https://www.sw.ntpc.gov.tw/uploaddowndoc?dis=download&file=download%2F202504171046090.pdf&filedisplay=%E6%96%B0%E5%8C%97%E5%B8%82%E6%94%BF%E5%BA%9C%E7%A4%BE%E6%9C%83%E5%B1%80%E8%BE%A6%E7%90%86%E8%BA%AB%E5%BF%83%E9%9A%9C%E7%A4%99%E8%80%85%E7%9B%A3%E8%AD%B7%28%E8%BC%94%E5%8A%A9%29%E5%AE%A3%E5%91%8A%E8%81%B2%E8%AB%8B%E8%B2%BB%E5%8F%8A%E9%86%AB%E9%99%A2%E9%91%91%E5%AE%9A%E8%B2%BB%E8%A3%9C%E5%8A%A9%E5%AF%A6%E6%96%BD%E8%A8%88%E7%95%AB.pdf&flag=doc"
+      ],
+      "source_date": "2025-04",
+      "confidence": "high",
+      "notes": "只申請鑑定費補助、不申請規費補助者，仍須附法院規費收據影本。"
+    },
+    {
+      "id": "new-taipei-preschool-subsidy",
+      "name": "身心障礙幼兒教育補助費",
+      "category": "education",
+      "level": "central",
+      "summary": "補助就讀新北市私立幼兒園或公私立社福機構的身心障礙（含發展遲緩）幼兒教育費用。",
+      "eligibility": [
+        "當學年度9月1日滿2歲至入國民小學前之身心障礙（含發展遲緩）幼兒",
+        "就讀新北市私立幼兒園（不含非營利、準公共幼兒園及政府機構職場互助中心）或公私立社福機構",
+        "未重複申領性質相同之其他補助"
+      ],
+      "benefit": "就讀私立幼兒園或私立社福機構：每人每學期7,500元；就讀公立社福機構：每人每學期3,000元。",
+      "how_to_apply": "依當學期公告時間申請（通常為3月初至4月上旬、10月上旬），洽就讀園所或新北市政府教育局幼兒教育科。",
+      "contact": "新北市政府教育局幼兒教育科 (02)29603456 分機2758",
+      "target_groups": [
+        "兒童及少年",
+        "學生"
+      ],
+      "source_urls": [
+        "https://welfare.ntpc.gov.tw/viewService/show/268437095?fromOpa=1"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "頁面沒有公告日期。搜尋結果未看到市府加碼的說明；level 是否應為 central 尚待確認。"
+    },
+    {
+      "id": "new-taipei-vocational-rehab",
+      "name": "身心障礙者職業重建服務（含支持性、庇護性就業）",
+      "category": "employment",
+      "level": "mixed",
+      "summary": "新北市勞工局設置職業重建服務中心，以個案管理方式提供就業諮詢、職業輔導評量、職業訓練、創業輔導，並與民間合辦支持性就業及庇護工場。",
+      "eligibility": [
+        "15歲以上領有身心障礙證明，且設籍或居住於新北市者為優先服務對象",
+        "精神疾病病情穩定者、視覺功能漸失者及職業災害勞工等也可能符合"
+      ],
+      "benefit": "全市5處職業重建服務中心（板橋、三重、新店、新莊、泰山）單一窗口提供連續性服務；支持性就業提供適性就業諮詢、工作媒合、適應輔導與追蹤；庇護工場分布於板橋、樹林、土城、新店、蘆洲、中和、五股、汐止、三重、新莊、八里、泰山、淡水、林口等14區（官網寫23家，另有頁面寫27家）。另有身心障礙者職業訓練費用補助。",
+      "how_to_apply": "洽新北市五處職業重建服務中心，或新北勞動雲（ilabor.ntpc.gov.tw）。",
+      "contact": "板橋職重中心 (02)2960-3456 分機6571；三重職重中心 (02)2975-3565；新店職重中心 (02)8914-5572；勞工局身障就業輔導科 (02)2960-3456 分機6584",
+      "target_groups": [
+        "求職者"
+      ],
+      "source_urls": [
+        "https://ilabor.ntpc.gov.tw/page/disabled-vocational-rehabilitation",
+        "https://ilabor.ntpc.gov.tw/browse/employment-service-for-the-disabled",
+        "https://wedid.ntpc.gov.tw/Governance/Detail/3adMvGxpPmx1",
+        "https://ilabor.ntpc.gov.tw/CP/2760/869"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "新北市是全臺第一個設立身心障礙者職業重建服務中心的地方政府。庇護工場家數各頁面不一致。"
+    },
+    {
+      "id": "new-taipei-startup-grant",
+      "name": "身心障礙者自力更生創業補助",
+      "category": "employment",
+      "level": "local",
+      "summary": "新北市勞工局補助身心障礙者創業的營業場所租金與設備費用。",
+      "eligibility": [
+        "符合「新北市政府辦理身心障礙者自力更生創業補助作業要點」規定之身心障礙者",
+        "終身以補助一次為限"
+      ],
+      "benefit": "租金補助：依實際營業使用面積比例核定，每案每月最高3萬元，最長2年；設備補助：每案每人最高10萬元，且不得超過總設備經費50%。",
+      "how_to_apply": "向新北市政府勞工局申請（詳見新北勞動雲）。",
+      "contact": "勞工局身障就業輔導科 (02)29603456",
+      "target_groups": [
+        "求職者"
+      ],
+      "source_urls": [
+        "https://ilabor.ntpc.gov.tw/page/startup-aid-funding-for-disabled",
+        "https://ilabor.ntpc.gov.tw/ckeditor/downloadFile/279369604?serverName=e0594903-1041-422b-bba6-41565d438a6d"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "金額只看到搜尋摘要，申請資格細節（年齡、設籍年限等）未查到，請以作業要點全文與勞工局說明為準。"
+    },
+    {
+      "id": "new-taipei-startup-loan-interest",
+      "name": "身心障礙者創業貸款利息補貼",
+      "category": "employment",
+      "level": "local",
+      "summary": "補貼新北市身心障礙者向金融機構辦理創業貸款的利息，最長7年。",
+      "eligibility": [
+        "設籍並實際居住新北市6個月以上，20至65歲，持有身心障礙手冊或證明",
+        "公司或商業登記、開（執）業許可未滿一年，登記地址與實際營業地址相同",
+        "每人以一筆貸款為限，終身以一次為限"
+      ],
+      "benefit": "補貼最高貸款新臺幣70萬元之利息，最長7年；第1年全額補貼，第2年起逐年遞減10%。",
+      "how_to_apply": "向新北市政府勞工局申請；每年6月及12月的15日前檢附最近一期營業稅完稅證明影本及繳息證明正本辦理撥款。",
+      "contact": "勞工局身障就業輔導科 (02)29603456",
+      "target_groups": [
+        "求職者"
+      ],
+      "source_urls": [
+        "https://welfare.ntpc.gov.tw/viewService/show/13035?actionName=list6&fromOpa=1",
+        "https://ilabor.ntpc.gov.tw/ckeditor/downloadFile/589338884?serverName=3d20cc0f-2511-488b-9230-947447549bb8"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "作業要點於民國100年訂定，請向勞工局確認現行版本與經費狀況。"
+    },
+    {
+      "id": "new-taipei-sports-center",
+      "name": "國民運動中心身心障礙者免費優惠",
+      "category": "leisure",
+      "level": "local",
+      "summary": "新北市多數國民運動中心讓身心障礙者本人憑證全時段免費使用游泳池及體適能中心，並可陪同一人。",
+      "eligibility": [
+        "持身心障礙證明之本人（可陪同一人）"
+      ],
+      "benefit": "板橋、中和、五股、新店、永和等館：本人憑身心障礙證明全時段免費使用游泳池及體適能中心（陪同一人）。鶯歌館：全時段免費使用體適能館、羽球場（羽球場須當天電話或現場預約，每次限1小時，每日至多免費2小時）。",
+      "how_to_apply": "本人持身心障礙證明至各館一樓櫃檯登記使用。",
+      "source_urls": [
+        "https://ilabor.ntpc.gov.tw/file/fileDownload?id=1027305396&serverName=32c7fa91-4b95-49e4-a853-ab87e3efa13c",
+        "https://t-sports.ntpc.gov.tw/home.jsp?act=be4f48068b2b0031&dataserno=640fe8329a812157ebe3519d25449f0a&id=a6af86d2ea26b816",
+        "https://www.t-sports.ntpc.gov.tw/home.jsp?id=a6af86d2ea26b816&act=be4f48068b2b0031&dataserno=640fe8329a8121575b63af1fb2e881a3"
+      ],
+      "source_date": "2025-01",
+      "confidence": "high",
+      "notes": "各館規定略有不同，114年1月彙整表標示三峽國民運動中心整修中。停車另依交通局行動不便身障者停車優惠規定辦理。新北愛心卡點數115年7月起也可用於運動中心（見 new-taipei-social-welfare-card）。"
+    },
+    {
+      "id": "new-taipei-emergency-alert",
+      "name": "緊急救援服務（獨居身心障礙者）",
+      "category": "support",
+      "level": "local",
+      "summary": "在獨居身心障礙者家中裝設主機與無線按鈕，按下後由24小時監控中心語音聯繫，必要時協助叫救護車、通知緊急聯絡人。",
+      "eligibility": [
+        "設籍並實際居住新北市、未滿65歲、領有身心障礙證明之獨居身心障礙者",
+        "經長期照顧管理中心評估屬失能或有獨居安全疑慮",
+        "非設籍但實際居住新北市者，長照需要等級須達4級以上"
+      ],
+      "benefit": "經評估符合公費補助者全額補助，免自付額；不符補助資格者可自費使用。",
+      "how_to_apply": "向各區公所、衛生所、社會福利服務中心、長期照顧管理中心申辦，或線上申請。",
+      "contact": "新北市政府社會局老人福利科 02-2960-3456 轉3939",
+      "source_urls": [
+        "https://lkk.ntpc.gov.tw/home.jsp?id=3bd1e5a549243b43"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "服務廠商為中興保全。原住民族行政局較早的公告寫「領有身障生活補助之未滿65歲獨居身心障礙者」，與現行條件寫法不同，以社會局最新公告與照管中心評估為準。"
+    },
+    {
+      "id": "new-taipei-disability-assessment",
+      "name": "身心障礙鑑定及身心障礙證明申請",
+      "category": "support",
+      "level": "central",
+      "summary": "向戶籍所在地區公所申請鑑定，持鑑定表到指定醫院鑑定，結果經衛生局轉社會局核發身心障礙證明；行動困難者可申請到宅鑑定。",
+      "eligibility": [
+        "設籍新北市、需申請或重新鑑定身心障礙者",
+        "到宅鑑定：全癱無法自行下床、需24小時使用呼吸器或維生設備、長期重度昏迷等情形"
+      ],
+      "benefit": "核發身心障礙證明；線上申辦處理期限30天，證明製作完成後約7日通知或郵寄。證明到期前申請重新鑑定者，社會局主動展延原證明期限，新證明核發前可繼續享有原有福利。",
+      "how_to_apply": "戶籍所在地區公所申請，亦可使用衛福部線上系統（需自然人憑證或健保卡）；到宅鑑定須至區公所申請、不適用線上申辦。證明破損或遺失補發可至區公所或社會局身心障礙福利科辦理。",
+      "documents": [
+        "身分證正背面影本（未滿14歲未領身分證者附戶口名簿）",
+        "3個月內1吋半身照片3張、印章",
+        "重新鑑定者附原身心障礙證明；障礙情況改變自行申請者另附3個月內相關診斷證明",
+        "到宅鑑定附診斷證明書或里長證明書"
+      ],
+      "source_urls": [
+        "https://service.ntpc.gov.tw/eservice/CaseData.action?itemId=110022",
+        "https://www.sw.ntpc.gov.tw/home.jsp?id=d4abdaae79035953&act=be4f48068b2b0031&dataserno=3a1922367356ccc64018d910d54c1a7d",
+        "https://www.health.ntpc.gov.tw/archive/health_ntpc/6/file/%E6%96%B0%E5%8C%97%E5%B8%82%E8%BA%AB%E5%BF%83%E9%9A%9C%E7%A4%99%E8%80%85%E5%88%B0%E5%AE%85%E9%91%91%E5%AE%9A%E6%9F%A5%E6%AA%A2%E8%A1%A8.pdf"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "各區公所要求的照片張數略有不同，前往前請先洽戶籍區公所社會人文課。不服鑑定結果可申請複檢，需負擔40%鑑定費用，異議成立時全額退費。"
+    }
+  ]
+}

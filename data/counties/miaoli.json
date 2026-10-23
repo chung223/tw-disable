@@ -1,0 +1,407 @@
+{
+  "county_id": "miaoli",
+  "county_name": "苗栗縣",
+  "agency": "苗栗縣政府社會處",
+  "agency_url": "https://www.miaoli.gov.tw/social_affairs/",
+  "phone": "苗栗縣1999熱線；社會處身障服務科 037-559653（依113年生涯轉銜窗口資料）",
+  "collected_at": "2026-10-23",
+  "method": "web_search",
+  "notes": "以 WebSearch（allowed_domains 限 miaoli.gov.tw，含 www.miaoli.gov.tw/social_affairs、barrier.miaoli.gov.tw 身心障礙發展中心、assist.miaoli.gov.tw 輔具資源中心、longcare.miaoli.gov.tw 長期照護處、service.miaoli.gov.tw 1999 系統）取得官方頁面摘要整理，共用 14 次搜尋，未能直接開啟原始頁面與附件 PDF。未查到或未收錄：身心障礙者社會保險自付保險費補助（苗栗縣網域搜尋兩次都沒有專頁，屬中央規定，未收錄）；日間照顧及住宿式照顧費用補助的苗栗縣補助比例與窗口（只見長照處服務清單列有此項）；臨時及短期照顧、家庭托顧的現行收費與補助比例；個人助理細節；購買停車位貸款利息補貼或承租停車位補助、公有商店攤販低利貸款或租金補助（社會處老人及身障福利科業務列有，但沒有申辦細節）；復康巴士預約電話與現行（110年以後）收費；照顧者津貼、營養品補助、運動中心優惠等縣自辦項目（搜尋結果未見）。社會處另有一般性的「苗栗縣政府醫療補助審核作業規定」（累計醫療費用3萬元以上，每人每年上限20萬元）及「低收入戶及中低收入戶傷病住院看護費用補助辦法」，不是身障專屬，未收錄。社會處身障服務科電話另一筆資料為 037-332137，未能確認是否仍有效。",
+  "benefits": [
+    {
+      "id": "miaoli-living-allowance",
+      "name": "身心障礙者生活補助",
+      "category": "economic",
+      "level": "central",
+      "summary": "設籍苗栗縣、領有身心障礙證明且家庭經濟狀況符合標準的身心障礙者，每月可領生活補助，金額依障礙程度和是否為低收入戶而定。",
+      "eligibility": [
+        "設籍苗栗縣並領有身心障礙證明",
+        "家庭總收入、存款與有價證券、土地及房屋價值均未超過規定標準"
+      ],
+      "benefit": "115年度：一般戶輕度每人每月4,049元，中度以上（中度、重度、極重度）每人每月5,437元；低收入戶輕度每人每月5,437元，中度以上每人每月9,485元。",
+      "how_to_apply": "向戶籍所在地鄉（鎮、市）公所申請。",
+      "documents": [
+        "國民身分證",
+        "身心障礙證明",
+        "印章",
+        "申請人郵局存簿"
+      ],
+      "contact": "戶籍所在地鄉（鎮、市）公所",
+      "target_groups": [
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://www.miaoli.gov.tw/social_affairs/News_Content.aspx?n=682&s=147151",
+        "https://www.miaoli.gov.tw/social_affairs/News.aspx?n=682&sms=9468"
+      ],
+      "source_date": "2026-03",
+      "confidence": "high",
+      "notes": "金額與全國標準一致。申辦須知列表上版日期為115年3月6日。收入與財產的具體門檻數字未在搜尋結果中取得。"
+    },
+    {
+      "id": "miaoli-assistive-devices",
+      "name": "身心障礙者輔具費用補助",
+      "category": "assistive",
+      "level": "central",
+      "summary": "設籍苗栗縣的身心障礙者購買生活輔具可申請補助，可先經輔具資源中心評估；縣府並與特約廠商合作「代償墊付」，民眾只付差額、由廠商代為請款。",
+      "eligibility": [
+        "設籍苗栗縣並領有身心障礙證明",
+        "實際居住苗栗縣、經其他縣市轉介者可申請輔具評估",
+        "經縣府核定符合輔具補助資格（代償墊付機制適用對象）"
+      ],
+      "benefit": "依中央「身心障礙者輔具費用補助基準」項目與金額補助（苗栗縣搜尋結果未列各項金額）。每人每2年度以申請4項輔具補助為限（合併醫療輔具補助項次計算）。可向縣府特約輔具廠商購買，由廠商以代償墊付方式辦理請款。",
+      "how_to_apply": "向戶籍所在地公所提出申請；需輔具評估者向苗栗縣輔具資源中心預約評估（北區苗栗市、南區通霄鎮）。核定後可至特約廠商購買並由廠商代辦請款，或自行購買後備齊核銷文件送戶籍所在地公所。",
+      "contact": "苗栗縣輔具資源中心；戶籍所在地鄉（鎮、市）公所",
+      "source_urls": [
+        "https://www.miaoli.gov.tw/social_affairs/News_Content.aspx?n=682&s=40612",
+        "https://assist.miaoli.gov.tw/service_index?index=5",
+        "https://www.miaoli.gov.tw/social_affairs/News_Content.aspx?n=682&s=289760"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "輔具中心規定：申請者已先購買輔具者，中心不開立評估報告書，請先評估、核定後再購買。各項補助金額與事前申請細節未在搜尋結果中取得，請以社會處申辦須知為準。"
+    },
+    {
+      "id": "miaoli-assistive-center",
+      "name": "苗栗縣輔具資源中心",
+      "category": "assistive",
+      "level": "local",
+      "summary": "提供輔具諮詢、展示、評估、補助申請、維修、回收、借用、二手輔具媒合及到宅適配訪視，分北區（苗栗市）與南區（通霄鎮）兩處。",
+      "eligibility": [
+        "設籍苗栗縣領有身心障礙證明者",
+        "實際居住苗栗縣、經其他縣市轉介者"
+      ],
+      "benefit": "輔具專業諮詢、展示、評估、補助申請協助、維修、回收、借用、二手輔具媒合、適配輔具訪視服務。",
+      "how_to_apply": "採預約制，需事前預約，不受理當天預約。北區中心位於苗栗市（苗栗縣身心障礙發展中心一樓，經國路四段851號），南區中心位於通霄鎮。",
+      "source_urls": [
+        "https://barrier.miaoli.gov.tw/cp.aspx?n=2421",
+        "https://assist.miaoli.gov.tw/service_index?index=5"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    },
+    {
+      "id": "miaoli-medical-aids",
+      "name": "身心障礙者醫療輔具及醫療費用補助",
+      "category": "medical",
+      "level": "central",
+      "summary": "依衛福部醫療復健費用及醫療輔具補助辦法，補助拍痰器、血氧偵測儀、壓力衣等醫療輔具及人工電子耳植入手術等醫療費用；苗栗縣由長期照護管理中心辦理。",
+      "eligibility": [
+        "領有身心障礙證明，經醫師診斷有醫療輔具或醫療費用補助需求"
+      ],
+      "benefit": "22項醫療輔具（如拍痰器、化痰機、血氧偵測儀、壓力衣、矽膠片等）與3項醫療費用（人工電子耳植入手術費、診斷證明書費、醫療輔具評估報告費）。各項金額未在搜尋結果中取得。",
+      "how_to_apply": "備齊文件送戶籍所在地公所初審（約一週），再由縣府複審核定並以公文通知。核定後可至特約廠商購置並由廠商代辦請款，或自行購買後將核銷文件送戶籍所在地公所，核銷通過後撥款。",
+      "documents": [
+        "3個月內相關專科醫師開立之診斷證明書正本",
+        "申請雙相或單相陽壓呼吸器、氧氣製造機、壓力衣、矽膠片者，另附3個月內醫療輔具評估報告書正本"
+      ],
+      "contact": "苗栗縣長期照護管理中心",
+      "source_urls": [
+        "https://longcare.miaoli.gov.tw/News_Content.aspx?n=2313&s=541985"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "依據為衛福部110年6月修訂之辦法；長照處新聞未標示年度。"
+    },
+    {
+      "id": "miaoli-love-card",
+      "name": "苗栗縣敬老愛心卡（愛心卡）社福點數",
+      "category": "transport",
+      "level": "local",
+      "summary": "設籍苗栗縣的身心障礙者可申辦愛心卡，每月有社福點數可搭乘公路客運、臺鐵及指定計程車隊；身心障礙證明註記需陪伴者的人，可另辦愛心陪伴卡。",
+      "eligibility": [
+        "設籍苗栗縣並領有身心障礙證明（手冊）",
+        "愛心陪伴卡：設籍苗栗縣，且身心障礙證明背面註記「必要陪伴者優惠措施（國內大眾運輸工具）」"
+      ],
+      "benefit": "每人每月補助社福點數700點（依113年4月社會處公告），當月有效，餘點不累計至次月。臺鐵：起站或迄站其中一站在苗栗縣內即可使用，114年9月1日起單趟補助上限由50點提高為100點。計程車：搭乘指定車隊（台灣大車隊、金昌第一無線車隊、風城車隊、五權交通等），單趟補助100點、每月最多200點，適用苗栗縣、新竹縣、新竹市及臺中市。點數不足時須自行至便利商店儲值補足差額。愛心陪伴卡須自行儲值，緊接身障者的愛心卡之後刷卡才享半票，單獨使用以全票計價。",
+      "how_to_apply": "愛心陪伴卡向戶籍所在地鄉（鎮、市）公所申辦。愛心卡依「苗栗縣敬老愛心卡實施要點」申辦，須附身心障礙手冊（證明）影本並攜正本查驗；受理窗口搜尋結果未明載，可洽戶籍地公所或社會處老人及身障福利科。",
+      "documents": [
+        "身心障礙證明影本（正本查驗）"
+      ],
+      "source_urls": [
+        "https://www.miaoli.gov.tw/social_affairs/News_Content.aspx?n=682&sms=9468&s=404900",
+        "https://www.miaoli.gov.tw/social_affairs/News_Content.aspx?n=708&s=882092",
+        "https://www.miaoli.gov.tw/social_affairs/News_Content.aspx?n=708&s=746221",
+        "https://www.miaoli.gov.tw/SOCIAL_AFFAIRS/News_Content.aspx?n=708&s=640636",
+        "https://webws.miaoli.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvNDU1L3JlbGZpbGUvMTA0NzUvMjkwMTc3L2Q2M2ZhZWVhLTY1MWYtNDFiYi04OTliLTg5MDhkYzcwNzBhYy5wZGY%3D&n=6IuX5qCX57ij5pWs6ICB5oSb5b%2BD5Y2h5a%2Bm5pa96KaB6bue5L%2Bu5q2jLnBkZg%3D%3D"
+      ],
+      "source_date": "2026",
+      "confidence": "high",
+      "notes": "計程車補助：一則搜尋摘要稱自115年6月1日開始，另一則摘要稱申辦須知頁未標日期，起始日待確認。每月700點來自113年4月公告，115年度是否調整未確認。114年8月身權推動小組會議紀錄載明，乘車補助屬非法定現金給付、受中央財政控管，縣府不會增加補助項目或預算。"
+    },
+    {
+      "id": "miaoli-rehab-bus",
+      "name": "復康巴士交通接送服務",
+      "category": "transport",
+      "level": "local",
+      "summary": "提供身心障礙者就醫及社會參與的無障礙接送，以需就醫且使用輪椅者優先；低收入戶每月有免費趟次，一般戶以計程車費率的一定比例計費。",
+      "eligibility": [
+        "領有身心障礙證明之苗栗縣民（以需就醫、使用輪椅者優先）"
+      ],
+      "benefit": "依110年修正管理要點：縣內服務，低收入戶每人每月免費4次（8趟），一般戶依苗栗縣計程車費率三分之一計價；縣外服務，低收入戶每月免費1次（2趟），一般戶依計程車費率二分之一計價，停車費及高速公路通行費依實際金額另計。用途包括就醫及至公務機關洽公等社會參與活動。",
+      "how_to_apply": "依「苗栗縣政府復康巴士交通接送服務管理要點」預約（預約電話未在搜尋結果中取得）。服務起訖點須有一端在苗栗縣境內，縣外服務範圍北至新北市、南至彰化縣。",
+      "target_groups": [
+        "肢體障礙",
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://webws.miaoli.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvNDAyL3JlbGZpbGUvOTQ2OC80MDg4NzcvNjhhYWRmNDgtMzllYS00MWYyLWI4ZTMtNGU4YTBhNGYzYzgwLnBkZg%3D%3D&n=6IuX5qCX57ij5pS/5bqc5b6p5bq35be05aOr5Lqk6YCa5o6l6YCB5pyN5YuZ566h55CG6KaB6bueLnBkZg%3D%3D",
+        "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=310357&sms=9459"
+      ],
+      "source_date": "2021-04",
+      "confidence": "medium",
+      "notes": "收費標準依110年4月28日修正之管理要點，現行規定可能已調整。"
+    },
+    {
+      "id": "miaoli-parking-permit",
+      "name": "身心障礙者專用停車位識別證",
+      "category": "transport",
+      "level": "central",
+      "summary": "經需求評估為行動不便的身心障礙者，可申請專用停車位識別證，停放身障專用停車位。",
+      "eligibility": [
+        "設籍苗栗縣並經需求評估為行動不便之身心障礙者",
+        "專用停車位識別證與身心障礙者專用車牌擇一申請"
+      ],
+      "benefit": "核發身心障礙者專用停車位識別證。",
+      "how_to_apply": "備齊文件臨櫃辦理。戶籍遷出或身心障礙證明失效時，停車證須依規定繳回。",
+      "documents": [
+        "身心障礙證明正反面影本",
+        "駕駛執照正反面影本",
+        "汽車行車執照正反面影本",
+        "戶口名簿"
+      ],
+      "source_urls": [
+        "https://service.miaoli.gov.tw/FAQTable.aspx?n=1819"
+      ],
+      "source_date": "2025-07",
+      "confidence": "medium",
+      "notes": "搜尋摘要未明確標示資料出自哪一頁，受理窗口（社會處或公所）待確認。"
+    },
+    {
+      "id": "miaoli-housing-subsidy",
+      "name": "身心障礙者房屋租金及建購自有住宅貸款利息補助",
+      "category": "economic",
+      "level": "mixed",
+      "summary": "苗栗縣社會處辦理身心障礙者房屋租金補貼與建購自有住宅貸款利息補助；115年度貸款利息補助已自8月1日起受理，由鄉鎮市公所協助受理與初審。",
+      "eligibility": [
+        "設籍苗栗縣領有身心障礙證明（所得、財產與無自有住宅等條件未在搜尋結果中取得）"
+      ],
+      "benefit": "115年度「身心障礙者建購自有住宅貸款利息補助」自115年8月1日起受理。補助金額、名額與房屋租金補貼標準未在搜尋結果中取得。",
+      "how_to_apply": "向戶籍所在地鄉（鎮、市）公所申請，公所協助受理及初審後送縣府。",
+      "contact": "社會處房屋租金及購屋貸款利息補貼窗口 037-559649、037-367213",
+      "source_urls": [
+        "https://www.miaoli.gov.tw/social_affairs/",
+        "https://www.miaoli.gov.tw/social_affairs/cp.aspx?n=680",
+        "https://www.miaoli.gov.tw/social_affairs/News_Content.aspx?n=679&s=40549",
+        "https://webws.miaoli.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvNDgxL3JlbGZpbGUvMTMxMDAvOTI3MTk3Lzc4OGUxNGFkLWY2NTEtNGU1ZC1hYTQ1LTBhYzJlYTdjMzIwMC5wZGY%3D&n=MTE15bm05bqm5pa95pS%2F6KiI55WrIGRvYzEucGRm"
+      ],
+      "source_date": "2026",
+      "confidence": "medium",
+      "notes": "受理起始日見社會處首頁，公所協助受理見通霄鎮公所115年度施政計畫。104年會議紀錄載當年購屋貸款利息補助於7月1日至7月31日受理，115年改為8月1日起，截止日未確認。社會處老人及身障福利科業務另列有「購買停車位貸款利息補貼或承租停車位補助」與「購買或承租公有商店攤販低利貸款或租金補助」，細節未查到。"
+    },
+    {
+      "id": "miaoli-disability-center",
+      "name": "苗栗縣身心障礙發展中心",
+      "category": "support",
+      "level": "local",
+      "summary": "位於苗栗市的綜合服務大樓，集中輔具資源中心、職業輔導評量、社區日間作業設施（851工坊）、手語翻譯單一窗口、公設民營日間照顧中心、社區式日間照顧及自立生活支持服務等。",
+      "eligibility": [
+        "依各服務項目規定，多數以設籍苗栗縣領有身心障礙證明者為對象"
+      ],
+      "benefit": "一樓：輔具資源中心、身心障礙者職業輔導評量（職評室）；三樓：社區日間作業設施「851工坊」、手語翻譯單一窗口；四樓：公設民營身心障礙日間照顧中心、兒童早期療育苗栗及通苑地區個案管理中心；五樓：身心障礙者社區式日間照顧服務（苗栗據點）、身心障礙者自立生活支持服務。",
+      "how_to_apply": "地址：苗栗市經國路四段851號；依各服務洽詢對應樓層單位。",
+      "contact": "037-269031、037-271640",
+      "source_urls": [
+        "https://barrier.miaoli.gov.tw/",
+        "https://barrier.miaoli.gov.tw/cp.aspx?n=2420",
+        "https://barrier.miaoli.gov.tw/cp.aspx?n=2422"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    },
+    {
+      "id": "miaoli-public-daycare-center",
+      "name": "公設民營身心障礙日間照顧中心",
+      "category": "care",
+      "level": "local",
+      "summary": "縣府在身心障礙發展中心四樓設置公設民營日間照顧中心，服務1至16歲的身心障礙兒童及少年，提供日間托育、時段療育與到宅療育。",
+      "eligibility": [
+        "1至16歲",
+        "設籍苗栗縣並領有身心障礙證明"
+      ],
+      "benefit": "日間托育、時段療育、到宅療育等服務。",
+      "how_to_apply": "洽苗栗縣身心障礙發展中心四樓公設民營身心障礙日間照顧中心（財團法人苗栗縣私立幼安教養院承辦）。",
+      "contact": "苗栗縣身心障礙發展中心 037-269031、037-271640",
+      "target_groups": [
+        "兒童及少年"
+      ],
+      "source_urls": [
+        "https://barrier.miaoli.gov.tw/cp.aspx?n=2420"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "收費及補助比例未在搜尋結果中取得。"
+    },
+    {
+      "id": "miaoli-day-activity",
+      "name": "身心障礙者社區日間作業設施（小作所）",
+      "category": "care",
+      "level": "mixed",
+      "summary": "為有就業意願及能力、但尚未能進入庇護工場的身心障礙者，提供社區日間作業活動，例如身心障礙發展中心三樓的851工坊。",
+      "eligibility": [
+        "設籍苗栗縣，15歲以上",
+        "以心智障礙、聽覺機能障礙或多重障礙者為主",
+        "有就業意願及能力而尚未能進入庇護工場就業者"
+      ],
+      "benefit": "社區日間作業活動及支持服務（收費標準未在搜尋結果中取得）。",
+      "how_to_apply": "洽苗栗縣身心障礙發展中心三樓「851工坊」或社會處。",
+      "contact": "苗栗縣身心障礙發展中心 037-269031、037-271640",
+      "target_groups": [
+        "成年",
+        "智能障礙",
+        "聽覺或平衡障礙",
+        "多重障礙"
+      ],
+      "source_urls": [
+        "https://webws.miaoli.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvNDEwL3JlbGZpbGUvMTQyMjUvNTY5ODE3LzY3ZTZiMDEwLWQ1ZjgtNDQ2Ny05MjFhLTlkOTkzNzhiNWFiNS5wZGY%3D&n=MTEx5bm06IuX5qCX57ij6Lqr5b%2BD6Zqc56SZ6ICF56S%2B5Y2A5pel6ZaT5L2c5qWt6Kit5pa96KOc5Yqp6KiI55WrLmRvY3gucGRm",
+        "https://barrier.miaoli.gov.tw/"
+      ],
+      "source_date": "2021-10",
+      "confidence": "medium",
+      "notes": "依110年10月核定之服務計畫（111年度），現行計畫可能已修訂。"
+    },
+    {
+      "id": "miaoli-respite",
+      "name": "身心障礙者臨時暨短期照顧服務",
+      "category": "care",
+      "level": "mixed",
+      "summary": "縣府委託單位提供身心障礙者臨時及短期照顧，讓家庭照顧者遇緊急事故或長期照顧壓力時能喘息。",
+      "eligibility": [
+        "苗栗縣身心障礙者及其家庭照顧者（詳細資格未在搜尋結果中取得）"
+      ],
+      "benefit": "臨時及短期照顧服務，疏解家庭照顧者因緊急事故或長期照顧的壓力。收費與補助時數未在搜尋結果中取得。",
+      "how_to_apply": "洽社會處家庭托顧及臨時及短期照顧專線。",
+      "contact": "037-558281（家庭托顧與臨時及短期照顧）",
+      "target_groups": [
+        "家庭照顧者"
+      ],
+      "source_urls": [
+        "https://webws.miaoli.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvNDU2L3JlbGZpbGUvMTA1MjkvMTI1NzU5LzhkZDkyMTJmLTEyNGItNDAxYy1hZDBkLTY4ZTQxYjA3ZDEyNC5wZGY%3D&n=MjAxODAxMTEwNjIxMDM1Njk5MTc0MDU2LnBkZg%3D%3D",
+        "https://www.miaoli.gov.tw/social_affairs/cp.aspx?n=680"
+      ],
+      "source_date": "2018",
+      "confidence": "medium",
+      "notes": "計畫文件約為107年版。114年身權推動小組會議紀錄提及：依長照給付辦法，接受身權法第51條臨時及短期照顧服務者，不予給付長照喘息服務額度，兩者不能重複使用。社會處同一專線也受理身心障礙者家庭托顧，細節未查到。"
+    },
+    {
+      "id": "miaoli-independent-living",
+      "name": "身心障礙者自立生活支持服務",
+      "category": "care",
+      "level": "mixed",
+      "summary": "苗栗縣在身心障礙發展中心五樓設有自立生活支持服務，協助身心障礙者在社區自主生活。",
+      "eligibility": [
+        "苗栗縣身心障礙者（詳細資格與需求評估規定未在搜尋結果中取得）"
+      ],
+      "benefit": "自立生活支持服務（是否含個人助理、自付額標準未在搜尋結果中取得）。",
+      "how_to_apply": "洽社會處自立生活支持服務窗口或身心障礙發展中心五樓。",
+      "contact": "037-559076",
+      "source_urls": [
+        "https://www.miaoli.gov.tw/social_affairs/cp.aspx?n=680",
+        "https://barrier.miaoli.gov.tw/"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium"
+    },
+    {
+      "id": "miaoli-sign-language",
+      "name": "手語翻譯、視訊及同步聽打服務",
+      "category": "support",
+      "level": "mixed",
+      "summary": "縣府每年委外辦理手語翻譯、視訊手語及同步聽打服務，協助聽語障者溝通；身心障礙發展中心三樓設有手語翻譯單一窗口。",
+      "eligibility": [
+        "有溝通協助需求的聽覺或語言障礙者（詳細資格未在搜尋結果中取得）"
+      ],
+      "benefit": "手語翻譯、視訊手語翻譯、同步聽打服務（112至114年度皆公開招標委外辦理，115年4月仍有服務訊息）。",
+      "how_to_apply": "洽苗栗縣身心障礙發展中心三樓手語翻譯單一窗口，或社會處身障服務科。",
+      "contact": "社會處身障服務科 037-559653",
+      "target_groups": [
+        "聽覺或平衡障礙",
+        "聲音或語言障礙"
+      ],
+      "source_urls": [
+        "https://www.miaoli.gov.tw/bidding/News_Content.aspx?n=1093&s=808812",
+        "https://barrier.miaoli.gov.tw/"
+      ],
+      "source_date": "2025",
+      "confidence": "medium",
+      "notes": "來源主要為114年度委外標案公告，申請方式與服務時段未查到。"
+    },
+    {
+      "id": "miaoli-vocational-rehab",
+      "name": "身心障礙者職業重建與職業輔導評量",
+      "category": "employment",
+      "level": "central",
+      "summary": "身心障礙者的職業重建由縣府勞工及青年發展處主責，身心障礙發展中心一樓設有職業輔導評量室；生涯轉銜的勞政窗口也在勞青處。",
+      "eligibility": [
+        "領有身心障礙證明、有就業需求的苗栗縣民（詳細資格未在搜尋結果中取得）"
+      ],
+      "benefit": "職業輔導評量、職業重建及就業轉銜服務。",
+      "how_to_apply": "洽勞工及青年發展處勞資關係科（生涯轉銜勞政窗口），或身心障礙發展中心一樓職評室。",
+      "contact": "勞工及青年發展處勞資關係科 037-559966",
+      "target_groups": [
+        "求職者"
+      ],
+      "source_urls": [
+        "https://www.miaoli.gov.tw/social_affairs/News_Content.aspx?n=709&s=766385",
+        "https://barrier.miaoli.gov.tw/"
+      ],
+      "source_date": "2024-05",
+      "confidence": "medium",
+      "notes": "窗口資料為113年更新版。支持性就業、庇護工場現行委辦單位未查到（只見104年舊資料）。"
+    },
+    {
+      "id": "miaoli-disability-certificate",
+      "name": "身心障礙證明申請（鑑定）",
+      "category": "support",
+      "level": "central",
+      "summary": "申請身心障礙證明須先取得鑑定表，到醫院鑑定並經需求評估後核發；苗栗縣1999系統列有核發、補發、換發的說明。",
+      "eligibility": [
+        "設籍苗栗縣，需申請、補發或換發身心障礙證明者"
+      ],
+      "benefit": "核發、補發、換發身心障礙證明。",
+      "how_to_apply": "向戶籍所在地公所申請，依1999系統說明辦理。",
+      "documents": [
+        "國民身分證影本",
+        "近三個月內一吋半身照片",
+        "身心障礙鑑定表"
+      ],
+      "source_urls": [
+        "https://service.miaoli.gov.tw/FAQTable.aspx?n=1799"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium"
+    },
+    {
+      "id": "miaoli-emergency-alert",
+      "name": "苗栗縣獨居老人緊急救援通報系統",
+      "category": "support",
+      "level": "local",
+      "summary": "為獨居長者免費裝設24小時緊急救援通報系統；領有身心障礙證明、經縣府評估有需要的老人也是服務對象之一。",
+      "eligibility": [
+        "65歲以上獨居老人",
+        "其中一類資格為領有身心障礙證明且經縣府評估有裝設需求的老人"
+      ],
+      "benefit": "經訪視評估符合資格者，免費裝設24小時緊急救援通報系統。",
+      "how_to_apply": "經縣府訪視評估後裝設（申請窗口未在搜尋結果中取得，可洽社會處老人及身障福利科）。",
+      "target_groups": [
+        "老年"
+      ],
+      "source_urls": [
+        "https://www.miaoli.gov.tw/social_affairs/News_Content.aspx?n=708&s=853465"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "以獨居老人為主要對象，未滿65歲的身心障礙者通常不在服務範圍內。"
+    }
+  ]
+}

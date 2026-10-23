@@ -1,0 +1,210 @@
+{
+  "county_id": "chiayi-county",
+  "county_name": "嘉義縣",
+  "agency": "嘉義縣政府社會局",
+  "agency_url": "https://sabcc.cyhg.gov.tw/",
+  "phone": "05-3620900（社會局；身心障礙福利科分機2216為預防走失服務承辦）",
+  "collected_at": "2026-10-23",
+  "method": "web_search",
+  "notes": "已確認嘉義縣政府網域為 cyhg.gov.tw（社會局 sabcc.cyhg.gov.tw、衛生局 cyshb.cyhg.gov.tw、法規系統 law.cyhg.gov.tw、公車處 bus.cyhg.gov.tw）。社會局下設身心障礙福利科，另含勞工行政科、勞資關係科。兩輪共用 19 次 WebSearch（多數限定 cyhg.gov.tw），只看到搜尋摘要，未能開啟原始頁面；社會局頁面多未標示年度，source_date 記為 unknown。縣府網站的搜尋索引內容很少，以下項目仍查不到或未收錄：（1）生活補助 115 年度金額：縣府頁面與審核作業規定仍是 109 年版數字（8,836／5,065／3,772 元），未查到縣府公布的新金額；（2）身心障礙者參加社會保險保險費補助（縣府頁面未出現）；（3）身心障礙者日間照顧及住宿式照顧費用補助（衛生局只見 109 年度住宿式服務機構使用者補助方案）；（4）臨時及短期照顧、社區日間作業設施、家庭托顧、社區居住、個人助理、自立生活；（5）計程車補助、停車費優惠；（6）租金或購屋貸款利息補貼、醫療或看護補助、照顧者津貼；（7）職業重建、庇護工場（社會局就業服務專區只見「身心障礙者就業」分頁名稱，未取得內容）；（8）手語翻譯、同步聽打。縣府緊急救援連線服務對象為 65 歲以上獨居長者，未見身障者適用條件，故未收錄。輕度身障者國民年金保費由政府負擔 27.5% 屬全國規定，未收錄。",
+  "benefits": [
+    {
+      "id": "chiayi-county-living-allowance",
+      "name": "身心障礙者生活補助",
+      "category": "economic",
+      "level": "central",
+      "summary": "按月發給家庭經濟條件符合的嘉義縣籍身障者生活補助，金額依福利身分與障礙等級區分，每年重新調查資格。",
+      "eligibility": [
+        "設籍並實際居住嘉義縣，領有身心障礙證明，最近一年在國內居住超過183日",
+        "家庭總收入平均未達當年度每人每月最低生活費2.5倍，存款及不動產未超過規定上限",
+        "未獲安置於社會福利機構（全日型住宿機構）",
+        "未同時領取其他政府生活補助（低收入戶生活扶助等例外）；所領政府各種補助每月合計不得超過基本工資"
+      ],
+      "benefit": "依嘉義縣身心障礙者生活補助審核作業規定（109年修正版）及社會局網頁：列冊低收入戶極重度、重度及中度每人每月8,836元，輕度每月5,065元；非列冊低收入戶極重度、重度及中度每月5,065元，輕度每月3,772元。規定載明金額依衛生福利部公告調整。",
+      "how_to_apply": "向戶籍所在地鄉鎮市公所申請（亦可經村里辦公處），公所主動查調相關資料。",
+      "documents": [
+        "身心障礙手冊或證明影本",
+        "戶口名簿影本"
+      ],
+      "target_groups": ["低收入或中低收入"],
+      "source_urls": [
+        "https://sabcc.cyhg.gov.tw/News_Content.aspx?n=7758D80ACB766B61&sms=301E5FB80CAEB11C&s=B77966CF83DF0079",
+        "http://law.cyhg.gov.tw/LawContent.aspx?id=FL020420"
+      ],
+      "source_date": "2020",
+      "confidence": "medium",
+      "notes": "縣府網頁與審核作業規定（109年6月15日修正）仍列109年版金額；本輪搜尋未查到嘉義縣公布的115年度金額。生活補助標準隨衛福部公告調整，現行金額應已不同，請以縣府或公所最新公告為準。有死亡、機構安置、家庭經濟改善等情形會停發。"
+    },
+    {
+      "id": "chiayi-county-rehab-bus",
+      "name": "身心障礙者小型復康巴士交通服務",
+      "category": "transport",
+      "level": "local",
+      "summary": "嘉義縣提供身障者預約制的小型復康巴士接送，重度肢障坐輪椅者、重度視障者等優先，低收入及中低收入戶可較早預約。",
+      "eligibility": [
+        "第一類：領有本縣身心障礙手冊（證明）之身心障礙者，以重度肢障坐輪椅者（含伴隨肢障之多重障礙者）、重度視障者、植物人（可坐輪椅者）為優先",
+        "另有第二類、第三類服務對象（內容未在搜尋摘要中列出）"
+      ],
+      "benefit": "預約制接送服務。服務時間為平日上午8時至下午5時，個案需求可延長至晚上9時。",
+      "how_to_apply": "以電話、傳真或親自到承辦單位預約。列冊低收入戶或中低收入戶可於搭乘日前7天至前1天中午12時前預約；非低收入戶為前4天；第二類與第三類對象為前3天。預約時提供搭乘日期、起迄地點、使用目的、特殊身體狀況等資料。",
+      "documents": [
+        "搭乘時出示身分證",
+        "身心障礙手冊或證明"
+      ],
+      "target_groups": ["肢體障礙", "視覺障礙", "多重障礙", "低收入或中低收入"],
+      "source_urls": [
+        "https://sabcc.cyhg.gov.tw/News_Content.aspx?n=2EB2D59F2BF0C2BE&sms=E1E1DA62DFA1B2DB&s=C00770BADA4E3CBB",
+        "https://www.cyhg.gov.tw/News_Content.aspx?n=16&s=225249"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "收費標準、承辦單位電話未在搜尋摘要中出現。另縣府公共汽車管理處營運「復康公車」（縣府新聞稿稱新購10輛、共37輛，新聞未標日期），預約可參考嘉義縣iBus（https://chiayiibus.cyhg.gov.tw/ReserveBusQuery），規定待確認。"
+    },
+    {
+      "id": "chiayi-county-love-card",
+      "name": "嘉義縣敬老卡、愛心卡、愛心陪伴卡",
+      "category": "transport",
+      "level": "local",
+      "summary": "嘉義縣籍身障者可申辦愛心卡，每月第一次乘車時系統自動儲值乘車補助點數；另有愛心陪伴卡。",
+      "eligibility": [
+        "設籍嘉義縣並持有身心障礙證明（手冊）者（敬老卡為設籍本縣年滿65歲長者）"
+      ],
+      "benefit": "每月第一次乘車時由系統自動儲值乘車補助1,000點（偏鄉1,200點）。",
+      "how_to_apply": "本人親自向戶籍地鄉鎮市公所或村里辦公處申辦，處理時間約25天。",
+      "documents": [
+        "身分證",
+        "二吋半身照片",
+        "印章（本人親簽者可免）",
+        "身心障礙證明"
+      ],
+      "source_urls": [
+        "https://sabcc.cyhg.gov.tw/News_Content.aspx?n=5BDEF45D123C814E&sms=FFD2A0AEF6C4DC5C&s=E6E14F8D39158264"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "點數可使用的交通工具範圍、偏鄉定義、愛心陪伴卡的申請對象與用途未在搜尋摘要中列出，待確認。"
+    },
+    {
+      "id": "chiayi-county-parking-permit",
+      "name": "身心障礙者專用停車位識別證",
+      "category": "transport",
+      "level": "central",
+      "summary": "符合資格的身障者可申請專用停車位識別證，停放身心障礙者專用停車位；嘉義縣由鄉鎮市公所受理。",
+      "eligibility": [
+        "設籍嘉義縣之身心障礙者，資格依中央身心障礙者專用停車位相關規定（詳細條件未在搜尋結果中列出）"
+      ],
+      "benefit": "核發身心障礙者專用停車位識別證，可停放身心障礙者專用停車位。",
+      "how_to_apply": "向戶籍所在地鄉鎮市公所申請；縣府「全縣線上整合申辦服務」提供申請表下載及線上申辦（嘉義縣社會局身心障礙者專用停車位識別證申請表，1081023更正版）。",
+      "source_urls": [
+        "https://www.cyhg.gov.tw/CSForm3_List.aspx?n=401B0D6B81EC2C29&sms=2F9171D2EDEEA0E0&Category=E392D57F0611487DADFB50865E225790"
+      ],
+      "source_date": "2019",
+      "confidence": "medium",
+      "notes": "只看到申辦平台的表單項目（列東石鄉公所為承辦機關），資格、應備文件與停車費優惠均未查到。縣內公有停車場（如高鐵特定區）是否對持證者減免停車費，搜尋結果未提及。"
+    },
+    {
+      "id": "chiayi-county-assistive-devices",
+      "name": "身心障礙者輔具費用補助（特約代償墊付）",
+      "category": "assistive",
+      "level": "central",
+      "summary": "依中央輔具費用補助規定補助身障者購買輔具；嘉義縣另有「特約身障及長照輔具購買或居家無障礙環境改善服務」，可向代償墊付特約廠商購買。",
+      "eligibility": [
+        "設籍嘉義縣並符合中央「身心障礙者輔具費用補助辦法」規定之身心障礙者（詳細資格未在搜尋結果中列出）"
+      ],
+      "benefit": "依中央輔具費用補助基準補助。縣府公布代償墊付特約廠商名單，可在特約廠商購買輔具或辦理居家無障礙環境改善。",
+      "how_to_apply": "洽嘉義縣社會局身心障礙福利科或戶籍地鄉鎮市公所（申請窗口與流程未在搜尋結果中列出）。",
+      "source_urls": [
+        "https://sabcc.cyhg.gov.tw/News_Content.aspx?n=4D8326B3BF5BB209&sms=B1B03CFCABDF73A3&s=C8C1C5C8E1764E42"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "只查到特約廠商名單頁面；補助金額、評估流程、輔具資源中心地點與借用服務均未查到。"
+    },
+    {
+      "id": "chiayi-county-day-care-ltc",
+      "name": "日間照顧服務（長期照顧）",
+      "category": "care",
+      "level": "central",
+      "summary": "長照體系的日間照顧，服務對象包含嘉義縣的失能身障者，須經長期照顧管理中心評估，依家庭經濟狀況負擔部分費用。",
+      "eligibility": [
+        "設籍並實際居住嘉義縣之失能身心障礙者、65歲以上失能老人等",
+        "經長期照顧管理中心照顧管理專員評估",
+        "未聘僱外籍看護工，且未領有政府提供之特別照顧津貼或其他照顧費用補助"
+      ],
+      "benefit": "日間照顧服務；部分負擔比率為一般戶16%、中低收入戶5%、低收入戶0%。",
+      "how_to_apply": "向嘉義縣長期照顧管理中心申請評估。",
+      "target_groups": ["成年", "老年", "低收入或中低收入"],
+      "source_urls": [
+        "https://sabcc.cyhg.gov.tw/News_Content.aspx?n=5BDEF45D123C814E&sms=FFD2A0AEF6C4DC5C&s=59138DADDB7DEB29"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "此為長照日間照顧，不是社政的「身心障礙者日間照顧及住宿式照顧費用補助」，也不是社區日間作業設施；後兩者在嘉義縣的資料未查到。頁面置於老人福利類，年度不明。"
+    },
+    {
+      "id": "chiayi-county-wander-prevention",
+      "name": "身心障礙者及老人預防走失服務",
+      "category": "support",
+      "level": "local",
+      "summary": "嘉義縣為有走失風險的身障者或長者免費製作刻有姓名與聯絡資料的溫馨手鍊或項鍊，方便走失時協尋。",
+      "eligibility": [
+        "設籍且實際居住嘉義縣，領有身心障礙手冊或證明者，或年滿65歲長者",
+        "具智能障礙、失智症、自閉症、精神疾病等情形，或曾走失、有走失之虞"
+      ],
+      "benefit": "製發「溫馨手鍊或項鍊」1條，刻上姓名、身分證字號、聯絡人與電話等資料；第一次申請免費，遺失或毀損再申請酌收工本費。",
+      "how_to_apply": "向戶籍所在地鄉鎮市公所社會（民政）課申請，公所初審後轉縣社會局核定製作。",
+      "documents": [
+        "身分證正反面影本",
+        "身心障礙手冊或證明、或診斷證明",
+        "申請表及聯絡人資料"
+      ],
+      "contact": "嘉義縣社會局身心障礙福利科 05-3620900分機2216",
+      "target_groups": ["智能障礙", "自閉症", "精神障礙", "老年"],
+      "source_urls": [
+        "https://sabcc.cyhg.gov.tw/News_Content.aspx?n=3F2A03ADC451817B&sms=FD51FD6CAE6D24EC&s=13256BC39713D001"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    },
+    {
+      "id": "chiayi-county-family-visit",
+      "name": "身心障礙者家庭關懷訪視服務",
+      "category": "support",
+      "level": "local",
+      "summary": "嘉義縣委託民間團體到宅關懷及電話問安，特別關注獨居或家中有兩名以上身障者的家庭，提供支持與福利資訊。",
+      "eligibility": [
+        "設籍嘉義縣，持有身心障礙手冊或證明之身心障礙者及其家屬",
+        "以獨居或家中有兩名以上身心障礙者之家庭為重點"
+      ],
+      "benefit": "到宅關懷訪視、電話問安，提供家庭支持與福利資訊。",
+      "how_to_apply": "逕向辦理單位社團法人嘉義縣志願服務協會洽詢。",
+      "contact": "社團法人嘉義縣志願服務協會 05-2110368",
+      "target_groups": ["家庭照顧者"],
+      "source_urls": [
+        "https://sabcc.cyhg.gov.tw/News_Content.aspx?n=3F2A03ADC451817B&sms=FD51FD6CAE6D24EC&s=195FEACF5111B814"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "頁面未標年度，委辦單位可能逐年變動，請先向社會局確認。"
+    },
+    {
+      "id": "chiayi-county-disability-certificate",
+      "name": "身心障礙鑑定與證明申請",
+      "category": "support",
+      "level": "central",
+      "summary": "到公所填寫鑑定申請表後，持鑑定表到衛生局委託醫院鑑定，再由社會局綜合評估核發身心障礙證明；行動不便者可申請到宅鑑定。",
+      "eligibility": [
+        "設籍嘉義縣，疑似身心障礙或證明效期將屆需重新鑑定者"
+      ],
+      "benefit": "辦理身心障礙鑑定與需求評估，核發身心障礙證明；另可申請證明效期展延、需求評估複評或異議複評。",
+      "how_to_apply": "至戶籍所在地或縣內其他鄉鎮市公所社會課（或民政課）填寫身心障礙者鑑定申請表，持鑑定表等表件到嘉義縣衛生局委託醫院鑑定；社會局綜合評估後核發證明。到宅鑑定依衛生局公告流程申請。",
+      "source_urls": [
+        "https://sabcc.cyhg.gov.tw/News_Content.aspx?n=EA1FA0326D3BA142&sms=C130F351AE29E438&s=D03ECED2F89E95E4",
+        "https://cyshb.cyhg.gov.tw/News_Content.aspx?n=C0CEE6ABC54B5907&sms=D848929CA1C3AF57&s=4152C9CD2CC19084"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "鑑定醫院名單與到宅鑑定的適用條件未在搜尋摘要中列出。"
+    }
+  ]
+}

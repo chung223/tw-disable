@@ -1,0 +1,516 @@
+{
+  "county_id": "keelung",
+  "county_name": "基隆市",
+  "agency": "基隆市政府社會處（身心障礙福利科）",
+  "agency_url": "https://www.klcg.gov.tw/tw/social/2794.html",
+  "phone": "02-2420-1122（社會處）；市民熱線1999",
+  "collected_at": "2026-10-23",
+  "method": "web_search",
+  "notes": "以 WebSearch（allowed_domains 限 klcg.gov.tw，含社會處、各區公所、法規系統、衛生局、交通處網域）共查詢15次，依搜尋結果摘要整理，未能直接開啟原始頁面與附件。基隆市各項申請多由戶籍所在地區公所社政課受理；身心障礙者職業重建窗口設於社會處。多數頁面未標示年度，source_date 記為 unknown。未收錄或缺漏：計程車補助（搜尋結果未見一般計程車補助，計程車式服務即復康巴士新制）；醫療復健費用及醫療輔具補助（市府有「醫療復健費用及醫療輔具補助標準」PDF，但內容未顯示）；營養品補助、緊急救援連線、視障者生活重建（搜尋未見基隆市身障專屬方案）；社區居住、家庭托顧（身障專屬資料未見，家庭托顧僅見於長照2.0）；國民運動中心身障優惠（僅查到場館資訊，未見優惠規定）；115年度發展遲緩兒童早期療育費用補助（兒少處有計畫，未查細節）。生活補助之115年度收入、動產、不動產具體金額未在搜尋結果中出現。",
+  "benefits": [
+    {
+      "id": "keelung-living-allowance",
+      "name": "身心障礙者生活補助",
+      "category": "economic",
+      "level": "mixed",
+      "summary": "依家庭經濟狀況與障礙等級按月發給生活補助；列冊低收入戶的金額較高。",
+      "eligibility": [
+        "設籍並實際居住基隆市，領有身心障礙證明（手冊）",
+        "家庭總收入平均分配全家人口，未達當年度每人每月最低生活費2.5倍，且未超過臺灣地區平均每人每月消費支出1.5倍",
+        "全家人口存款及有價證券：一人時未超過新臺幣200萬元，每增加一人增加25萬元",
+        "全家人口不動產：市府較新版本規定未超過中央公告之臺灣省不動產限額2倍"
+      ],
+      "benefit": "市府頁面（未標年度）：本市列冊低收入戶之極重度、重度、中度每月9,485元，輕度每月5,437元；列冊中低收入戶及非列冊者之極重度、重度、中度每月5,437元，輕度每月4,049元。",
+      "how_to_apply": "向戶籍所在地區公所社政課申請；市府「在地行動服務」線上平台另有本項服務頁。",
+      "contact": "戶籍所在地區公所社政課；市民熱線1999",
+      "target_groups": [
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://www.klcg.gov.tw/tw/social/2798-113116.html",
+        "https://www.klsy.klcg.gov.tw/tw/klsy/1222-99916.html",
+        "https://www.klzz.klcg.gov.tw/tw/klzz/962-99722.html",
+        "https://exlaw.klcg.gov.tw/LawContent.aspx?id=GL000168&KeyWord=%E5%9F%BA%E9%9A%86%E5%B8%82%E8%BA%AB%E5%BF%83%E9%9A%9C%E7%A4%99%E8%80%85%E7%94%9F%E6%B4%BB%E8%A3%9C%E5%8A%A9%E5%AF%A9%E6%A0%B8%E4%BD%9C%E6%A5%AD%E8%A6%8F%E5%AE%9A",
+        "https://klsws.klcg.gov.tw/klsl/online/service/1273",
+        "https://www.klcg.gov.tw/tw/social/2810-292783.html"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "市府頁面金額未標示年度；部分區公所頁面與在地行動服務平台仍列舊標準（如8,499元、4,872元、3,628元），以市府頁面為準。不動產上限在不同頁面寫650萬、706萬、732萬元等，應為舊年度數字。可參考：社會處低收入戶頁面所列115年度基隆市最低生活費為15,515元（中低收入戶門檻23,273元）。115年度正式門檻請洽區公所確認。"
+    },
+    {
+      "id": "keelung-insurance-premium",
+      "name": "身心障礙者社會保險自付保險費補助",
+      "category": "economic",
+      "level": "central",
+      "summary": "補助身心障礙者參加健保、勞保、公保、軍保、國民年金等社會保險的自付保費；健保與勞保由市府直接提供減免資料，不必申請。",
+      "eligibility": [
+        "設籍基隆市，領有本市核（換）發或註記之身心障礙證明",
+        "已參加社會保險（全民健保、勞保、公保、軍保、國民年金）"
+      ],
+      "benefit": "依障礙等級補助本人自付保險費（補助比例搜尋結果未列）。健保、勞保於保險費計算表內直接減免；如申請不列入媒體交換，由市府直接補助，每半年撥補一次。",
+      "how_to_apply": "健保、勞保：免申請，由市府提供減免資料予健保署或勞保局。其他社會保險：持身心障礙證明向投保單位申請。若不列入媒體交換對權益較有利，可向市府申請改由市府直接補助。",
+      "contact": "基隆市政府社會處 02-2420-1122",
+      "source_urls": [
+        "https://www.klcg.gov.tw/tw/social/2798-113115.html",
+        "https://www.klcg.gov.tw/tw/klcg1/2798-113115.html"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "補助比例依中央「身心障礙者參加社會保險保險費補助辦法」，基隆市頁面摘要未顯示比例，請洽社會處確認。"
+    },
+    {
+      "id": "keelung-assistive-devices",
+      "name": "身心障礙者輔具費用補助",
+      "category": "assistive",
+      "level": "central",
+      "summary": "依輔具補助基準表補助生活輔具與醫療輔具費用，採先核定後購買，補助比例依家庭經濟狀況而定。",
+      "eligibility": [
+        "持有身心障礙證明，且符合輔具補助基準表",
+        "最近一年居住國內超過183日"
+      ],
+      "benefit": "低收入戶：最高補助金額之全額補助；中低收入戶：最高補助金額之75%；一般戶：最高補助金額之50%。部分生活輔具可由合約廠商代償墊付，民眾僅付差額。",
+      "how_to_apply": "向戶籍所在地區公所社政課申請，或使用衛福部社家署「輔具補助線上申辦系統」（https://atonline.sfaa.gov.tw/）；須經核定後才購買，核定後6個月內完成購置，未經核定自行購買不予補助。",
+      "documents": [
+        "身分證影本",
+        "印章",
+        "依補助項目規定，三個月內有效之診斷證明書或輔具評估報告書"
+      ],
+      "contact": "基隆市輔具資源中心 02-2469-6966（諮詢、評估、維修、二手輔具轉贈）",
+      "source_urls": [
+        "https://www.klcg.gov.tw/tw/social/2807-113147.html",
+        "https://www.klsy.klcg.gov.tw/tw/klsy/1222-106809.html",
+        "http://exlaw.klcg.gov.tw/LawContent.aspx?id=GL000169",
+        "https://www.klcg.gov.tw/tw/klcg1/2807-255874.html",
+        "https://www.klcg.gov.tw/wSite/public/Attachment/01306/f1646901997104.pdf"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "廠商代償墊付流程取自2019年版合約廠商工作手冊，現行是否相同需再確認。"
+    },
+    {
+      "id": "keelung-care-fee-subsidy",
+      "name": "身心障礙者日間照顧及住宿式照顧費用補助",
+      "category": "care",
+      "level": "mixed",
+      "summary": "經市府轉介至簽約機構接受日間照顧或住宿式照顧者，依年齡與家庭收入分級補助費用，並設每月補助上限。",
+      "eligibility": [
+        "設籍基隆市，領有身心障礙手冊或證明",
+        "經市府轉介至簽約之身心障礙日間照顧或住宿式照顧機構",
+        "依家庭總收入相對最低生活費倍數分級；收入超過最低生活費6倍者不予補助",
+        "年滿30歲，或父母一方65歲以上，或家中有2名以上身心障礙者，適用較高補助比例"
+      ],
+      "benefit": "列冊低收入戶全額補助，其餘依家庭收入級距補助不同比例。每月補助上限：住宿式照顧重度20,000元、中度16,000元、輕度8,000元；日間照顧重度12,000元、中度9,600元、輕度4,800元。",
+      "how_to_apply": "向戶籍所在地區公所社政課申請；補助標準依衛生福利部收費及補助標準一覽表辦理。",
+      "contact": "戶籍所在地區公所社政課；社會處身心障礙福利科 02-2420-1122",
+      "target_groups": [
+        "低收入或中低收入",
+        "家庭照顧者"
+      ],
+      "source_urls": [
+        "https://www.klra.klcg.gov.tw/tw/klra/904-97422.html",
+        "https://www.klcg.gov.tw/tw/social/2798-113123.html",
+        "https://www.klcg.gov.tw/tw/klcg1/2799-113134.html"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "級距與上限取自區公所頁面，與市府頁面細節不完全一致；各級距補助比例搜尋結果未完整列出。市府另列有簽約機構名單（約62至63家）。"
+    },
+    {
+      "id": "keelung-respite-care",
+      "name": "身心障礙者臨時及短期照顧服務",
+      "category": "care",
+      "level": "mixed",
+      "summary": "家庭照顧者需要喘息時，由基隆市身心障礙福利服務中心提供臨時或短期照顧。",
+      "eligibility": [
+        "設籍或實際居住基隆市之身心障礙者",
+        "經身心障礙者福利與服務需求評估結果建議使用本服務",
+        "其家庭照顧者符合「身心障礙者家庭照顧者服務辦法」資格"
+      ],
+      "benefit": "提供臨時或短期照顧服務（補助時數與自付額搜尋結果未列）。",
+      "how_to_apply": "洽基隆市身心障礙福利服務中心。",
+      "contact": "基隆市身心障礙福利服務中心 02-2466-2355",
+      "target_groups": [
+        "家庭照顧者"
+      ],
+      "source_urls": [
+        "https://www.klcg.gov.tw/tw/social/2746-261689.html",
+        "https://www.klcg.gov.tw/tw/social/3606-114682.html"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium"
+    },
+    {
+      "id": "keelung-emergency-care",
+      "name": "高照顧負荷家庭創新服務方案－緊急照顧服務（115年）",
+      "category": "care",
+      "level": "local",
+      "summary": "身心障礙者的主要照顧者突然遇到緊急或危機事件而無法照顧時，經評估後媒合市府簽約機構提供緊急照顧。",
+      "eligibility": [
+        "身心障礙者之主要照顧者突發緊急或危機事件，致無法提供照顧",
+        "經身心障礙者服務中心評估有需要"
+      ],
+      "benefit": "媒合緊急照顧服務，由市府簽約之身心障礙者日間照顧及住宿式照顧機構（以設址於本市者優先）提供。",
+      "how_to_apply": "洽基隆市身心障礙福利服務中心評估；機構承接方案向社會處身心障礙福利科送件。",
+      "contact": "社會處身心障礙福利科 02-2420-1122；基隆市身心障礙福利服務中心 02-2466-2355",
+      "target_groups": [
+        "家庭照顧者"
+      ],
+      "source_urls": [
+        "https://www.klcg.gov.tw/tw/social/2636-315486.html"
+      ],
+      "source_date": "2026",
+      "confidence": "medium",
+      "notes": "公告的申請資格是針對承辦機構（收件截止115年4月30日、5月8日公告結果）；個人如何轉介、是否收費，搜尋結果未載明。"
+    },
+    {
+      "id": "keelung-community-daycare",
+      "name": "身心障礙社區式日間照顧服務",
+      "category": "care",
+      "level": "mixed",
+      "summary": "在社區據點提供成年身心障礙者日間照顧，七堵、仁愛、中正等區設有據點。",
+      "eligibility": [
+        "18歲以上、未滿65歲之身心障礙者"
+      ],
+      "benefit": "社區據點日間照顧服務（收費與補助方式搜尋結果未列）。",
+      "how_to_apply": "洽社會處身心障礙福利科或各服務據點。",
+      "contact": "社會處身心障礙福利科 02-2420-1122",
+      "target_groups": [
+        "成年"
+      ],
+      "source_urls": [
+        "https://www.klcg.gov.tw/tw/social/2799-113132.html"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium"
+    },
+    {
+      "id": "keelung-independent-living",
+      "name": "身心障礙者自立生活支持服務（個人助理）",
+      "category": "care",
+      "level": "mixed",
+      "summary": "提供同儕支持員與個人助理，協助身心障礙者身體行動、溝通及外出參與社會，依家庭經濟狀況補助費用。",
+      "eligibility": [
+        "設籍並居住基隆市，領有身心障礙證明",
+        "未接受機構安置，且未聘僱看護"
+      ],
+      "benefit": "個人助理可協助身體行動、溝通（如手語翻譯）與外出社會參與，另有同儕支持員。費用：低收入戶及中低收入戶由政府全額補助；一般戶政府補助70%、本人負擔30%。",
+      "how_to_apply": "洽社會處身心障礙福利科；服務單位為社團法人中華民國愛加倍社會福利關懷協會。",
+      "contact": "社會處身心障礙福利科 02-2420-1122",
+      "target_groups": [
+        "成年",
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://www.klcg.gov.tw/tw/social/2799-113127.html"
+      ],
+      "source_date": "2025-05",
+      "confidence": "high"
+    },
+    {
+      "id": "keelung-positive-behavior-support",
+      "name": "身心障礙者嚴重情緒行為正向支持整合模式試辦計畫",
+      "category": "support",
+      "level": "local",
+      "summary": "針對有嚴重情緒行為問題的身心障礙者，由跨專業團隊提供服務，並包含家屬訓練與心理支持。",
+      "eligibility": [
+        "有嚴重情緒行為問題之身心障礙者及其家屬"
+      ],
+      "benefit": "跨專業團隊服務、家屬訓練、心理支持（試辦計畫）。",
+      "how_to_apply": "洽社會處身心障礙福利科。",
+      "contact": "社會處身心障礙福利科 02-2420-1122",
+      "target_groups": [
+        "家庭照顧者"
+      ],
+      "source_urls": [
+        "https://www.klcg.gov.tw/tw/social/2799-264601.html"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "僅見計畫名稱與服務概要，申請資格細節與是否仍在試辦期間未確認。"
+    },
+    {
+      "id": "keelung-service-center",
+      "name": "基隆市身心障礙福利服務中心",
+      "category": "support",
+      "level": "local",
+      "summary": "市府設立的身心障礙綜合服務據點，提供照顧者支持、親職教育、臨時及短期照顧、早期療育、住宿式照顧與日間服務等。",
+      "eligibility": [
+        "以設籍基隆市之身心障礙者、照顧者及其家庭為主要對象"
+      ],
+      "benefit": "照顧者支持服務與親職教育講座；臨時暨短期照顧；早期療育；全日型住宿式照顧（以重度、極重度失能者為對象，優先重癱者）；社區日間作業設施；成人日間照顧；附設庇護工場。",
+      "how_to_apply": "電話洽詢或親至中心（基隆市信義區東信路282-45號）。",
+      "contact": "02-2466-2355",
+      "target_groups": [
+        "家庭照顧者"
+      ],
+      "source_urls": [
+        "https://www.klcg.gov.tw/tw/social/3606-114682.html",
+        "https://www.klcg.gov.tw/tw/social/2796-113094.html",
+        "https://www.klcg.gov.tw/tw/social/2746-261689.html"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "中心頁面更新時間較早，各項服務的收費與名額請洽中心確認。"
+    },
+    {
+      "id": "keelung-rent-subsidy",
+      "name": "身心障礙者房屋租賃補助",
+      "category": "economic",
+      "level": "mixed",
+      "summary": "補助無自有住宅、經濟條件符合的身心障礙者租屋費用，依家庭人口與坪數計算。",
+      "eligibility": [
+        "設籍基隆市之身心障礙者，無自有住宅",
+        "家庭總收入平均分配全家人口未達當年度每人每月最低生活費2.5倍等條件",
+        "租賃期間自申請日起應剩4個月以上",
+        "租賃房屋非三親等以內親屬所有"
+      ],
+      "benefit": "每月每坪補助200元；單身家庭最多補助5坪、二口家庭7坪、三口以上10坪；補助金額以租金總額50%為上限，租屋保證金與公共管理費不補助。",
+      "how_to_apply": "向戶籍所在地區公所社政課申請。",
+      "contact": "戶籍所在地區公所社政課",
+      "target_groups": [
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://www.klcg.gov.tw/tw/social/2798-113117.html",
+        "https://exlaw.klcg.gov.tw/LawContent.aspx?id=GL000171"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "與購屋貸款利息補助僅能擇一。頁面更新約2020至2022年，標準可能已調整。"
+    },
+    {
+      "id": "keelung-mortgage-interest",
+      "name": "身心障礙者首次購屋貸款利息補助",
+      "category": "economic",
+      "level": "mixed",
+      "summary": "身心障礙者首次購屋並自住，依前一年貸款利息總額的一定比例補助，每年有上限。",
+      "eligibility": [
+        "年滿20歲，設籍基隆市並居住於首次購屋地址",
+        "持有身心障礙證明"
+      ],
+      "benefit": "按前一年利息總額10%核實補助，每年上限新臺幣15,000元；補助年限最長自辦理購屋貸款次年起算15年（每年需複查）。",
+      "how_to_apply": "每年2月1日至3月31日向戶籍所在地區公所社政課申請，逾期不受理。",
+      "contact": "戶籍所在地區公所社政課",
+      "source_urls": [
+        "https://www.klcg.gov.tw/tw/social/2798-113118.html",
+        "https://www.klra.klcg.gov.tw/tw/klra/904-97424.html"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "身心障礙者及其同住扶養者，房屋租金補助與購屋貸款利息補助僅能擇一辦理。家庭收入門檻搜尋結果未列。"
+    },
+    {
+      "id": "keelung-care-card",
+      "name": "社福優待卡（關懷卡、關懷陪伴卡）免費搭乘市區公車",
+      "category": "transport",
+      "level": "local",
+      "summary": "身心障礙者可申請關懷卡，持卡感應搭乘基隆市市區公車（含夜間公車）免費；需陪伴者可另申請關懷陪伴卡。",
+      "eligibility": [
+        "關懷卡：設籍基隆市並領有身心障礙證明（手冊）之本人",
+        "關懷陪伴卡：經需求評估搭乘大眾運輸需必要陪伴者"
+      ],
+      "benefit": "持本市發行之關懷卡（或敬老卡）搭乘本市市區公車（含夜間公車）免費，費用由市府全額補助；持關懷陪伴卡之陪伴者同享優待。卡片效期1年，每年1至3月須辦理展期。",
+      "how_to_apply": "向戶籍所在地區公所社政課申請及展期。",
+      "contact": "戶籍所在地區公所社政課",
+      "source_urls": [
+        "https://www.klra.klcg.gov.tw/tw/klra/904-97426.html",
+        "https://www.klcg.gov.tw/tw/social/2806-113143.html",
+        "https://www.klcg.gov.tw/tw/tourism/2643-136070.html"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "搜尋結果未見基隆市社福卡點數制度或一般計程車補助。"
+    },
+    {
+      "id": "keelung-rehab-bus",
+      "name": "身心障礙者復康專車接送服務（復康巴士新制）",
+      "category": "transport",
+      "level": "local",
+      "summary": "114年6月起復康巴士與長照接送整合為無障礙交通統一預約平台，依計程車費率計價，再依身分給予優惠或免費趟次。",
+      "eligibility": [
+        "領有身心障礙證明者（依障礙類別與程度分三級，預約天數不同）"
+      ],
+      "benefit": "以市府核定計程車費率計價：本市列冊低收入戶、中低收入戶，或符合中低收入老人生活津貼或身心障礙者生活補助資格者，按費率十分之一計價，每人每日2趟次；低收入戶、中低收入戶等符合資格者每人每月8趟次免費；其他身心障礙者按費率十分之三計價（政府補助70%），每人每日2趟次；共乘依優惠費率66%計價；不符優惠者依一般費率。服務時間每週一至週日8:30至21:00，範圍為全市及雙北。",
+      "how_to_apply": "線上預約（基隆無障礙交通預約平台 https://maas.klcg.gov.tw/）或電話預約。預約時間：第一級（如重度以上肢體障礙、植物人、重度以上失智症）搭乘前14日10時起；第二級（如重度視覺障礙、需乘坐輪椅之中度肢體障礙）前11日；第三級（其他身心障礙者）前8日。",
+      "contact": "客服專線 02-2468-0655",
+      "source_urls": [
+        "https://www.klcg.gov.tw/tw/social/2805.html",
+        "https://maas.klcg.gov.tw/services/",
+        "https://www.klcg.gov.tw/tw/klcg1/3168-300803.html",
+        "https://exlaw.klcg.gov.tw/LawContent.aspx?id=GL000694"
+      ],
+      "source_date": "2025-06",
+      "confidence": "high",
+      "notes": "全市整合30輛復康巴士與96輛長照接送車。新聞稿寫「最早14天前預約」，平台頁面則依級別分8、11、14日。基隆市復康巴士服務辦法於114年6月2日修正發布。"
+    },
+    {
+      "id": "keelung-parking",
+      "name": "身心障礙者專用停車位識別證及停車優惠",
+      "category": "transport",
+      "level": "mixed",
+      "summary": "行動不便的身心障礙者可申請專用停車位識別證；依基隆市公共停車場管理自治條例享停車優惠。",
+      "eligibility": [
+        "經需求評估為行動不便之身心障礙者本人、其配偶、一親等親屬、設於同一戶籍或同址分戶之二親等以上親屬",
+        "車種為計程車或自用小貨車者，車主與駕駛須為身心障礙者本人（計程車另附本人計程車駕駛人執業登記證）"
+      ],
+      "benefit": "核發專用停車位識別證，限身心障礙者本人持用或配偶、親屬乘載本人時使用。依「基隆市公共停車場管理自治條例」第18條，持識別證車輛由身心障礙者親自駕駛或眷屬駕駛搭載身心障礙者時，可免費停車4小時。",
+      "how_to_apply": "向戶籍所在地區公所社政課申請。",
+      "contact": "戶籍所在地區公所社政課；基隆停車管理中心 https://park.klcg.gov.tw/",
+      "source_urls": [
+        "https://www.klcg.gov.tw/tw/social/2804-113140.html",
+        "https://www.klra.klcg.gov.tw/tw/klra/904-97423.html",
+        "https://park.klcg.gov.tw/FAQs"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "免費4小時適用的停車場範圍（路邊或公有停車場）搜尋摘要未說明，請洽停車管理中心確認。"
+    },
+    {
+      "id": "keelung-student-transport",
+      "name": "國民教育階段身心障礙學生就學交通費補助",
+      "category": "education",
+      "level": "mixed",
+      "summary": "就讀基隆市國中小、無法自行上下學的身心障礙學生，每月補助交通費。",
+      "eligibility": [
+        "設籍基隆市、領有身心障礙證明、經鑑輔會鑑定，並就讀本市公私立國民中小學",
+        "且符合其一：中度以上或領有重大傷病證明；輕度但有公立醫院或區域級以上醫院診斷證明無法自行上下學；經學校評估或納入IEP認定無法自行上下學",
+        "不得申請：在家教育或安置教養院者；搭乘或無正當理由拒搭市府免費身心障礙上下學交通車者；每月請假（扣除公假、病假、喪假）超過當月上課日四分之一且未經學校核准者"
+      ],
+      "benefit": "每人每月新臺幣1,000元，每學年以10個月計；經費不足時得調整金額。",
+      "how_to_apply": "第一學期於9月申請（核發9月至翌年1月），第二學期於3月申請（核發2月至6月）；受理窗口搜尋結果未載明，請洽就讀學校。",
+      "target_groups": [
+        "學生",
+        "兒童及少年"
+      ],
+      "source_urls": [
+        "https://exlaw.klcg.gov.tw/LawContent.aspx?id=GL000307"
+      ],
+      "source_date": "2024-09",
+      "confidence": "high",
+      "notes": "依「基隆市國民教育階段身心障礙學生就學交通費補助實施辦法」（113年9月19日修正）。"
+    },
+    {
+      "id": "keelung-meal-service",
+      "name": "老人及身心障礙者餐飲服務補助（金齡食堂）",
+      "category": "care",
+      "level": "local",
+      "summary": "市府補助社區供餐單位為長者及身心障礙者提供餐食，中度以上身心障礙者的每餐補助標準較高。",
+      "eligibility": [
+        "領有身心障礙證明者（於受補助之社區供餐單位用餐）",
+        "另依實施要點：經長照管理中心評估有餐飲服務必要之低收入或中低收入失能老人或身心障礙者，由市府委請供餐單位供餐"
+      ],
+      "benefit": "115年計畫：每人每餐補助45元，低收入戶、中低收入戶或障礙等級中度以上者以90元計算（補助撥給供餐單位，每單位每年最高70萬元）。實施要點所定低收入、中低收入失能者委託供餐，每餐補助50元。",
+      "how_to_apply": "向住家附近受補助之供餐單位（里辦公處、社區發展協會、社福團體等）洽詢；或洽社會處。",
+      "contact": "基隆市政府社會處 02-2420-1122",
+      "target_groups": [
+        "老年",
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://www.klcg.gov.tw/tw/social/2636-308885.html",
+        "https://exlaw.klcg.gov.tw/LawContent.aspx?id=GL000176"
+      ],
+      "source_date": "2026",
+      "confidence": "medium",
+      "notes": "補助對象為供餐單位而非個人；115年第一階段由114年核定之38處單位申請，第二階段視預算開放。個人用餐是否收費及供餐據點名單未查到。"
+    },
+    {
+      "id": "keelung-vocational-rehab",
+      "name": "身心障礙者職業重建服務窗口",
+      "category": "employment",
+      "level": "central",
+      "summary": "基隆市的身心障礙者職業重建窗口設在社會處，以個案管理方式提供職業輔導評量、職訓、就業服務、職務再設計與創業輔導。",
+      "eligibility": [
+        "15歲以上、設籍或居住基隆市、有就業需求之身心障礙者（優先）"
+      ],
+      "benefit": "求職與職涯輔導、職業輔導評量、職業訓練、職務再設計、就業機會開發、雇主求才諮詢、支持性就業及庇護性就業服務、創業輔導；個案初評後擬定計畫並持續追蹤。",
+      "how_to_apply": "親至或電洽職業重建服務窗口（基隆市中山區復興路114號2樓，週一至週五8:00至17:30），或由相關單位以轉介表轉介。",
+      "documents": [
+        "身心障礙證明",
+        "身分證"
+      ],
+      "target_groups": [
+        "求職者"
+      ],
+      "source_urls": [
+        "https://www.klcg.gov.tw/tw/social/4114-271879.html",
+        "https://www.klcg.gov.tw/tw/social/2728-112556.html"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    },
+    {
+      "id": "keelung-sheltered-employment",
+      "name": "身心障礙者庇護性就業服務",
+      "category": "employment",
+      "level": "mixed",
+      "summary": "有就業意願但尚無法進入競爭性職場者，經職業重建窗口與職業輔導評量後，可進入庇護工場工作。",
+      "eligibility": [
+        "有就業意願、但就業能力不足以進入競爭性職場，需長期就業支持之身心障礙者",
+        "經職業重建窗口受案評估及職業輔導評量，結果適合庇護性就業"
+      ],
+      "benefit": "115年：基隆市身心障礙福利服務中心附設庇護工場以機動清潔工作隊形式提供服務，容納庇護性就業者30名、庇護職場見習4名，經入場評估通過後進用。",
+      "how_to_apply": "經身心障礙者職業重建服務窗口評估轉介。",
+      "target_groups": [
+        "求職者"
+      ],
+      "source_urls": [
+        "https://www.klcg.gov.tw/tw/social/4114-271881.html",
+        "https://www.klcg.gov.tw/tw/social/2636-309796.html"
+      ],
+      "source_date": "2026",
+      "confidence": "high"
+    },
+    {
+      "id": "keelung-sign-language",
+      "name": "手語翻譯暨同步聽打服務",
+      "category": "support",
+      "level": "mixed",
+      "summary": "聽語障者就醫、就業等事務，或公部門、非營利組織因業務需與聽語障者溝通時，可申請手語翻譯或同步聽打。",
+      "eligibility": [
+        "領有聽覺或語言障礙之身心障礙證明，因就醫、就業等事務確有需求者",
+        "因業務需要與聽語障者接洽之公部門或依法登記之非營利組織"
+      ],
+      "benefit": "派遣手語翻譯員或同步聽打服務。",
+      "how_to_apply": "於服務日3天前向社會處身心障礙福利科提出申請。",
+      "contact": "社會處身心障礙福利科 02-2420-1122 分機2235、2236",
+      "target_groups": [
+        "聽覺或平衡障礙",
+        "聲音或語言障礙"
+      ],
+      "source_urls": [
+        "https://www.klcg.gov.tw/tw/social/2803.html"
+      ],
+      "source_date": "2024-10",
+      "confidence": "high"
+    },
+    {
+      "id": "keelung-disability-assessment",
+      "name": "身心障礙鑑定及證明申請（含居家鑑定）",
+      "category": "support",
+      "level": "central",
+      "summary": "向區公所領取鑑定表後到指定醫院鑑定，經衛生局審核轉社會處核發身心障礙證明；臥床等無法到院者可申請居家鑑定。",
+      "eligibility": [
+        "欲申請身心障礙證明之民眾",
+        "居家鑑定限：全癱無法自行下床、需24小時使用呼吸器或維生設備、長期重度昏迷、植物人"
+      ],
+      "benefit": "鑑定完成後醫院於10日內將鑑定表送戶籍地衛生局，衛生局審核後10日內轉社會處辦理需求評估與證明核發。",
+      "how_to_apply": "持文件向各區公所社政課身心障礙申請窗口申請，由專人協助填寫申請表並發給鑑定表，再至指定醫療機構鑑定。居家鑑定另附醫療機構開具之3個月內診斷書或病歷摘要，向衛生局申請。",
+      "documents": [
+        "申請人身分證影本",
+        "一吋相片3張",
+        "私章（委託他人辦理需加帶代理人身分證及私章）"
+      ],
+      "contact": "居家鑑定：衛生局醫政科 02-2425-2221 轉1509",
+      "source_urls": [
+        "https://www.klcg.gov.tw/tw/social/2797-113096.html",
+        "https://www.klcg.gov.tw/tw/social/2797-113100.html",
+        "https://www.kmh.klcg.gov.tw/tw/kmh1/3727-250564.html",
+        "https://www.klchb.klcg.gov.tw/tw/klchb/712-104064.html/"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    }
+  ]
+}

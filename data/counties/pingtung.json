@@ -1,0 +1,527 @@
+{
+  "county_id": "pingtung",
+  "county_name": "屏東縣",
+  "agency": "屏東縣政府社會處",
+  "agency_url": "https://www.pthg.gov.tw/planjdp/",
+  "phone": "08-7320415（社會處總機）",
+  "collected_at": "2026-10-23",
+  "method": "web_search",
+  "notes": "以 WebSearch（allowed_domains 限 pthg.gov.tw，含社會處 planjdp、社會福利e點靈 socmap、主管法規系統 ptlaw、長照處、交通旅遊處）共14次查詢整理，未能直接開啟原始頁面與附件。多數頁面未標示年度，搜尋系統亦標示部分頁面發布已久，source_date 多記為 unknown，金額請以社會處公告為準。生活補助各頁金額不一，已於該筆註明。未收錄或未查到：身心障礙者職業重建窗口與就業服務（勞動暨青年發展處僅見113年度身障職業訓練5班的公告，屏東就業中心08-7559955屬勞動部）、職務再設計、創業補助、計程車車資補助、停車費減免、房屋租金及購屋貸款利息補貼（搜尋結果只見一般住宅補貼）、醫療費用及看護費補助（只見低收入戶通用規定）、營養品補助、照顧者津貼、社區居住、運動中心或場館優惠、急難救助（社會處有一般急難救助頁面，非身障專屬）。身心障礙福利科轉銜及個案管理服務分機5340；身心障礙者福利服務中心位於屏東市建豐路180巷35號，電話08-7378402。",
+  "benefits": [
+    {
+      "id": "pingtung-living-allowance",
+      "name": "身心障礙者生活補助",
+      "category": "economic",
+      "level": "central",
+      "summary": "依家庭經濟狀況與障礙等級按月發給生活補助。列冊低收入戶、中低收入戶的身心障礙者由縣府依名冊核發，免另行申請；其他符合資格者向戶籍地鄉鎮市公所申請。",
+      "eligibility": [
+        "設籍並實際居住屏東縣，依法領有身心障礙證明",
+        "最近一年居住國內超過183日",
+        "未接受政府補助收容安置",
+        "家庭總收入及動產、不動產符合審核標準（搜尋結果中一頁列土地及房屋價值合計未超過706萬元、存款及有價證券單一人口200萬元，每增加一人加25萬元；另一頁列650萬元與250萬元，以公告為準）"
+      ],
+      "benefit": "社會處申請頁所列：低收入戶之極重度、重度、中度身心障礙者每人每月9,485元，輕度每人每月5,437元；中低收入戶及其他符合資格者之極重度、重度、中度每人每月5,437元，輕度每人每月4,049元。",
+      "how_to_apply": "向戶籍所在地鄉（鎮、市）公所提出申請；低收入戶及中低收入戶之身心障礙者免予申請，依冊核發。",
+      "documents": [
+        "國民身分證影本",
+        "申請人私章",
+        "郵局存簿封面影本",
+        "國中以上在學者：在學證明或學生證影本"
+      ],
+      "contact": "屏東縣政府社會處社會救助科 08-7320415 分機5337、5338、5411、5412、5374；戶籍地鄉鎮市公所",
+      "target_groups": [
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://www.pthg.gov.tw/planjdp/cp.aspx?n=A4164DF4295ED9D4&s=B3FBDF70D23B706E",
+        "https://socmap.pthg.gov.tw/pt1w/sa100/show/10032?mobile=",
+        "https://ptlaw.pthg.gov.tw/LawContent.aspx?id=GL000023",
+        "https://www.pthg.gov.tw/planjdp/Cus_Petition_Detail.aspx?s=F8905958B4A7D17F&n=3E778AC8AAED37D2"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "社會福利e點靈與申辦服務頁仍列舊標準（低收入戶中度以上8,836元、輕度5,065元；其他中度以上5,065元、輕度3,772元），社會處申請頁則列9,485／5,437／4,049元；澎湖縣113年手冊亦採後者，研判後者為現行標準，但頁面未標示年度。同時符合多項政府生活補助者只能擇一領取（低收入戶生活扶助除外），每月合計不得超過基本工資。審核作業規定載明補助金額依衛福部公告，每四年調整一次。"
+    },
+    {
+      "id": "pingtung-insurance-premium",
+      "name": "身心障礙者參加社會保險自付保險費補助",
+      "category": "economic",
+      "level": "central",
+      "summary": "依障礙等級補助身心障礙者參加社會保險的自付保險費。健保部分由縣府主動以媒體資料交換方式減免，免申請。",
+      "eligibility": [
+        "設籍屏東縣並領有身心障礙證明之被保險人",
+        "死亡或戶籍遷出屏東縣者不予補助，已補助者停止補助"
+      ],
+      "benefit": "公保、勞保、農保、軍保：極重度、重度全額補助，中度補助50%，輕度補助25%。國民年金保險：極重度、重度全額補助，中度補助70%，輕度補助55%。",
+      "how_to_apply": "全民健保部分免申請，縣府每月五日前將媒體資料傳送中央健康保險署，直接自每月應繳保費中扣抵；參加公保或軍保者向投保單位提出申請。若媒體資料交換對權益不利，可檢具申請書向縣府申請不列入交換，改由縣府直接補助自付保險費。",
+      "contact": "屏東縣政府社會處 08-7320415",
+      "source_urls": [
+        "https://www.pthg.gov.tw/planjdp/cp.aspx?n=1D92213B0F4404A4",
+        "https://ptlaw.pthg.gov.tw/LawContent.aspx?id=GL000359"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "每年1月至4月辦理前一年度保險費補助撥付作業。搜尋摘要未逐項列出全民健保的補助比率；溢領部分須繳回。頁面更新時間較早，以社會處公告為準。"
+    },
+    {
+      "id": "pingtung-assistive-devices",
+      "name": "身心障礙者生活及醫療輔具費用補助（含居家無障礙環境改善）",
+      "category": "assistive",
+      "level": "central",
+      "summary": "補助身心障礙者購買生活及醫療輔具、改善居家無障礙環境的費用，需事先申請核定，輔具不可先行購置。縣府另有代償墊付計畫，可向特約廠商購買。",
+      "eligibility": [
+        "設籍屏東縣，最近一年居住國內超過183日",
+        "領有身心障礙證明，且申請項目符合輔具補助基準表",
+        "需評估之項目須經輔具評估",
+        "申請項目未納入全民健康保險給付"
+      ],
+      "benefit": "依衛福部身心障礙者輔具費用補助基準表補助（各項金額搜尋結果未顯示）。",
+      "how_to_apply": "向戶籍所在地鄉鎮市公所社會課或屏東縣輔具資源中心（屏北、屏中）申請，週一至週五受理；須核定後再購買。",
+      "contact": "輔具資源中心屏北據點 08-7365455、屏中據點 08-7899599",
+      "source_urls": [
+        "https://www.pthg.gov.tw/planjdp/cp.aspx?n=76661B637A6124F3",
+        "https://www.pthg.gov.tw/planjdp/Cus_Petition_Detail.aspx?s=D78B5182C4839FE9&n=3E778AC8AAED37D2",
+        "https://www.pthg.gov.tw/planjdp/cp.aspx?n=76661B637A6124F3&s=AD9DFA8B5362DC69"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "長照輔具另由長期照顧管理中心評估，長照需求等級第二級以上者再由輔具資源中心評估、縣府核定，核定後向代償墊付特約廠商購買，不受理個人申請（https://www.pthg.gov.tw/planjdp/cp.aspx?n=76661B637A6124F3&s=222351CEDB8CE88E）。部分頁面發布時間較早。"
+    },
+    {
+      "id": "pingtung-assistive-center",
+      "name": "屏東縣輔具資源中心",
+      "category": "assistive",
+      "level": "local",
+      "summary": "縣府設置的輔具資源中心，提供輔具諮詢、評估、租借、回收媒合、維修及助聽器評估等服務，分屏北（屏東市）與屏中（潮州鎮）兩個據點。",
+      "eligibility": [
+        "設籍屏東縣或居住本縣，有輔具需求的民眾"
+      ],
+      "benefit": "輔具諮詢、評估、租借、媒合回收、維修，以及助聽器評估。",
+      "how_to_apply": "電話洽詢屏北或屏中據點；屏東縣身心障礙者福利服務中心一樓亦設有輔具資源中心。",
+      "contact": "屏北據點 08-7365455；屏中據點 08-7899599",
+      "source_urls": [
+        "https://www.pthg.gov.tw/planjdp/cp.aspx?n=76661B637A6124F3&s=AE699D7FB4D54253",
+        "https://www.pthg.gov.tw/planjdp/cp.aspx?n=7F4D519A0595801C"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium"
+    },
+    {
+      "id": "pingtung-generator-rental",
+      "name": "使用維生器材及必要生活輔具身心障礙者租用發電機租金補助",
+      "category": "assistive",
+      "level": "local",
+      "summary": "居家使用維生器材的身心障礙者，遇停電需租用發電機時，縣府補助租金。",
+      "eligibility": [
+        "設籍並實際居住屏東縣，於居家接受照顧之身心障礙者",
+        "使用維生器材或必要生活輔具，如氧氣製造機、呼吸器、血氧監測儀、抽痰機等"
+      ],
+      "benefit": "補助租用發電機之租金（補助金額搜尋結果未顯示）。",
+      "how_to_apply": "檢附文件向屏東縣政府社會處申請（受理窗口搜尋結果未明列，請洽社會處）。",
+      "documents": [
+        "申請表",
+        "發電機租金收據正本",
+        "存摺封面影本",
+        "領款收據",
+        "停電通知單（平時預警性停電需附）"
+      ],
+      "contact": "屏東縣政府社會處 08-7320415",
+      "source_urls": [
+        "https://www.pthg.gov.tw/planjdp/cp.aspx?n=A7CCB761096F7FA3&s=3097D26B19A637DF"
+      ],
+      "source_date": "2022",
+      "confidence": "medium",
+      "notes": "頁面所附申辦文件為111年度版本，現行金額與是否持續辦理請洽社會處。"
+    },
+    {
+      "id": "pingtung-boai-card",
+      "name": "身心障礙者乘車電子票證【博愛卡】、【博愛陪伴卡】",
+      "category": "transport",
+      "level": "local",
+      "summary": "設籍屏東縣的身心障礙者可申請博愛卡，除大眾運輸半價外，縣府每月另補助點數可扣抵縣內客運車資；自112年7月起點數也可搭火車扣點。",
+      "eligibility": [
+        "設籍屏東縣並領有身心障礙證明",
+        "博愛陪伴卡：身心障礙證明上註記必要陪伴者優惠"
+      ],
+      "benefit": "縣府每月補助330元，於搭乘縣內客運公車時扣抵車資；112年7月起補助點數可用於搭乘火車扣點。陪伴卡須緊跟博愛卡感應才享半價。",
+      "how_to_apply": "向屏東縣政府社會處洽詢申辦（搜尋結果未顯示受理窗口與應備文件）。",
+      "contact": "屏東縣政府社會處 08-7320415 轉5341",
+      "source_urls": [
+        "https://www.pthg.gov.tw/planjdp/cp.aspx?n=1EDF47490238B419",
+        "https://www.pthg.gov.tw/towndto/News_Content.aspx?n=EC1239FEFEA968AD&s=21A57F33E7D94668"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "每月330元補助見於社會處博愛卡頁面，頁面未標示年度；火車扣點資訊來自東港鎮公所112年公告。大眾運輸半價屬全國優惠，未另列。"
+    },
+    {
+      "id": "pingtung-rehab-bus",
+      "name": "復康巴士",
+      "category": "transport",
+      "level": "local",
+      "summary": "提供身心障礙者就醫、復健、就學等交通接送，依里程收費，必要陪伴者1人免費。",
+      "eligibility": [
+        "領有身心障礙證明者（不限設籍）",
+        "首次搭乘須出示身心障礙證明"
+      ],
+      "benefit": "每趟基本費100元，續跳每增1公里加收5元；必要陪伴者1人免收費。",
+      "how_to_apply": "依所在區域撥打復康巴士預約專線預約。",
+      "contact": "屏東縣政府社會處 08-7320415",
+      "source_urls": [
+        "https://www.pthg.gov.tw/planjdp/Cus_Petition_Detail.aspx?s=B943E5367BF67F6D&n=3E778AC8AAED37D2",
+        "https://www.pthg.gov.tw/planjdp/cp.aspx?n=920104B7056B7226&s=D627FB88EBF195A5"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "各區預約專線號碼搜尋結果未列出。縣府另訂有「屏東縣身心障礙學生申請搭乘復康巴士作業要點」（https://ptlaw.pthg.gov.tw/LawContent.aspx?id=GL000038），內容未取得。"
+    },
+    {
+      "id": "pingtung-travel-rehab-bus",
+      "name": "旅遊復康巴士",
+      "category": "transport",
+      "level": "local",
+      "summary": "屏東縣自辦的旅遊休閒用復康巴士，起點在屏東縣內、目的地可到外縣市景點，個人與民間社團都可預約。",
+      "eligibility": [
+        "領有政府核發身心障礙證明者；民間社團辦理活動亦可使用",
+        "起點須在屏東縣境內，目的地為車輛可到達之旅遊景點（縣市不限）"
+      ],
+      "benefit": "每位身心障礙者個別計費，共乘5折優惠；車輛出勤每1小時另收出車費50元。社團、機構使用時每位身心障礙者每1公里另加收5元，同享共乘5折。停車費、國道通行費及乘車者平安保險費由使用者自付。",
+      "how_to_apply": "週一至週五08:00至17:30（中午12時至13時30分休息）電話預約。",
+      "contact": "08-7887433、08-7890608",
+      "source_urls": [
+        "https://www.pthg.gov.tw/planjdp/cp.aspx?n=920104B7056B7226&s=6BF04DDDA47B683A"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "每日用車以10小時為限，無超時服務；僅提供交通接送，不提供陪同遊玩。"
+    },
+    {
+      "id": "pingtung-accessible-taxi",
+      "name": "屏東縣通用（無障礙）計程車",
+      "category": "transport",
+      "level": "local",
+      "summary": "縣府自103年9月起推動可載運輪椅的通用計程車，採電話或線上預約，車資比照一般計程車。",
+      "eligibility": [
+        "有搭乘無障礙車輛需求之民眾（含輪椅使用者）"
+      ],
+      "benefit": "預約搭乘通用（無障礙）計程車，收費比照一般計程車跳表計費（搜尋結果未見身障車資補貼）。",
+      "how_to_apply": "電話或線上預約縣府特約車隊（聯絡方式見交通旅遊處頁面）。",
+      "source_urls": [
+        "https://www.pthg.gov.tw/traffic/cp.aspx?n=BC5FEB434EADDFB3"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium"
+    },
+    {
+      "id": "pingtung-parking-permit",
+      "name": "身心障礙者專用停車位識別證",
+      "category": "transport",
+      "level": "central",
+      "summary": "經需求評估為行動不便的身心障礙者，可申請專用停車位識別證，停放身心障礙者專用停車位。",
+      "eligibility": [
+        "經鑑定需求評估為行動不便之身心障礙者",
+        "申請人為身心障礙者本人，或設於同一戶籍或同址分戶之親屬一人"
+      ],
+      "benefit": "核發身心障礙者專用停車位識別證，以身心障礙證明重新鑑定年月為到期日，最長五年。",
+      "how_to_apply": "向戶籍所在地鄉鎮市公所社會課（或民政課）辦理，或透過屏東縣便民服務整合申辦平台線上申請。",
+      "source_urls": [
+        "https://www.pthg.gov.tw/planjdp/cp.aspx?n=920104B7056B7226&s=2C7F909BFE475EB4",
+        "https://onestop.pthg.gov.tw/eservice/apply_mode_directions2?itemId=789"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "限身心障礙者本人親自持用或家屬乘載身心障礙者時使用，不得轉借，違者註銷且三年內不得再申請。搜尋結果未見持證免收停車費的規定。"
+    },
+    {
+      "id": "pingtung-parking-space-subsidy",
+      "name": "身心障礙者購買停車位貸款利息補貼或承租停車位補助",
+      "category": "transport",
+      "level": "mixed",
+      "summary": "經濟弱勢的身心障礙車主貸款購買或承租停車位，可申請利息補貼或租金補助，以一處為限，名額有限時依積分排序。",
+      "eligibility": [
+        "設籍屏東縣之身心障礙者",
+        "低收入戶、中低收入戶或領有身心障礙者生活補助費者",
+        "本人為車輛所有人，並持有同種車類有效駕照",
+        "未接受政府同性質貸款或補助",
+        "已貸款購買停車位，或已承租停車位且租期超過三個月"
+      ],
+      "benefit": "補貼購買停車位貸款利息或補助承租停車位租金（補助額度搜尋結果未顯示）；合格者超過公告補助人數時依計點標準表積分順序核定，同分者以購買或承租本縣車位者優先。",
+      "how_to_apply": "向屏東縣政府社會處身心障礙福利科申請（表單與辦理須知可於縣府網站下載）；購買者於年度結束後一個月內送件，承租者於每年1月及7月底前送前半年繳款證明。",
+      "contact": "屏東縣政府社會處身心障礙福利科 08-7320415 轉5382",
+      "target_groups": [
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://www.pthg.gov.tw/planjdp/cp.aspx?n=1D92213B0F4404A4&s=BB19DDAB7ED55260"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "障礙事實消失或死亡、入住24小時住宿式機構、遷出戶籍、車位轉售或轉租等情形停止補助。"
+    },
+    {
+      "id": "pingtung-public-stall-subsidy",
+      "name": "身心障礙者購買或承租公有公共場所商店攤販低利貸款或租金補助",
+      "category": "economic",
+      "level": "central",
+      "summary": "身心障礙者購買或承租公有公共場所的商店、攤販，可申請低利貸款利息差額補貼或租金補助。",
+      "eligibility": [
+        "設籍屏東縣並領有身心障礙證明，購買或承租公有公共場所商店或攤販者（詳細條件搜尋結果未顯示）"
+      ],
+      "benefit": "購買公有公共場所商店或攤販者，其低利貸款利率與國民住宅貸款優惠利率間之利息差額由縣府補貼；承租者另有租金補助（額度未顯示）。",
+      "how_to_apply": "洽屏東縣政府社會處（受理窗口搜尋結果未明列）。",
+      "contact": "屏東縣政府社會處 08-7320415",
+      "source_urls": [
+        "https://socmap.pthg.gov.tw/pt1w/sa100/show/10145?mobile="
+      ],
+      "source_date": "unknown",
+      "confidence": "medium"
+    },
+    {
+      "id": "pingtung-day-residential-care",
+      "name": "身心障礙者日間照顧及住宿式照顧費用補助",
+      "category": "care",
+      "level": "central",
+      "summary": "補助身心障礙者使用日間照顧或住宿式照顧機構的費用，依家庭收入分級補助；重度以上且經濟弱勢、無人扶養者優先。",
+      "eligibility": [
+        "領有身心障礙證明，實際居住戶籍地，最近一年居住國內超過183日",
+        "家庭總收入符合身心障礙者日間照顧及住宿式照顧費用補助辦法規定",
+        "優先補助：重度以上、低收入戶或中低收入戶、無生活自理能力，且無扶養義務人或扶養義務人無扶養能力者"
+      ],
+      "benefit": "依中央補助辦法按家庭收入分級補助日間照顧或住宿式照顧費用（各級比例搜尋結果未顯示）。",
+      "how_to_apply": "向戶籍所在鄉（鎮、市）公所提出申請。",
+      "contact": "屏東縣政府社會處身心障礙福利科 08-7320415 轉5493",
+      "target_groups": [
+        "低收入或中低收入",
+        "家庭照顧者"
+      ],
+      "source_urls": [
+        "https://www.pthg.gov.tw/planjdp/cp.aspx?n=1D92213B0F4404A4&s=2D51801224EACAEC"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "原稱身障托養業務。"
+    },
+    {
+      "id": "pingtung-respite-care",
+      "name": "屏東縣身心障礙者臨時暨短期照顧服務",
+      "category": "care",
+      "level": "mixed",
+      "summary": "主要照顧者臨時或短期無法照顧時，提供身心障礙者臨時照顧（按時數）或短期照顧（按日），讓家庭照顧者喘息。",
+      "eligibility": [
+        "設籍或實際居住屏東縣，領有身心障礙證明",
+        "主要照顧者因臨時或短期因素無法照顧",
+        "未使用長期照顧喘息服務，且未領有政府提供之特別照顧津貼或其他照顧費用補助",
+        "以低收入戶及在家接受照顧之重度、極重度身心障礙者優先"
+      ],
+      "benefit": "輕、中度：臨時照顧每人每年最高200小時，短期照顧每人每年最高25日（重度、極重度上限另訂，搜尋結果未顯示）。短期照顧每日服務費2,200元，自付額依身分別而異：低收入戶免自付；一般身障者臨時照顧每小時自付54元。",
+      "how_to_apply": "向屏東縣政府社會處或委辦服務單位提出申請（受理單位搜尋結果未明列）。",
+      "contact": "屏東縣政府社會處 08-7320415",
+      "target_groups": [
+        "家庭照顧者",
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://www.pthg.gov.tw/planjdp/cp.aspx?n=B808E022206BD40E",
+        "https://www.pthg.gov.tw/planjdp/cp.aspx?n=B808E022206BD40E&s=5B898337DC90289B"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "另一版頁面的短期照顧日費為2,000元，以最新公告為準。同頁另列「屏東縣身心障礙照顧者支持、訓練及研習補助計畫」（https://www.pthg.gov.tw/planjdp/cp.aspx?n=B808E022206BD40E&s=FCE77DC1DBD00D4A），內容未取得。"
+    },
+    {
+      "id": "pingtung-community-day-care",
+      "name": "屏東縣身心障礙者社區式日間照顧服務（含家庭托顧）",
+      "category": "care",
+      "level": "central",
+      "summary": "在社區據點白天照顧成年身心障礙者，提供生活自理、人際社交訓練、休閒、健康促進與社區適應等活動；縣府另辦理身心障礙者家庭托顧服務。",
+      "eligibility": [
+        "實際居住屏東縣，領有身心障礙證明之成年身心障礙者，以35歲以上為優先",
+        "經ICF需求評估確認有社區式日間照顧需求"
+      ],
+      "benefit": "社區式日間照顧：生活自理、人際社交訓練、休閒、健康促進與社區適應等服務（收費搜尋結果未顯示）。",
+      "how_to_apply": "洽屏東縣政府社會處或各服務據點申請評估（受理單位搜尋結果未明列）。",
+      "contact": "屏東縣政府社會處 08-7320415",
+      "target_groups": [
+        "成年",
+        "家庭照顧者"
+      ],
+      "source_urls": [
+        "https://www.pthg.gov.tw/planjdp/cp.aspx?n=E0A09A05B11AF1A2&s=A683F938371B80EA",
+        "https://www.pthg.gov.tw/planjdp/cp.aspx?n=E0A09A05B11AF1A2"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "個人照顧服務頁另列家庭托顧、日間照顧機構、多元社區居住與生活服務等項目，細節未取得；各日間照顧中心依機構不同有各自的年齡與障別收案範圍。"
+    },
+    {
+      "id": "pingtung-small-workshop",
+      "name": "社區日間作業設施（小型作業所）",
+      "category": "care",
+      "level": "central",
+      "summary": "為無法進入職場或庇護性就業的心智障礙者提供日間作業活動與社區互動，同時紓減家庭照顧者壓力。",
+      "eligibility": [
+        "設籍屏東縣15歲至64歲心智障礙者",
+        "未安置於社會福利機構或精神醫療復健機構",
+        "能每日參與作業活動4小時以上、每週至少20小時",
+        "具生活自理與交通能力"
+      ],
+      "benefit": "日間作業活動、學習與社區互動服務（收費搜尋結果未顯示）。",
+      "how_to_apply": "洽屏東縣政府社會處或各作業所（受理單位搜尋結果未明列）。",
+      "contact": "屏東縣政府社會處 08-7320415",
+      "target_groups": [
+        "智能障礙",
+        "自閉症",
+        "家庭照顧者"
+      ],
+      "source_urls": [
+        "https://www.pthg.gov.tw/planjdp/cp.aspx?n=E0A09A05B11AF1A2&s=A45178AD82941DA3"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "對象原文為「心智障礙者」，target_groups 以智能障礙、自閉症標示，是否含其他障別請洽承辦。"
+    },
+    {
+      "id": "pingtung-personal-assistant",
+      "name": "身心障礙者自立生活支持服務（個人助理）",
+      "category": "care",
+      "level": "central",
+      "summary": "協助有意願自立生活的成年身心障礙者，提供個人助理服務與自立生活體驗室。",
+      "eligibility": [
+        "實際居住屏東縣，18歲以上，領有身心障礙證明，具有自立生活意願",
+        "使用個人助理者：未接受機構安置、未聘看護（傭）、未領有政府提供之特別照顧津貼、日間照顧費或其他照顧費用補助"
+      ],
+      "benefit": "個人助理服務、自立生活體驗室；低收入戶及中低收入戶免自付，一般戶需自付每小時費用（金額搜尋結果未顯示）。",
+      "how_to_apply": "向受託單位財團法人平安社會福利慈善事業基金會申請。",
+      "target_groups": [
+        "成年"
+      ],
+      "source_urls": [
+        "https://www.pthg.gov.tw/planjdp/cp.aspx?n=E0A09A05B11AF1A2&s=05DB8FFA7274D6C8",
+        "https://www.pthg.gov.tw/planjdp/cp.aspx?n=E0A09A05B11AF1A2"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "搜尋摘要提及「自立生活支持服務中心試辦計畫」，委辦單位與費用可能已調整。"
+    },
+    {
+      "id": "pingtung-home-care",
+      "name": "身心障礙者居家照顧服務及費用補助",
+      "category": "care",
+      "level": "central",
+      "summary": "經長照專員評估後，提供身心障礙者到宅身體照顧、家務、居家護理、居家復健及送餐等服務並補助費用。",
+      "eligibility": [
+        "設籍屏東縣並領有身心障礙證明",
+        "經長期照護專員評估符合資格",
+        "身體照顧及家務服務：未接受身心障礙者日間及住宿式照顧費用補助、未聘僱外籍看護（傭）、未領取其他照顧費用補助或特別照顧津貼"
+      ],
+      "benefit": "到宅身體照顧、家務服務、居家護理、居家復健；送餐服務於每週一至週五中午提供獨居或家屬無法照顧之身心障礙者營養餐食。部分負擔依家庭經濟狀況而定。",
+      "how_to_apply": "向屏東縣長期照護管理中心申請評估。",
+      "contact": "屏東縣長期照護管理中心 08-7351010",
+      "source_urls": [
+        "https://socmap.pthg.gov.tw/pt1w/sa100/show/10149?mobile=",
+        "https://www.pthg.gov.tw/care/cp.aspx?n=2D58DD7349ACB619"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium"
+    },
+    {
+      "id": "pingtung-emergency-alert",
+      "name": "緊急救援通報系統（未滿65歲獨居身心障礙者）",
+      "category": "support",
+      "level": "local",
+      "summary": "縣府為獨居或缺乏照顧的經濟弱勢身心障礙者裝設緊急救援通報系統，月租費由縣府全額補助。",
+      "eligibility": [
+        "未滿65歲，設籍且實際居住屏東縣，領有本縣核發之身心障礙證明",
+        "列冊低收入戶、中低收入戶或領有身心障礙者生活補助",
+        "獨居或同住家屬無照顧能力",
+        "未入住機構24小時安置，也未聘看護",
+        "意識清楚、能配合操作系統"
+      ],
+      "benefit": "緊急救援通報系統月租費由縣府全額補助（e點靈頁面列月租費每人每月1,200元；長照處頁面寫全額補助每月1,400元）。",
+      "how_to_apply": "向戶籍所在地鄉鎮市公所申辦。",
+      "contact": "承辦單位財團法人生命連線基金會屏東辦公室 08-7553069；屏東縣政府社會處 08-7320415 分機5362",
+      "target_groups": [
+        "低收入或中低收入",
+        "成年"
+      ],
+      "source_urls": [
+        "https://socmap.pthg.gov.tw/pt1w/sa100/show/10104?mobile=",
+        "https://www.pthg.gov.tw/care/cp.aspx?n=2D58DD7349ACB619"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "主要服務對象為獨居長者，未滿65歲身障者為比照適用；兩個頁面月租金額不一致。"
+    },
+    {
+      "id": "pingtung-sign-language",
+      "name": "身心障礙者手語翻譯（含視訊）暨同步聽打服務",
+      "category": "support",
+      "level": "local",
+      "summary": "聽語障者（含外縣市）或需與聽語障者溝通的機關團體，可免費申請手語翻譯、視訊手語或同步聽打。",
+      "eligibility": [
+        "領有身心障礙證明之聽語障者（含外縣市）、合併聽語障之多重障礙者",
+        "需要服務聽語障者的機關、團體"
+      ],
+      "benefit": "免費手語翻譯、同步聽打；手語視訊諮詢週一至週五上午9:00至11:00、下午2:00至5:00。",
+      "how_to_apply": "向委辦單位屏東縣聲暉聽障協進會申請；手語翻譯除緊急或突發案件外請於1日前申請，同步聽打請於5日前申請。",
+      "target_groups": [
+        "聽覺或平衡障礙",
+        "聲音或語言障礙",
+        "多重障礙"
+      ],
+      "source_urls": [
+        "https://www.pthg.gov.tw/planjdp/cp.aspx?n=920104B7056B7226&s=CFD7CF1F424C8E79",
+        "https://www.pthg.gov.tw/pingtung-house/News_Content.aspx?n=332E272F305860D8&sms=5F3CD6B9671BEDD8&s=6C8A5612D69D561F"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "委辦單位與視訊時段取自較早頁面，申請前請向社會處（08-7320415）確認。"
+    },
+    {
+      "id": "pingtung-disability-assessment",
+      "name": "身心障礙鑑定及證明申辦",
+      "category": "support",
+      "level": "central",
+      "summary": "到任一鄉鎮市公所申請鑑定表，經鑑定醫院鑑定、衛生局審核、社會處需求評估後核發身心障礙證明。",
+      "eligibility": [
+        "設籍屏東縣、有申請身心障礙證明需求者"
+      ],
+      "benefit": "身心障礙鑑定與證明核發；從醫療鑑定到公所通知領證約30個工作天。",
+      "how_to_apply": "至縣內任一公所社會課申請鑑定表，備妥照片、身分證等文件至鑑定醫院鑑定；不便親自前往者可請公所郵寄申請表。",
+      "documents": [
+        "照片",
+        "國民身分證"
+      ],
+      "contact": "屏東縣政府社會處身心障礙福利科 08-7320415 分機5378至5384",
+      "source_urls": [
+        "https://www.pthg.gov.tw/planjdp/cp.aspx?n=49A24E336F806C8E",
+        "https://www.pthg.gov.tw/planjdp/cp.aspx?n=D3365B7B80444BBC"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium"
+    },
+    {
+      "id": "pingtung-psych-rebuild-center",
+      "name": "精神障礙者生活重建中心",
+      "category": "support",
+      "level": "central",
+      "summary": "經轉介的精神障礙者可接受日常生活能力培養、社區生活適應、心理支持及家庭支持等生活重建服務。",
+      "eligibility": [
+        "年滿15歲，設籍且居住屏東縣",
+        "持有本縣核（換）發或註記之身心障礙證明",
+        "經社福或醫療單位轉介，並經服務單位評估有生活重建需求"
+      ],
+      "benefit": "日常生活能力培養、社區生活適應、心理支持、家庭支持服務。",
+      "how_to_apply": "經社福或醫療單位轉介，向委託單位社團法人屏東縣向陽康復之友協會申請評估。",
+      "target_groups": [
+        "精神障礙",
+        "家庭照顧者"
+      ],
+      "source_urls": [
+        "https://www.pthg.gov.tw/planjdp/cp.aspx?n=3CF2AB7C3DC4A5CB"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium"
+    }
+  ]
+}
