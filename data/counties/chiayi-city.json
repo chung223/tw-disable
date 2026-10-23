@@ -3,10 +3,10 @@
   "county_name": "嘉義市",
   "agency": "嘉義市政府社會處",
   "agency_url": "https://social.chiayi.gov.tw/",
-  "phone": "05-2220072（社會處救助及身障福利科）",
+  "phone": "05-2220072（社會處救助及身障福利科）；社會處服務電話 05-2254321（身障業務分機156、158、146、148）",
   "collected_at": "2026-10-23",
   "method": "web_search",
-  "notes": "未完成：本縣市只做到一次 WebSearch（限定 chiayi.gov.tw），之後整體搜尋額度用盡，以下僅收錄搜尋摘要中有實質內容的項目。社會處身心障礙福利頁面另列有以下項目，但未取得內容而未收錄：復康巴士、停車位貸款利息補貼、租屋租金補助、輔具免費借用、兩處輔具服務據點、臨時及短期照顧、家庭照顧者支持服務、身心障礙福利服務中心、發展遲緩兒童早期療育交通療訓補助費、用電優惠。社區式服務、個人助理、手語翻譯、鑑定窗口、就業服務都還沒查，需要再搜尋補齊。電話取自搜尋摘要，請再確認。",
+  "notes": "已確認嘉義市政府網域為 chiayi.gov.tw（社會處 social.chiayi.gov.tw、交通處 traffic.chiayi.gov.tw、衛生局 health.chiayi.gov.tw、勞工及青年發展處 ly.chiayi.gov.tw）。兩輪共用 13 次 WebSearch（限定 chiayi.gov.tw），只看到搜尋摘要，未能開啟原始頁面與附件 PDF；社會處身障專區多數頁面上版日期為 2026-01-01，但正文未必是 115 年度內容。仍缺或未收錄：（1）個人助理／自立生活支持服務、成年心智障礙者社區居住與生活服務計畫：社會處專區列有項目名稱，但內容未取得；（2）同步聽打服務：只見名稱；（3）精神障礙者協作模式服務據點（https://social.chiayi.gov.tw/News_Content.aspx?n=393&s=636692）內容未取得；（4）身障專屬的醫療費用或看護費補助、照顧者津貼、緊急救援連線未查到（社會處另有中低收入老人重病住院看護費補助，非身障專屬）；（5）身障者購屋貸款利息補貼未查到，只有一般住宅補貼；（6）支持性就業、職務再設計的申請細節未查到。用電優惠屬台電全國措施，未收錄。電話多取自搜尋摘要，請再確認。",
   "benefits": [
     {
       "id": "chiayi-city-living-allowance",
@@ -20,14 +20,14 @@
         "家庭總收入、動產及不動產符合限額"
       ],
       "benefit": "列冊低收入戶：極重度、重度及中度每人每月9,485元，輕度每人每月5,437元；非列冊低收入戶：極重度、重度及中度每人每月5,437元，輕度每人每月4,049元。",
-      "how_to_apply": "向戶籍所在地區公所或嘉義市政府社會處洽詢申請。",
+      "how_to_apply": "向戶籍地之聯合里辦公處申請，或洽嘉義市政府社會處。",
       "target_groups": ["低收入或中低收入"],
       "source_urls": [
         "https://social.chiayi.gov.tw/News_Content.aspx?n=393&s=293314"
       ],
       "source_date": "2026",
       "confidence": "high",
-      "notes": "金額與115年度中央標準一致。頁面上版日期未確認；申請窗口未在搜尋摘要中明列。"
+      "notes": "金額與115年度中央標準一致。受理單位（聯合里辦公處）取自第二輪搜尋摘要。"
     },
     {
       "id": "chiayi-city-day-residential-care",
@@ -36,35 +36,39 @@
       "level": "mixed",
       "summary": "依家庭經濟狀況補助身障者日間照顧及住宿式照顧費用；嘉義市另對住宿者每人每月加碼補助5,000元。",
       "eligibility": [
-        "設籍且實際居住嘉義市之領有身心障礙證明者",
-        "補助比例依家庭收入與經濟狀況分級"
+        "設籍並實際居住嘉義市之領有身心障礙證明者",
+        "家庭總收入平均在最低生活費4倍以下（特定條件下為6倍），補助比例依家庭經濟狀況分級"
       ],
-      "benefit": "日間照顧及住宿式照顧費用依家庭經濟狀況分級補助；住宿費用另加碼每人每月5,000元，加碼期程115年1月1日起至117年12月31日止。",
+      "benefit": "日間照顧及住宿式照顧費用依家庭經濟狀況分級補助，低收入戶依核准收費標準全額補助；住宿費用另加碼每人每月5,000元，加碼期程115年1月1日起至117年12月31日止。",
       "how_to_apply": "洽嘉義市政府社會處申請。",
       "source_urls": [
         "https://social.chiayi.gov.tw/News_Content.aspx?n=393&s=293317"
       ],
-      "source_date": "2026",
+      "source_date": "2026-09",
       "confidence": "high",
-      "notes": "分級補助比例與申請文件未在搜尋摘要中出現。"
+      "notes": "住宿費用加碼補助公告時間為2026年9月。其餘級距的補助比例、適用6倍的特定條件與申請文件未在搜尋摘要中出現。"
     },
     {
       "id": "chiayi-city-assistive-devices",
       "name": "身心障礙者輔助器具補助",
       "category": "assistive",
       "level": "central",
-      "summary": "依中央「身心障礙者輔具費用補助辦法」補助輔具費用，部分輔具需先評估並經市府核定後才能購買。",
+      "summary": "依中央「身心障礙者輔具費用補助辦法」補助輔具費用，部分輔具需先評估並經市府核定後才能購買；東、西區輔具資源中心另提供評估、諮詢、維修與借用。",
       "eligibility": [
-        "設籍嘉義市並符合「身心障礙者輔具費用補助辦法」規定之身心障礙者"
+        "設籍嘉義市並符合「身心障礙者輔具費用補助辦法」規定之身心障礙者",
+        "借用輔具：設籍且實際居住嘉義市者"
       ],
-      "benefit": "依中央輔具費用補助基準表補助。",
-      "how_to_apply": "向戶籍所在區公所或輔具資源中心申請；需評估之輔具須經評估並由市府核定後再購買。",
+      "benefit": "依中央輔具費用補助基準表補助。輔具資源中心提供評估、諮詢、維修、借用並協助申請補助；借用一期三個月、最多兩期，未損壞者押金全額退還（借用規定出自較早的市府新聞）。",
+      "how_to_apply": "本人或代理人向戶籍所在區公所或輔具資源中心申請；需評估之輔具須檢附診斷證明與評估報告，經市府核定發函後再購買。",
+      "contact": "東區輔具資源中心（東區彌陀路255號）05-2256686；西區輔具資源中心（再耕園1樓）05-2850061；社會處救助及身障福利科 05-2220072",
       "source_urls": [
-        "https://social.chiayi.gov.tw/News_Content.aspx?n=393&s=293316"
+        "https://social.chiayi.gov.tw/News_Content.aspx?n=393&s=293316",
+        "https://social.chiayi.gov.tw/News_Content.aspx?n=388&s=601919",
+        "https://data.chiayi.gov.tw/opendata/dataset/preview?oid=933a6550-843c-405c-80fd-de81219a88f6&rid=f8c8f49e-1b04-4600-a1bf-634f27da0fcd"
       ],
-      "source_date": "unknown",
-      "confidence": "medium",
-      "notes": "只看到搜尋摘要；嘉義市另有輔具免費借用及兩處輔具服務據點（https://social.chiayi.gov.tw/News_Content.aspx?n=388&s=601919），細節未取得。"
+      "source_date": "2026",
+      "confidence": "high",
+      "notes": "補助頁面上版日期2026-01-01。輔具資源中心曾由社團法人嘉義市殘障者服務協會承辦（出自較早新聞）。西區中心門牌在不同頁面寫法不一致，未收錄。"
     },
     {
       "id": "chiayi-city-social-insurance",
@@ -88,18 +92,350 @@
       "name": "嘉義市115年促進身心障礙者自立及社會參與計畫（計程車乘車補助）",
       "category": "transport",
       "level": "local",
-      "summary": "嘉義市自辦，發給中度以上特定障礙類別身障者計程車乘車券，協助外出參與社會。",
+      "summary": "嘉義市自辦，每月發給中度以上特定障礙類別身障者計程車乘車券，限搭合約車隊、在市境內使用。",
       "eligibility": [
-        "領有中度以上身心障礙證明且屬計畫所列特定障礙類別者（類別未在搜尋摘要中列出）"
+        "設籍嘉義市",
+        "領有中度以上第一類、第六類、視覺障礙、肢體障礙或多重障礙（不限障別）之身心障礙證明"
       ],
-      "benefit": "115年度：搭乘計程車每張乘車券補助100元，每月最高補助400元。",
-      "how_to_apply": "洽嘉義市政府社會處（申請窗口與方式未在搜尋摘要中出現）。",
+      "benefit": "115年度：每月核發計程車乘車券，每張面額100元，每月最高補助400元，限當月有效；限搭乘與本計畫簽約的計程車隊／車行，服務範圍為嘉義市行政區內。",
+      "how_to_apply": "於公告的服務時間及地點，由專案人員受理申請並審核資格，符合者現場發放乘車券。分「第一次申請」與「第二次申請」兩種申請表，可於社會處網頁下載。",
+      "documents": [
+        "委託他人代領時：申請人印章、身心障礙證明、國民身分證，以及代領人國民身分證與印章"
+      ],
+      "contact": "嘉義市政府社會處 05-2254321",
+      "target_groups": ["視覺障礙", "肢體障礙", "多重障礙"],
       "source_urls": [
         "https://social.chiayi.gov.tw/News_Content.aspx?n=393&s=823240"
       ],
       "source_date": "2026",
       "confidence": "high",
-      "notes": "適用障礙類別、申請方式待補。"
+      "notes": "服務地點與時間未在搜尋摘要中列出。"
+    },
+    {
+      "id": "chiayi-city-rehab-bus",
+      "name": "嘉義市身心障礙者復康巴士交通服務",
+      "category": "transport",
+      "level": "local",
+      "summary": "預約制的復康巴士接送，乘坐輪椅者優先；可用愛嘉義APP、預約網站或LINE預約，持愛心卡搭乘每趟補助40點。",
+      "eligibility": [
+        "領有身心障礙證明者，乘坐輪椅者優先"
+      ],
+      "benefit": "服務時段：平日上午8時至12時、下午1時至5時；夜間時段週一至週五下午5時至晚上9時；假日視團體用車情況減班提供個人預約。起迄一端須位於嘉義市轄區，行駛範圍含嘉義縣、雲林縣及臺南市。使用愛心卡每人每趟次補助40點（敬老卡不可折抵）。",
+      "how_to_apply": "透過愛嘉義APP「獨嘉服務」社福專區、復康巴士預約網站（rehabus.chiayi.gov.tw）或LINE官方帳號預約。",
+      "source_urls": [
+        "https://social.chiayi.gov.tw/News_Content.aspx?n=393&s=836077"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "車資計算方式未在搜尋摘要中列出。交通處另有無障礙計程車頁面（https://traffic.chiayi.gov.tw/cp.aspx?n=4143），內容未取得。"
+    },
+    {
+      "id": "chiayi-city-love-card",
+      "name": "老人暨身心障礙者免費乘車補助（敬老、愛心悠遊卡）",
+      "category": "transport",
+      "level": "local",
+      "summary": "嘉義市籍身障者可申辦愛心卡，每月自動儲值乘車點數，可搭指定公車、折抵復康巴士。",
+      "eligibility": [
+        "設籍嘉義市並持有身心障礙證明者（敬老卡為設籍本市年滿65歲者）"
+      ],
+      "benefit": "每月自動儲值1,200點，每點折抵1元，每月重新核發，未用完點數歸零。公車補助範圍限嘉義客運、嘉義縣公車、國光客運市區電動公車，外縣市公車自付；可折抵復康巴士。市府新聞另稱敬老愛心乘車卡自7月1日起搭臺鐵可折抵（年度與細節未取得）。",
+      "how_to_apply": "向聯合里辦公處、區公所或市府社會處申辦，文件備齊可現場領卡。",
+      "documents": [
+        "身心障礙證明正本"
+      ],
+      "contact": "嘉義市政府社會處 05-2254321分機153或120",
+      "source_urls": [
+        "https://social.chiayi.gov.tw/News_Content.aspx?n=1101&s=404402",
+        "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=784256",
+        "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=781738"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "1,200點的規定出自較早版本頁面，現行點數與可用範圍（含臺鐵折抵）請再確認。可用點數查詢：悠遊卡網站輸入卡號及生日。"
+    },
+    {
+      "id": "chiayi-city-parking-discount",
+      "name": "公有路邊收費停車場身心障礙者停車費優待",
+      "category": "transport",
+      "level": "local",
+      "summary": "持身障專用停車位識別證或專用車牌的車輛，停放嘉義市公有路邊身障專用格4小時內免費，超過4小時半價。",
+      "eligibility": [
+        "領有身心障礙者專用停車位識別證或懸掛身心障礙者專用車牌之車輛"
+      ],
+      "benefit": "停放公有路邊身心障礙者專用停車格：4小時以內停車費免費，超過4小時起半價。搜尋摘要另稱停放一般汽車格享半價優待（待確認）。",
+      "how_to_apply": "免申請；停車時將識別證放置於前擋風玻璃明顯處供查核。專用格位地點見交通處公告清單。",
+      "source_urls": [
+        "https://traffic.chiayi.gov.tw/cp.aspx?n=4150",
+        "https://www.chiayi.gov.tw/News_Content.aspx?n=455&s=358201",
+        "https://law.chiayi.gov.tw/LawContent.aspx?id=FL022727&kw="
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "優待規定見嘉義市公有收費停車場管理自治條例；一般格半價一說未能從條文摘要確認。"
+    },
+    {
+      "id": "chiayi-city-parking-space-subsidy",
+      "name": "身心障礙者購買停車位貸款利息補貼或承租停車位補助",
+      "category": "economic",
+      "level": "mixed",
+      "summary": "低收入、中低收入或領生活補助費的嘉義市身障者，貸款購買或承租停車位，可依身分補助一定比例。",
+      "eligibility": [
+        "設籍並實際居住嘉義市之身心障礙者",
+        "屬低收入戶、中低收入戶或領有身心障礙者生活補助費者",
+        "為車輛所有人且有同種車類駕照",
+        "未接受政府同性質貸款或補助",
+        "已貸款購買停車位，或承租停車位期間逾三個月"
+      ],
+      "benefit": "承租停車位：低收入戶以實際每月租金50%為限，中低收入戶40%，領有生活補助費者25%，每月補助上限1,000元。購買停車位貸款利息補貼的計算方式未在搜尋摘要中列出。",
+      "how_to_apply": "洽嘉義市政府社會處申請。",
+      "target_groups": ["低收入或中低收入"],
+      "source_urls": [
+        "https://social.chiayi.gov.tw/News_Content.aspx?n=393&s=293324"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    },
+    {
+      "id": "chiayi-city-rent-subsidy",
+      "name": "身心障礙者租賃房屋租金補助",
+      "category": "economic",
+      "level": "mixed",
+      "summary": "家庭經濟條件符合、無自有住宅的嘉義市身障者在市內租屋，可依租屋面積按月補助租金。",
+      "eligibility": [
+        "設籍嘉義市並領有身心障礙證明，家庭總收入平均未達當年度每人每月最低生活費2.5倍",
+        "身障者本人、配偶及戶籍內直系親屬均無自有住宅",
+        "租屋為本市合法房屋",
+        "未接受政府同性質貸款或補助、未領住宿式照顧費用補助、未居住公有房舍或平價住宅"
+      ],
+      "benefit": "按月每平方公尺補助60元，以租金總額50%為上限；補助面積上限：單身20平方公尺、二口家庭30平方公尺、三口以上家庭40平方公尺。",
+      "how_to_apply": "洽嘉義市政府社會處申請。",
+      "documents": [
+        "申請表",
+        "身心障礙證明影本",
+        "戶籍謄本",
+        "所得及財產資料",
+        "郵局存摺封面影本",
+        "載明租屋面積的租賃契約",
+        "房屋所有權狀或合法房屋證明"
+      ],
+      "target_groups": ["低收入或中低收入"],
+      "source_urls": [
+        "https://social.chiayi.gov.tw/News_Content.aspx?n=393&s=293528"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "本項與內政部住宅補貼（租金補貼）是否可併領，搜尋摘要未說明。"
+    },
+    {
+      "id": "chiayi-city-respite-care",
+      "name": "身心障礙者臨時暨短期照顧服務",
+      "category": "care",
+      "level": "mixed",
+      "summary": "家庭照顧者需要喘息時，可申請到宅或定點臨時照顧、短期照顧，政府依家庭經濟狀況補助大部分費用。",
+      "eligibility": [
+        "設籍或實際居住嘉義市並領有身心障礙證明",
+        "家庭照顧者未接受長照喘息服務、未領特別照顧津貼",
+        "同時段未使用日間、住宿式或居家照顧服務，原則上未聘僱看護"
+      ],
+      "benefit": "服務含看護照顧、協助膳食與生活自理、陪同就醫、休閒與精神支持（不含陪讀、訓練、機構照顧、接送）。收費：到宅照顧每小時250元，定點照顧以最低工資計；短期照顧每日1,800元（含餐食，不含耗材）。每人每年合計上限300小時，已使用居家、日托、家庭托顧或住宿機構等服務者上限150小時。補助：列冊低收入戶全額、中低收入戶90%、一般戶70%。",
+      "how_to_apply": "向社會處合約服務單位申請（115年度合約機構名冊公布於社會處網站，含仁安居家式長期照顧服務機構、晨光智能發展中心、忠孝護理之家、瑞泰居家長照機構等）。",
+      "target_groups": ["家庭照顧者", "低收入或中低收入"],
+      "source_urls": [
+        "https://social.chiayi.gov.tw/News_Content.aspx?n=393&s=293527",
+        "https://social.chiayi.gov.tw/News_Content.aspx?n=393&s=418650"
+      ],
+      "source_date": "2026",
+      "confidence": "high",
+      "notes": "合約機構名冊為PDF，未能開啟，完整名單請見社會處網站。"
+    },
+    {
+      "id": "chiayi-city-family-caregiver-support",
+      "name": "身心障礙者家庭照顧者支持服務",
+      "category": "support",
+      "level": "local",
+      "summary": "嘉義市委託民間團體辦理身障家庭照顧者支持服務，另由東、西區身心障礙者服務中心提供家庭關懷訪視。",
+      "eligibility": [
+        "嘉義市身心障礙者之家庭照顧者"
+      ],
+      "benefit": "家庭照顧者支持服務（嘉義市身心障礙者家庭照顧者支持服務計畫）、家庭關懷訪視；並轉介臨時及短期照顧等喘息資源。",
+      "how_to_apply": "洽保康社會福利慈善事業基金會，或東、西區身心障礙者服務中心。",
+      "contact": "保康社會福利慈善事業基金會 05-2852698分機364",
+      "target_groups": ["家庭照顧者"],
+      "source_urls": [
+        "https://social.chiayi.gov.tw/News_Content.aspx?n=393&s=418650"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "服務項目細節未在搜尋摘要中列出。全國家庭照顧者關懷專線0800-507272亦可利用。"
+    },
+    {
+      "id": "chiayi-city-service-center",
+      "name": "身心障礙者服務中心（東區、西區）",
+      "category": "support",
+      "level": "local",
+      "summary": "東、西兩區身心障礙者服務中心提供個案管理、生涯轉銜、雙老家庭支持與福利需求評估，也協助疑似身障者取得證明。",
+      "eligibility": [
+        "6歲以上設籍或實際居住嘉義市並領有身心障礙證明者及其家庭",
+        "具障礙事實之疑似身心障礙者"
+      ],
+      "benefit": "通報與生涯轉銜、個案管理、雙老家庭支持、身心障礙者福利與服務需求評估。",
+      "how_to_apply": "依居住區域直接聯絡服務中心。",
+      "contact": "西區（戴德森醫療財團法人嘉義基督教醫院承辦，再耕園）05-2852698轉221、222、223；東區（伊甸社會福利基金會承辦，友孝路316號2樓）05-2911175",
+      "source_urls": [
+        "https://social.chiayi.gov.tw/News_Content.aspx?n=393&s=293531",
+        "https://social.chiayi.gov.tw/cp.aspx?n=420"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    },
+    {
+      "id": "chiayi-city-family-foster-care",
+      "name": "身心障礙家庭托顧服務",
+      "category": "care",
+      "level": "mixed",
+      "summary": "由家庭托顧服務員在自家照顧成年身障者，政府依障礙程度補助，家屬自付定額。",
+      "eligibility": [
+        "設籍或實際居住嘉義市、18至64歲、領有身心障礙證明",
+        "經需求評估"
+      ],
+      "benefit": "依障礙程度訂補助額度：全日托輕度至極重度約每日760至1,040元，半日托約每日380至520元。民眾自付：一般戶全日托每日190元、半日托95元；低收入戶免付。每位服務對象補助以22天為限；托顧服務員本人之身障家屬不得支領。",
+      "how_to_apply": "向嘉義市啟智協會申請。",
+      "contact": "嘉義市啟智協會 05-2779139",
+      "target_groups": ["成年"],
+      "source_urls": [
+        "https://social.chiayi.gov.tw/News_Content.aspx?n=393&s=642204"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "中低收入戶自付額未在搜尋摘要中列出。"
+    },
+    {
+      "id": "chiayi-city-community-day-care",
+      "name": "身心障礙者社區式日間照顧服務",
+      "category": "care",
+      "level": "mixed",
+      "summary": "市府布建的社區式日間照顧據點，提供18至64歲需日間照顧的身障者白天照顧服務，月費設有上限。",
+      "eligibility": [
+        "18至64歲身心障礙者，經評估需要日間照顧",
+        "未領取其他照顧費用補助，未入住安養或養護機構"
+      ],
+      "benefit": "社區式日間照顧服務；收費由辦理單位自訂，每人每月不得超過3,500元（特殊情形經市府同意者除外）。",
+      "how_to_apply": "洽社會處或辦理單位（辦理單位名單未在搜尋摘要中列出）。",
+      "target_groups": ["成年"],
+      "source_urls": [
+        "https://social.chiayi.gov.tw/News_Content.aspx?n=393&s=642203"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    },
+    {
+      "id": "chiayi-city-community-workshop",
+      "name": "身心障礙者社區日間作業設施（小作所）",
+      "category": "care",
+      "level": "mixed",
+      "summary": "提供成年身障者社區化、小型化的日間作業活動，適合經職業輔導評量不符庇護工場條件者。",
+      "eligibility": [
+        "年滿18歲，設籍或實際居住嘉義市並領有身心障礙證明",
+        "經評估適合參與作業活動（包括經職業輔導評量不符進入庇護工場條件者）"
+      ],
+      "benefit": "日間作業活動；收費限水電、瓦斯、伙食費、作業材料費及個人物品等項目，每人每月最多3,000元。",
+      "how_to_apply": "洽社會處救助及身障福利科或各服務單位；服務單位名稱、電話、地址見政府資料開放平臺資料集。",
+      "target_groups": ["成年"],
+      "source_urls": [
+        "https://social.chiayi.gov.tw/News_Content.aspx?n=393&s=776112",
+        "https://data.gov.tw/dataset/53180"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    },
+    {
+      "id": "chiayi-city-vocational-rehab",
+      "name": "身心障礙者職業重建個案管理服務與庇護性就業",
+      "category": "employment",
+      "level": "central",
+      "summary": "勞工及青年發展處依勞動部計畫提供職業重建個案管理，視需要轉介支持性就業、庇護性就業、職務再設計與創業輔導；市內有3家立案庇護工場。",
+      "eligibility": [
+        "有就業意願之身心障礙者",
+        "庇護工場：15歲以上領有身心障礙證明（手冊），有就業意願及生活自理能力但工作能力不足，且經職業輔導評量建議安置於庇護工場"
+      ],
+      "benefit": "個案管理員與個案共同訂定服務計畫，含就業前準備、就業媒合、就業支持、穩定就業後支持；必要時轉介支持性就業、庇護性就業、職務再設計、創業輔導。立案庇護工場：再耕園咖啡庇護工場、保康清潔服務隊、清健庇護工場。",
+      "how_to_apply": "洽嘉義市政府勞工及青年發展處勞工行政科。",
+      "contact": "勞工及青年發展處勞工行政科 05-2231920分機221、222",
+      "target_groups": ["求職者"],
+      "source_urls": [
+        "https://ly.chiayi.gov.tw/cl.aspx?n=7599",
+        "https://ly.chiayi.gov.tw/News_Content.aspx?n=13993&s=945280",
+        "https://social.chiayi.gov.tw/cl.aspx?n=6749"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "庇護工場名單可能變動（社會處曾公告撤銷立宇庇護工場設立許可），以勞青處最新資料為準。"
+    },
+    {
+      "id": "chiayi-city-sign-language",
+      "name": "手語翻譯暨視訊服務",
+      "category": "support",
+      "level": "local",
+      "summary": "嘉義市提供免費手語翻譯預約，涵蓋洽公及警政、交通事故等夜間緊急或臨時事務。",
+      "eligibility": [
+        "有手語翻譯需求之聽語障者，以嘉義市為優先"
+      ],
+      "benefit": "免費手語翻譯：公務機關相關業務事項，以及警政、交通事故處理等夜間緊急或臨時性事務。",
+      "how_to_apply": "一般性預約須於服務日7天前提出，可經市府網路e櫃台申請或電話預約。",
+      "contact": "05-2852698分機233",
+      "target_groups": ["聽覺或平衡障礙", "聲音或語言障礙"],
+      "source_urls": [
+        "https://e-service.chiayi.gov.tw/main/ap/dtl.jsp?sid=32&cid=65&did=999"
+      ],
+      "source_date": "2018",
+      "confidence": "medium",
+      "notes": "申請頁面最後更新於2018年，承辦單位與電話可能已變動。社會處專區另列「同步聽打服務」，內容未取得。"
+    },
+    {
+      "id": "chiayi-city-early-intervention-transport",
+      "name": "發展遲緩兒童早期療育交通療訓補助費",
+      "category": "medical",
+      "level": "local",
+      "summary": "補助0至6歲發展遲緩或身障兒童到醫療院所、特教機構接受早療的交通與療育費用。",
+      "eligibility": [
+        "設籍嘉義市、未就讀小學的0至6歲兒童",
+        "持有效身心障礙證明，或一年內開立的聯合評估綜合報告書或發展遲緩證明書",
+        "於立案醫療院所或特教機構接受認知學習、物理治療、職能治療、語言治療、親職教育等療育（純構音問題及斜頸不補助）"
+      ],
+      "benefit": "列冊低收入戶每名每月最高補助交通療育費5,000元，非低收入戶最高3,000元。與托育養護費用補助、低收入戶醫療補助等重複項目不得重複領取；申請到宅服務者不得申請交通費。",
+      "how_to_apply": "向嘉義市兒童發展通報轉介中心（嘉基早療中心，忠孝路654號）申請。",
+      "documents": [
+        "戶口名簿",
+        "郵局存摺封面影本",
+        "治療收據或治療證明單"
+      ],
+      "contact": "嘉義市兒童發展通報轉介中心 05-2719509",
+      "target_groups": ["兒童及少年", "低收入或中低收入"],
+      "source_urls": [
+        "https://social.chiayi.gov.tw/News_Content.aspx?n=388&s=364683"
+      ],
+      "source_date": "2017",
+      "confidence": "medium",
+      "notes": "資料發布於2017年，金額與條件可能已調整；應備文件為搜尋摘要的一般說明。"
+    },
+    {
+      "id": "chiayi-city-disability-certificate",
+      "name": "身心障礙鑑定與證明申請",
+      "category": "support",
+      "level": "central",
+      "summary": "到戶籍地區公所申請並領取鑑定表，持表到市內鑑定醫院鑑定；鑑定費由衛生局負擔，特定重症者可申請到宅鑑定。",
+      "eligibility": [
+        "設籍嘉義市，疑似身心障礙或證明效期將屆需重新鑑定者（屆期重新鑑定應於效期屆滿前90日內申請）"
+      ],
+      "benefit": "辦理身心障礙鑑定與需求評估，核發身心障礙證明；鑑定費用（含到宅鑑定）由嘉義市衛生局負擔。到宅（機構）鑑定限全癱無法自行下床、需24小時使用呼吸器或維生設備、長期重度昏迷等情形。",
+      "how_to_apply": "本人、法定代理人或受託人到戶籍所在地東區或西區區公所填申請表、領鑑定表（亦可在衛福部身心障礙服務入口網線上申請），攜申請表、鑑定表、健保卡至鑑定醫院：衛生福利部嘉義醫院、天主教聖馬爾定醫院、臺中榮民總醫院嘉義分院、戴德森醫療財團法人嘉義基督教醫院、陽明醫院。到宅鑑定向衛生局申請，附三個月內診斷證明（註明到宅鑑定原因）及出院病歷摘要等。接獲通知後至區公所領證，對等級有疑義可於30日內向區公所提出異議複檢。",
+      "source_urls": [
+        "https://health.chiayi.gov.tw/cp.aspx?n=5940",
+        "https://social.chiayi.gov.tw/News_Content.aspx?n=393&s=293325"
+      ],
+      "source_date": "unknown",
+      "confidence": "high",
+      "notes": "到宅鑑定流程較長，屆期重鑑者應同時申請證明展延。"
     }
   ]
 }
