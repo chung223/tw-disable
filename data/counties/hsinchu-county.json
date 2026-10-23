@@ -6,66 +6,80 @@
   "phone": "03-5518101（身心障礙福利科，各項目分機不同）",
   "collected_at": "2026-10-23",
   "method": "web_search",
-  "notes": "資料不完整：蒐集途中 WebSearch 額度（各代理共用）用盡，新竹縣只完成一次總覽搜尋。社會處身心障礙福利頁面列有以下項目，但本次未取得內容，故未收錄：人工電子耳耗材補助、身心障礙者社區式日間照顧服務、家庭照顧者支持服務、緊急救援服務、緊急照顧服務、成人監護（輔助）宣告費用補助、身心障礙證明跨縣市遺失補發。社會保險保費補助、復康巴士、愛心卡／乘車補助、停車優惠、臨短托、個人助理、手語翻譯、就業服務、鑑定窗口等均未查到，需補查。",
+  "notes": "已確認新竹縣政府網域為 hsinchu.gov.tw（社會處 social.hsinchu.gov.tw、勞工處 labor.hsinchu.gov.tw、雲端聯合服務中心 eservices.hsinchu.gov.tw、智慧福利服務躍升平台 smart-welfare.hsinchu.gov.tw）。第二輪以 WebSearch（allowed_domains 限 hsinchu.gov.tw）補查14次，依官方頁面搜尋摘要整理，未能直接開啟頁面與附件 PDF；社會處頁面多未標示年度，source_date 多記為 unknown。生活補助頁面仍引用113年公告金額，115年是否調整未確認。仍缺或未收錄：身心障礙者緊急救援服務（只見「新竹縣114年身心障礙者緊急救援服務」公告標題，無內容）；個人助理、自立生活支持服務；社區居住、家庭托顧；緊急照顧服務；身心障礙證明跨縣市遺失補發；日間及住宿式照顧費用、輔具各級距補助比例；復康巴士以外的計程車專案（愛心卡可折抵計程車資，已收錄）；身障專屬醫療或看護補助（只見不限身障的中低收入戶傷病醫療看護費補助）；照顧者津貼；運動中心或場館優惠；支持性就業窗口。",
   "benefits": [
     {
       "id": "hsinchu-county-living-allowance",
       "name": "新竹縣身心障礙者生活補助",
       "category": "economic",
       "level": "central",
-      "summary": "設籍並實際居住新竹縣、領有身心障礙證明，屬低收入戶、中低收入戶或符合家庭所得與財產標準者，按月發給生活補助。",
+      "summary": "設籍並實際居住新竹縣、領有身心障礙證明，屬低收入戶、中低收入戶或家庭總收入與財產符合標準者，按月發給生活補助，金額依障礙程度與戶別而定。",
       "eligibility": [
         "設籍且實際居住本縣，領有身心障礙證明",
-        "低收入戶、中低收入戶，或家庭所得與財產符合標準"
+        "低收入戶、中低收入戶，或家庭總收入及財產符合標準（頁面引用114年度收入參考值）"
       ],
-      "benefit": "依衛生福利部113年1月10日公告標準：低收入戶極重度、重度及中度身心障礙者每人每月9,485元（其他級距本次未取得）",
-      "how_to_apply": "洽新竹縣政府社會處身心障礙福利科或戶籍所在地鄉鎮市公所（本次未確認受理窗口）",
+      "benefit": "依衛生福利部113年公告標準：低收入戶之極重度、重度及中度每人每月9,485元，輕度每人每月5,437元；中低收入戶之極重度、重度及中度每人每月5,437元，輕度每人每月4,049元；非低收入戶及非中低收入戶之極重度、重度及中度與中低收入戶相同（5,437元）。",
+      "how_to_apply": "向戶籍所在地鄉（鎮、市）公所提出申請",
       "contact": "03-5518101分機3184",
-      "target_groups": ["低收入或中低收入"],
+      "target_groups": [
+        "低收入或中低收入"
+      ],
       "source_urls": [
         "https://social.hsinchu.gov.tw/News_Content.aspx?n=206&s=3849"
       ],
       "source_date": "2024",
       "confidence": "medium",
-      "notes": "頁面金額為113年標準，申請前請確認是否已調整。低收入戶戶內身心障礙者之生活補助費依本縣身心障礙者生活補助審核作業規定核發（https://social.hsinchu.gov.tw/News_Content.aspx?n=207&s=3877）。"
+      "notes": "社會處頁面金額仍標示依113年公告標準，115年是否調整請向公所或社會處確認。非低收入戶及非中低收入戶之輕度金額未在搜尋摘要中明列。低收入戶戶內身心障礙者之生活補助費依本縣身心障礙者生活補助審核作業規定核發（https://social.hsinchu.gov.tw/News_Content.aspx?n=207&s=3877）。",
+      "documents": [
+        "申請表",
+        "身分證",
+        "郵局存簿影本"
+      ]
     },
     {
       "id": "hsinchu-county-care-facility-subsidy",
       "name": "新竹縣政府辦理身心障礙者日間照顧及住宿式照顧費用補助",
       "category": "care",
-      "level": "central",
-      "summary": "安置於機構接受日間或住宿式照顧的身心障礙者，依家庭總收入等條件補助照顧費用。",
+      "level": "mixed",
+      "summary": "設籍並實際居住新竹縣的身心障礙者，入住經縣府同意的社會福利機構、精神復健機構或護理之家等接受日間或住宿式照顧，依家庭收入等條件補助照顧費用。",
       "eligibility": [
-        "安置於機構接受日間照顧或住宿式照顧服務之身心障礙者",
-        "依家庭總收入等條件審查"
+        "設籍並實際居住本縣，領有身心障礙證明",
+        "入住社會福利機構、精神復健機構或護理之家等經本府同意之機構",
+        "未領取其他相同性質之補助",
+        "符合年齡及家庭收入條件"
       ],
-      "benefit": "補助日間照顧及住宿式照顧費用（補助比例本次未取得）",
-      "how_to_apply": "洽新竹縣政府社會處身心障礙福利科",
-      "contact": "03-5518101",
+      "benefit": "補助日間照顧及住宿式照顧費用，補助金額依衛生福利部「身心障礙者日間照顧及住宿式照顧收費及補助標準」核定（各級距比例本次未取得）。縣府公布114年度簽約機構名單。",
+      "how_to_apply": "向戶籍所在地鄉（鎮、市）公所申請",
+      "contact": "社會處身心障礙福利科 03-5518101分機3182",
       "source_urls": [
-        "https://social.hsinchu.gov.tw/News_Content.aspx?n=206&s=3847"
+        "https://social.hsinchu.gov.tw/News_Content.aspx?n=206&s=3847",
+        "https://smart-welfare.hsinchu.gov.tw/home/navi/step7",
+        "https://ws.hsinchu.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvOC9yZWxmaWxlLzg2NjgvMzg0Ny9lMzdhNjBhYi00MmQxLTQxYzktYTAzMC0zN2M3YjI1ODAxOGIucGRm&n=MTE05bm06Lqr6Zqc5omY6IKy6KOc5Yqp5qmf5qeLLnBkZg%3D%3D"
       ],
-      "source_date": "unknown",
-      "confidence": "medium"
+      "source_date": "2025",
+      "confidence": "medium",
+      "notes": "家庭收入門檻有兩種寫法：社會處舊頁面以每人每月最低生活費倍數計算，智慧福利服務躍升平台則以臺灣地區平均每人每月消費支出倍數計算，申請前請確認現行標準。"
     },
     {
       "id": "hsinchu-county-assistive-devices",
       "name": "新竹縣身心障礙者生活輔具費用補助",
       "category": "assistive",
       "level": "central",
-      "summary": "依補助基準補助身心障礙者購置生活輔具，須先申請核定，已先購買者通常無法補助。",
+      "summary": "設籍新竹縣的身心障礙者可依補助基準申請生活輔具費用補助，採先核定後購買，已先購買者無法補助。",
       "eligibility": [
-        "設籍本縣，領有身心障礙證明"
+        "設籍本縣，最近1年居住國內達183日",
+        "領有本縣核（換、補）發或註記之身心障礙證明",
+        "申請項目未獲政府其他醫療補助、社會保險給付或其他相同性質之補助"
       ],
-      "benefit": "共補助242項輔助器具；每人每2年以申請4項輔具補助為限",
-      "how_to_apply": "向新竹縣政府社會處申請，核定後可至特約廠商購買（頁面附特約廠商資訊）；申請前勿先購買",
+      "benefit": "共補助242項輔助器具，依輔具項目、補助最高額度、最低使用年限及補助對象核實補助；每人每2年以申請4項輔具補助為限（補助基準表為112年1月1日更新版，各項比例與上限本次未取得）。",
+      "how_to_apply": "需評估之項目先由輔具中心評估人員或醫院醫師、相關專業治療師開立評估報告書後提出申請；核定後依核定項目購買，並於購買後6個月內向戶籍地公所或特約廠商辦理核銷請款。申請前勿先購買。",
       "contact": "03-5518101",
       "source_urls": [
         "https://social.hsinchu.gov.tw/News_Content.aspx?n=206&s=3867"
       ],
-      "source_date": "unknown",
+      "source_date": "2023",
       "confidence": "medium",
-      "notes": "各戶別補助比例本次未取得。"
+      "notes": "各戶別補助比例與單項上限請查社會處頁面附的補助基準表。"
     },
     {
       "id": "hsinchu-county-assistive-center",
@@ -79,10 +93,12 @@
       "benefit": "輔具維修、租借、到宅評估等服務",
       "how_to_apply": "洽新竹縣輔具資源中心（地址、電話本次未取得）",
       "source_urls": [
-        "https://social.hsinchu.gov.tw/News_Content.aspx?n=206&s=3858"
+        "https://social.hsinchu.gov.tw/News_Content.aspx?n=206&s=3858",
+        "https://social.hsinchu.gov.tw/News_Content.aspx?n=219&s=154276"
       ],
       "source_date": "unknown",
-      "confidence": "medium"
+      "confidence": "medium",
+      "notes": "輔具資源中心另負責生活輔具補助所需之評估報告書開立。地址、電話本次未取得。"
     },
     {
       "id": "hsinchu-county-rent-mortgage",
@@ -102,6 +118,366 @@
       "source_date": "unknown",
       "confidence": "medium",
       "notes": "多口家庭的補助坪數本次未取得。"
+    },
+    {
+      "id": "hsinchu-county-insurance-premium",
+      "name": "身心障礙者參加全民健康保險及社會保險自付保費補助",
+      "category": "economic",
+      "level": "central",
+      "summary": "設籍新竹縣、持身心障礙證明並投保全民健保者，自付保費依障礙程度補助；由社會處彙整資料逕送健保署，不需申請。",
+      "eligibility": [
+        "設籍本縣，持有身心障礙證明",
+        "投保全民健康保險（或其他社會保險）"
+      ],
+      "benefit": "自付保險費：極重度及重度全額補助；中度補助二分之一；輕度補助四分之一。",
+      "how_to_apply": "免申請，自動減免：社會處自系統彙整資料後逕報送健保署",
+      "contact": "社會處身心障礙福利科 03-5518101分機3188",
+      "source_urls": [
+        "https://social.hsinchu.gov.tw/News_Content.aspx?n=206&s=3850"
+      ],
+      "source_date": "2024",
+      "confidence": "medium",
+      "notes": "頁面約兩年前發布。勞保、農保等其他社會保險保費補助的申請方式本次未取得。"
+    },
+    {
+      "id": "hsinchu-county-love-card",
+      "name": "身障愛心卡及愛心陪伴卡",
+      "category": "transport",
+      "level": "local",
+      "summary": "設籍新竹縣的身心障礙者可申辦愛心卡，縣府每月自動儲值社福點數，可搭客運或折抵計程車資；有必要陪伴者註記者可另辦愛心陪伴卡。",
+      "eligibility": [
+        "愛心卡：設籍本縣並領有身心障礙證明",
+        "愛心陪伴卡：設籍本縣，身心障礙證明背面註記「必要陪伴者優惠措施（國內大眾運輸工具）」，每名身心障礙者限辦一張"
+      ],
+      "benefit": "每月自動儲值500社福點數，限當月使用，不累計至次月。搭汽車客運可全額以點數支付；搭計程車單趟最多以100點扣抵100元車資。愛心陪伴卡須緊隨身心障礙者本人的愛心卡之後刷卡才享優惠，單獨使用以全票計價，且須先自行加值。",
+      "how_to_apply": "洽新竹縣政府社會處或戶籍所在地公所申辦（申辦窗口細節本次未取得）",
+      "contact": "社會處 03-5518101",
+      "source_urls": [
+        "https://social.hsinchu.gov.tw/News_Content.aspx?n=206&s=3827",
+        "https://social.hsinchu.gov.tw/News_Content.aspx?n=3076&s=263563",
+        "https://www.hsinchu.gov.tw/News_Content.aspx?n=153&s=252409"
+      ],
+      "source_date": "2025-11",
+      "confidence": "high",
+      "notes": "官方頁面最後修改於114年11月。舊新聞曾提及每月804點，為較早標準。縣府另有新聞標題稱敬老愛心卡8月1日起可於台鐵新竹縣20個站點使用（https://www.hsinchu.gov.tw/News_Content.aspx?n=153&s=252781），內容未取得。"
+    },
+    {
+      "id": "hsinchu-county-rehab-bus",
+      "name": "身心障礙者小型復康巴士",
+      "category": "transport",
+      "level": "local",
+      "summary": "新竹縣提供身心障礙者小型復康巴士預約接送，低收入戶有限次免費，一般戶依計程車運價三分之一收費。",
+      "eligibility": [
+        "領有身心障礙證明者（須乘坐輪椅者依同樣規定計費）"
+      ],
+      "benefit": "低收入戶檢附當年度證明免費，每月限搭8次（來回各計）；一般戶依縣府公告計程車運價三分之一收費，未滿1元無條件進位；共乘以計程收費器共乘鍵計算，費率打七折；過路費自付。服務時間每日上午6:30至晚上9:00（週六、日及國定假日出車數另有規定）。行駛範圍：設籍本縣者可至新竹縣、新竹市、桃園市、苗栗縣；非設籍者限新竹縣、新竹市。",
+      "how_to_apply": "電話預約 03-6572151（服務單位：生通股份有限公司）；或於長善平台網路訂車（電洽6572151申辦），官方LINE帳號 @808lonnu",
+      "contact": "預約 03-6572151；申訴 0800500060",
+      "source_urls": [
+        "https://social.hsinchu.gov.tw/News_Content.aspx?n=206&s=3826"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "頁面已有一段時間未更新，費率與規定請以最新復康巴士簡章為準。"
+    },
+    {
+      "id": "hsinchu-county-parking",
+      "name": "身心障礙專用停車位識別證及公有停車場停車優惠",
+      "category": "transport",
+      "level": "local",
+      "summary": "經需求評估為行動不便的身心障礙者可申請專用停車位識別證；新竹縣公有停車場對身心障礙者提供前四小時免費停車。",
+      "eligibility": [
+        "經需求評估為「行動不便」之身心障礙者",
+        "申請人本人及親屬以1張識別證為限"
+      ],
+      "benefit": "新竹縣公有停車場身心障礙者停車優惠自111年2月7日起由全日免費改為前四小時免費、第五小時起收費。收到停車繳費單者，須於開單日起7天內持通知單及證件辦理核銷，逾期不予優惠。",
+      "how_to_apply": "識別證：新竹縣智慧福利服務躍升平台線上申辦，或至社會處老人及身障福利科臨櫃辦理",
+      "documents": [
+        "核銷停車費：停車繳費通知單、專用車牌或身心障礙者專用停車位識別證影本、身心障礙證明、行車執照、駕駛執照"
+      ],
+      "contact": "社會處老人及身障福利科 03-5518101分機3187",
+      "source_urls": [
+        "https://social.hsinchu.gov.tw/News_Content.aspx?n=206&s=3828",
+        "https://www.hsinchu.gov.tw/News_Content.aspx?n=153&s=240116",
+        "https://eservices.hsinchu.gov.tw/ApplyCase/CaseInfo/88?PSN=474",
+        "https://smart-welfare.hsinchu.gov.tw/home/disabled-parking/inquire"
+      ],
+      "source_date": "2022",
+      "confidence": "medium",
+      "notes": "停車優惠資料為111年公告，現行免費時數請向縣府確認；核銷窗口本次未取得。"
+    },
+    {
+      "id": "hsinchu-county-respite",
+      "name": "身心障礙者臨時及短期照顧服務",
+      "category": "care",
+      "level": "mixed",
+      "summary": "家庭照顧者需要喘息時，由委託機構短時間照顧身心障礙者，服務以陪伴受托期間的安全為主。",
+      "eligibility": [
+        "設籍或實際居住本縣之身心障礙者",
+        "經需求評估建議使用",
+        "同一時段未接受日間及住宿式照顧、居家照顧或其他個人照顧服務"
+      ],
+      "benefit": "服務內容以陪伴身心障礙者受托期間之安全為限，不含教學、復健、接送或侵入性醫療（時數上限與收費本次未取得）。",
+      "how_to_apply": "洽縣府委託之服務單位，例如哈佛居家長照機構（03-5171520）、新竹縣蒲公英關懷弱勢權益促進協會（03-5551096），及頁面所列多家護理之家",
+      "target_groups": [
+        "家庭照顧者"
+      ],
+      "source_urls": [
+        "https://social.hsinchu.gov.tw/News_Content.aspx?n=206&s=3863"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium"
+    },
+    {
+      "id": "hsinchu-county-community-daycare",
+      "name": "新竹縣身心障礙者社區式日間照顧服務",
+      "category": "care",
+      "level": "mixed",
+      "summary": "為18歲以上、有生活自理及社會適應訓練需求的身心障礙者，在社區據點以課程活動方式提供白天照顧，不提供住宿。",
+      "eligibility": [
+        "居住本縣、18歲以上，領有身心障礙證明",
+        "有生活自理及社會適應訓練需求",
+        "未安置於社會福利機構或精神復健機構",
+        "完成需求評估"
+      ],
+      "benefit": "以開設課程活動方式辦理，不兼辦住宿。收費依家庭經濟狀況區分：一般戶每月3,000元、中低收入戶2,500元、低收入戶2,000元（含活動保險費及部分材料費），午餐費另計。114年度由社團法人新竹縣智障福利協進會辦理，據點在竹東、湖口。",
+      "how_to_apply": "洽新竹縣政府社會處身心障礙福利科或辦理單位（新竹縣智障福利協進會）",
+      "contact": "社會處 03-5518101",
+      "target_groups": [
+        "成年"
+      ],
+      "source_urls": [
+        "https://social.hsinchu.gov.tw/News_Content.aspx?n=206&s=233473"
+      ],
+      "source_date": "2025",
+      "confidence": "medium",
+      "notes": "中低收入戶、低收入戶收費數字只出現在一次搜尋摘要，請以官網為準。115年度辦理單位未確認。"
+    },
+    {
+      "id": "hsinchu-county-day-activity",
+      "name": "新竹縣身心障礙者社區日間作業設施服務",
+      "category": "care",
+      "level": "mixed",
+      "summary": "俗稱小作所，為無法進入庇護性就業、也不適合日間照顧機構的18歲以上心智障礙者，提供白天的作業活動。",
+      "eligibility": [
+        "18歲以上心智障礙者",
+        "未安置於機構，不適合日間照顧機構，且無法進入庇護性就業體系"
+      ],
+      "benefit": "作業活動原則為每日4小時、每週20小時（收費本次未取得）。",
+      "how_to_apply": "洽新竹縣政府社會處身心障礙福利科",
+      "contact": "03-5518101分機3226",
+      "target_groups": [
+        "成年",
+        "智能障礙",
+        "自閉症",
+        "精神障礙"
+      ],
+      "source_urls": [
+        "https://social.hsinchu.gov.tw/News_Content.aspx?n=206&s=3866"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "設施名單與地點本次未取得。"
+    },
+    {
+      "id": "hsinchu-county-home-care",
+      "name": "新竹縣政府辦理失能身心障礙者補助使用居家照顧服務",
+      "category": "care",
+      "level": "local",
+      "summary": "50歲以下、經失能評估符合標準的身心障礙者，可由縣府派居服員到宅協助備餐、洗澡、陪同就醫等，費用依福利身分補助。",
+      "eligibility": [
+        "設籍本縣、50歲以下，領有身心障礙證明",
+        "經失能評估符合標準"
+      ],
+      "benefit": "居家服務員到宅協助備餐、洗澡、陪同就醫等。補助比例：一般戶政府補助84%、自付16%；領有生活補助者政府補助95%；低收入戶、中低收入戶100%。",
+      "how_to_apply": "洽新竹縣政府社會處（申請窗口本次未確認）",
+      "contact": "社會處 03-5518101",
+      "target_groups": [
+        "成年"
+      ],
+      "source_urls": [
+        "https://social.hsinchu.gov.tw/News_Content.aspx?n=206&s=3843"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "補助比例的各級距出現在不同版本的摘要中，申請前請確認。50歲以上可能改由長照2.0服務，本次未確認。"
+    },
+    {
+      "id": "hsinchu-county-cochlear-implant",
+      "name": "新竹縣身心障礙者人工電子耳耗材補助",
+      "category": "medical",
+      "level": "local",
+      "summary": "植入人工電子耳滿三年的聽障者，可申請更換耗材補助，金額依戶別而定。",
+      "eligibility": [
+        "設籍本縣，持有聽覺障礙或併聽覺障礙之多重障礙身心障礙證明",
+        "接受人工電子耳植入手術滿三年"
+      ],
+      "benefit": "補助長線、短線、線圈、麥克風、磁鐵及耳勾、充電電池等耗材。最高補助：低收入戶8,000元、中低收入戶6,000元、一般戶5,000元。12歲以下耗材最低使用年限1年（每年可申請1次）；12歲以上2年（每2年可申請1次）。",
+      "how_to_apply": "向戶籍所在地鄉（鎮、市）公所申請",
+      "target_groups": [
+        "聽覺或平衡障礙"
+      ],
+      "source_urls": [
+        "https://social.hsinchu.gov.tw/News_Content.aspx?n=206&s=154273"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium"
+    },
+    {
+      "id": "hsinchu-county-incontinence-supplies",
+      "name": "身心障礙癱瘓者消耗性用品補助",
+      "category": "medical",
+      "level": "local",
+      "summary": "經醫院診斷大小便失禁的中度以上身心障礙者或植物人，可申請消耗性用品實物補助，由受託單位送到家。",
+      "eligibility": [
+        "植物人或中度以上、經醫院診斷確實大小便失禁之身心障礙者",
+        "符合社會救助法領取資格者（經濟條件細節本次未取得）"
+      ],
+      "benefit": "實物給付，每人每半年最高補助等值新臺幣6,000元之消耗性用品，由受託單位送到申請人住址。",
+      "how_to_apply": "每年4月及10月受理申請，各為期一個月（受理窗口本次未取得）",
+      "source_urls": [
+        "https://social.hsinchu.gov.tw/News_Content.aspx?n=206&s=3854"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "摘要未說明經濟條件與障礙條件須同時符合或擇一，申請前請確認。"
+    },
+    {
+      "id": "hsinchu-county-sign-language",
+      "name": "手語翻譯暨聽打服務",
+      "category": "support",
+      "level": "mixed",
+      "summary": "聽語障者在洽公、警政司法、交通事故、緊急就醫或就學等場合，可申請手語翻譯或同步聽打。",
+      "eligibility": [
+        "個人：設籍並持有本縣核（換）發或註記之身心障礙證明，障礙類別為聽語障或併聽語障之多重障礙者",
+        "單位：本縣政府所屬機關、醫療院所、學校或非營利組織，因業務需要與聽語障者接洽者"
+      ],
+      "benefit": "服務範圍含公務機關業務、警政或司法偵查、交通事故、夜間緊急或臨時性就醫及就學等；不含涉及私人商業利益之申請。",
+      "how_to_apply": "一般案件於3天前檢具申請書、身心障礙證明及相關文件提出申請；緊急案件可隨時提出，視人力調派。申請書與須知可於社會處頁面下載。聽語障者參加告別式之手語翻譯、同步聽打設備另見民政處說明。",
+      "documents": [
+        "申請書",
+        "身心障礙證明",
+        "相關文件"
+      ],
+      "contact": "社會處老人及身障福利科 03-5518101分機3225",
+      "target_groups": [
+        "聽覺或平衡障礙",
+        "聲音或語言障礙"
+      ],
+      "source_urls": [
+        "https://social.hsinchu.gov.tw/News_Content.aspx?n=206&s=3838",
+        "https://civil.hsinchu.gov.tw/cl.aspx?n=3034",
+        "https://www.hsinchu.gov.tw/News_Content.aspx?n=153&s=239493"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "縣府曾試辦視訊手語翻譯（當時為每週二、四上午），目前是否仍提供需確認。"
+    },
+    {
+      "id": "hsinchu-county-disability-certificate",
+      "name": "身心障礙證明申請（鑑定及需求評估）",
+      "category": "support",
+      "level": "central",
+      "summary": "申請身心障礙證明須經醫師鑑定、鑑定人員評估及社會處需求評估；可於指定醫院併同辦理，無法外出者可申請到宅鑑定。",
+      "eligibility": [
+        "設籍本縣，疑似身心障礙者（初次鑑定者不需持有身心障礙證明）",
+        "到宅鑑定：全癱無法自行下床、需24小時使用呼吸器或維生設備、長期重度昏迷等情形"
+      ],
+      "benefit": "鑑定流程：醫師鑑定身體結構及功能，鑑定人員鑑定活動參與及環境因素，再由社會處評估人員進行需求評估。本縣指定鑑定醫院共8個院區，包括臺北榮總新竹分院、臺大醫院新竹臺大分院生醫醫院竹北院區及竹東院區、東元綜合醫院等。於指定醫院併同辦理鑑定與需求評估者須配合院方診間時段，不能指定醫師。",
+      "how_to_apply": "可線上申請（社會處頁面附線上申請步驟）；到宅鑑定向所屬鄉鎮市公所提出，或郵寄、由代理人送至衛生局。對需求評估結果（含行動不便、必要陪伴者資格）有異議者，持身心障礙證明及複評申請表至所屬鄉鎮公所申復。",
+      "documents": [
+        "國民身分證正背面影本（未滿14歲者檢附戶口名簿）",
+        "3個月內1吋半身照片3張",
+        "印章",
+        "受委託者另附受託人身分證明",
+        "到宅鑑定：申請書、鑑定表、醫院診斷證明書"
+      ],
+      "contact": "社會處 03-5518101分機3188",
+      "source_urls": [
+        "https://social.hsinchu.gov.tw/News_Content.aspx?n=206&s=3874",
+        "https://social.hsinchu.gov.tw/News_Content.aspx?n=206&s=3836",
+        "https://eservices.hsinchu.gov.tw/ApplyCase/CaseInfo/88?PSN=117",
+        "https://social.hsinchu.gov.tw/News_Content.aspx?n=206&s=3870"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "社會處頁面約一年多前發布，表格版本可能已更新。"
+    },
+    {
+      "id": "hsinchu-county-caregiver-support",
+      "name": "身心障礙者家庭照顧者支持服務",
+      "category": "support",
+      "level": "mixed",
+      "summary": "為在家照顧身心障礙者的主要照顧者提供個案管理、到宅照顧技巧指導、心理協談與支持團體等服務。",
+      "eligibility": [
+        "居住本縣，經縣府需求評估符合",
+        "家中由主要照顧者照顧、未入住機構之身心障礙者家庭"
+      ],
+      "benefit": "個案管理、到宅照顧技巧指導、心理協談、支持團體與紓壓活動等。",
+      "how_to_apply": "洽委託單位新竹縣蒲公英關懷弱勢權益促進協會（03-5553227），或社會處身心障礙福利科",
+      "contact": "委託單位 03-5553227；社會處身心障礙福利科 03-5518101分機3182",
+      "target_groups": [
+        "家庭照顧者"
+      ],
+      "source_urls": [
+        "https://social.hsinchu.gov.tw/News_Content.aspx?n=206&s=240302"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "老人福利類另有「家庭照顧者支持服務」（https://social.hsinchu.gov.tw/News_Content.aspx?n=205&s=228371），服務對象不同。"
+    },
+    {
+      "id": "hsinchu-county-guardianship-fee",
+      "name": "新竹縣政府辦理成人監護（輔助）宣告費用補助",
+      "category": "support",
+      "level": "local",
+      "summary": "低收入或中低收入的成年身心障礙者，向法院聲請監護或輔助宣告的規費與鑑定費可申請補助。",
+      "eligibility": [
+        "設籍並實際居住本縣、18歲以上，領有身心障礙證明",
+        "具低收入戶或中低收入戶身分"
+      ],
+      "benefit": "補助向法院聲請監護或輔助宣告之規費，及法院指定醫院之鑑定費，每案合計最高新臺幣1萬元。",
+      "how_to_apply": "由本人或監護人提出，於當年度11月30日前送達縣府（以收文戳為準）",
+      "documents": [
+        "申請表",
+        "身心障礙證明影本",
+        "聲請狀或民事裁定影本",
+        "規費與鑑定費收據正本"
+      ],
+      "contact": "社會處身心障礙福利科 03-5518101分機3289",
+      "target_groups": [
+        "成年",
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://social.hsinchu.gov.tw/News_Content.aspx?n=206&s=276652"
+      ],
+      "source_date": "2025",
+      "confidence": "high"
+    },
+    {
+      "id": "hsinchu-county-vocational-rehab",
+      "name": "身心障礙者職業重建服務（庇護性就業、職務再設計）",
+      "category": "employment",
+      "level": "central",
+      "summary": "新竹縣政府勞工處勞工福利科辦理身心障礙者職業重建，包括庇護性就業、職業訓練與就業服務、職業輔導評量及職務再設計。",
+      "eligibility": [
+        "領有身心障礙證明、有就業意願之身心障礙者（各服務資格本次未取得）"
+      ],
+      "benefit": "勞工處補助身心障礙團體、機關開設庇護工場、商店或按摩中心；辦理身心障礙者職業訓練、就業服務，並委託專業團體辦理職業輔導評量；另有身心障礙者職務再設計服務計畫及補助。",
+      "how_to_apply": "洽新竹縣政府勞工處勞工福利科（竹北市光明六路10號）；職務再設計補助申請書可於勞工處表單下載區取得",
+      "contact": "勞工處 03-5518101",
+      "target_groups": [
+        "求職者"
+      ],
+      "source_urls": [
+        "https://labor.hsinchu.gov.tw/News_Content.aspx?n=1546&s=233138",
+        "https://labor.hsinchu.gov.tw/cp.aspx?n=1505&s=380",
+        "https://labor.hsinchu.gov.tw/News.aspx?n=231&sms=8623"
+      ],
+      "source_date": "2023",
+      "confidence": "medium",
+      "notes": "庇護性就業頁面最後修改於112年2月。支持性就業的個案服務窗口本次未取得。"
     }
   ]
 }
