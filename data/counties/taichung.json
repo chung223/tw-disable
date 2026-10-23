@@ -6,7 +6,7 @@
   "phone": "04-22289111（社會局身心障礙福利科分機見各項目）",
   "collected_at": "2026-10-23",
   "method": "web_search",
-  "notes": "以 WebSearch（限定 taichung.gov.tw）蒐集，未能直接開啟官方頁面，內容依搜尋摘要整理。蒐集途中整體搜尋額度用盡，以下項目未及查證、未收錄：路邊停車費優惠、身障學生獎補助（臺中市國民教育階段身心障礙學生獎補助辦法）、年節慰問金、急難救助、運動中心優惠、緊急救援系統、社區居住、家庭托顧、家庭照顧者支持服務、獨居者營養餐飲服務、通用（無障礙）計程車「愛接送」、住宿式服務機構使用者補助方案。生活補助費 115 年度金額未在搜尋結果中明確標示，採社會局 114 年 11 月一覽表數字。",
+  "notes": "以 WebSearch（限定 taichung.gov.tw）蒐集，未能直接開啟官方頁面，內容依搜尋摘要整理。第二輪補強另搜尋 12 次。第二輪新增：停車優惠、國中小身障學生獎補助、特教學校書籍費等補助、緊急救援系統、獨居身障者營養餐飲、家庭托顧、社區居住、雙老家庭支持、住屋愛心修繕、視障者計程車補助、愛接送通用計程車、運動場館優惠；並補充社區式日間照顧的資格與分機、愛心卡可折抵運動中心。生活補助費：第二輪兩次搜尋仍未找到標示115年度的金額，維持社會局 114 年 11 月一覽表數字。仍缺：身心障礙者專屬的年節慰問金與急難救助（搜尋結果只見低收入戶三節慰問金：春節每戶2,500元、端午及中秋每戶1,500元，及65歲以上重陽敬老禮金，均非身障專屬，未收錄；市府一般急難救助未查證）、各國民運動中心身障票價、身障停車識別證的受理窗口、社會局家庭照顧者支持服務的內容與窗口（僅見衛生局家庭照顧者服務資源中心 04-2292-5126 及 1966）、身障學生交通費補助、各項家庭托顧與社區居住的 115 年度標準。未收錄：住宿式服務機構使用者補助方案（衛福部全國方案，臺中市115年度自115年9月14日受理）、身心障礙學生及身障人士子女學雜費減免（全國一致）。",
   "benefits": [
     {
       "id": "taichung-living-allowance",
@@ -22,15 +22,18 @@
       ],
       "benefit": "114年11月社會局一覽表：列冊低收入戶中度以上每人每月9,485元、輕度每人每月5,437元；中低收入戶及符合標準之一般戶中度以上每人每月5,437元、輕度每人每月4,049元。",
       "how_to_apply": "向戶籍所在地區公所申請；也可透過臺中市政府服務e櫃檯下載申請書表。",
-      "target_groups": ["低收入或中低收入"],
+      "target_groups": [
+        "低收入或中低收入"
+      ],
       "source_urls": [
         "https://www.society.taichung.gov.tw/461728/post",
         "https://www.society.taichung.gov.tw/media/1333657/%E8%87%BA%E4%B8%AD%E5%B8%82%E4%B8%AD%E4%BD%8E%E6%94%B6%E5%85%A5%E6%88%B6%E7%A6%8F%E5%88%A9%E4%B8%80%E8%A6%BD%E8%A1%A8.pdf",
-        "https://eservices.taichung.gov.tw/AdvSearch/CaseInfo/160/Notices/201909160004?isHandling=True&isLink=False"
+        "https://eservices.taichung.gov.tw/AdvSearch/CaseInfo/160/Notices/201909160004?isHandling=True&isLink=False",
+        "https://www.xinshe.taichung.gov.tw/981609/981658/981660/981662/1111455"
       ],
       "source_date": "2025-11",
       "confidence": "high",
-      "notes": "社會局頁面註明金額與所得標準以113年度為基準；115年度是否調整未在搜尋結果中確認，申請前請洽區公所。"
+      "notes": "社會局頁面註明金額與所得標準以113年度為基準。115年10月兩次搜尋（社會局頁面、新社區公所頁面、114年11月中低收入戶福利一覽表）仍只見相同金額，未找到標示115年度的公告，申請前請洽區公所。非低收、中低收入戶但符合家庭收入與財產標準者，金額與中低收入戶相同。"
     },
     {
       "id": "taichung-health-insurance",
@@ -139,7 +142,9 @@
       "benefit": "115年度計畫：到宅式、社區式服務由列冊中、低收入戶全額補助；領身心障礙者生活補助費者補助95%（自付5%）；其他身障者補助84%（自付16%）。機構式服務由低收入戶及特殊服務對象全額補助；中低收入戶及領生活補助費者補助80%；一般戶補助70%。機構式每人每年給付額度：輕度、中度32,340元；重度、極重度或符合特殊家庭條件者48,510元。每日服務原則上不超過8小時（特殊需求經核備最多12小時），國定假日照顧服務費以2倍計；大甲、外埔、新社、大安、石岡、東勢、和平等偏遠服務區每小時另有加給。",
       "how_to_apply": "經需求評估核定後，洽社會局或服務提供單位使用。",
       "contact": "臺中市政府社會局 04-22289111 分機37347",
-      "target_groups": ["家庭照顧者"],
+      "target_groups": [
+        "家庭照顧者"
+      ],
       "source_urls": [
         "https://www.society.taichung.gov.tw/13710/13735/13792/13798/461780",
         "https://www.society.taichung.gov.tw/media/1359264/115%E5%B9%B4%E8%87%BA%E4%B8%AD%E5%B8%82%E8%BA%AB%E5%BF%83%E9%9A%9C%E7%A4%99%E8%87%A8%E6%99%82%E5%8F%8A%E7%9F%AD%E6%9C%9F%E7%85%A7%E9%A1%A7%E6%9C%8D%E5%8B%99%E8%A8%88%E7%95%AB.pdf"
@@ -155,15 +160,16 @@
       "level": "central",
       "summary": "臺中市依中央計畫布建身心障礙者社區式日間照顧據點與社區日間作業設施，提供白天的照顧、生活自理與作業活動。",
       "eligibility": [
-        "臺中市領有身心障礙證明且有日間照顧或作業活動需求者（詳細資格見各年度服務計畫）"
+        "設籍或居住臺中市、18歲以上，領有身心障礙證明且有日間照顧或作業活動需求者（詳細資格見各年度服務計畫）"
       ],
       "benefit": "社區日間作業設施依衛福部社家署當年度補助項目及基準核實補助（115年度計畫）；社區式日間照顧依臺中市年度服務計畫辦理。",
-      "how_to_apply": "洽臺中市政府社會局身心障礙福利科或各服務據點。",
-      "contact": "臺中市政府社會局 04-22289111",
+      "how_to_apply": "社區式日間照顧：洽各辦理單位社工，安排時間到單位評估，評估完成後開始服務。其他可洽臺中市政府社會局身心障礙福利科。",
+      "contact": "臺中市政府社會局 04-22289111 轉37320、37326、37363（社區式日間照顧）",
       "source_urls": [
         "https://www.society.taichung.gov.tw/13710/13735/13792/13798/795427",
         "https://www.society.taichung.gov.tw/media/1208255/114%E5%B9%B4%E5%BA%A6%E8%87%BA%E4%B8%AD%E5%B8%82%E8%BA%AB%E5%BF%83%E9%9A%9C%E7%A4%99%E8%80%85%E7%A4%BE%E5%8D%80%E5%BC%8F%E6%97%A5%E9%96%93%E7%85%A7%E9%A1%A7%E6%9C%8D%E5%8B%99%E8%A8%88%E7%95%AB-%E5%85%AC%E5%91%8A%E7%89%88.pdf",
-        "https://www.society.taichung.gov.tw/media/1359236/02_115%E5%B9%B4%E5%BA%A6%E8%A8%88%E7%95%AB%E9%99%84%E4%BB%B6%E4%BA%8C%E8%A3%9C%E5%8A%A9%E9%A0%85%E7%9B%AE%E5%8F%8A%E5%9F%BA%E6%BA%96.pdf"
+        "https://www.society.taichung.gov.tw/media/1359236/02_115%E5%B9%B4%E5%BA%A6%E8%A8%88%E7%95%AB%E9%99%84%E4%BB%B6%E4%BA%8C%E8%A3%9C%E5%8A%A9%E9%A0%85%E7%9B%AE%E5%8F%8A%E5%9F%BA%E6%BA%96.pdf",
+        "https://www.society.taichung.gov.tw/795427/post"
       ],
       "source_date": "2026",
       "confidence": "medium",
@@ -183,7 +189,9 @@
       "benefit": "個人助理服務費每小時250元。低收入戶及中低收入戶全額補助；家庭總收入平均每人達當年度最低生活費1.5倍以上、未達2.5倍者，每小時自付20元；其他每小時自付60元。",
       "how_to_apply": "電洽社會局自立生活支持服務專線，經需求評估後轉介。",
       "contact": "04-22289111 分機37340",
-      "target_groups": ["成年"],
+      "target_groups": [
+        "成年"
+      ],
       "source_urls": [
         "https://www.society.taichung.gov.tw/1514187/post"
       ],
@@ -205,7 +213,9 @@
       ],
       "benefit": "核定後自申請當月起每月3,000元，次月起撥付前月款項，匯入照顧者郵局帳戶。",
       "how_to_apply": "向各區公所申請。實施計畫規定的申請期間為每年1月1日至1月31日，名額依年度公告；合格人數超過名額時，依計點表積分排序。",
-      "target_groups": ["家庭照顧者"],
+      "target_groups": [
+        "家庭照顧者"
+      ],
       "source_urls": [
         "https://www.society.taichung.gov.tw/1875151/post",
         "https://lawsearch.taichung.gov.tw/GLRSout/LawContent.aspx?id=GL002744"
@@ -230,11 +240,12 @@
         "https://www.society.taichung.gov.tw/13710/13735/13792/13798/461740",
         "https://www.taichung.gov.tw/3380871/post",
         "https://www.traffic.taichung.gov.tw/content/index.asp?Parser=1%2C7%2C497%2C495",
-        "https://lawsearch.taichung.gov.tw/GLRSout/LawContent.aspx?id=GL000348"
+        "https://lawsearch.taichung.gov.tw/GLRSout/LawContent.aspx?id=GL000348",
+        "https://www.society.taichung.gov.tw/461740/post"
       ],
       "source_date": "2026-10",
       "confidence": "high",
-      "notes": "計程車車資超過折抵額時，先從卡片電子錢包餘額扣，不足再付現金；卡片限本人使用，每趟限用1張。搜尋摘要另提到原住民每月1,500點，是否適用於身障者待確認。"
+      "notes": "計程車車資超過折抵額時，先從卡片電子錢包餘額扣，不足再付現金；卡片限本人使用，每趟限用1張。搜尋摘要另提到原住民每月1,500點，是否適用於身障者待確認。 社會局愛心卡說明另載可折抵國民（暨兒童）運動中心的球場租借、游泳池及健身房單次門票（如北屯、太平、清水等中心），折抵金額未查到。"
     },
     {
       "id": "taichung-rehab-bus",
@@ -249,7 +260,10 @@
       "benefit": "個人搭乘小型復康巴士免費，陪同者以1名為限。依114年8月6日更新的服務流程：A級（如重度肢體、重度視障）可在用車日前7日至前1日預約，B級前6日，C級前5日。平日上午8時發頭班車，平日晚間5至9時及週末另有延長服務，國定假日與颱風假停駛。團體或機構借用大小型復康巴士須付基本維護費與司機加班費。",
       "how_to_apply": "撥各區服務中心電話，或使用臺中市復康巴士網路預約系統預約；首次預約須上傳或傳真身心障礙證明。",
       "contact": "社會局身心障礙福利科 04-22289111 轉37317、37321、37322、37336",
-      "target_groups": ["肢體障礙", "視覺障礙"],
+      "target_groups": [
+        "肢體障礙",
+        "視覺障礙"
+      ],
       "source_urls": [
         "https://www.society.taichung.gov.tw/461758/post",
         "https://www.society.taichung.gov.tw/media/1287605/1140806%E5%B0%8F%E5%9E%8B%E5%BE%A9%E5%BA%B7%E5%B7%B4%E5%A3%AB%E6%9C%8D%E5%8B%99%E6%B5%81%E7%A8%8B.pdf",
@@ -272,7 +286,9 @@
       ],
       "benefit": "低收入戶：專職看護每日最高1,500元，家人看護每日750元，每年最高15萬元（家人看護部分最高37,500元）。中低收入戶或領生活補助者：專職看護每日最高750元，家人看護每日375元，每年最高75,000元（家人看護部分最高18,750元）。以24小時為1日計，滿12小時未滿24小時以12小時計，未滿12小時不補助。",
       "how_to_apply": "出院日起3個月內，備齊文件向戶籍所在地區公所申請，逾期不受理。",
-      "target_groups": ["低收入或中低收入"],
+      "target_groups": [
+        "低收入或中低收入"
+      ],
       "source_urls": [
         "https://law.taichung.gov.tw/LawContent.aspx?id=GL000824",
         "https://www.society.taichung.gov.tw/13710/13735/13792/13798/461736",
@@ -295,7 +311,9 @@
       ],
       "benefit": "實報實銷：低收入戶總額最高40,000元；中低收入戶及領身心障礙者生活補助費者總額最高20,000元。各項費用不得超過補助價目標準表，健保給付項目不補助。",
       "how_to_apply": "向社會局申請，到計畫合作牙醫院所診治（院所名單見社會局頁面）。",
-      "target_groups": ["低收入或中低收入"],
+      "target_groups": [
+        "低收入或中低收入"
+      ],
       "source_urls": [
         "https://www.society.taichung.gov.tw/13710/13735/13792/13798/461732"
       ],
@@ -359,7 +377,10 @@
       ],
       "benefit": "每案補助上限1萬元。",
       "how_to_apply": "依臺中市政府社會局辦理身心障礙者監護（輔助）宣告費用補助實施計畫申請（窗口詳見社會局公告）。",
-      "target_groups": ["成年", "低收入或中低收入"],
+      "target_groups": [
+        "成年",
+        "低收入或中低收入"
+      ],
       "source_urls": [
         "https://www.society.taichung.gov.tw/13710/13714/13717/3158394",
         "https://www.society.taichung.gov.tw/media/973272/%E8%BA%AB%E5%BF%83%E9%9A%9C%E7%A4%99%E8%80%85%E8%81%B2%E8%AB%8B%E7%9B%A3%E8%AD%B7-%E8%BC%94%E5%8A%A9-%E5%AE%A3%E5%91%8A%E8%B2%BB%E7%94%A8%E8%A3%9C%E5%8A%A9%E5%AF%A6%E6%96%BD%E8%A8%88%E7%95%AB-1120913%E4%BF%AE%E6%AD%A3.pdf"
@@ -381,7 +402,10 @@
       "benefit": "免費。114年起每人或每單位每月最多20小時，特殊情形經社會局同意可另行核定，全年以240小時為限。",
       "how_to_apply": "在服務日3天前填申請表，向社團法人台中市聾人協會申請（個人申請須附證明文件影本）；夜間或緊急案件（如交通事故、重大醫療）可隨時提出。",
       "contact": "台中市聾人協會預約專線 0965-560-525、04-2201-0080，傳真 04-2201-0060；社會局 04-22289111 分機37349",
-      "target_groups": ["聽覺或平衡障礙", "聲音或語言障礙"],
+      "target_groups": [
+        "聽覺或平衡障礙",
+        "聲音或語言障礙"
+      ],
       "source_urls": [
         "https://www.society.taichung.gov.tw/13710/13735/13792/13798/461762",
         "https://lawsearch.taichung.gov.tw/GLRSout/LawContent.aspx?id=GL000292",
@@ -405,7 +429,9 @@
       "benefit": "個案管理與職業輔導評量；支持性就業服務員提供工作輔導、職場適應與職務再設計協助；庇護工場依產能核薪，仍受勞動基準法保障；職務再設計每年最高補助10萬元。勞工局另辦理身心障礙者創業諮詢輔導。",
       "how_to_apply": "洽勞工局職業重建諮詢窗口（台灣大道市政大樓、沙鹿勞工服務中心、陽明市政大樓、東區勞工服務中心），支持性就業與庇護性就業由職業重建服務中心派案。",
       "contact": "勞工局 04-22289111 轉35400；支持性就業（福利促進科）分機35418",
-      "target_groups": ["求職者"],
+      "target_groups": [
+        "求職者"
+      ],
       "source_urls": [
         "https://www.labor.taichung.gov.tw/1229008/1229015/1269585/1368072/1368073/1368076",
         "https://www.labor.taichung.gov.tw/1368077/post",
@@ -467,6 +493,302 @@
       "source_date": "unknown",
       "confidence": "medium",
       "notes": "流程出自北屯區公所的說明文件，年份不明。英文、日文證明的申請細節未取得。"
+    },
+    {
+      "id": "taichung-parking",
+      "name": "身心障礙者停車優惠（公有路邊及路外停車場）",
+      "category": "transport",
+      "level": "local",
+      "summary": "貼有加註車號的身心障礙者專用停車位識別證或懸掛專用車牌的車輛，在臺中市公有停車格可享免費時段；加開通愛心卡可在公有停車場刷卡免銷單。",
+      "eligibility": [
+        "身心障礙者使用之車輛，貼有社政主管機關核發且加註車號的「身心障礙者專用停車位識別證」，或懸掛身心障礙者專用車牌",
+        "刷卡免銷單：另須持有臺中市敬老愛心卡並完成開通"
+      ],
+      "benefit": "自109年1月1日起，貼有加註車號識別證的車輛停放本市公有路邊及路外停車場（含累進費率車格），4小時內免收停車費（每日累計4小時）；懸掛專用車牌者在一般及差別費率路段免費，累進費率路段每日4小時免費。全市151座公有路外停車場可持開通的愛心卡刷卡免銷單。",
+      "how_to_apply": "停車優惠於繳費時出示或依車號自動認列；愛心卡停車開通可線上向停車管理處申請（約10個工作天審核）。身心障礙者專用停車位識別證申請表可在臺中市服務e櫃檯下載（受理窗口本次未查證）。",
+      "contact": "臺中市停車管理處",
+      "source_urls": [
+        "https://tcparking.taichung.gov.tw/ParkWeb/Pages/PublicService/ParkingNotice",
+        "https://tcparking.taichung.gov.tw/ParkWeb/Pages/PublicService/LoveCardRights",
+        "https://www.taichung.gov.tw/2146747/post",
+        "https://eservices.taichung.gov.tw/Common/CaseFormDownload?pkid=26990",
+        "https://tcparking.taichung.gov.tw/ParkWeb/FileHandler.ashx?fileid=20519"
+      ],
+      "source_date": "2020",
+      "confidence": "medium",
+      "notes": "停車管理處另一份收費表（fileid=20519）載「身心障礙者停車證（藍證）」在累進費率路段每日免費2小時，與上述4小時不同，可能是不同版本或證別，請向停車管理處確認。識別證過期即不能停身障車格、也不享優惠；停車月票不適用身障專用車格。私人停車場不適用。"
+    },
+    {
+      "id": "taichung-student-scholarship",
+      "name": "臺中市國民教育階段身心障礙學生獎補助（獎學金、助學金）",
+      "category": "education",
+      "level": "local",
+      "summary": "國中小身心障礙學生，表現優異可申請獎學金，家境清寒可申請助學金，每學年名額有限。",
+      "eligibility": [
+        "臺中市國民教育階段的身心障礙學生",
+        "獎學金：代表學校參加政府核定競賽或展覽表現優異，或上學年度學業成績甲等或80分以上且品行優良",
+        "助學金：學業成績丙等或60分以上、品行優良，並持有家境清寒證明",
+        "兩者同時符合須擇一；已依其他規定領取政府補助者不得重複申請，同一教育階段三年內不得重複領取"
+      ],
+      "benefit": "獎學金每名5,000元（每學年150名）；助學金每名3,000元（每學年300名）。",
+      "how_to_apply": "每年9月1日至10月15日向就讀學校提出申請，經教育局核定後發放，逾期不受理。",
+      "target_groups": [
+        "學生",
+        "兒童及少年"
+      ],
+      "source_urls": [
+        "https://law.taichung.gov.tw/LawContent.aspx?id=GL001165"
+      ],
+      "source_date": "2024",
+      "confidence": "high",
+      "notes": "辦法最近一次修正為民國113年6月26日。"
+    },
+    {
+      "id": "taichung-special-school-fees",
+      "name": "市立特殊教育學校身心障礙學生書籍費、制服費及伙食費補助",
+      "category": "education",
+      "level": "local",
+      "summary": "臺中市教育局補助就讀市立特殊教育學校的身心障礙學生書籍費、制服費及伙食費，有家戶所得上限。",
+      "eligibility": [
+        "就讀臺中市市立特殊教育學校的身心障礙學生",
+        "家戶所得未超過新臺幣220萬元"
+      ],
+      "benefit": "書籍費每學期800元；制服費、伙食費的補助金額搜尋結果未顯示。",
+      "how_to_apply": "經由就讀之市立特殊教育學校辦理（詳細程序搜尋結果未顯示）。",
+      "target_groups": [
+        "學生"
+      ],
+      "source_urls": [
+        "https://law.taichung.gov.tw/LawContent.aspx?id=GL002908"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "僅取得要點第二、三點摘要，修正日期未顯示。"
+    },
+    {
+      "id": "taichung-emergency-alert",
+      "name": "臺中市緊急救援系統服務（獨居身心障礙者）",
+      "category": "support",
+      "level": "local",
+      "summary": "經濟弱勢、年滿50歲的獨居身障者，經評估有安全疑慮時，可補助裝設連線24小時監控中心的緊急救援設備。",
+      "eligibility": [
+        "設籍並實際居住臺中市",
+        "年滿50歲、領有身心障礙證明的獨居者（另適用中低收入獨居老人）",
+        "屬列冊低收入戶、中低收入戶，或領有中低收入老人生活津貼或身心障礙者生活補助費",
+        "經評估有失能或獨居安全疑慮，且缺乏求救能力；有急難事由需立即服務者可專案審查"
+      ],
+      "benefit": "補助裝設緊急救援系統設備，設備連線至24小時監控中心（補助比例或自付額搜尋結果未顯示）。",
+      "how_to_apply": "向戶籍所在地區公所、受託團體提出，或由社會局業務單位轉介。",
+      "documents": [
+        "申請表",
+        "申請人身分證影本"
+      ],
+      "contact": "臺中市政府社會局 04-22289111 分機37421",
+      "target_groups": [
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://law.taichung.gov.tw/LawContent.aspx?id=GL004457",
+        "https://www.society.taichung.gov.tw/1021616/13783/461580/post"
+      ],
+      "source_date": "unknown",
+      "confidence": "high"
+    },
+    {
+      "id": "taichung-meal-service",
+      "name": "獨居身心障礙者營養餐飲服務",
+      "category": "care",
+      "level": "local",
+      "summary": "獨居、無法自行備餐的經濟弱勢身障者，經評估後由服務單位送餐，低收入戶免費。",
+      "eligibility": [
+        "設籍並居住臺中市，領有身心障礙證明",
+        "獨居且無法自行準備餐食，或家屬無法協助，經委辦單位評估需要協助",
+        "依115年度計畫（114年11月27日修定）：身障者64歲以下（65歲以上另依老人規定）、為中低收入或領身心障礙者生活補助，且未聘僱外籍看護"
+      ],
+      "benefit": "低收入戶由市府全額補助；中低收入戶或領身心障礙者生活補助者每餐自付10元；社會局頁面另載一般戶自行負擔費用。",
+      "how_to_apply": "撥長照專線1966，經長照專員評估無失能後轉介服務提供單位；無失能且有送餐需求者，可攜帶身分證明文件直接向服務提供單位申請。",
+      "contact": "長照專線 1966；臺中市政府社會局 04-22289111",
+      "target_groups": [
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://www.society.taichung.gov.tw/461778/post",
+        "https://www.society.taichung.gov.tw/media/1358147/115%E5%B9%B4%E5%BA%A6%E8%87%BA%E4%B8%AD%E5%B8%82%E4%B8%AD%E4%BD%8E%E6%94%B6%E5%85%A5%E7%8D%A8%E5%B1%85%E8%80%81%E4%BA%BA%E6%9A%A8%E8%BA%AB%E5%BF%83%E9%9A%9C%E7%A4%99%E8%80%85%E7%87%9F%E9%A4%8A%E9%A4%90%E9%A3%B2%E6%9C%8D%E5%8B%99%E8%A8%88%E7%95%AB.pdf"
+      ],
+      "source_date": "2026",
+      "confidence": "high",
+      "notes": "社會局服務頁面與115年度計畫的條件不完全一致（一般戶能否自費、年齡界線），以計畫為準並建議先洽社會局。有長照需要等級2至8級者屬衛生局長照營養餐飲服務，兩者不能重複申請。"
+    },
+    {
+      "id": "taichung-family-foster-care",
+      "name": "身心障礙者家庭托顧服務",
+      "category": "care",
+      "level": "mixed",
+      "summary": "由受過訓練的家庭托顧員在自己家中，白天照顧成年身障者，分全日托與半日托，依身分補助大部分費用。",
+      "eligibility": [
+        "18歲以上、實際居住臺中市的身心障礙者，經需求評估核定使用",
+        "已接受全日型住宿機構、日間照顧或居家服務，聘僱看護（傭），或領有其他政府特別照顧津貼者，原則上不符合"
+      ],
+      "benefit": "依114年計畫附件：照顧服務費全日托極重度1,040元、重度960元、中度880元、輕度760元；半日托520、480、440、380元。自付額不分障礙程度以760元為計算基準：一般戶補助75%（自付25%）、中低收入戶補助85%、低收入戶全額補助。每位服務對象每月以22天為限，家中有2名以上身障者或單親、隔代、旁系親屬照顧家庭每月最高24日；每位托顧員每月最多服務3人。另依住家與托顧家庭距離給付交通補助（超過5公里者每人每月最高2,200元）。",
+      "how_to_apply": "經需求評估、社會局核定後，由補助單位媒合家庭托顧員（服務單位見社會局「115年臺中市身心障礙者家庭托顧服務單位」下載檔）。",
+      "contact": "臺中市政府社會局 04-22289111 分機37361",
+      "target_groups": [
+        "成年",
+        "家庭照顧者"
+      ],
+      "source_urls": [
+        "https://www.society.taichung.gov.tw/13710/13735/13792/13798/795431",
+        "https://www.society.taichung.gov.tw/media/1220327/114%E5%B9%B4%E8%BA%AB%E5%BF%83%E9%9A%9C%E7%A4%99%E8%80%85%E5%AE%B6%E5%BA%AD%E6%89%98%E9%A1%A7%E8%A8%88%E7%95%AB%E9%99%84%E4%BB%B6-%E5%B1%80%E7%B6%B2.pdf"
+      ],
+      "source_date": "2025",
+      "confidence": "medium",
+      "notes": "金額與自付比例出自114年計畫附件的搜尋摘要，摘要對中低收入戶補助比例的描述不夠清楚；115年度標準請向社會局確認。"
+    },
+    {
+      "id": "taichung-community-living",
+      "name": "臺中市成年身心障礙者社區居住與生活服務",
+      "category": "care",
+      "level": "mixed",
+      "summary": "在一般社區住宅提供小型、非機構式的居住與生活支持，由身障福利機構或團體的專業團隊營運。",
+      "eligibility": [
+        "年滿18歲，設籍或實際居住臺中市，領有身心障礙證明",
+        "經需求評估有社區居住需求，並經專業團隊以社會支持量表（SIS）等工具評估適合",
+        "未經政府委託安置於社會福利機構",
+        "單親家庭、中低收入戶或身障父母無力照顧者優先"
+      ],
+      "benefit": "提供社區居住與生活支持服務；頁面標示代收代付費用每月最多不超過5,000元（應為生活相關費用上限，實際項目請向承辦單位確認）。",
+      "how_to_apply": "聯絡承辦單位社工，安排時間到單位評估。",
+      "contact": "承辦單位：財團法人天主教會台中教區附設立達啟能訓練中心 (04)2202-8888 轉312（週一至週五）",
+      "target_groups": [
+        "成年",
+        "智能障礙"
+      ],
+      "source_urls": [
+        "https://www.society.taichung.gov.tw/13710/13735/13792/13798/795417"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "社會局頁面資料時間較舊，承辦單位與費用可能已變動。社會局服務總覽將此項列為「成年心智障礙者社區居住與生活服務」。"
+    },
+    {
+      "id": "taichung-dual-aging",
+      "name": "身心障礙者雙老家庭支持服務",
+      "category": "support",
+      "level": "local",
+      "summary": "針對主要照顧者已年長、身障者本人也步入中年的「雙老」家庭，由各區委託單位提供家庭支持服務。",
+      "eligibility": [
+        "主要照顧者年滿55歲",
+        "身心障礙者本人35歲以上"
+      ],
+      "benefit": "提供雙老家庭支持服務（服務內容與費用搜尋結果未詳列）。",
+      "how_to_apply": "依行政區洽承辦單位（全市分五區，例如東區、南區由東信社區發展協會承辦；北屯、西屯由伊甸基金會承辦），週一至週五受理。",
+      "target_groups": [
+        "家庭照顧者",
+        "成年"
+      ],
+      "source_urls": [
+        "https://www.society.taichung.gov.tw/795424/post"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "其餘三區承辦單位與聯絡電話未在搜尋摘要中取得。"
+    },
+    {
+      "id": "taichung-home-repair",
+      "name": "補助身心障礙者住屋愛心修繕計畫",
+      "category": "economic",
+      "level": "local",
+      "summary": "經濟弱勢身障者的住屋有漏水、門窗或生活必需設備損壞等問題時，經評估可補助修繕費用。",
+      "eligibility": [
+        "領有身心障礙證明並實際居住臺中市",
+        "為列冊低收入戶、中低收入戶、領有身心障礙者生活補助，或屬經濟弱勢經社會局評估需求涉及居住安全",
+        "不符合中低收入老人修繕住屋補助或「空間行善者」計畫，且未獲市府同性質修繕補助"
+      ],
+      "benefit": "每年每一修繕案最高補助5萬元（設施設備最高3萬元）；有安全之虞或急迫性的特殊案件可專案辦理。補助屋頂防水排水、室內給排水、牆面地面天花板樓梯修補，以及門窗、冰箱、熱水器等生活必需設備修補或汰換；不含樑柱、主體結構及公共安全項目。同戶同一項目三年內不得重複申請，三年內同戶補助累計達10萬元以上不再補助，修繕前未經評估即施工不補助。",
+      "how_to_apply": "每年1月1日起向各區公所申請，預算用罄即停止受理；由社會局委外社工員承辦評估。",
+      "documents": [
+        "申請表",
+        "國民身分證正、背面影本（無者檢附戶口名簿或戶籍謄本影本）",
+        "身心障礙證明正、背面影本",
+        "建築物所有權人修繕同意書",
+        "施工前照片",
+        "戶籍不在修繕住址者，另附租約或居住證明"
+      ],
+      "contact": "臺中市政府社會局 04-22289111 分機37310",
+      "target_groups": [
+        "低收入或中低收入"
+      ],
+      "source_urls": [
+        "https://www.society.taichung.gov.tw/461746/post",
+        "https://eservices.taichung.gov.tw/Common/CaseFormDownload?pkid=28006",
+        "https://eservices.taichung.gov.tw/AdvSearch/CaseInfo/160/Notices/201909160011?isHandling=True&isLink=False"
+      ],
+      "source_date": "2018",
+      "confidence": "medium",
+      "notes": "計畫全文為民國107年10月24日修正版；社會局頁面標示合作期程至115年12月31日，現行額度與申請期間請向社會局確認。"
+    },
+    {
+      "id": "taichung-visual-taxi",
+      "name": "視覺障礙者搭乘計程車費用補助",
+      "category": "transport",
+      "level": "local",
+      "summary": "中度以上視障者可領計程車乘車券，搭乘社會局特約車隊時折抵車資。",
+      "eligibility": [
+        "設籍臺中市",
+        "領有中度以上視覺障礙之身心障礙證明"
+      ],
+      "benefit": "乘車券每張面額50元，每月最高補助1,000元；限搭乘社會局特約車隊。",
+      "how_to_apply": "向戶籍所在地區公所申請（申請書表可在臺中市服務e櫃檯下載）。",
+      "target_groups": [
+        "視覺障礙"
+      ],
+      "source_urls": [
+        "https://www.society.taichung.gov.tw/13710/13735/13792/13798/461744",
+        "https://eservices.taichung.gov.tw/AdvSearch/CaseInfo/160/Notices/201909160010?isHandling=True&isLink=False"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "頁面年份不明；是否可與敬老愛心卡計程車折抵併用、現行是否仍發乘車券，請向區公所確認。"
+    },
+    {
+      "id": "taichung-accessible-taxi",
+      "name": "愛接送預約式通用（無障礙）計程車",
+      "category": "transport",
+      "level": "local",
+      "summary": "臺中市交通局推動的通用（無障礙）計程車，可載輪椅乘客，透過「愛接送」APP或網站預約，跳表計費。",
+      "eligibility": [
+        "不限資格，身障者、老人、行動不便者及一般民眾皆可預約"
+      ],
+      "benefit": "跳表計費、不加價；可預約未來14天內車輛，依預約先後派車。113年全市通用計程車約50輛，服務行動不便者及身障者8萬7,930趟次。持敬老愛心卡者可依愛心卡規定折抵計程車資。",
+      "how_to_apply": "下載「愛接送」APP或上網站登錄後預約，乘車前一天14時前完成預約，前一天20時前收到通知；乘客到上車地點等候，司機最多等候10分鐘。",
+      "source_urls": [
+        "https://itaxi.taichung.gov.tw/",
+        "https://www.traffic.taichung.gov.tw/content/index.asp?Parser=1%2C7%2C498%2C495",
+        "https://www.traffic.taichung.gov.tw/news/index-1.asp?Parser=9,4,20,,,,20909"
+      ],
+      "source_date": "2025",
+      "confidence": "high",
+      "notes": "車隊規模各資料說法不一（4家34輛至5家約50至55輛），中央核准114年再補助20輛。愛心卡計程車折抵自115年10月1日起每趟100點，見「身心障礙者敬老愛心卡乘車及各項補助」。"
+    },
+    {
+      "id": "taichung-sports-venues",
+      "name": "運動場館身心障礙者優惠",
+      "category": "leisure",
+      "level": "local",
+      "summary": "臺中市運動局國際網球中心對身障者及1名陪同者免收場地費；國民運動中心部分設施可用敬老愛心卡點數折抵。",
+      "eligibility": [
+        "領有身心障礙證明（國際網球中心）",
+        "設籍臺中市並持有身心障礙者敬老愛心卡（國民運動中心折抵）"
+      ],
+      "benefit": "國際網球中心：身心障礙者與陪同者1名免費，陪同者超過1人時其餘依規定計費。國民（暨兒童）運動中心：可用愛心卡點數折抵球場租借、游泳池及健身房單次門票（折抵金額未查到）。",
+      "how_to_apply": "使用時出示身心障礙證明或刷敬老愛心卡。",
+      "source_urls": [
+        "https://eservices.taichung.gov.tw/Common/LocationDownload?pkid=2432",
+        "https://www.society.taichung.gov.tw/461740/post"
+      ],
+      "source_date": "unknown",
+      "confidence": "medium",
+      "notes": "各國民運動中心（多為委外經營）的身障票價或陪同者優惠未在搜尋結果中查到，請洽各中心。"
     }
   ]
 }
