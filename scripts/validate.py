@@ -30,7 +30,12 @@ TARGET_GROUPS = {
     "智能障礙", "精神障礙", "自閉症", "罕見疾病", "多重障礙", "低收入或中低收入", "家庭照顧者",
     "學生", "求職者",
 }
+SEVERITIES = {"輕度", "中度", "重度", "極重度"}
+INCOMES = {"low", "low_mid", "means_tested"}
+CRITERIA_KEYS = {"age_min", "age_max", "severity", "income"}
+METHODS = {"official_site", "web_search"}
 SOURCE_DATE = re.compile(r"^(unknown|\d{4}(-\d{2})?)$")
+ISO_DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 URL = re.compile(r"^https?://\S+$")
 
 
@@ -70,6 +75,30 @@ def check_benefit(b, prefix, national, errors):
         if t not in TARGET_GROUPS:
             errors.append(f"{where}: `target_groups` 含未定義詞彙：{t!r}")
 
+    verified = b.get("verified_at")
+    if verified is not None and not (isinstance(verified, str) and ISO_DATE.match(verified)):
+        errors.append(f"{where}: `verified_at` 格式應為 YYYY-MM-DD：{verified!r}")
+    if b.get("confidence") == "high" and not verified:
+        errors.append(f"{where}: `confidence` 為 high 時必須填 `verified_at`")
+
+    crit = b.get("criteria")
+    if crit is not None:
+        if not isinstance(crit, dict) or not crit:
+            errors.append(f"{where}: `criteria` 必須是非空物件")
+        else:
+            for k in set(crit) - CRITERIA_KEYS:
+                errors.append(f"{where}: `criteria` 含未定義欄位：{k!r}")
+            for k in ("age_min", "age_max"):
+                if k in crit and not (isinstance(crit[k], int) and 0 <= crit[k] <= 120):
+                    errors.append(f"{where}: `criteria.{k}` 必須是 0–120 的整數")
+            if isinstance(crit.get("age_min"), int) and isinstance(crit.get("age_max"), int) and crit["age_min"] > crit["age_max"]:
+                errors.append(f"{where}: `criteria.age_min` 大於 `age_max`")
+            sev = crit.get("severity")
+            if sev is not None and (not isinstance(sev, list) or not sev or any(x not in SEVERITIES for x in sev)):
+                errors.append(f"{where}: `criteria.severity` 必須是 {sorted(SEVERITIES)} 的子集")
+            if "income" in crit and crit["income"] not in INCOMES:
+                errors.append(f"{where}: `criteria.income` 必須是 {sorted(INCOMES)}：{crit['income']!r}")
+
     if national:
         need_str("provider")
         if b.get("scope") not in SCOPES:
@@ -97,6 +126,8 @@ def check_file(path, errors):
         for key in ("agency", "agency_url", "collected_at", "method"):
             if not isinstance(doc.get(key), str) or not doc[key].strip():
                 errors.append(f"{rel}: `{key}` 必須是非空字串")
+        if doc.get("method") not in METHODS:
+            errors.append(f"{rel}: `method` 必須是 {sorted(METHODS)}：{doc.get('method')!r}")
     benefits = doc.get("benefits")
     if not isinstance(benefits, list) or not benefits:
         errors.append(f"{rel}: `benefits` 必須是非空陣列")
